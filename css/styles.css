@@ -575,7 +575,12 @@ body {
 
 @media (max-width: 560px) {
   .tl-cover { width: 72px; }
-} position: relative; margin-bottom: 1.75rem; }
+}
+
+.timeline-item { position: relative; margin-bottom: 1.75rem; }
+
+/* kill the rail + panel double border inside the timeline */
+.timeline-item .panel { border-left: 3px solid var(--line); }
 
 .timeline-item::before {
   content: "";
