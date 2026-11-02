@@ -1424,3 +1424,10 @@ a.character-card:hover {
   max-width: 68ch;
   line-height: 1.7;
 }
+
+.char-signature {
+  background: var(--bg-2);
+  border-left: 4px solid var(--green);
+  padding: 0.7rem 1rem;
+  font-size: 0.95rem;
+}
