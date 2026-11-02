@@ -514,6 +514,12 @@ body {
 
 /* ---------- spectrum + timeline pages ---------- */
 
+.explainer {
+  max-width: 880px;
+  margin: 0 auto 3rem;
+  padding: 0 1.25rem;
+}
+
 .explainer h2 {
   font-size: clamp(1.4rem, 3.5vw, 2rem);
   font-weight: 900;
@@ -627,8 +633,9 @@ body {
 
 .roster-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(170px, 230px));
   gap: 1.25rem;
+  justify-content: center;
 }
 
 .character-card {
@@ -651,6 +658,69 @@ body {
 .character-card .char-info { padding: 0.75rem 0.8rem 0.9rem; }
 .character-card h3 { font-size: 1rem; margin: 0 0 0.3rem; }
 .character-card p { font-size: 0.85rem; color: var(--ink-dim); margin: 0; }
+
+a.character-card {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+a.character-card:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 7px 7px 0 var(--line);
+}
+
+/* ---------- character detail page ---------- */
+
+.char-detail {
+  display: grid;
+  grid-template-columns: minmax(220px, 320px) 1fr;
+  gap: 2rem;
+  align-items: start;
+  margin-top: 1rem;
+}
+
+.char-portrait {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+  border: 3px solid var(--line);
+  box-shadow: 8px 8px 0 var(--line);
+  background: var(--bg-2);
+}
+
+.char-detail h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0 0 0.75rem;
+  text-shadow: 3px 3px 0 var(--line);
+}
+
+.char-detail .lede {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--corps, var(--green));
+  margin: 0 0 1rem;
+}
+
+.char-detail .first-app {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 0.9rem;
+  border: 3px solid var(--line);
+  background: var(--bg-2);
+  box-shadow: 4px 4px 0 var(--line);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 700px) {
+  .char-detail { grid-template-columns: 1fr; }
+  .char-portrait { max-width: 320px; }
+}
 
 /* ---------- quiz ---------- */
 
