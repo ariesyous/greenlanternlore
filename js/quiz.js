@@ -4,23 +4,32 @@
 
   var CORPS = {
     red:    { name: "Red Lantern Corps",   emotion: "Rage",      page: "corps/red.html",
-              blurb: "You run hot. Your rage is a weapon — point it at something that deserves it." },
+              blurb: "You run hot. Your rage is a weapon — point it at something that deserves it.",
+              kindred: "Atrocitus", kindredId: "atrocitus" },
     orange: { name: "Orange Lantern Corps", emotion: "Avarice",  page: "corps/orange.html",
-              blurb: "What's yours is yours — and what's theirs is also yours. Larfleeze would be proud. (Terrifying, but proud.)" },
+              blurb: "What's yours is yours — and what's theirs is also yours. Larfleeze would be proud. (Terrifying, but proud.)",
+              kindred: "Larfleeze", kindredId: "larfleeze" },
     yellow: { name: "Sinestro Corps",      emotion: "Fear",      page: "corps/yellow.html",
-              blurb: "You understand what others won't admit: fear gets results." },
+              blurb: "You understand what others won't admit: fear gets results.",
+              kindred: "Sinestro", kindredId: "sinestro" },
     green:  { name: "Green Lantern Corps", emotion: "Will",      page: "corps/green.html",
-              blurb: "Willpower incarnate. The universe's most reliable light." },
+              blurb: "Willpower incarnate. The universe's most reliable light.",
+              kindred: "Hal Jordan", kindredId: "hal-jordan" },
     blue:   { name: "Blue Lantern Corps",  emotion: "Hope",      page: "corps/blue.html",
-              blurb: "Hopeful to your core. All will be well — especially with you around." },
+              blurb: "Hopeful to your core. All will be well — especially with you around.",
+              kindred: "Saint Walker", kindredId: "saint-walker" },
     indigo: { name: "Indigo Tribe",        emotion: "Compassion", page: "corps/indigo.html",
-              blurb: "You feel everyone's pain. Nok — compassion be with you." },
+              blurb: "You feel everyone's pain. Nok — compassion be with you.",
+              kindred: "Indigo-1", kindredId: "indigo-1" },
     violet: { name: "Star Sapphires",      emotion: "Love",      page: "corps/violet.html",
-              blurb: "You love fiercely. Hearts long lost find refuge with you." },
+              blurb: "You love fiercely. Hearts long lost find refuge with you.",
+              kindred: "Carol Ferris", kindredId: "carol-ferris" },
     black:  { name: "Black Lantern Corps", emotion: "Death",     page: "corps/black.html",
-              blurb: "...you might want to talk to someone about that. (Or just: rise.)" },
+              blurb: "...you might want to talk to someone about that. (Or just: rise.)",
+              kindred: "Black Hand", kindredId: "black-hand" },
     white:  { name: "White Lantern Corps", emotion: "Life",      page: "corps/white.html",
-              blurb: "Life itself chose you. No pressure." }
+              blurb: "Life itself chose you. No pressure.",
+              kindred: "Kyle Rayner", kindredId: "kyle-rayner" }
   };
 
   var QUESTIONS = [
@@ -140,6 +149,9 @@
     root.appendChild(el("h2", null, c.name));
     root.appendChild(el("p", "quiz-emotion", c.emotion));
     root.appendChild(el("p", null, c.blurb));
+    var kindred = el("p", "quiz-kindred", null);
+    kindred.innerHTML = "You'd fight alongside <a href=\"character.html?id=" + c.kindredId + "\">" + c.kindred + "</a>.";
+    root.appendChild(kindred);
     var actions = el("div", "quiz-actions");
     var go = el("a", "quiz-go", "Explore the " + c.name + " &rarr;");
     go.href = c.page;

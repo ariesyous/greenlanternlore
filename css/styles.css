@@ -973,6 +973,10 @@ a.character-card:hover {
 
 .quiz-result { border-top: 10px solid var(--corps); }
 
+.quiz-kindred { font-size: 0.95rem; color: var(--ink-dim); margin-top: 0.4rem; }
+
+.quiz-kindred a { color: var(--green); font-weight: 700; }
+
 .quiz-result h2 {
   font-size: clamp(1.8rem, 5vw, 2.8rem);
   text-shadow: 0 0 24px var(--corps);
