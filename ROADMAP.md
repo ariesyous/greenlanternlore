@@ -68,3 +68,35 @@ its visuals.
 *History: Phases 0–6 (spec, homepage, corps profiles, spectrum, timeline, quiz, 404) shipped Nov 2026.
 Two QA feedback rounds shipped Nov 2026 (real comic art throughout, character roster + detail pages,
 timeline covers, spectrum citations, in-universe visuals).*
+
+---
+
+## Phase 8 — Major events (PLANNED)
+
+Dedicated profile pages for the saga-defining events, each with: premise (spoiler-light),
+key players (linked to character pages), the corps involved, and "where to read" linking
+into the timeline's reading order. New `events.html` hub + individual pages:
+`events/emerald-twilight.html`, `events/sinestro-corps-war.html`, `events/blackest-night.html`,
+`events/war-of-the-green-lanterns.html`. Event art: real comic covers, credited, self-hosted.
+
+## Phase 9 — Powers of the ring (PLANNED)
+
+A visual guide to what a power ring can actually do: energy constructs, flight, force fields,
+energy projection, universal translation, environmental protection, scanning/analysis,
+wormhole travel, and the limits (charge, willpower, yellow impurity for green rings).
+Comic-art illustrations, tied to corps pages.
+
+## Phase 10 — Discovery & fun (PLANNED)
+
+- [ ] "Start here" beginner reading paths on the timeline: 3 curated entry routes
+      (modern epic / classic Silver Age / animated fan), each 3–4 books.
+- [ ] Quotes page: iconic lines and oaths, shareable cards.
+- [ ] Random Lantern button: client-side "summon a random Lantern" on the roster page.
+- [ ] Quiz expansion: 8 → 12 questions for better sorting across 9 outcomes.
+- [ ] Sources & credits page: bibliography of comics cited + art sources, non-commercial fan notice.
+
+## Phase 11 — Roster round 4 & cross-links (PLANNED)
+
+- [ ] New characters: Sodam Yat (Ion's host), Katma Tui, Ch'p — verified first appearances,
+      bios, portraits (real comic art, credited, self-hosted).
+- [ ] Character ↔ reading-order cross-links: "appears in" reading entries on character pages.
