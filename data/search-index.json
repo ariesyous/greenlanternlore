@@ -598,5 +598,47 @@
   "s": "In-universe history: the War of Light begins.",
   "u": "moments/spectrum-mobilizes.html",
   "k": "spectrum mobilizes war of light corps history"
+ },
+ {
+  "t": "Worlds",
+  "s": "The key worlds of the Green Lantern mythos.",
+  "u": "worlds/index.html",
+  "k": "worlds planets locations oa qward zamaron ysmault odym nok"
+ },
+ {
+  "t": "Oa",
+  "s": "The heart of the Green Lantern Corps.",
+  "u": "worlds/oa.html",
+  "k": "oa green lantern homeworld guardians central power battery"
+ },
+ {
+  "t": "Qward",
+  "s": "Home of the Weaponers and the Sinestro Corps.",
+  "u": "worlds/qward.html",
+  "k": "qward sinestro corps weaponers antimatter"
+ },
+ {
+  "t": "Zamaron",
+  "s": "Home of the Star Sapphires.",
+  "u": "worlds/zamaron.html",
+  "k": "zamaron star sapphire zamarons violet"
+ },
+ {
+  "t": "Ysmault",
+  "s": "The Red Lanterns' fortress.",
+  "u": "worlds/ysmault.html",
+  "k": "ysmault red lantern blood ocean atrocitus"
+ },
+ {
+  "t": "Odym",
+  "s": "The Blue Lanterns' sanctuary.",
+  "u": "worlds/odym.html",
+  "k": "odym blue lantern saint walker hope"
+ },
+ {
+  "t": "Nok",
+  "s": "The Indigo Tribe's hidden home.",
+  "u": "worlds/nok.html",
+  "k": "nok indigo tribe jungle"
  }
 ]
