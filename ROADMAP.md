@@ -21,13 +21,13 @@ its visuals.
       black +1 (Scar). Blue/violet/orange/indigo already listed their roster members.
 - [x] Homepage: add a "Keep exploring" section with three cards — Meet the Lanterns
       (characters.html), Which Corps Are You? (quiz.html), Start Reading (timeline.html).
-- [ ] Quiz result: suggest a kindred character ("you'd fight alongside…") alongside the Corps result.
+- [x] Quiz result: suggest a kindred character ("you'd fight alongside…") alongside the Corps result.
 
 ## Phase 2 — Character depth
 
-- [ ] Fuller biographies for all 28 characters (4–6 sentences each, spoiler-light but comprehensive —
+- [x] Fuller biographies for all 28 characters (4–6 sentences each, spoiler-light but comprehensive —
       origin, role, personality, key beats; no plot-recap minutiae).
-- [ ] Roster round 3 — research, verify first appearances, source portraits, add cards + detail pages:
+- [ ] Roster round 3 — research, verify first appearances, source portraits, add cards + detail pages: (IN PROGRESS)
   - Sinestro Corps: Lyssa Drak, Karu-Sil, Despotellis
   - Green Lantern Corps: Tomar-Re, Salaak, Arisia Rrab, Soranik Natu
   - Blue Lantern Corps: Ganthet, Sayd, Brother Hynn
@@ -35,28 +35,27 @@ its visuals.
   - Star Sapphires: Miri Riam (if verifiable)
 - [ ] Nite-Lik: deliberately omitted — no comic art exists anywhere (toy-line character).
 
-## Phase 3 — Spectrum depth
+## Phase 3 — Spectrum depth (IN PROGRESS)
 
 - [ ] Emotional entity profiles: Ion (will), Parallax (fear), Ophidian (avarice), the Butcher (rage),
       Adara (hope), Proselyte (compassion), the Predator (love) — plus the Life Entity (white).
       Short cards: what each entity is, which light it embodies, key lore. Comic art where findable.
 
-## Phase 4 — Timeline & adaptations
+## Phase 4 — Timeline & adaptations (IN PROGRESS)
 
-- [ ] Expand in-universe history with more entries (e.g. Golden Age / Alan Scott era, the Corps'
-      earlier falls and risings) — each with a visual.
-- [ ] New "On screen" section: Green Lantern adaptations — the 2011 film,
-      *Green Lantern: The Animated Series*, Justice League animated appearances, and others —
-      with posters/stills where sourceable.
+- [x] Expand in-universe history: added Alan Scott / Golden Age entry ("The first Lantern of Earth", 1940).
+- [ ] New "On screen" section: Green Lantern adaptations — content drafted (Justice League animated,
+      First Flight, 2011 film, Emerald Knights, The Animated Series); images being sourced.
+- [ ] Push timeline.html once screen/era images are uploaded.
 
 ## Phase 5 — Reading guide
 
-- [ ] "Where to read" notes on each reading-order entry (collected editions, DC Universe Infinite).
+- [x] "Where to read" notes on each reading-order entry (collected editions + DC Universe Infinite note).
 
 ## Phase 6 — SEO & social polish
 
-- [ ] Per-page Open Graph/Twitter card tags (9 corps pages, characters, timeline, spectrum, quiz).
-- [ ] `sitemap.xml` + `robots.txt`.
+- [x] Per-page Open Graph/Twitter card tags (9 corps pages, characters, timeline, spectrum, quiz, 404).
+- [x] `sitemap.xml` + `robots.txt`.
 
 ## Phase 7 — Nice to have
 
