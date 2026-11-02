@@ -601,6 +601,57 @@ body {
   margin: 0.7rem 0 0;
 }
 
+/* ---------- character roster ---------- */
+
+.roster-section { margin-bottom: 3rem; }
+
+.roster-corps-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.35rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin: 0 0 1.25rem;
+}
+
+.roster-corps-title .dot {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  flex: none;
+  background: var(--corps, var(--green));
+  border: 3px solid #000;
+  box-shadow: 0 0 12px var(--corps, var(--green));
+}
+
+.roster-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 1.25rem;
+}
+
+.character-card {
+  background: var(--bg-2);
+  border: 3px solid var(--line);
+  box-shadow: 5px 5px 0 var(--line);
+  overflow: hidden;
+}
+
+.character-card img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+  border-bottom: 3px solid var(--line);
+  background: var(--bg);
+}
+
+.character-card .char-info { padding: 0.75rem 0.8rem 0.9rem; }
+.character-card h3 { font-size: 1rem; margin: 0 0 0.3rem; }
+.character-card p { font-size: 0.85rem; color: var(--ink-dim); margin: 0; }
+
 /* ---------- quiz ---------- */
 
 .quiz-wrap {
