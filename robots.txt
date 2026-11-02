@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dev1magnascale.github.io/greenlanternlore/sitemap.xml
