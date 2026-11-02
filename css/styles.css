@@ -206,9 +206,8 @@ body {
 
 .entity-card h3 { margin: 0 0 0.15rem; font-size: 1.25rem; }
 
-.entity-card h3 a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--corps); text-decoration-thickness: 2px; text-underline-offset: 3px; }
-.entity-card h3 a:hover { color: var(--corps); }
-.entity-card h3 a::after { content: " →"; color: var(--corps); font-weight: 900; }
+.entity-card h3 a { color: var(--ink); text-decoration: none; }
+.entity-card h3 a:hover { color: var(--corps); text-decoration: underline; }
 .entity-card p a { color: var(--corps); font-weight: 700; }
 .entity-card p a:hover { color: var(--ink); }
 
@@ -470,6 +469,20 @@ body {
 .search-hit strong { display: block; font-size: 0.9rem; }
 
 .search-hit span { font-size: 0.78rem; color: var(--ink-dim); }
+
+.search-type {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--green);
+  border: 1px solid var(--green);
+  border-radius: 3px;
+  padding: 0.1rem 0.35rem;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
 
 .search-empty {
   padding: 0.75rem;
@@ -1473,7 +1486,3 @@ a.character-card:hover {
 .interact-card img { width:100%; max-height:320px; object-fit:cover; object-position:top center; display:block; border-top:2px solid var(--line); border-bottom:2px solid var(--line); }
 .interact-card p { padding:1rem 1.1rem; margin:0; font-size:0.92rem; line-height:1.6; }
 
-/* Timeline detail-page links — obviously clickable */
-.tl-link { color: var(--green); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; }
-.tl-link:hover { color: var(--ink); background: var(--green); text-decoration: none; padding: 0 0.2em; }
-.tl-link::after { content: " →"; font-weight: 900; }

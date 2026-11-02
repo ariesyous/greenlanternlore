@@ -25,8 +25,20 @@
       box.innerHTML = '<p class="search-empty">No lanterns found. Try "rage", "hope", or a name.</p>';
     } else {
       box.innerHTML = hits.map(function (e) {
+        var type = 'Page';
+        var u = e.u;
+        if (u.indexOf('character.html') !== -1) type = 'Character';
+        else if (u.indexOf('worlds/') !== -1) type = u === 'worlds/index.html' ? 'Section' : 'World';
+        else if (u.indexOf('stories/') !== -1) type = 'Story';
+        else if (u.indexOf('moments/') !== -1) type = 'Moment';
+        else if (u.indexOf('events/') !== -1) type = u === 'events.html' ? 'Section' : 'Event';
+        else if (u.indexOf('entities/') !== -1) type = 'Entity';
+        else if (u.indexOf('corps/') !== -1) type = 'Corps';
+        else if (u.indexOf('screen/') !== -1) type = 'Screen';
+        else if (u.indexOf('eras/') !== -1) type = 'Era';
+        else if (u === 'glossary.html' || u === 'powers.html' || u === 'constructs.html' || u === 'quotes.html' || u === 'creators.html' || u === 'quiz.html' || u === 'timeline.html' || u === 'spectrum.html' || u === 'characters.html' || u === 'index.html') type = 'Section';
         return '<a class="search-hit" href="' + prefix + esc(e.u) + '">' +
-          '<strong>' + esc(e.t) + '</strong><span>' + esc(e.s) + '</span></a>';
+          '<strong>' + esc(e.t) + '</strong><em class="search-type">' + type + '</em><span>' + esc(e.s) + '</span></a>';
       }).join("");
     }
     box.hidden = false;
