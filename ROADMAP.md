@@ -14,13 +14,12 @@ its visuals.
 
 ## Phase 1 — Cross-linking & discovery (IN PROGRESS)
 
-- [ ] Corps pages: turn "Notable Members" into portrait chips that link to character detail pages
+- [x] Corps pages: turn "Notable Members" into portrait chips that link to character detail pages
       (all 9 corps pages). Each chip: portrait thumbnail + name + one-liner, linking to
-      `character.html?id=<slug>`.
-- [ ] Sync corps member lists with the roster: red +4 (Zilius Zox, Skallox, Vice, Laira),
-      blue +2 (Brother Warth, Sister Sercy), violet +2 (Fatality, Queen Aga'po),
-      orange +1 (Glomulus), indigo +1 (Munk), black +1 (Scar).
-- [ ] Homepage: add a "Keep exploring" section with three cards — Meet the Lanterns
+      `character.html?id=<slug>`. Members without pages yet get a corps-color initial chip.
+- [x] Sync corps member lists with the roster: red +4 (Zilius Zox, Skallox, Vice, Laira),
+      black +1 (Scar). Blue/violet/orange/indigo already listed their roster members.
+- [x] Homepage: add a "Keep exploring" section with three cards — Meet the Lanterns
       (characters.html), Which Corps Are You? (quiz.html), Start Reading (timeline.html).
 - [ ] Quiz result: suggest a kindred character ("you'd fight alongside…") alongside the Corps result.
 
