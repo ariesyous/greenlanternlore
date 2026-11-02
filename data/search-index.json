@@ -520,5 +520,83 @@
   "s": "Reading era 2023–present: Jeremy Adams' Green Lantern and War Journal.",
   "u": "eras/current.html",
   "k": "current era 2023 jeremy adams green lantern war journal john stewart ongoing"
+ },
+ {
+  "t": "Green Lantern: Rebirth",
+  "s": "Reading order: Hal Jordan returns (2004–05).",
+  "u": "stories/rebirth.html",
+  "k": "rebirth hal jordan return 2004 2005 reading order"
+ },
+ {
+  "t": "Green Lantern Corps: Recharge",
+  "s": "Reading order: the Corps rebuilds (2005).",
+  "u": "stories/recharge.html",
+  "k": "recharge corps rebuild 2005 reading order"
+ },
+ {
+  "t": "Green Lantern vol. 4 #1–25",
+  "s": "Reading order: the road to war (2005–07).",
+  "u": "stories/gl-vol4.html",
+  "k": "green lantern vol 4 2005 2007 sinestro road to war"
+ },
+ {
+  "t": "Secret Origin",
+  "s": "Reading order: Hal Jordan's origin retold (2008).",
+  "u": "stories/secret-origin.html",
+  "k": "secret origin hal jordan 2008 reading order"
+ },
+ {
+  "t": "Rage of the Red Lanterns",
+  "s": "Reading order: rage enters the spectrum (2008–09).",
+  "u": "stories/rage.html",
+  "k": "rage red lanterns atrocitus 2008 2009 reading order"
+ },
+ {
+  "t": "Agent Orange",
+  "s": "Reading order: Larfleeze and the orange light (2009).",
+  "u": "stories/agent-orange.html",
+  "k": "agent orange larfleeze avarice 2009 reading order"
+ },
+ {
+  "t": "Brightest Day",
+  "s": "Reading order: after the Blackest Night (2010–11).",
+  "u": "stories/brightest-day.html",
+  "k": "brightest day aftermath 2010 2011 reading order"
+ },
+ {
+  "t": "The Corps Is Forged",
+  "s": "In-universe history: the Guardians found the Corps.",
+  "u": "moments/corps-forged.html",
+  "k": "corps forged guardians oa history"
+ },
+ {
+  "t": "The Massacre of Sector 666",
+  "s": "In-universe history: the Manhunters' atrocity.",
+  "u": "moments/sector-666.html",
+  "k": "sector 666 massacre manhunters atrocitus history"
+ },
+ {
+  "t": "The Miser of Okaara",
+  "s": "In-universe history: Larfleeze claims the orange light.",
+  "u": "moments/miser-okaara.html",
+  "k": "miser okaara larfleeze orange light history"
+ },
+ {
+  "t": "The First Lantern of Earth",
+  "s": "In-universe history: Alan Scott and the Starheart (1940).",
+  "u": "moments/first-lantern.html",
+  "k": "alan scott first lantern earth starheart 1940 history"
+ },
+ {
+  "t": "Fear Organizes",
+  "s": "In-universe history: Sinestro founds his Corps.",
+  "u": "moments/fear-organizes.html",
+  "k": "fear organizes sinestro corps founded history"
+ },
+ {
+  "t": "The Spectrum Mobilizes",
+  "s": "In-universe history: the War of Light begins.",
+  "u": "moments/spectrum-mobilizes.html",
+  "k": "spectrum mobilizes war of light corps history"
  }
 ]
