@@ -307,6 +307,127 @@
       "tagline": "The scarred Guardian.",
       "bio": "Scar was a Guardian of the Universe — until the Anti-Monitor's touch scarred her during the Sinestro Corps War. The wound never healed, and something dark took root in the scar. Now she stands among the Black Lanterns: a Guardian, unmade, and the crack through which the darkness entered.",
       "firstAppearance": "Green Lantern #25 (2007)"
+    },
+    {
+      "id": "lyssa-drak",
+      "name": "Lyssa Drak",
+      "corps": "Sinestro Corps",
+      "corpsClass": "corps-yellow",
+      "corpsPage": "corps/yellow.html",
+      "portrait": "assets/characters/lyssa-drak.jpg",
+      "tagline": "The Corps' historian of fear.",
+      "firstAppearance": "Green Lantern #18 (2007)",
+      "bio": "A Talokite woman who serves as the Keeper of the Book of Parallax, the Sinestro Corps' dark counterpart to the Guardians' Book of Oa, which she carries chained to her wrist. Cold, scholarly, and utterly devoted to Sinestro's vision, she fancies herself the historian of fear itself — she famously boasts that she knows fear \"like no other.\" Captured by the Green Lantern Corps during the Sinestro Corps War and imprisoned in a Sciencell on Oa, she later escaped to continue chronicling the Corps' conquests. Her knowledge of the Corps' prophecies makes her one of its most dangerous non-combatants. She remains Sinestro's most loyal scribe, recording every atrocity as though it were scripture."
+    },
+    {
+      "id": "karu-sil",
+      "name": "Karu-Sil",
+      "corps": "Sinestro Corps",
+      "corpsClass": "corps-yellow",
+      "corpsPage": "corps/yellow.html",
+      "portrait": "assets/characters/karu-sil.jpg",
+      "tagline": "Raised by beasts; feared by all.",
+      "firstAppearance": "Green Lantern #19 (2007)",
+      "bio": "A native of Graxos III — the same world as the Green Lantern Arisia Rrab — Karu-Sil was the sole survivor of a raid that wiped out her village as a child, and was raised by a pack of wild beasts. To bond with her new family she carved her own mouth into a permanent rictus grin mirroring theirs, and she never left the wild behind. A yellow power ring chose her for her capacity to instill great fear, and she fights alongside hard-light constructs of her beloved animal pack. Feral, fiercely loyal, and utterly without mercy, she is one of the Sinestro Corps' most savage enforcers. Her tragedy is that the pack she loves exists now only as ring-light."
+    },
+    {
+      "id": "despotellis",
+      "name": "Despotellis",
+      "corps": "Sinestro Corps",
+      "corpsClass": "corps-yellow",
+      "corpsPage": "corps/yellow.html",
+      "portrait": "assets/characters/despotellis.jpg",
+      "tagline": "Fear at the microscopic level.",
+      "firstAppearance": "Green Lantern #18 (2007)",
+      "bio": "Despotellis is a sentient bio-virus and one of the most insidious living weapons ever recruited into the Sinestro Corps. Microscopic and virtually undetectable, he kills from inside his victims' bodies, spreading plague and terror that no shield can keep out. Sinestro deployed him as a weapon of mass destruction during the Sinestro Corps War, and Despotellis has wiped out entire planetary populations on his own. He embodies fear at its most intimate — the terror of an enemy already inside you. Even among the fear-wielding Corps, he is regarded with horror."
+    },
+    {
+      "id": "tomar-re",
+      "name": "Tomar-Re",
+      "corps": "Green Lantern Corps",
+      "corpsClass": "corps-green",
+      "corpsPage": "corps/green.html",
+      "portrait": "assets/characters/tomar-re.jpg",
+      "tagline": "The Corps' wisest veteran.",
+      "firstAppearance": "Green Lantern #6 (1961)",
+      "bio": "A Xudarian — a proud, bird-like alien — Tomar-Re was one of the Green Lantern Corps' most respected veterans, serving as the Lantern of Sector 2813 for decades. A scientist and diplomat by temperament, he was a close friend of Abin Sur and later a mentor figure to Earth's Lanterns, including Hal Jordan. His defining sorrow is that he once flew to save the planet Krypton but arrived too late — a failure that haunted him for the rest of his life. Wise, compassionate, and scholarly, he represented the Corps' ideals at their best. His son Tomar-Tu would later follow him into the Corps, carrying on the family legacy."
+    },
+    {
+      "id": "salaak",
+      "name": "Salaak",
+      "corps": "Green Lantern Corps",
+      "corpsClass": "corps-green",
+      "corpsPage": "corps/green.html",
+      "portrait": "assets/characters/salaak.jpg",
+      "tagline": "Keeper of the Book of Oa.",
+      "firstAppearance": "Green Lantern #149 (1982)",
+      "bio": "A four-armed, pink-skinned alien, Salaak is one of the Corps' longest-serving members and its resident pessimist — the Lantern most likely to point out everything that could go wrong. Beneath the gloom beats a deeply loyal heart: he rose to become the Corps' chief administrator on Oa, keeper of the Book of Oa and drillmaster to generations of recruits. By-the-book and protocol-obsessed, he clashed often with mavericks like Guy Gardner, yet his discipline held the Corps together through its darkest hours. His dour exterior hides a profound devotion to the Green Lantern ideal. When the Corps needs order, it turns to Salaak."
+    },
+    {
+      "id": "arisia-rrab",
+      "name": "Arisia Rrab",
+      "corps": "Green Lantern Corps",
+      "corpsClass": "corps-green",
+      "corpsPage": "corps/green.html",
+      "portrait": "assets/characters/arisia-rrab.jpg",
+      "tagline": "Willpower beyond her years.",
+      "firstAppearance": "Tales of the Green Lantern Corps #1 (1981)",
+      "bio": "A Graxosian recruited into the Corps at just thirteen years old, Arisia used her power ring to age herself into adulthood so she could serve — a choice that defined her fierce determination to be taken seriously. Gold-skinned and white-haired, she became one of the Corps' most earnest young Lanterns and famously shared a romance with Hal Jordan. She endured the Crisis on Infinite Earths, which unmade and remade her world and her life, yet she always returned to the uniform. Brave, idealistic, and eager to prove herself, Arisia embodies the Corps' promise that willpower matters more than age. She remains one of its most beloved veterans."
+    },
+    {
+      "id": "soranik-natu",
+      "name": "Soranik Natu",
+      "corps": "Green Lantern Corps",
+      "corpsClass": "corps-green",
+      "corpsPage": "corps/green.html",
+      "portrait": "assets/characters/soranik-natu.jpg",
+      "tagline": "The healer who fights.",
+      "firstAppearance": "Green Lantern Corps: Recharge #1 (2005)",
+      "bio": "A brilliant neurosurgeon from Korugar — Sinestro's homeworld, where Green Lanterns were despised — Soranik initially refused her power ring, accepting it only to save a dying patient on the operating table. She quickly proved one of the finest Lanterns of her generation: disciplined, compassionate, and utterly fearless in the field. Her life was upended by the revelation that she is Sinestro's own daughter, a legacy she has spent years both rejecting and reckoning with. She shared a deep bond with Kyle Rayner, who saw past her father's shadow to the hero she chose to become. A healer first and a warrior second, Soranik fights to redeem both her world and her bloodline."
+    },
+    {
+      "id": "ganthet",
+      "name": "Ganthet",
+      "corps": "Blue Lantern Corps",
+      "corpsClass": "corps-blue",
+      "corpsPage": "corps/blue.html",
+      "portrait": "assets/characters/ganthet.jpg",
+      "tagline": "The Guardian with a heart.",
+      "firstAppearance": "Green Lantern: Ganthet's Tale (1992)",
+      "bio": "Ganthet is a Guardian of the Universe — but unlike his cold, detached brethren, he never lost his capacity to feel. He befriended Kyle Rayner when the Corps was at its lowest, defied the other Guardians to protect Earth's Lanterns, and always believed emotion was a strength rather than a flaw. After the Sinestro Corps War, he and Sayd were banished from Oa for embracing feeling — so together they founded the Blue Lantern Corps on the planet Odym, wielding the blue light of hope. As the Blue Lanterns' leader, he became living proof that hope can move even the oldest and most rigid of beings. Warm, wise, and quietly rebellious, Ganthet is the Guardian with a heart."
+    },
+    {
+      "id": "sayd",
+      "name": "Sayd",
+      "corps": "Blue Lantern Corps",
+      "corpsClass": "corps-blue",
+      "corpsPage": "corps/blue.html",
+      "portrait": "assets/characters/sayd.jpg",
+      "tagline": "Hope's quiet anchor.",
+      "firstAppearance": "Green Lantern: Sinestro Corps Special #1 (2007)",
+      "bio": "Sayd is a Guardian of the Universe and Ganthet's closest confidante — together they were the only Guardians who showed compassion when the Sinestro Corps War demanded it. Where the other Guardians saw emotion as weakness, Sayd saw it as truth, and she stood by Ganthet when that belief got them both exiled from Oa. On the planet Odym she co-founded the Blue Lantern Corps, becoming one of the first wielders of the blue light of hope. Gentle, empathetic, and quietly resolute, she is the Corps' spiritual anchor. Her hope is not naive optimism but a deliberate, defiant choice — and it has never wavered."
+    },
+    {
+      "id": "brother-hynn",
+      "name": "Brother Hynn",
+      "corps": "Blue Lantern Corps",
+      "corpsClass": "corps-blue",
+      "corpsPage": "corps/blue.html",
+      "portrait": "assets/characters/brother-hynn.jpg",
+      "tagline": "Hope's humble soldier.",
+      "firstAppearance": "Green Lantern #38 (2009)",
+      "bio": "Brother Hynn is an amphibious, fish-like alien and one of the earliest recruits of the Blue Lantern Corps, drawn to Odym by the promise of hope. A devout and humble soul, he serves the Corps faithfully from their homeworld, standing alongside Saint Walker, Brother Warth, and Sister Sercy as hope's quiet foot soldiers. Though a minor figure in the Corps' history, his steadfast faith embodies what the blue light is all about — ordinary beings choosing hope in a dark universe. He remains a loyal Blue Lantern to this day."
+    },
+    {
+      "id": "miri-riam",
+      "name": "Miri Riam",
+      "corps": "Star Sapphires",
+      "corpsClass": "corps-violet",
+      "corpsPage": "corps/violet.html",
+      "portrait": "assets/characters/miri-riam.jpg",
+      "tagline": "Love forged from loss.",
+      "firstAppearance": "Green Lantern Corps #29 (2008)",
+      "bio": "Miri Riam of the planet Lartnec was a young newlywed whose honeymoon was shattered when the ravenous Mongul destroyed her ship and killed her husband Kered. Adrift in space and drowning in grief, she was on the verge of taking her own life when a violet Star Sapphire ring found her — drawn to the enormity of the love in her heart — making her the first new recruit of the reformed Star Sapphire Corps. Trained on Zamaron under Queen Aga'po, she learned to turn her great love into great strength. She later proved herself pursuing the child-stealing Sinestro Corps member Kryb across the stars. Fierce, loving, and unbreakable, Miri shows that love, wielded with conviction, is one of the universe's mightiest forces."
     }
   ]
 }
