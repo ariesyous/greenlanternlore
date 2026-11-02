@@ -97,8 +97,8 @@ Each phase is built, committed to `main`, and auto-deployed — the live site
 grows piece by piece.
 
 - **Phase 0 — Foundation** (now): this spec, Pages + Actions workflow,
-  empty site skeleton. ✅ in progress
-- **Phase 1 — Home:** homepage with interactive spectrum explorer.
+  empty site skeleton. ✅ done Nov 2026
+- **Phase 1 — Home:** homepage with interactive spectrum explorer. ✅ done Nov 2026
 - **Phase 2 — Corps profiles, batch 1:** Green, Yellow, Red.
 - **Phase 3 — Corps profiles, batch 2:** Blue, Orange, Indigo.
 - **Phase 4 — Corps profiles, batch 3:** Violet, Black, White.
@@ -111,12 +111,12 @@ grows piece by piece.
 - Keep summaries foundational; go easy on deep plot spoilers for the
   biggest event arcs.
 
-## 9. Open Questions (for Dash)
+## 9. Decisions (agreed with Dash, Nov 2026)
 
-1. All nine Corps — good, or do you want to start with a subset?
-2. One page per Corps vs. a single-page app with tabbed Corps? (Proposing
-   separate pages — simpler, better for sharing/linking.)
-3. Quiz: yes, or cut it?
-4. Any visual style you love? (e.g. comic-book halftone vs. sleek cosmic)
-5. Should the homepage spectrum be the hero, or do you want a big
-   dramatic intro first?
+1. **All nine Corps** — full emotional spectrum. ✅
+2. **One page per Corps** — separate pages, better for sharing/linking. ✅
+3. **Quiz: yes** — 100% client-side (vanilla JS, no backend; GitHub Pages is static-only). ✅
+4. **Visual style: comic-book halftone** — halftone dot textures, bold comic
+   panels, heavy display type, on a deep-space dark background. ✅
+5. **Homepage: no dramatic intro** — drop straight into the interactive
+   spectrum as the hero. ✅
