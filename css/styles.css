@@ -1177,3 +1177,64 @@ a.character-card:hover {
   }
   .band:hover { flex: 1 1 30%; }
 }
+
+/* ---------- events ---------- */
+
+.event-hero {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 1rem;
+}
+
+.event-cover {
+  width: 220px;
+  flex: 0 0 auto;
+  border: 3px solid var(--line);
+  box-shadow: 8px 8px 0 var(--line);
+  transform: rotate(-1.5deg);
+}
+
+.event-hero-text .event-year {
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+  margin: 0 0 0.25rem;
+}
+
+.event-hero-text h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2.5rem;
+}
+
+.event-tagline {
+  font-size: 1.15rem;
+  color: var(--ink-dim);
+  font-style: italic;
+  margin: 0;
+}
+
+.event-corps {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.event-corps a {
+  display: inline-block;
+  padding: 0.4rem 0.9rem;
+  border: 2px solid var(--line);
+  background: var(--bg-2);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 640px) {
+  .event-hero { flex-direction: column; text-align: center; padding-top: 2rem; }
+  .event-cover { width: 170px; }
+  .event-hero-text h1 { font-size: 2rem; }
+}
