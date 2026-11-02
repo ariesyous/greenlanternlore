@@ -1405,3 +1405,22 @@ a.character-card:hover {
   font-size: 0.85rem;
   font-weight: 700;
 }
+
+/* ---------- essays ---------- */
+
+.essay .essay-dek {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--ink-dim);
+  margin-bottom: 1.5rem;
+}
+
+.essay h2 {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+}
+
+.essay p {
+  max-width: 68ch;
+  line-height: 1.7;
+}
