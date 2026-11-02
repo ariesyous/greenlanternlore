@@ -11,8 +11,9 @@ every color of the emotional spectrum, their oaths, members, homeworlds, and lor
 - **Corps profiles** — all nine Corps of the spectrum:
   Red (Rage), Orange (Avarice), Yellow (Fear), Green (Will),
   Blue (Hope), Indigo (Compassion), Violet (Love), Black (Death), White (Life)
-- Coming in later phases: spectrum explainer, timeline, and a
-  *"Which Lantern Corps are you?"* quiz
+- **Spectrum explainer** — how the lights work, the Entities, how colors interact
+- **Timeline** — a spoiler-light history of the Lantern mythos
+- **"Which Lantern Corps are you?" quiz** — 8 questions, 100% client-side
 
 ## Tech
 

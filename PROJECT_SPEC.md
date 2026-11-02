@@ -103,7 +103,7 @@ grows piece by piece.
 - **Phase 3 — Corps profiles, batch 2:** Blue, Orange, Indigo. ✅ done Nov 2026
 - **Phase 4 — Corps profiles, batch 3:** Violet, Black, White. ✅ done Nov 2026
 - **Phase 5 — Spectrum explainer + timeline.** ✅ done Nov 2026
-- **Phase 6 — Quiz + polish, easter eggs.**
+- **Phase 6 — Quiz + polish, easter eggs.** ✅ done Nov 2026 — all phases complete.
 
 ## 8. Content Notes
 

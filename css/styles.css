@@ -566,6 +566,126 @@ body {
   text-transform: uppercase;
 }
 
+/* ---------- quiz ---------- */
+
+.quiz-wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 1.25rem 2rem;
+}
+
+.quiz-panel { text-align: center; }
+
+.quiz-panel .eyebrow { margin-bottom: 0.75rem; }
+
+.quiz-q {
+  font-size: 1.4rem;
+  font-weight: 900;
+  margin: 0 0 1.25rem;
+  text-shadow: none;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.quiz-progress {
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--ink-dim);
+  margin: 0 0 0.75rem;
+}
+
+.quiz-answers {
+  display: grid;
+  gap: 0.6rem;
+  text-align: left;
+}
+
+.quiz-answers button,
+.quiz-begin,
+.quiz-again {
+  font-family: inherit;
+  padding: 0.9rem 1.1rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 2px solid var(--line);
+  color: var(--ink);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
+}
+
+.quiz-answers button:hover,
+.quiz-begin:hover,
+.quiz-again:hover {
+  border-color: var(--corps, var(--green));
+  background: rgba(255, 255, 255, 0.08);
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 var(--line);
+}
+
+.quiz-begin {
+  font-size: 1.1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 1rem 2rem;
+  background: var(--green);
+  color: var(--bg);
+  border-color: var(--line);
+  box-shadow: 5px 5px 0 var(--line);
+}
+
+.quiz-result { border-top: 10px solid var(--corps); }
+
+.quiz-result h2 {
+  font-size: clamp(1.8rem, 5vw, 2.8rem);
+  text-shadow: 0 0 24px var(--corps);
+}
+
+.quiz-emotion {
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--corps);
+  margin: 0.25rem 0 1rem;
+}
+
+.quiz-actions {
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.quiz-go {
+  display: inline-block;
+  padding: 0.9rem 1.4rem;
+  background: var(--corps);
+  color: var(--bg);
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  border: 3px solid var(--line);
+  box-shadow: 4px 4px 0 var(--line);
+}
+
+.quiz-go:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0 var(--line);
+}
+
+.quiz-note {
+  text-align: center;
+  color: var(--ink-dim);
+  font-size: 0.85rem;
+  margin-top: 1rem;
+}
+
 /* ---------- responsive ---------- */
 
 @media (max-width: 860px) {

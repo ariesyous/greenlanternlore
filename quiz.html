@@ -4,10 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Which Corps Are You? — Lantern Lore</title>
-  <meta name="description" content="A playful personality quiz: answer a few questions and discover which Lantern Corps you'd belong to." />
+  <meta name="description" content="A playful personality quiz: answer eight questions and discover which Lantern Corps you'd belong to. All in your browser." />
   <link rel="stylesheet" href="css/styles.css" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='10' fill='none' stroke='%232eff6e' stroke-width='6'/%3E%3C/svg%3E" />
   <script src="js/main.js" defer></script>
+  <script src="js/quiz.js" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -29,12 +30,12 @@
     <section class="hero" style="padding-bottom:1rem">
       <p class="eyebrow">Personality Quiz</p>
       <h1>Which Corps<br />are you?</h1>
-      <p class="lede">The rings are being calibrated. The quiz arrives in Phase 6.</p>
+      <p class="lede">Eight questions. Nine possible destinies. The ring chooses — but it needs your honesty.</p>
     </section>
 
-    <div class="panel coming-soon" style="border-left-color:var(--green)">
-      <p><strong>Charging...</strong> Answer a few questions, get sorted into your Corps — all in your browser, no data leaves your device.</p>
-      <p><a href="index.html#corps" style="color:var(--green)">&larr; Back to all Corps</a></p>
+    <div class="quiz-wrap">
+      <div id="quiz" class="panel quiz-panel" aria-live="polite"></div>
+      <p class="quiz-note">All in your browser — no answers leave your device.</p>
     </div>
   </main>
 
