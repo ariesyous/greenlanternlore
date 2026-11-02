@@ -573,8 +573,32 @@ body {
 
 .timeline-item:nth-child(even) .tl-cover { transform: rotate(-1.5deg); }
 
+/* ---------- in-universe era visuals ---------- */
+
+.era-panel { display: flex; gap: 1.1rem; align-items: flex-start; }
+
+.era-img {
+  width: 110px;
+  height: auto;
+  flex: none;
+  border: 3px solid var(--line);
+  box-shadow: 4px 4px 0 var(--line);
+  transform: rotate(-1.5deg);
+  background: var(--bg);
+}
+
+/* ---------- spectrum interaction citations ---------- */
+
+.member-list .cite {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--ink-dim);
+  margin-top: 0.3rem;
+  font-style: normal;
+}
+
 @media (max-width: 560px) {
-  .tl-cover { width: 72px; }
+  .era-img { width: 84px; }
 }
 
 .timeline-item { position: relative; margin-bottom: 1.75rem; }
