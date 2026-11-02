@@ -41,12 +41,11 @@ its visuals.
       Adara (hope), Proselyte (compassion), the Predator (love) — plus the Life Entity (white).
       Short cards: what each entity is, which light it embodies, key lore. Comic art where findable.
 
-## Phase 4 — Timeline & adaptations (IN PROGRESS)
+## Phase 4 — Timeline & adaptations (DONE)
 
 - [x] Expand in-universe history: added Alan Scott / Golden Age entry ("The first Lantern of Earth", 1940).
-- [ ] New "On screen" section: Green Lantern adaptations — content drafted (Justice League animated,
-      First Flight, 2011 film, Emerald Knights, The Animated Series); images being sourced.
-- [ ] Push timeline.html once screen/era images are uploaded.
+- [x] New "On screen" section: Green Lantern adaptations — Justice League animated, First Flight,
+      2011 film, Emerald Knights, The Animated Series — with posters/stills.
 
 ## Phase 5 — Reading guide
 
