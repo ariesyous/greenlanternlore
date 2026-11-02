@@ -831,6 +831,14 @@
    "bio": "Ch'p is a squirrel-like alien from the planet H'lven and the Green Lantern of Sector 1014 — and one of the most beloved oddballs in the Corps. Captured and sentenced to death by the invading Doctor Ub'x, he was offered a power ring by a Guardian in his cell and used it to liberate his homeworld. Trained by Kilowog alongside Hal Jordan's class, he became a trusted and capable Lantern despite his diminutive size. He later settled on Earth with the Corps' Earth contingent, where his small stature made him a master of stealth missions. Ch'p proves the ring chooses the worthy, whatever their shape.",
    "firstAppearance": "Green Lantern vol. 2 #148 (1982)",
    "signature": "Tiny, clever constructs — proof size doesn't matter to a ring."
+  },
+  {
+   "id": "galius-zed",
+   "name": "Galius Zed",
+   "corps": "green",
+   "portrait": "assets/characters/galius-zed.jpg",
+   "first": "Tales of the Green Lantern Corps #2 (1981)",
+   "bio": "The Green Lantern with the giant head — literally. Galius Zed is a Noc'sagian, a race whose bodies are essentially one enormous cranium with arms and legs extending directly from it, built to survive their homeworld's crushing gravity. Quick-tempered, outspoken, and always first to volunteer for a fight, Zed served as a foil to Hal Jordan and even rebelled against the Guardians when he learned they'd withheld yellow-immune rings. Murdered by Fatality during her vendetta against the Corps, he later rose as a Black Lantern. His unforgettable design made him a fan favorite across comics, animation, and the 2011 film."
   }
  ]
 }
