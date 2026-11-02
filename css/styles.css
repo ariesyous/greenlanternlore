@@ -197,6 +197,16 @@ body {
   border-bottom: 2px solid rgba(0, 0, 0, 0.45);
 }
 
+.band-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+  border: 2px solid var(--line);
+  background: var(--bg);
+}
+
 .band-name {
   font-weight: 900;
   text-transform: uppercase;
@@ -280,6 +290,17 @@ body {
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+}
+
+.card-img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+  border: 3px solid var(--corps);
+  margin-bottom: 0.9rem;
+  background: var(--bg);
 }
 
 .card-emotion {
@@ -536,7 +557,25 @@ body {
   border-left: 4px solid var(--green);
 }
 
-.timeline-item { position: relative; margin-bottom: 1.75rem; }
+/* ---------- timeline reading-order covers ---------- */
+
+.tl-panel { display: flex; gap: 1.1rem; align-items: flex-start; }
+
+.tl-cover {
+  width: 92px;
+  height: auto;
+  flex: none;
+  border: 3px solid var(--line);
+  box-shadow: 4px 4px 0 var(--line);
+  transform: rotate(1.5deg);
+  background: var(--bg);
+}
+
+.timeline-item:nth-child(even) .tl-cover { transform: rotate(-1.5deg); }
+
+@media (max-width: 560px) {
+  .tl-cover { width: 72px; }
+} position: relative; margin-bottom: 1.75rem; }
 
 .timeline-item::before {
   content: "";
