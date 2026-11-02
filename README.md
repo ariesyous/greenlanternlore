@@ -14,6 +14,8 @@ every color of the emotional spectrum, their oaths, members, homeworlds, and lor
 - **Spectrum explainer** — how the lights work, the Entities, how colors interact
 - **Timeline** — a spoiler-light history of the Lantern mythos
 - **"Which Lantern Corps are you?" quiz** — 8 questions, 100% client-side
+- **Original artwork** — AI-generated, fan-site-safe illustrations for each Corps
+- **Comic reading-order timeline** — the Geoff Johns saga in order, with a "you are here" marker
 
 ## Tech
 

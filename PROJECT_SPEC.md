@@ -105,6 +105,13 @@ grows piece by piece.
 - **Phase 5 — Spectrum explainer + timeline.** ✅ done Nov 2026
 - **Phase 6 — Quiz + polish, easter eggs.** ✅ done Nov 2026 — all phases complete.
 
+## Addendum — Nov 2026 (post-launch enhancements)
+
+- Original AI-generated artwork for six Corps so far (orange, yellow, green, blue, indigo, violet) — fan-site-safe, integrated into Corps page heroes.
+- Red Corps artwork could not be generated; abstract alternative offered to Dash.
+- Comic reading-order timeline added to timeline.html (Geoff Johns saga, spoiler-light, "you are here" marker at Blackest Night).
+- Social share preview card (`og-preview.jpg`, 1200×630) + Open Graph/Twitter meta tags for WhatsApp/Discord link unfurls.
+
 ## 8. Content Notes
 
 - Lore summaries are **original writing** (no copied text from comics or wikis).

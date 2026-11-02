@@ -566,6 +566,27 @@ body {
   text-transform: uppercase;
 }
 
+/* ---------- corps artwork ---------- */
+
+.corps-visual {
+  display: block;
+  width: 100%;
+  max-width: 880px;
+  margin: 2rem auto 0;
+  border: 3px solid var(--line);
+  box-shadow: 8px 8px 0 var(--line);
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: var(--bg-2);
+}
+
+.art-credit {
+  text-align: center;
+  color: var(--ink-dim);
+  font-size: 0.8rem;
+  margin: 0.7rem 0 0;
+}
+
 /* ---------- quiz ---------- */
 
 .quiz-wrap {
