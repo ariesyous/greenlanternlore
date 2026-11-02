@@ -100,7 +100,7 @@ grows piece by piece.
   empty site skeleton. ✅ done Nov 2026
 - **Phase 1 — Home:** homepage with interactive spectrum explorer. ✅ done Nov 2026
 - **Phase 2 — Corps profiles, batch 1:** Green, Yellow, Red. ✅ done Nov 2026
-- **Phase 3 — Corps profiles, batch 2:** Blue, Orange, Indigo.
+- **Phase 3 — Corps profiles, batch 2:** Blue, Orange, Indigo. ✅ done Nov 2026
 - **Phase 4 — Corps profiles, batch 3:** Violet, Black, White.
 - **Phase 5 — Spectrum explainer + timeline.**
 - **Phase 6 — Quiz + polish, easter eggs.**
