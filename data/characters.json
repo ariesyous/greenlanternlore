@@ -750,6 +750,45 @@
    "tagline": "Love forged from loss.",
    "firstAppearance": "Green Lantern Corps #29 (2008)",
    "bio": "Miri Riam of the planet Lartnec was a young newlywed whose honeymoon was shattered when the ravenous Mongul destroyed her ship and killed her husband Kered. Adrift in space and drowning in grief, she was on the verge of taking her own life when a violet Star Sapphire ring found her — drawn to the enormity of the love in her heart — making her the first new recruit of the reformed Star Sapphire Corps. Trained on Zamaron under Queen Aga'po, she learned to turn her great love into great strength. She later proved herself pursuing the child-stealing Sinestro Corps member Kryb across the stars. Fierce, loving, and unbreakable, Miri shows that love, wielded with conviction, is one of the universe's mightiest forces."
+  },
+  {
+   "id": "sodam-yat",
+   "name": "Sodam Yat",
+   "corps": "Green Lantern Corps",
+   "corpsClass": "corps-green",
+   "corpsPage": "corps/green.html",
+   "portrait": "assets/characters/sodam-yat.jpg",
+   "tagline": "The prophesied Lantern — Ion's host.",
+   "bio": "Sodam Yat is a Daxamite — a member of the same super-powered alien race as Mon-El — who became the Green Lantern of Sector 1760. As a boy on the isolationist world of Daxam, he dreamed of the stars despite his parents' xenophobic teachings, and Alan Moore's classic \"Tygers\" prophecy named him the Corps' ultimate future Lantern. Under a yellow sun, Daxamites possess Superman-level strength, speed, and invulnerability — stacked on top of a power ring, that made Yat one of the most formidable Lanterns alive. During the Sinestro Corps War he became the host of Ion, the living embodiment of willpower, wielding godlike power against the forces of fear. His story is one of prophecy fulfilled: the sheltered boy who became the Corps' greatest weapon.",
+   "firstAppearance": "Tales of the Green Lantern Corps Annual #2 (1986)",
+   "appearsIn": [
+    {
+     "id": "read-scw",
+     "title": "Sinestro Corps War"
+    }
+   ]
+  },
+  {
+   "id": "katma-tui",
+   "name": "Katma Tui",
+   "corps": "Green Lantern Corps",
+   "corpsClass": "corps-green",
+   "corpsPage": "corps/green.html",
+   "portrait": "assets/characters/katma-tui.jpg",
+   "tagline": "The first female Green Lantern — John's mentor and wife.",
+   "bio": "Katma Tui was the Green Lantern of Sector 1417 and the first female Green Lantern ever introduced in the comics. A native of Korugar — the same world as Sinestro — she took over the sector after his fall and proved herself one of the Corps' finest. She later became John Stewart's mentor, training Earth's newest Lantern, and the two fell in love and married. Her murder at the hands of Star Sapphire remains one of the most infamous tragedies in Green Lantern history. Known to her people as \"Katma Tui the Lost,\" she is remembered as a pioneer who opened the Corps to a new generation.",
+   "firstAppearance": "Green Lantern vol. 2 #30 (1964)"
+  },
+  {
+   "id": "chp",
+   "name": "Ch'p",
+   "corps": "Green Lantern Corps",
+   "corpsClass": "corps-green",
+   "corpsPage": "corps/green.html",
+   "portrait": "assets/characters/chp.jpg",
+   "tagline": "The squirrel Lantern of Sector 1014.",
+   "bio": "Ch'p is a squirrel-like alien from the planet H'lven and the Green Lantern of Sector 1014 — and one of the most beloved oddballs in the Corps. Captured and sentenced to death by the invading Doctor Ub'x, he was offered a power ring by a Guardian in his cell and used it to liberate his homeworld. Trained by Kilowog alongside Hal Jordan's class, he became a trusted and capable Lantern despite his diminutive size. He later settled on Earth with the Corps' Earth contingent, where his small stature made him a master of stealth missions. Ch'p proves the ring chooses the worthy, whatever their shape.",
+   "firstAppearance": "Green Lantern vol. 2 #148 (1982)"
   }
  ]
 }
