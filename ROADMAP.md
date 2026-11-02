@@ -164,3 +164,10 @@ comicbookreadingorders.com, comicbooktreasury.com, Wookieepedia (structural refe
 - [ ] Reading order extended past 2011 (New 52, Rebirth, Morrison eras).
 - [ ] Creators section (writer/artist credits + spotlights).
 - [ ] Constructs gallery.
+
+### Phase 12 — continued (Nov 2, 2026)
+- [x] Second Explained essay: "Geoff Johns and Green Lantern, Explained".
+- [x] Creators page: 7 writer/artist spotlights (Johns, Van Sciver/Reis, Marz/Banks, Moore/O'Neill, O'Neil/Adams, Broome/Kane, Morrison/Sharp).
+- [x] Per-character signature blocks on all 42 character pages.
+- [ ] Constructs gallery (image sourcing in progress).
+- [ ] DC Universe Infinite deep-links per reading-order entry.
