@@ -206,8 +206,9 @@ body {
 
 .entity-card h3 { margin: 0 0 0.15rem; font-size: 1.25rem; }
 
-.entity-card h3 a { color: var(--ink); text-decoration: none; }
-.entity-card h3 a:hover { color: var(--corps); text-decoration: underline; }
+.entity-card h3 a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--corps); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.entity-card h3 a:hover { color: var(--corps); }
+.entity-card h3 a::after { content: " →"; color: var(--corps); font-weight: 900; }
 .entity-card p a { color: var(--corps); font-weight: 700; }
 .entity-card p a:hover { color: var(--ink); }
 
@@ -1471,3 +1472,8 @@ a.character-card:hover {
 .interact-card summary span { color:var(--ink-dim); font-size:0.9rem; }
 .interact-card img { width:100%; max-height:320px; object-fit:cover; object-position:top center; display:block; border-top:2px solid var(--line); border-bottom:2px solid var(--line); }
 .interact-card p { padding:1rem 1.1rem; margin:0; font-size:0.92rem; line-height:1.6; }
+
+/* Timeline detail-page links — obviously clickable */
+.tl-link { color: var(--green); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; }
+.tl-link:hover { color: var(--ink); background: var(--green); text-decoration: none; padding: 0 0.2em; }
+.tl-link::after { content: " →"; font-weight: 900; }
