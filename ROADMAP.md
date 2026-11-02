@@ -12,7 +12,7 @@ its visuals.
 
 ---
 
-## Phase 1 — Cross-linking & discovery (IN PROGRESS)
+## Phase 1 — Cross-linking & discovery (DONE)
 
 - [x] Corps pages: turn "Notable Members" into portrait chips that link to character detail pages
       (all 9 corps pages). Each chip: portrait thumbnail + name + one-liner, linking to
@@ -35,9 +35,9 @@ its visuals.
   - Natromo (Indigo Tribe): skipped — no verifiable portrait exists online.
 - [ ] Nite-Lik: deliberately omitted — no comic art exists anywhere (toy-line character).
 
-## Phase 3 — Spectrum depth (IN PROGRESS)
+## Phase 3 — Spectrum depth (DONE)
 
-- [ ] Emotional entity profiles: Ion (will), Parallax (fear), Ophidian (avarice), the Butcher (rage),
+- [x] Emotional entity profiles: Ion (will), Parallax (fear), Ophidian (avarice), the Butcher (rage),
       Adara (hope), Proselyte (compassion), the Predator (love) — plus the Life Entity (white).
       Short cards: what each entity is, which light it embodies, key lore. Comic art where findable.
 
