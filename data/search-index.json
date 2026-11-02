@@ -412,5 +412,113 @@
   "s": "Famous hard-light constructs: Hal's boxing glove, John's architecture, fear blades, rage plasma.",
   "u": "constructs.html",
   "k": "constructs gallery famous hard-light constructs: hal's boxing glove, john's architecture, fear blades, rage plasma."
+ },
+ {
+  "t": "Ion",
+  "s": "Emotional entity of willpower — the green light given life.",
+  "u": "entities/ion.html",
+  "k": "ion entity willpower green light emotional embodiment"
+ },
+ {
+  "t": "Parallax",
+  "s": "Emotional entity of fear — the yellow light's living nightmare.",
+  "u": "entities/parallax.html",
+  "k": "parallax entity fear yellow light hal jordan emerald twilight"
+ },
+ {
+  "t": "The Butcher",
+  "s": "Emotional entity of rage — born from the first murder.",
+  "u": "entities/butcher.html",
+  "k": "butcher entity rage red light atrocitus"
+ },
+ {
+  "t": "Ophidian",
+  "s": "Emotional entity of avarice — the hungriest of the entities.",
+  "u": "entities/ophidian.html",
+  "k": "ophidian entity avarice orange light larfleeze serpent"
+ },
+ {
+  "t": "Adara",
+  "s": "Emotional entity of hope — the light that supercharges will.",
+  "u": "entities/adara.html",
+  "k": "adara entity hope blue light bird"
+ },
+ {
+  "t": "Proselyte",
+  "s": "Emotional entity of compassion — the light that feels all pain.",
+  "u": "entities/proselyte.html",
+  "k": "proselyte entity compassion indigo light"
+ },
+ {
+  "t": "The Predator",
+  "s": "Emotional entity of love — the light that claims and keeps.",
+  "u": "entities/predator.html",
+  "k": "predator entity love violet light star sapphire"
+ },
+ {
+  "t": "The Life Entity",
+  "s": "Emotional entity of life — the white light that began everything.",
+  "u": "entities/life-entity.html",
+  "k": "life entity white light blackest night"
+ },
+ {
+  "t": "Justice League / JLU",
+  "s": "On screen: John Stewart as the League's Green Lantern (2001–2006).",
+  "u": "screen/justice-league.html",
+  "k": "justice league unlimited jlu john stewart animated series tv"
+ },
+ {
+  "t": "Green Lantern: First Flight",
+  "s": "On screen: Hal Jordan's animated origin (2009).",
+  "u": "screen/first-flight.html",
+  "k": "first flight animated movie hal jordan sinestro 2009"
+ },
+ {
+  "t": "Green Lantern (2011)",
+  "s": "On screen: the Corps' live-action big-screen debut.",
+  "u": "screen/green-lantern-2011.html",
+  "k": "green lantern 2011 movie ryan reynolds parallax film"
+ },
+ {
+  "t": "Green Lantern: Emerald Knights",
+  "s": "On screen: animated anthology of Corps tales (2011).",
+  "u": "screen/emerald-knights.html",
+  "k": "emerald knights animated anthology laira arisia 2011"
+ },
+ {
+  "t": "Green Lantern: The Animated Series",
+  "s": "On screen: the space-western with Hal, Kilowog and Razer (2011–2013).",
+  "u": "screen/animated-series.html",
+  "k": "animated series tas hal kilowog razer cartoon"
+ },
+ {
+  "t": "Lanterns (HBO)",
+  "s": "On screen: the HBO series — Hal and John, veteran and rookie (2026).",
+  "u": "screen/lanterns-hbo.html",
+  "k": "lanterns hbo max series hal jordan john stewart tv show 2026"
+ },
+ {
+  "t": "The New 52 Era",
+  "s": "Reading era 2011–2015: the universe reboots, the Corps starts over.",
+  "u": "eras/new52.html",
+  "k": "new 52 era 2011 2015 green lantern vol 5 red lanterns sinestro"
+ },
+ {
+  "t": "DC Rebirth",
+  "s": "Reading era 2016–2018: Hal Jordan and the Green Lantern Corps + Green Lanterns.",
+  "u": "eras/rebirth-era.html",
+  "k": "dc rebirth 2016 2018 hal jordan green lantern corps jessica cruz simon baz"
+ },
+ {
+  "t": "Morrison & Sharp",
+  "s": "Reading era 2019–2021: Grant Morrison's psychedelic space-cop run.",
+  "u": "eras/morrison-sharp.html",
+  "k": "morrison sharp 2019 2021 the green lantern grant morrison liam sharp"
+ },
+ {
+  "t": "The Current Era",
+  "s": "Reading era 2023–present: Jeremy Adams' Green Lantern and War Journal.",
+  "u": "eras/current.html",
+  "k": "current era 2023 jeremy adams green lantern war journal john stewart ongoing"
  }
 ]

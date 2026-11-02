@@ -206,6 +206,11 @@ body {
 
 .entity-card h3 { margin: 0 0 0.15rem; font-size: 1.25rem; }
 
+.entity-card h3 a { color: var(--ink); text-decoration: none; }
+.entity-card h3 a:hover { color: var(--corps); text-decoration: underline; }
+.entity-card p a { color: var(--corps); font-weight: 700; }
+.entity-card p a:hover { color: var(--ink); }
+
 .entity-light {
   font-size: 0.8rem;
   text-transform: uppercase;
@@ -1431,3 +1436,38 @@ a.character-card:hover {
   padding: 0.7rem 1rem;
   font-size: 0.95rem;
 }
+
+/* Footer sitemap */
+.footer-sitemap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.2rem;
+  justify-content: center;
+  margin-bottom: 1.2rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid var(--line);
+}
+.footer-sitemap a {
+  color: var(--ink-dim);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.footer-sitemap a:hover { color: var(--green); text-decoration: underline; }
+
+/* Glossary icons */
+.gloss-icon { display:inline-flex; width:1.4em; height:1.4em; vertical-align:-0.25em; margin-right:0.5em; color:var(--green); }
+.gloss-icon svg { width:100%; height:100%; }
+.glossary-term dt { font-size:1.15rem; }
+
+/* Spectrum interaction cards */
+.interact-cards { display:grid; gap:0.8rem; margin-top:1rem; }
+.interact-card { border:2px solid var(--line); background:var(--bg-2); }
+.interact-card summary { padding:0.9rem 1.1rem; cursor:pointer; font-size:1rem; list-style:none; display:flex; gap:0.6rem; align-items:baseline; flex-wrap:wrap; }
+.interact-card summary::-webkit-details-marker { display:none; }
+.interact-card summary::before { content:"▸"; color:var(--green); font-weight:900; }
+.interact-card[open] summary::before { content:"▾"; }
+.interact-card summary:hover strong { color:var(--green); }
+.interact-card summary span { color:var(--ink-dim); font-size:0.9rem; }
+.interact-card img { width:100%; max-height:320px; object-fit:cover; object-position:top center; display:block; border-top:2px solid var(--line); border-bottom:2px solid var(--line); }
+.interact-card p { padding:1rem 1.1rem; margin:0; font-size:0.92rem; line-height:1.6; }
