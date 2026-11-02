@@ -100,3 +100,67 @@ Comic-art illustrations, tied to corps pages.
 - [ ] New characters: Sodam Yat (Ion's host), Katma Tui, Ch'p — verified first appearances,
       bios, portraits (real comic art, credited, self-hosted).
 - [ ] Character ↔ reading-order cross-links: "appears in" reading entries on character pages.
+
+---
+
+## Phase 12 — Competitive research findings (Nov 2, 2026)
+
+Researched: Green Lantern Watch, DC Database, Green Lantern Wiki (Fandom), Blog of Oa,
+comicbookreadingorders.com, comicbooktreasury.com, Wookieepedia (structural reference).
+
+### Tier 1 — high impact, fits our model (DO THESE)
+- [ ] **Interactive reading checklist**: "mark as read" checkboxes on timeline reading-order
+      entries, persisted in localStorage, with progress bar. 100% client-side. (from
+      comicbookreadingorders.com — "the single best interactive idea")
+- [ ] **"New here? Three ways in" onboarding**: homepage/timeline entry paths for different
+      reader types — the big saga path / the characters path / the quiz path. (from GL Watch)
+- [ ] **"Explained" long-form essays**: narrative essays like "Emerald Twilight, explained"
+      or "Why the Corps fell (and rose)". Start with 2–3. (from GL Watch + Blog of Oa 101s)
+- [ ] **Per-character signature blocks**: signature constructs / key issues / recommended
+      reading on character pages. (from DC Database, adapted)
+
+### Tier 2 — strong additions, moderate effort
+- [ ] **Reading order extended past 2011**: New 52, Rebirth, Morrison eras — titles-only,
+      spoiler-light. (Ours ends at War of the Green Lanterns.)
+- [ ] **Creators section**: writer/artist credits per arc + creator spotlights
+      (Johns/Reis, Morrison/Sharp, O'Neil/Adams). "Behind the scenes" split. (Wookieepedia pattern)
+- [ ] **Constructs gallery**: visual page of famous hard-light constructs. Pure visual candy.
+- [ ] **Quote cards**: famous lines as styled shareable cards. (folds into Phase 10 quotes page)
+- [ ] **DC Universe Infinite deep-links** per reading-order entry.
+
+### Verdicts
+- We beat the GL Wiki (Fandom) on curation, design, visual quality — nothing to steal.
+- Blog/news cadence (GL Watch news, Blog of Oa) is out of scope for a static curated site.
+- We already do oaths better than the listicle sites.
+
+---
+
+## Shipped Nov 2, 2026 (post-analysis build)
+
+### Phase 8 — Major events (DONE)
+- events.html hub + 4 event pages: Emerald Twilight, Sinestro Corps War, Blackest Night, War of the Green Lanterns.
+- Each: story, key players (portrait chips), corps involved, where to read, aftermath. Real comic covers, credited.
+- Events link in nav on all pages.
+
+### Phase 9 — Powers of the Ring (DONE)
+- powers.html: 8 powers (constructs, flight, force fields, energy projection, translation, scanning, travel, healing) + 4 limits (charge, emotion, yellow impurity, the bearer).
+
+### Phase 10 — Discovery & fun (DONE)
+- "Three ways in" onboarding on homepage (Big Saga / Meet the Players / Find Your Corps).
+- quotes.html: all 8 corps oaths as shareable cards.
+- sources.html: key comics bibliography, art credits, fan tribute notice.
+- Random Lantern button on roster page.
+- Quiz expanded 8 → 12 questions.
+
+### Phase 11 — Roster round 4 & cross-links (DONE)
+- 3 new characters → 42 total: Sodam Yat (Tales of GLC Annual #2, 1986), Katma Tui (GL v2 #30, 1964), Ch'p (GL v2 #148, 1982). Portraits verified, credited, self-hosted.
+- Character ↔ reading-order cross-links: "Key stories" section on character pages linking to timeline entries; timeline entries have anchor IDs.
+
+### Phase 12 — Competitive findings (PARTIAL)
+- [x] Interactive reading checklist (localStorage, progress bar) on timeline.
+- [x] "Three ways in" onboarding.
+- [ ] "Explained" long-form essays (2–3 to start).
+- [ ] Per-character signature blocks (signature constructs / key issues).
+- [ ] Reading order extended past 2011 (New 52, Rebirth, Morrison eras).
+- [ ] Creators section (writer/artist credits + spotlights).
+- [ ] Constructs gallery.
