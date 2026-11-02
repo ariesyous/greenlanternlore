@@ -161,6 +161,50 @@ body {
   margin: 0 0 2.25rem;
 }
 
+.tl-collected { display: block; margin-top: 0.35rem; font-size: 0.82rem; color: var(--ink-dim); font-style: italic; }
+
+/* ---------- entities ---------- */
+
+.entity-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.entity-card {
+  border: 2px solid var(--line);
+  background: var(--bg-2);
+  box-shadow: 5px 5px 0 var(--line);
+  border-top: 8px solid var(--corps);
+}
+
+.entity-card img {
+  width: 100%;
+  aspect-ratio: 16/10;
+  object-fit: cover;
+  object-position: top center;
+  display: block;
+  border-bottom: 2px solid var(--line);
+}
+
+.entity-card > div { padding: 1rem 1.1rem 1.2rem; }
+
+.entity-card h3 { margin: 0 0 0.15rem; font-size: 1.25rem; }
+
+.entity-light {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--corps);
+  font-weight: 800;
+  margin: 0 0 0.6rem;
+}
+
+.entity-card p { font-size: 0.9rem; line-height: 1.55; }
+
+.entity-first { font-size: 0.8rem; color: var(--ink-dim); font-style: italic; margin-top: 0.6rem; }
+
 /* ---------- spectrum ---------- */
 
 .spectrum {
