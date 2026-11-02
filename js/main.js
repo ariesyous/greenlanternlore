@@ -98,4 +98,17 @@
     update();
   })();
 
+
+  // Random Lantern — jump to a random character page
+  (function () {
+    var btn = document.getElementById("random-lantern");
+    if (!btn) return;
+    btn.addEventListener("click", function () {
+      var cards = document.querySelectorAll("a.character-card[href*=\"character.html?id=\"]");
+      if (!cards.length) return;
+      var pick = cards[Math.floor(Math.random() * cards.length)];
+      window.location.href = pick.getAttribute("href");
+    });
+  })();
+
 })();
