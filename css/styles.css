@@ -163,6 +163,20 @@ body {
 
 .tl-collected { display: block; margin-top: 0.35rem; font-size: 0.82rem; color: var(--ink-dim); font-style: italic; }
 
+/* ---------- glossary ---------- */
+
+.glossary { display: grid; gap: 1rem; }
+
+.glossary-term { margin: 0; }
+
+.glossary-term dt {
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin-bottom: 0.4rem;
+}
+
+.glossary-term dd { margin: 0; font-size: 0.92rem; line-height: 1.6; }
+
 /* ---------- entities ---------- */
 
 .entity-grid {
@@ -397,6 +411,72 @@ body {
   border-left: 8px solid var(--green);
   color: var(--ink-dim);
   text-decoration: line-through;
+}
+
+/* ---------- site search ---------- */
+
+.site-search {
+  position: relative;
+  margin-left: auto;
+  margin-right: 0.75rem;
+}
+
+.site-search input[type="search"] {
+  font: inherit;
+  font-size: 0.85rem;
+  background: var(--bg-2);
+  color: var(--ink);
+  border: 2px solid var(--line);
+  padding: 0.4rem 0.6rem;
+  width: 180px;
+  box-shadow: 2px 2px 0 var(--line);
+}
+
+.site-search input[type="search"]:focus {
+  outline: none;
+  border-color: var(--green);
+  width: 220px;
+}
+
+.search-results {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  width: 300px;
+  background: var(--bg-2);
+  border: 2px solid var(--line);
+  box-shadow: 4px 4px 0 var(--line);
+  z-index: 50;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.search-hit {
+  display: block;
+  padding: 0.55rem 0.75rem;
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid var(--line);
+}
+
+.search-hit:hover { background: rgba(255, 255, 255, 0.06); }
+
+.search-hit strong { display: block; font-size: 0.9rem; }
+
+.search-hit span { font-size: 0.78rem; color: var(--ink-dim); }
+
+.search-empty {
+  padding: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--ink-dim);
+  margin: 0;
+}
+
+@media (max-width: 700px) {
+  .site-search { margin-right: 0.5rem; }
+  .site-search input[type="search"] { width: 120px; }
+  .site-search input[type="search"]:focus { width: 150px; }
+  .search-results { width: 260px; }
 }
 
 /* ---------- corps pages ---------- */
