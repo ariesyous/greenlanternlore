@@ -56,11 +56,12 @@ its visuals.
 - [x] Per-page Open Graph/Twitter card tags (9 corps pages, characters, timeline, spectrum, quiz, 404).
 - [x] `sitemap.xml` + `robots.txt`.
 
-## Phase 7 — Nice to have
+## Phase 7 — Nice to have (DONE)
 
-- [ ] Site-wide client-side search.
-- [ ] Glossary page (power battery, sector, oath, entity, Central Power Battery…).
-- [ ] Mobile polish pass.
+- [x] Site-wide client-side search (header search box on all pages, live dropdown).
+- [x] Glossary page (power ring/battery, sector, oath, entity, Guardians, Starheart…).
+- [x] Mobile polish pass (search input responsive; grids stack).
+- [x] Fixed: round-3 roster cards were rendering outside their grid (full-width images) — rebuilt all 8 sections.
 
 ---
 
