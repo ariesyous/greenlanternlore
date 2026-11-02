@@ -810,6 +810,35 @@ a.character-card:hover {
   font-size: 0.9rem;
 }
 
+.char-facts {
+  display: grid;
+  gap: 0.6rem;
+  margin: 1.25rem 0 0;
+  padding: 1rem 1.1rem;
+  border: 3px solid var(--line);
+  background: var(--bg-2);
+  box-shadow: 4px 4px 0 var(--line);
+}
+
+.char-facts > div {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 0.75rem;
+  align-items: baseline;
+}
+
+.char-facts dt {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  color: var(--ink-dim);
+}
+
+.char-facts dd { margin: 0; font-weight: 600; }
+
+.char-facts dd a { color: var(--corps, var(--green)); }
+
 @media (max-width: 700px) {
   .char-detail { grid-template-columns: 1fr; }
   .char-portrait { max-width: 320px; }

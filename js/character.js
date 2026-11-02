@@ -41,7 +41,10 @@
         '<h1>' + esc(c.name) + '</h1>' +
         '<p class="lede">' + esc(c.tagline) + '</p>' +
         '<p>' + esc(c.bio) + '</p>' +
-        '<p class="first-app"><strong>First appearance:</strong> ' + esc(c.firstAppearance) + '</p>' +
+        '<dl class="char-facts">' +
+          '<div><dt>Corps</dt><dd><a href="' + esc(c.corpsPage) + '">' + esc(c.corps) + '</a></dd></div>' +
+          '<div><dt>First appearance</dt><dd>' + esc(c.firstAppearance) + '</dd></div>' +
+        '</dl>' +
         '<p><a href="characters.html" style="color:var(--green);font-weight:800">← Back to the roster</a></p>' +
       '</div>' +
     '</article>';
