@@ -26,6 +26,13 @@
   if (!c) { fail(); return; }
 
   document.title = c.name + ' — Lantern Lore';
+  // Per-character meta description for sharing/tab previews
+  let md = document.querySelector('meta[name="description"]');
+  if (md && c.bio) md.setAttribute('content', c.bio.slice(0, 155));
+  let ogt = document.querySelector('meta[property="og:title"]');
+  if (ogt) ogt.setAttribute('content', c.name + ' — Lantern Lore');
+  let ogd = document.querySelector('meta[property="og:description"]');
+  if (ogd && c.bio) ogd.setAttribute('content', c.bio.slice(0, 155));
 
   const esc = s => String(s)
     .replace(/&/g, '&amp;')
