@@ -27,12 +27,12 @@ its visuals.
 
 - [x] Fuller biographies for all 28 characters (4–6 sentences each, spoiler-light but comprehensive —
       origin, role, personality, key beats; no plot-recap minutiae).
-- [ ] Roster round 3 — research, verify first appearances, source portraits, add cards + detail pages: (IN PROGRESS)
+- [x] Roster round 3 — research, verify first appearances, source portraits, add cards + detail pages: (DONE — 39 total)
   - Sinestro Corps: Lyssa Drak, Karu-Sil, Despotellis
   - Green Lantern Corps: Tomar-Re, Salaak, Arisia Rrab, Soranik Natu
   - Blue Lantern Corps: Ganthet, Sayd, Brother Hynn
-  - Indigo Tribe: Natromo (if verifiable)
-  - Star Sapphires: Miri Riam (if verifiable)
+  - Star Sapphires: Miri Riam
+  - Natromo (Indigo Tribe): skipped — no verifiable portrait exists online.
 - [ ] Nite-Lik: deliberately omitted — no comic art exists anywhere (toy-line character).
 
 ## Phase 3 — Spectrum depth (IN PROGRESS)
