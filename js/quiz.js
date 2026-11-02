@@ -88,6 +88,34 @@
         { t: "Everything", c: ["orange"] },
         { t: "Peace", c: ["blue", "indigo"] },
         { t: "Forever", c: ["white", "black"] }
+      ] },
+    { q: "It's the end of the world. What's your move?",
+      a: [
+        { t: "Hold the line, no matter what", c: ["green"] },
+        { t: "Make them afraid of me", c: ["yellow", "red"] },
+        { t: "Save who I can, grieve the rest", c: ["blue", "indigo"] },
+        { t: "Already dead. This is my moment.", c: ["black"] }
+      ] },
+    { q: "Pick a pet:",
+      a: [
+        { t: "A loyal dog", c: ["green", "blue"] },
+        { t: "A cat. Obviously. Mine.", c: ["orange"] },
+        { t: "Something with claws", c: ["red"] },
+        { t: "I don't do pets. I do followers.", c: ["yellow"] }
+      ] },
+    { q: "What's your relationship with rules?",
+      a: [
+        { t: "Rules keep the peace", c: ["green", "blue"] },
+        { t: "Rules are for the ruled", c: ["yellow"] },
+        { t: "What rules?", c: ["red", "orange"] },
+        { t: "I follow a higher law", c: ["indigo", "white"] }
+      ] },
+    { q: "What would your ring construct be?",
+      a: [
+        { t: "Something practical — a bridge, a shield", c: ["green", "blue"] },
+        { t: "Something terrifying", c: ["yellow", "red"] },
+        { t: "Something beautiful", c: ["violet", "indigo"] },
+        { t: "Whatever I want. All of it.", c: ["orange"] }
       ] }
   ];
 
@@ -112,7 +140,7 @@
 
   function renderStart() {
     root.innerHTML = "";
-    root.appendChild(el("h2", "quiz-q", "Eight questions. Nine possible destinies."));
+    root.appendChild(el("h2", "quiz-q", "Twelve questions. Nine possible destinies."));
     var p = el("p", null, "Answer honestly — the ring can tell when you're lying.");
     p.style.color = "var(--ink-dim)";
     root.appendChild(p);
