@@ -1374,3 +1374,34 @@ a.character-card:hover {
 
 .random-btn:hover { transform: translate(-2px, -2px); box-shadow: 7px 7px 0 var(--line); }
 .random-btn:active { transform: translate(2px, 2px); box-shadow: 2px 2px 0 var(--line); }
+
+/* ---------- character key stories ---------- */
+
+.char-stories {
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 2px solid var(--line);
+}
+
+.char-stories h2 {
+  font-size: 1.1rem;
+  margin: 0 0 0.6rem;
+}
+
+.char-stories ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.char-stories li a {
+  display: inline-block;
+  padding: 0.35rem 0.8rem;
+  border: 2px solid var(--line);
+  background: var(--bg-2);
+  font-size: 0.85rem;
+  font-weight: 700;
+}

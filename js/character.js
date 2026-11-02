@@ -45,6 +45,13 @@
           '<div><dt>Corps</dt><dd><a href="' + esc(c.corpsPage) + '">' + esc(c.corps) + '</a></dd></div>' +
           '<div><dt>First appearance</dt><dd>' + esc(c.firstAppearance) + '</dd></div>' +
         '</dl>' +
+        (c.appearsIn && c.appearsIn.length ?
+          '<div class="char-stories"><h2>Key stories</h2><ul>' +
+          c.appearsIn.map(s =>
+            '<li><a href="timeline.html#' + esc(s.id) + '">' + esc(s.title) + '</a></li>'
+          ).join('') +
+          '</ul><p class="art-credit">Find these in reading order on the <a href="timeline.html#reading-order">timeline</a>.</p></div>'
+        : '') +
         '<p><a href="characters.html" style="color:var(--green);font-weight:800">← Back to the roster</a></p>' +
       '</div>' +
     '</article>';

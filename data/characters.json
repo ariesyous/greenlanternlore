@@ -1,433 +1,755 @@
 {
-  "characters": [
+ "characters": [
+  {
+   "id": "hal-jordan",
+   "name": "Hal Jordan",
+   "corps": "Green Lantern Corps",
+   "corpsClass": "corps-green",
+   "corpsPage": "corps/green.html",
+   "portrait": "assets/characters/hal-jordan.jpg",
+   "tagline": "The Corps' greatest — and most reckless — Lantern.",
+   "bio": "Hal Jordan was a fearless test pilot for Ferris Aircraft when the dying alien Abin Sur passed him a power ring — and the most famous Lantern in the universe was born. Chosen for his ability to overcome great fear, Hal has saved the universe more times than anyone can count, from the Manhunters to the Anti-Monitor. He once fell to the fear entity Parallax and destroyed the Corps itself — and came back from it, rebuilding everything from the ashes. Reckless, inspiring, and utterly incapable of backing down: the standard every Lantern is measured against.",
+   "firstAppearance": "Showcase #22 (1959)",
+   "appearsIn": [
     {
-      "id": "hal-jordan",
-      "name": "Hal Jordan",
-      "corps": "Green Lantern Corps",
-      "corpsClass": "corps-green",
-      "corpsPage": "corps/green.html",
-      "portrait": "assets/characters/hal-jordan.jpg",
-      "tagline": "The Corps' greatest — and most reckless — Lantern.",
-      "bio": "Hal Jordan was a fearless test pilot for Ferris Aircraft when the dying alien Abin Sur passed him a power ring — and the most famous Lantern in the universe was born. Chosen for his ability to overcome great fear, Hal has saved the universe more times than anyone can count, from the Manhunters to the Anti-Monitor. He once fell to the fear entity Parallax and destroyed the Corps itself — and came back from it, rebuilding everything from the ashes. Reckless, inspiring, and utterly incapable of backing down: the standard every Lantern is measured against.",
-      "firstAppearance": "Showcase #22 (1959)"
+     "id": "read-rebirth",
+     "title": "Green Lantern: Rebirth"
     },
     {
-      "id": "john-stewart",
-      "name": "John Stewart",
-      "corps": "Green Lantern Corps",
-      "corpsClass": "corps-green",
-      "corpsPage": "corps/green.html",
-      "portrait": "assets/characters/john-stewart.jpg",
-      "tagline": "The Corps' strategist.",
-      "bio": "John Stewart is an architect and former U.S. Marine, chosen for a mind like a precision instrument. Where Hal Jordan improvises, John plans three moves ahead — the Corps' strategist and its moral center. His constructs are famous for their detail: John doesn't just imagine a wall, he imagines every brick. He carries the weight of Xanshi, a world he once failed to save, and it made him the most careful Lantern alive.",
-      "firstAppearance": "Green Lantern #87 (1971)"
+     "id": "read-gl-v4",
+     "title": "Green Lantern vol. 4 #1–25"
     },
     {
-      "id": "guy-gardner",
-      "name": "Guy Gardner",
-      "corps": "Green Lantern Corps",
-      "corpsClass": "corps-green",
-      "corpsPage": "corps/green.html",
-      "portrait": "assets/characters/guy-gardner.jpg",
-      "tagline": "The brawler.",
-      "bio": "Guy Gardner is the Corps' brawler — loud, proud, and utterly fearless, with a chip on his shoulder the size of Oa. Beneath the bluster is one of the most loyal Lanterns alive; Guy has bled for the Corps more times than he'll admit. He's worn many rings in his time — green, red, even the mantle of a Warrior — and led the Green Lantern Corps Honor Guard. All attitude on the surface, all heart underneath.",
-      "firstAppearance": "Green Lantern #59 (1968)"
+     "id": "read-scw",
+     "title": "Sinestro Corps War"
     },
     {
-      "id": "kyle-rayner",
-      "name": "Kyle Rayner",
-      "corps": "Green Lantern Corps",
-      "corpsClass": "corps-green",
-      "corpsPage": "corps/green.html",
-      "portrait": "assets/characters/kyle-rayner.jpg",
-      "tagline": "The artist.",
-      "bio": "Kyle Rayner was a freelance artist handed a power ring on the worst day of the Corps' history — with almost no training and no backup. He carried the torch alone as the last Green Lantern, then helped rebuild everything from the ashes. Along the way he hosted Ion, the living embodiment of willpower, and became the one Lantern to master the entire emotional spectrum as a White Lantern. The artist of the Corps: where others make constructs, Kyle makes art.",
-      "firstAppearance": "Green Lantern #48 (1994)"
+     "id": "read-secret-origin",
+     "title": "Secret Origin"
     },
     {
-      "id": "kilowog",
-      "name": "Kilowog",
-      "corps": "Green Lantern Corps",
-      "corpsClass": "corps-green",
-      "corpsPage": "corps/green.html",
-      "portrait": "assets/characters/kilowog.jpg",
-      "tagline": "Drill sergeant of the Corps.",
-      "bio": "Kilowog is a towering Bolovaxian who has served as the Green Lantern Corps' drill sergeant for generations. Every rookie's first day runs through him — and nobody forgets it. He lost his entire homeworld when Bolovax V was destroyed, and carries his people in his heart into every battle. Gruff, profane, and fiercely loyal: the backbone of the Corps.",
-      "firstAppearance": "Green Lantern Corps #201 (1986)"
+     "id": "read-rage",
+     "title": "Rage of the Red Lanterns"
     },
     {
-      "id": "sinestro",
-      "name": "Sinestro",
-      "corps": "Sinestro Corps",
-      "corpsClass": "corps-yellow",
-      "corpsPage": "corps/yellow.html",
-      "portrait": "assets/characters/sinestro.jpg",
-      "tagline": "The Corps' greatest enemy.",
-      "bio": "Thaal Sinestro was once the Green Lantern Corps' most celebrated member — the greatest Lantern of his era, and Hal Jordan's mentor. Exiled for ruling his sector through fear, he decided fear was the point: he forged the yellow light into the Sinestro Corps, an army built on terror, and nearly broke the universe in the war that followed. Brilliant, ruthless, and utterly convinced he is the hero of his own story — and sometimes, terrifyingly, he has a point.",
-      "firstAppearance": "Green Lantern #7 (1961)"
+     "id": "read-blackest-night",
+     "title": "Blackest Night"
     },
     {
-      "id": "arkillo",
-      "name": "Arkillo",
-      "corps": "Sinestro Corps",
-      "corpsClass": "corps-yellow",
-      "corpsPage": "corps/yellow.html",
-      "portrait": "assets/characters/arkillo.jpg",
-      "tagline": "The Sinestro Corps' drill sergeant.",
-      "bio": "Arkillo is a savage warrior of the planet Vorn, recruited for his singular gift: inspiring terror. He serves the Sinestro Corps as its brutal drill sergeant — the yellow answer to Kilowog. All muscle, all menace, all fear: the Corps' enforcer and Sinestro's most loyal hound.",
-      "firstAppearance": "Green Lantern #10 (2006)"
-    },
-    {
-      "id": "atrocitus",
-      "name": "Atrocitus",
-      "corps": "Red Lantern Corps",
-      "corpsClass": "corps-red",
-      "corpsPage": "corps/red.html",
-      "portrait": "assets/characters/atrocitus.jpg",
-      "tagline": "Rage given purpose.",
-      "bio": "Atrocitus is the sole survivor of the Massacre of Sector 666, who nursed his rage across the ages until the red light answered. He forged the Red Lantern Corps from his own fury — and from a prophecy of the darkness to come, the Blackest Night. Rage with a purpose, and a plan: Atrocitus doesn't just burn, he burns toward something.",
-      "firstAppearance": "Green Lantern #25 (2007)"
-    },
-    {
-      "id": "bleez",
-      "name": "Bleez",
-      "corps": "Red Lantern Corps",
-      "corpsClass": "corps-red",
-      "corpsPage": "corps/red.html",
-      "portrait": "assets/characters/bleez.jpg",
-      "tagline": "Winged fury of the Red Lanterns.",
-      "bio": "Bleez was a princess of Havania, whose beauty was matched only by the fury the Sinestro Corps' invasion lit in her. The red ring found her drowning in rage — and made her one of the Red Lanterns' most formidable warriors. Of all the Corps' berserkers, she kept the most of her mind: fury with a focus. Her rage is as beautiful as it is terrible.",
-      "firstAppearance": "Final Crisis: Rage of the Red Lanterns #1 (2008)"
-    },
-    {
-      "id": "dex-starr",
-      "name": "Dex-Starr",
-      "corps": "Red Lantern Corps",
-      "corpsClass": "corps-red",
-      "corpsPage": "corps/red.html",
-      "portrait": "assets/characters/dex-starr.jpg",
-      "tagline": "Rage kitty. Do not pet.",
-      "bio": "Dex-Starr was an ordinary housecat, abandoned and abused, until rage at a cruel world earned him a red ring. Do not let the cuteness fool you: he is small, adorable, and utterly lethal — the Red Lanterns' mascot and one of their deadliest weapons. The most dangerous kitty in the universe.",
-      "firstAppearance": "Final Crisis: Rage of the Red Lanterns #1 (2008)"
-    },
-    {
-      "id": "zilius-zox",
-      "name": "Zilius Zox",
-      "corps": "Red Lantern Corps",
-      "corpsClass": "corps-red",
-      "corpsPage": "corps/red.html",
-      "portrait": "assets/characters/zilius-zox.jpg",
-      "tagline": "All muscle, all rage.",
-      "bio": "Zilius Zox is a hulking brute of the same species as the fallen Green Lantern Galius Zed. Where Atrocitus schemes and Bleez seethes, Zox simply rages — rage in its purest, simplest form. All muscle, all fury: the Red Lanterns' bluntest instrument.",
-      "firstAppearance": "Final Crisis: Rage of the Red Lanterns #1 (2008)"
-    },
-    {
-      "id": "rankorr",
-      "name": "Rankorr",
-      "corps": "Red Lantern Corps",
-      "corpsClass": "corps-red",
-      "corpsPage": "corps/red.html",
-      "portrait": "assets/characters/rankorr.jpg",
-      "tagline": "The Corps' most human heart.",
-      "bio": "Jack Moore was an ordinary young man until grief and fury earned him a red ring — and he became Rankorr. Unlike most Red Lanterns, something human survived in him: he fights the rage from the inside, every day. The most human heart in the most inhuman Corps.",
-      "firstAppearance": "Red Lanterns #1 (2011)"
-    },
-    {
-      "id": "skallox",
-      "name": "Skallox",
-      "corps": "Red Lantern Corps",
-      "corpsClass": "corps-red",
-      "corpsPage": "corps/red.html",
-      "portrait": "assets/characters/skallox.jpg",
-      "tagline": "Betrayed, burned, reborn in rage.",
-      "bio": "Skallox was once an interrogator for a crime syndicate — until his own boss betrayed him and threw him into a furnace. He crawled out with his rage intact, and the red ring found him. Now he serves as the Red Lantern Corps' enforcer, the one Atrocitus sends when the message needs to be unmistakable.",
-      "firstAppearance": "Final Crisis: Rage of the Red Lanterns #1 (2008)"
-    },
-    {
-      "id": "vice",
-      "name": "Vice",
-      "corps": "Red Lantern Corps",
-      "corpsClass": "corps-red",
-      "corpsPage": "corps/red.html",
-      "portrait": "assets/characters/vice.jpg",
-      "tagline": "The Corps' most ruthless hunter.",
-      "bio": "Vice is the most ruthless hunter of the Red Lantern Corps — a pincer-jawed predator with no mercy and no off switch. His mate was devoured by Arkillo of the Sinestro Corps, and his rage has never cooled since. The thing Red Lanterns point at other Red Lanterns.",
-      "firstAppearance": "Final Crisis: Rage of the Red Lanterns #1 (2008)"
-    },
-    {
-      "id": "laira",
-      "name": "Laira",
-      "corps": "Red Lantern Corps",
-      "corpsClass": "corps-red",
-      "corpsPage": "corps/red.html",
-      "portrait": "assets/characters/laira.jpg",
-      "tagline": "Honor Guard discipline, Red Lantern rage.",
-      "bio": "Laira Omoto was an honored Green Lantern of Sector 112, a member of the elite Honor Guard — the Corps' most disciplined soldier. But in a moment of rage she crossed a line no Lantern should cross, and a red ring found her in the aftermath. Honor Guard training, Red Lantern fury: one of the most dangerous warriors in either Corps.",
-      "firstAppearance": "Green Lantern Corps Quarterly #6 (1993)"
-    },
-    {
-      "id": "larfleeze",
-      "name": "Larfleeze",
-      "corps": "Orange Lantern Corps",
-      "corpsClass": "corps-orange",
-      "corpsPage": "corps/orange.html",
-      "portrait": "assets/characters/larfleeze.jpg",
-      "tagline": "The greediest being alive.",
-      "bio": "Larfleeze is a miserable wretch who found the orange light of avarice and claimed it — all of it, forever. He is the entire Orange Lantern Corps: one being, one ring, infinite greed. The identities of everyone he has consumed live on as his constructs, an army of the stolen. He wants it ALL, and he is not sharing.",
-      "firstAppearance": "Green Lantern #39 (2009)"
-    },
-    {
-      "id": "glomulus",
-      "name": "Glomulus",
-      "corps": "Orange Lantern Corps",
-      "corpsClass": "corps-orange",
-      "corpsPage": "corps/orange.html",
-      "portrait": "assets/characters/glomulus.jpg",
-      "tagline": "Larfleeze's loyal construct.",
-      "bio": "Glomulus was a tavern pest on Okaara with a taste for blood — he ate the whole bar. Larfleeze consumed him for it, and now the little glutton serves as one of the Orange Lantern's most loyal constructs. Proof that in the Orange Corps, even being eaten is just a career change.",
-      "firstAppearance": "Green Lantern #39 (2009)"
-    },
-    {
-      "id": "saint-walker",
-      "name": "Saint Walker",
-      "corps": "Blue Lantern Corps",
-      "corpsClass": "corps-blue",
-      "corpsPage": "corps/blue.html",
-      "portrait": "assets/characters/saint-walker.jpg",
-      "tagline": "Hope's gentlest warrior.",
-      "bio": "Saint Walker was a gentle soul on the dying world of Astonia when the blue light of hope chose him as the first Blue Lantern. Where others preach hope, he simply is it — quiet, kind, and unbreakable. His first great act was reigniting his own dying sun. Hope's gentlest warrior, and its most convincing.",
-      "firstAppearance": "Final Crisis: Rage of the Red Lanterns #1 (2008)"
-    },
-    {
-      "id": "brother-warth",
-      "name": "Brother Warth",
-      "corps": "Blue Lantern Corps",
-      "corpsClass": "corps-blue",
-      "corpsPage": "corps/blue.html",
-      "portrait": "assets/characters/brother-warth.jpg",
-      "tagline": "Hope's gentle giant.",
-      "bio": "Brother Warth is a calm, elephantine alien chosen by Saint Walker as one of the very first Blue Lanterns. Gentle in manner and unshakable in hope, he stood beside Saint Walker for the Blue Corps' first great feat: reigniting a dying sun. Hope's gentle giant.",
-      "firstAppearance": "Green Lantern #36 (2008)"
-    },
-    {
-      "id": "sister-sercy",
-      "name": "Sister Sercy",
-      "corps": "Blue Lantern Corps",
-      "corpsClass": "corps-blue",
-      "corpsPage": "corps/blue.html",
-      "portrait": "assets/characters/sister-sercy.jpg",
-      "tagline": "Hope for her homeworld.",
-      "bio": "Sister Sercy was the fourth to join the Blue Lantern Corps, chosen to carry hope back to her sector. She sought the blue light to free her homeworld from the tyrant Evil Star — a mission of hope against impossible odds. Hope for her homeworld — and everyone else's.",
-      "firstAppearance": "Green Lantern #42 (2009)"
-    },
-    {
-      "id": "indigo-1",
-      "name": "Indigo-1",
-      "corps": "Indigo Tribe",
-      "corpsClass": "corps-indigo",
-      "corpsPage": "corps/indigo.html",
-      "portrait": "assets/characters/indigo-1.jpg",
-      "tagline": "Wielder of the indigo light.",
-      "bio": "Indigo-1 is the enigmatic bearer of the indigo staff, leading a tribe that wields compassion itself as a weapon. Her past is a mystery the light keeps — and the Tribe keeps its secrets. What is known: where she walks, the merciless learn mercy, channeled through her staff.",
-      "firstAppearance": "Green Lantern #25 (2007)"
-    },
-    {
-      "id": "munk",
-      "name": "Munk",
-      "corps": "Indigo Tribe",
-      "corpsClass": "corps-indigo",
-      "corpsPage": "corps/indigo.html",
-      "portrait": "assets/characters/munk.jpg",
-      "tagline": "The Tribe's second-in-command.",
-      "bio": "Munk is the second-in-command of the Indigo Tribe and Indigo-1's most trusted. A towering, silent presence who channels the indigo light of compassion through his staff. Where Indigo-1 leads, Munk enforces — with mercy, whether the target wants it or not.",
-      "firstAppearance": "Green Lantern #25 (2007)"
-    },
-    {
-      "id": "carol-ferris",
-      "name": "Carol Ferris",
-      "corps": "Star Sapphires",
-      "corpsClass": "corps-violet",
-      "corpsPage": "corps/violet.html",
-      "portrait": "assets/characters/carol-ferris.jpg",
-      "tagline": "Queen of the Star Sapphires.",
-      "bio": "Carol Ferris is the heiress of Ferris Aircraft and Hal Jordan's great love — chosen by the violet light of love as the queen of the Star Sapphires. Torn between her heart and her duty, between Hal and her Corps, she has fought for love on every side of every war. A queen caught in the middle of everything.",
-      "firstAppearance": "Showcase #22 (1959)"
-    },
-    {
-      "id": "fatality",
-      "name": "Fatality",
-      "corps": "Star Sapphires",
-      "corpsClass": "corps-violet",
-      "corpsPage": "corps/violet.html",
-      "portrait": "assets/characters/fatality.jpg",
-      "tagline": "The hunter claimed by love.",
-      "bio": "Yrra Cynril was the princess of Xanshi — the same world whose death haunts John Stewart. She hunted Lanterns across the stars as Fatality, blaming the Corps for her world's fate, until the violet light of love claimed the hunter herself. Love, at last, gave her something to protect instead of something to avenge.",
-      "firstAppearance": "Green Lantern #83 (1997)"
-    },
-    {
-      "id": "queen-agapo",
-      "name": "Queen Aga'po",
-      "corps": "Star Sapphires",
-      "corpsClass": "corps-violet",
-      "corpsPage": "corps/violet.html",
-      "portrait": "assets/characters/queen-agapo.jpg",
-      "tagline": "Queen of the Zamarons.",
-      "bio": "Queen Aga'po rules the Zamarons and the Star Sapphire Corps she built — forging the violet light of love into rings and a Central Power Battery. She is determined to spread love across the universe. By force, if needed: the Zamarons' love has always come with sharp edges.",
-      "firstAppearance": "Green Lantern Corps #30 (2009)"
-    },
-    {
-      "id": "black-hand",
-      "name": "Black Hand",
-      "corps": "Black Lantern Corps",
-      "corpsClass": "corps-black",
-      "corpsPage": "corps/black.html",
-      "portrait": "assets/characters/black-hand.jpg",
-      "tagline": "Death's favorite hand.",
-      "bio": "William Hand has been obsessed with death since childhood — a lifelong Green Lantern foe who found his calling as the herald of the Black Lantern Corps. Where he points, the dead rise, and he preaches death's gospel with a convert's zeal. Death's favorite hand, and its loudest prophet.",
-      "firstAppearance": "Green Lantern #29 (1964)"
-    },
-    {
-      "id": "nekron",
-      "name": "Nekron",
-      "corps": "Black Lantern Corps",
-      "corpsClass": "corps-black",
-      "corpsPage": "corps/black.html",
-      "portrait": "assets/characters/nekron.jpg",
-      "tagline": "Lord of the Unliving.",
-      "bio": "Nekron is death given will and voice — the Lord of the Unliving, and the power behind the Blackest Night itself. He is the darkness every light in the universe was made to hold back, and his black rings raise the dead to snuff out all emotion. When the dead rise, he is why.",
-      "firstAppearance": "Tales of the Green Lantern Corps #2 (1981)"
-    },
-    {
-      "id": "scar",
-      "name": "Scar",
-      "corps": "Black Lantern Corps",
-      "corpsClass": "corps-black",
-      "corpsPage": "corps/black.html",
-      "portrait": "assets/characters/scar.jpg",
-      "tagline": "The scarred Guardian.",
-      "bio": "Scar was a Guardian of the Universe — until the Anti-Monitor's touch scarred her during the Sinestro Corps War. The wound never healed, and something dark took root in the scar. Now she stands among the Black Lanterns: a Guardian, unmade, and the crack through which the darkness entered.",
-      "firstAppearance": "Green Lantern #25 (2007)"
-    },
-    {
-      "id": "lyssa-drak",
-      "name": "Lyssa Drak",
-      "corps": "Sinestro Corps",
-      "corpsClass": "corps-yellow",
-      "corpsPage": "corps/yellow.html",
-      "portrait": "assets/characters/lyssa-drak.jpg",
-      "tagline": "The Corps' historian of fear.",
-      "firstAppearance": "Green Lantern #18 (2007)",
-      "bio": "A Talokite woman who serves as the Keeper of the Book of Parallax, the Sinestro Corps' dark counterpart to the Guardians' Book of Oa, which she carries chained to her wrist. Cold, scholarly, and utterly devoted to Sinestro's vision, she fancies herself the historian of fear itself — she famously boasts that she knows fear \"like no other.\" Captured by the Green Lantern Corps during the Sinestro Corps War and imprisoned in a Sciencell on Oa, she later escaped to continue chronicling the Corps' conquests. Her knowledge of the Corps' prophecies makes her one of its most dangerous non-combatants. She remains Sinestro's most loyal scribe, recording every atrocity as though it were scripture."
-    },
-    {
-      "id": "karu-sil",
-      "name": "Karu-Sil",
-      "corps": "Sinestro Corps",
-      "corpsClass": "corps-yellow",
-      "corpsPage": "corps/yellow.html",
-      "portrait": "assets/characters/karu-sil.jpg",
-      "tagline": "Raised by beasts; feared by all.",
-      "firstAppearance": "Green Lantern #19 (2007)",
-      "bio": "A native of Graxos III — the same world as the Green Lantern Arisia Rrab — Karu-Sil was the sole survivor of a raid that wiped out her village as a child, and was raised by a pack of wild beasts. To bond with her new family she carved her own mouth into a permanent rictus grin mirroring theirs, and she never left the wild behind. A yellow power ring chose her for her capacity to instill great fear, and she fights alongside hard-light constructs of her beloved animal pack. Feral, fiercely loyal, and utterly without mercy, she is one of the Sinestro Corps' most savage enforcers. Her tragedy is that the pack she loves exists now only as ring-light."
-    },
-    {
-      "id": "despotellis",
-      "name": "Despotellis",
-      "corps": "Sinestro Corps",
-      "corpsClass": "corps-yellow",
-      "corpsPage": "corps/yellow.html",
-      "portrait": "assets/characters/despotellis.jpg",
-      "tagline": "Fear at the microscopic level.",
-      "firstAppearance": "Green Lantern #18 (2007)",
-      "bio": "Despotellis is a sentient bio-virus and one of the most insidious living weapons ever recruited into the Sinestro Corps. Microscopic and virtually undetectable, he kills from inside his victims' bodies, spreading plague and terror that no shield can keep out. Sinestro deployed him as a weapon of mass destruction during the Sinestro Corps War, and Despotellis has wiped out entire planetary populations on his own. He embodies fear at its most intimate — the terror of an enemy already inside you. Even among the fear-wielding Corps, he is regarded with horror."
-    },
-    {
-      "id": "tomar-re",
-      "name": "Tomar-Re",
-      "corps": "Green Lantern Corps",
-      "corpsClass": "corps-green",
-      "corpsPage": "corps/green.html",
-      "portrait": "assets/characters/tomar-re.jpg",
-      "tagline": "The Corps' wisest veteran.",
-      "firstAppearance": "Green Lantern #6 (1961)",
-      "bio": "A Xudarian — a proud, bird-like alien — Tomar-Re was one of the Green Lantern Corps' most respected veterans, serving as the Lantern of Sector 2813 for decades. A scientist and diplomat by temperament, he was a close friend of Abin Sur and later a mentor figure to Earth's Lanterns, including Hal Jordan. His defining sorrow is that he once flew to save the planet Krypton but arrived too late — a failure that haunted him for the rest of his life. Wise, compassionate, and scholarly, he represented the Corps' ideals at their best. His son Tomar-Tu would later follow him into the Corps, carrying on the family legacy."
-    },
-    {
-      "id": "salaak",
-      "name": "Salaak",
-      "corps": "Green Lantern Corps",
-      "corpsClass": "corps-green",
-      "corpsPage": "corps/green.html",
-      "portrait": "assets/characters/salaak.jpg",
-      "tagline": "Keeper of the Book of Oa.",
-      "firstAppearance": "Green Lantern #149 (1982)",
-      "bio": "A four-armed, pink-skinned alien, Salaak is one of the Corps' longest-serving members and its resident pessimist — the Lantern most likely to point out everything that could go wrong. Beneath the gloom beats a deeply loyal heart: he rose to become the Corps' chief administrator on Oa, keeper of the Book of Oa and drillmaster to generations of recruits. By-the-book and protocol-obsessed, he clashed often with mavericks like Guy Gardner, yet his discipline held the Corps together through its darkest hours. His dour exterior hides a profound devotion to the Green Lantern ideal. When the Corps needs order, it turns to Salaak."
-    },
-    {
-      "id": "arisia-rrab",
-      "name": "Arisia Rrab",
-      "corps": "Green Lantern Corps",
-      "corpsClass": "corps-green",
-      "corpsPage": "corps/green.html",
-      "portrait": "assets/characters/arisia-rrab.jpg",
-      "tagline": "Willpower beyond her years.",
-      "firstAppearance": "Tales of the Green Lantern Corps #1 (1981)",
-      "bio": "A Graxosian recruited into the Corps at just thirteen years old, Arisia used her power ring to age herself into adulthood so she could serve — a choice that defined her fierce determination to be taken seriously. Gold-skinned and white-haired, she became one of the Corps' most earnest young Lanterns and famously shared a romance with Hal Jordan. She endured the Crisis on Infinite Earths, which unmade and remade her world and her life, yet she always returned to the uniform. Brave, idealistic, and eager to prove herself, Arisia embodies the Corps' promise that willpower matters more than age. She remains one of its most beloved veterans."
-    },
-    {
-      "id": "soranik-natu",
-      "name": "Soranik Natu",
-      "corps": "Green Lantern Corps",
-      "corpsClass": "corps-green",
-      "corpsPage": "corps/green.html",
-      "portrait": "assets/characters/soranik-natu.jpg",
-      "tagline": "The healer who fights.",
-      "firstAppearance": "Green Lantern Corps: Recharge #1 (2005)",
-      "bio": "A brilliant neurosurgeon from Korugar — Sinestro's homeworld, where Green Lanterns were despised — Soranik initially refused her power ring, accepting it only to save a dying patient on the operating table. She quickly proved one of the finest Lanterns of her generation: disciplined, compassionate, and utterly fearless in the field. Her life was upended by the revelation that she is Sinestro's own daughter, a legacy she has spent years both rejecting and reckoning with. She shared a deep bond with Kyle Rayner, who saw past her father's shadow to the hero she chose to become. A healer first and a warrior second, Soranik fights to redeem both her world and her bloodline."
-    },
-    {
-      "id": "ganthet",
-      "name": "Ganthet",
-      "corps": "Blue Lantern Corps",
-      "corpsClass": "corps-blue",
-      "corpsPage": "corps/blue.html",
-      "portrait": "assets/characters/ganthet.jpg",
-      "tagline": "The Guardian with a heart.",
-      "firstAppearance": "Green Lantern: Ganthet's Tale (1992)",
-      "bio": "Ganthet is a Guardian of the Universe — but unlike his cold, detached brethren, he never lost his capacity to feel. He befriended Kyle Rayner when the Corps was at its lowest, defied the other Guardians to protect Earth's Lanterns, and always believed emotion was a strength rather than a flaw. After the Sinestro Corps War, he and Sayd were banished from Oa for embracing feeling — so together they founded the Blue Lantern Corps on the planet Odym, wielding the blue light of hope. As the Blue Lanterns' leader, he became living proof that hope can move even the oldest and most rigid of beings. Warm, wise, and quietly rebellious, Ganthet is the Guardian with a heart."
-    },
-    {
-      "id": "sayd",
-      "name": "Sayd",
-      "corps": "Blue Lantern Corps",
-      "corpsClass": "corps-blue",
-      "corpsPage": "corps/blue.html",
-      "portrait": "assets/characters/sayd.jpg",
-      "tagline": "Hope's quiet anchor.",
-      "firstAppearance": "Green Lantern: Sinestro Corps Special #1 (2007)",
-      "bio": "Sayd is a Guardian of the Universe and Ganthet's closest confidante — together they were the only Guardians who showed compassion when the Sinestro Corps War demanded it. Where the other Guardians saw emotion as weakness, Sayd saw it as truth, and she stood by Ganthet when that belief got them both exiled from Oa. On the planet Odym she co-founded the Blue Lantern Corps, becoming one of the first wielders of the blue light of hope. Gentle, empathetic, and quietly resolute, she is the Corps' spiritual anchor. Her hope is not naive optimism but a deliberate, defiant choice — and it has never wavered."
-    },
-    {
-      "id": "brother-hynn",
-      "name": "Brother Hynn",
-      "corps": "Blue Lantern Corps",
-      "corpsClass": "corps-blue",
-      "corpsPage": "corps/blue.html",
-      "portrait": "assets/characters/brother-hynn.jpg",
-      "tagline": "Hope's humble soldier.",
-      "firstAppearance": "Green Lantern #38 (2009)",
-      "bio": "Brother Hynn is an amphibious, fish-like alien and one of the earliest recruits of the Blue Lantern Corps, drawn to Odym by the promise of hope. A devout and humble soul, he serves the Corps faithfully from their homeworld, standing alongside Saint Walker, Brother Warth, and Sister Sercy as hope's quiet foot soldiers. Though a minor figure in the Corps' history, his steadfast faith embodies what the blue light is all about — ordinary beings choosing hope in a dark universe. He remains a loyal Blue Lantern to this day."
-    },
-    {
-      "id": "miri-riam",
-      "name": "Miri Riam",
-      "corps": "Star Sapphires",
-      "corpsClass": "corps-violet",
-      "corpsPage": "corps/violet.html",
-      "portrait": "assets/characters/miri-riam.jpg",
-      "tagline": "Love forged from loss.",
-      "firstAppearance": "Green Lantern Corps #29 (2008)",
-      "bio": "Miri Riam of the planet Lartnec was a young newlywed whose honeymoon was shattered when the ravenous Mongul destroyed her ship and killed her husband Kered. Adrift in space and drowning in grief, she was on the verge of taking her own life when a violet Star Sapphire ring found her — drawn to the enormity of the love in her heart — making her the first new recruit of the reformed Star Sapphire Corps. Trained on Zamaron under Queen Aga'po, she learned to turn her great love into great strength. She later proved herself pursuing the child-stealing Sinestro Corps member Kryb across the stars. Fierce, loving, and unbreakable, Miri shows that love, wielded with conviction, is one of the universe's mightiest forces."
+     "id": "read-wotgl",
+     "title": "War of the Green Lanterns"
     }
-  ]
+   ]
+  },
+  {
+   "id": "john-stewart",
+   "name": "John Stewart",
+   "corps": "Green Lantern Corps",
+   "corpsClass": "corps-green",
+   "corpsPage": "corps/green.html",
+   "portrait": "assets/characters/john-stewart.jpg",
+   "tagline": "The Corps' strategist.",
+   "bio": "John Stewart is an architect and former U.S. Marine, chosen for a mind like a precision instrument. Where Hal Jordan improvises, John plans three moves ahead — the Corps' strategist and its moral center. His constructs are famous for their detail: John doesn't just imagine a wall, he imagines every brick. He carries the weight of Xanshi, a world he once failed to save, and it made him the most careful Lantern alive.",
+   "firstAppearance": "Green Lantern #87 (1971)",
+   "appearsIn": [
+    {
+     "id": "read-gl-v4",
+     "title": "Green Lantern vol. 4 #1–25"
+    },
+    {
+     "id": "read-scw",
+     "title": "Sinestro Corps War"
+    },
+    {
+     "id": "read-wotgl",
+     "title": "War of the Green Lanterns"
+    }
+   ]
+  },
+  {
+   "id": "guy-gardner",
+   "name": "Guy Gardner",
+   "corps": "Green Lantern Corps",
+   "corpsClass": "corps-green",
+   "corpsPage": "corps/green.html",
+   "portrait": "assets/characters/guy-gardner.jpg",
+   "tagline": "The brawler.",
+   "bio": "Guy Gardner is the Corps' brawler — loud, proud, and utterly fearless, with a chip on his shoulder the size of Oa. Beneath the bluster is one of the most loyal Lanterns alive; Guy has bled for the Corps more times than he'll admit. He's worn many rings in his time — green, red, even the mantle of a Warrior — and led the Green Lantern Corps Honor Guard. All attitude on the surface, all heart underneath.",
+   "firstAppearance": "Green Lantern #59 (1968)",
+   "appearsIn": [
+    {
+     "id": "read-gl-v4",
+     "title": "Green Lantern vol. 4 #1–25"
+    },
+    {
+     "id": "read-scw",
+     "title": "Sinestro Corps War"
+    },
+    {
+     "id": "read-blackest-night",
+     "title": "Blackest Night"
+    },
+    {
+     "id": "read-wotgl",
+     "title": "War of the Green Lanterns"
+    }
+   ]
+  },
+  {
+   "id": "kyle-rayner",
+   "name": "Kyle Rayner",
+   "corps": "Green Lantern Corps",
+   "corpsClass": "corps-green",
+   "corpsPage": "corps/green.html",
+   "portrait": "assets/characters/kyle-rayner.jpg",
+   "tagline": "The artist.",
+   "bio": "Kyle Rayner was a freelance artist handed a power ring on the worst day of the Corps' history — with almost no training and no backup. He carried the torch alone as the last Green Lantern, then helped rebuild everything from the ashes. Along the way he hosted Ion, the living embodiment of willpower, and became the one Lantern to master the entire emotional spectrum as a White Lantern. The artist of the Corps: where others make constructs, Kyle makes art.",
+   "firstAppearance": "Green Lantern #48 (1994)",
+   "appearsIn": [
+    {
+     "id": "read-rebirth",
+     "title": "Green Lantern: Rebirth"
+    },
+    {
+     "id": "read-gl-v4",
+     "title": "Green Lantern vol. 4 #1–25"
+    },
+    {
+     "id": "read-scw",
+     "title": "Sinestro Corps War"
+    },
+    {
+     "id": "read-blackest-night",
+     "title": "Blackest Night"
+    },
+    {
+     "id": "read-wotgl",
+     "title": "War of the Green Lanterns"
+    }
+   ]
+  },
+  {
+   "id": "kilowog",
+   "name": "Kilowog",
+   "corps": "Green Lantern Corps",
+   "corpsClass": "corps-green",
+   "corpsPage": "corps/green.html",
+   "portrait": "assets/characters/kilowog.jpg",
+   "tagline": "Drill sergeant of the Corps.",
+   "bio": "Kilowog is a towering Bolovaxian who has served as the Green Lantern Corps' drill sergeant for generations. Every rookie's first day runs through him — and nobody forgets it. He lost his entire homeworld when Bolovax V was destroyed, and carries his people in his heart into every battle. Gruff, profane, and fiercely loyal: the backbone of the Corps.",
+   "firstAppearance": "Green Lantern Corps #201 (1986)",
+   "appearsIn": [
+    {
+     "id": "read-gl-v4",
+     "title": "Green Lantern vol. 4 #1–25"
+    },
+    {
+     "id": "read-scw",
+     "title": "Sinestro Corps War"
+    }
+   ]
+  },
+  {
+   "id": "sinestro",
+   "name": "Sinestro",
+   "corps": "Sinestro Corps",
+   "corpsClass": "corps-yellow",
+   "corpsPage": "corps/yellow.html",
+   "portrait": "assets/characters/sinestro.jpg",
+   "tagline": "The Corps' greatest enemy.",
+   "bio": "Thaal Sinestro was once the Green Lantern Corps' most celebrated member — the greatest Lantern of his era, and Hal Jordan's mentor. Exiled for ruling his sector through fear, he decided fear was the point: he forged the yellow light into the Sinestro Corps, an army built on terror, and nearly broke the universe in the war that followed. Brilliant, ruthless, and utterly convinced he is the hero of his own story — and sometimes, terrifyingly, he has a point.",
+   "firstAppearance": "Green Lantern #7 (1961)",
+   "appearsIn": [
+    {
+     "id": "read-rebirth",
+     "title": "Green Lantern: Rebirth"
+    },
+    {
+     "id": "read-scw",
+     "title": "Sinestro Corps War"
+    },
+    {
+     "id": "read-secret-origin",
+     "title": "Secret Origin"
+    },
+    {
+     "id": "read-blackest-night",
+     "title": "Blackest Night"
+    }
+   ]
+  },
+  {
+   "id": "arkillo",
+   "name": "Arkillo",
+   "corps": "Sinestro Corps",
+   "corpsClass": "corps-yellow",
+   "corpsPage": "corps/yellow.html",
+   "portrait": "assets/characters/arkillo.jpg",
+   "tagline": "The Sinestro Corps' drill sergeant.",
+   "bio": "Arkillo is a savage warrior of the planet Vorn, recruited for his singular gift: inspiring terror. He serves the Sinestro Corps as its brutal drill sergeant — the yellow answer to Kilowog. All muscle, all menace, all fear: the Corps' enforcer and Sinestro's most loyal hound.",
+   "firstAppearance": "Green Lantern #10 (2006)",
+   "appearsIn": [
+    {
+     "id": "read-scw",
+     "title": "Sinestro Corps War"
+    }
+   ]
+  },
+  {
+   "id": "atrocitus",
+   "name": "Atrocitus",
+   "corps": "Red Lantern Corps",
+   "corpsClass": "corps-red",
+   "corpsPage": "corps/red.html",
+   "portrait": "assets/characters/atrocitus.jpg",
+   "tagline": "Rage given purpose.",
+   "bio": "Atrocitus is the sole survivor of the Massacre of Sector 666, who nursed his rage across the ages until the red light answered. He forged the Red Lantern Corps from his own fury — and from a prophecy of the darkness to come, the Blackest Night. Rage with a purpose, and a plan: Atrocitus doesn't just burn, he burns toward something.",
+   "firstAppearance": "Green Lantern #25 (2007)",
+   "appearsIn": [
+    {
+     "id": "read-rage",
+     "title": "Rage of the Red Lanterns"
+    },
+    {
+     "id": "read-blackest-night",
+     "title": "Blackest Night"
+    }
+   ]
+  },
+  {
+   "id": "bleez",
+   "name": "Bleez",
+   "corps": "Red Lantern Corps",
+   "corpsClass": "corps-red",
+   "corpsPage": "corps/red.html",
+   "portrait": "assets/characters/bleez.jpg",
+   "tagline": "Winged fury of the Red Lanterns.",
+   "bio": "Bleez was a princess of Havania, whose beauty was matched only by the fury the Sinestro Corps' invasion lit in her. The red ring found her drowning in rage — and made her one of the Red Lanterns' most formidable warriors. Of all the Corps' berserkers, she kept the most of her mind: fury with a focus. Her rage is as beautiful as it is terrible.",
+   "firstAppearance": "Final Crisis: Rage of the Red Lanterns #1 (2008)",
+   "appearsIn": [
+    {
+     "id": "read-rage",
+     "title": "Rage of the Red Lanterns"
+    },
+    {
+     "id": "read-blackest-night",
+     "title": "Blackest Night"
+    }
+   ]
+  },
+  {
+   "id": "dex-starr",
+   "name": "Dex-Starr",
+   "corps": "Red Lantern Corps",
+   "corpsClass": "corps-red",
+   "corpsPage": "corps/red.html",
+   "portrait": "assets/characters/dex-starr.jpg",
+   "tagline": "Rage kitty. Do not pet.",
+   "bio": "Dex-Starr was an ordinary housecat, abandoned and abused, until rage at a cruel world earned him a red ring. Do not let the cuteness fool you: he is small, adorable, and utterly lethal — the Red Lanterns' mascot and one of their deadliest weapons. The most dangerous kitty in the universe.",
+   "firstAppearance": "Final Crisis: Rage of the Red Lanterns #1 (2008)",
+   "appearsIn": [
+    {
+     "id": "read-rage",
+     "title": "Rage of the Red Lanterns"
+    },
+    {
+     "id": "read-blackest-night",
+     "title": "Blackest Night"
+    }
+   ]
+  },
+  {
+   "id": "zilius-zox",
+   "name": "Zilius Zox",
+   "corps": "Red Lantern Corps",
+   "corpsClass": "corps-red",
+   "corpsPage": "corps/red.html",
+   "portrait": "assets/characters/zilius-zox.jpg",
+   "tagline": "All muscle, all rage.",
+   "bio": "Zilius Zox is a hulking brute of the same species as the fallen Green Lantern Galius Zed. Where Atrocitus schemes and Bleez seethes, Zox simply rages — rage in its purest, simplest form. All muscle, all fury: the Red Lanterns' bluntest instrument.",
+   "firstAppearance": "Final Crisis: Rage of the Red Lanterns #1 (2008)",
+   "appearsIn": [
+    {
+     "id": "read-rage",
+     "title": "Rage of the Red Lanterns"
+    }
+   ]
+  },
+  {
+   "id": "rankorr",
+   "name": "Rankorr",
+   "corps": "Red Lantern Corps",
+   "corpsClass": "corps-red",
+   "corpsPage": "corps/red.html",
+   "portrait": "assets/characters/rankorr.jpg",
+   "tagline": "The Corps' most human heart.",
+   "bio": "Jack Moore was an ordinary young man until grief and fury earned him a red ring — and he became Rankorr. Unlike most Red Lanterns, something human survived in him: he fights the rage from the inside, every day. The most human heart in the most inhuman Corps.",
+   "firstAppearance": "Red Lanterns #1 (2011)"
+  },
+  {
+   "id": "skallox",
+   "name": "Skallox",
+   "corps": "Red Lantern Corps",
+   "corpsClass": "corps-red",
+   "corpsPage": "corps/red.html",
+   "portrait": "assets/characters/skallox.jpg",
+   "tagline": "Betrayed, burned, reborn in rage.",
+   "bio": "Skallox was once an interrogator for a crime syndicate — until his own boss betrayed him and threw him into a furnace. He crawled out with his rage intact, and the red ring found him. Now he serves as the Red Lantern Corps' enforcer, the one Atrocitus sends when the message needs to be unmistakable.",
+   "firstAppearance": "Final Crisis: Rage of the Red Lanterns #1 (2008)",
+   "appearsIn": [
+    {
+     "id": "read-rage",
+     "title": "Rage of the Red Lanterns"
+    }
+   ]
+  },
+  {
+   "id": "vice",
+   "name": "Vice",
+   "corps": "Red Lantern Corps",
+   "corpsClass": "corps-red",
+   "corpsPage": "corps/red.html",
+   "portrait": "assets/characters/vice.jpg",
+   "tagline": "The Corps' most ruthless hunter.",
+   "bio": "Vice is the most ruthless hunter of the Red Lantern Corps — a pincer-jawed predator with no mercy and no off switch. His mate was devoured by Arkillo of the Sinestro Corps, and his rage has never cooled since. The thing Red Lanterns point at other Red Lanterns.",
+   "firstAppearance": "Final Crisis: Rage of the Red Lanterns #1 (2008)",
+   "appearsIn": [
+    {
+     "id": "read-rage",
+     "title": "Rage of the Red Lanterns"
+    }
+   ]
+  },
+  {
+   "id": "laira",
+   "name": "Laira",
+   "corps": "Red Lantern Corps",
+   "corpsClass": "corps-red",
+   "corpsPage": "corps/red.html",
+   "portrait": "assets/characters/laira.jpg",
+   "tagline": "Honor Guard discipline, Red Lantern rage.",
+   "bio": "Laira Omoto was an honored Green Lantern of Sector 112, a member of the elite Honor Guard — the Corps' most disciplined soldier. But in a moment of rage she crossed a line no Lantern should cross, and a red ring found her in the aftermath. Honor Guard training, Red Lantern fury: one of the most dangerous warriors in either Corps.",
+   "firstAppearance": "Green Lantern Corps Quarterly #6 (1993)",
+   "appearsIn": [
+    {
+     "id": "read-rage",
+     "title": "Rage of the Red Lanterns"
+    }
+   ]
+  },
+  {
+   "id": "larfleeze",
+   "name": "Larfleeze",
+   "corps": "Orange Lantern Corps",
+   "corpsClass": "corps-orange",
+   "corpsPage": "corps/orange.html",
+   "portrait": "assets/characters/larfleeze.jpg",
+   "tagline": "The greediest being alive.",
+   "bio": "Larfleeze is a miserable wretch who found the orange light of avarice and claimed it — all of it, forever. He is the entire Orange Lantern Corps: one being, one ring, infinite greed. The identities of everyone he has consumed live on as his constructs, an army of the stolen. He wants it ALL, and he is not sharing.",
+   "firstAppearance": "Green Lantern #39 (2009)",
+   "appearsIn": [
+    {
+     "id": "read-agent-orange",
+     "title": "Agent Orange"
+    },
+    {
+     "id": "read-blackest-night",
+     "title": "Blackest Night"
+    }
+   ]
+  },
+  {
+   "id": "glomulus",
+   "name": "Glomulus",
+   "corps": "Orange Lantern Corps",
+   "corpsClass": "corps-orange",
+   "corpsPage": "corps/orange.html",
+   "portrait": "assets/characters/glomulus.jpg",
+   "tagline": "Larfleeze's loyal construct.",
+   "bio": "Glomulus was a tavern pest on Okaara with a taste for blood — he ate the whole bar. Larfleeze consumed him for it, and now the little glutton serves as one of the Orange Lantern's most loyal constructs. Proof that in the Orange Corps, even being eaten is just a career change.",
+   "firstAppearance": "Green Lantern #39 (2009)",
+   "appearsIn": [
+    {
+     "id": "read-agent-orange",
+     "title": "Agent Orange"
+    }
+   ]
+  },
+  {
+   "id": "saint-walker",
+   "name": "Saint Walker",
+   "corps": "Blue Lantern Corps",
+   "corpsClass": "corps-blue",
+   "corpsPage": "corps/blue.html",
+   "portrait": "assets/characters/saint-walker.jpg",
+   "tagline": "Hope's gentlest warrior.",
+   "bio": "Saint Walker was a gentle soul on the dying world of Astonia when the blue light of hope chose him as the first Blue Lantern. Where others preach hope, he simply is it — quiet, kind, and unbreakable. His first great act was reigniting his own dying sun. Hope's gentlest warrior, and its most convincing.",
+   "firstAppearance": "Final Crisis: Rage of the Red Lanterns #1 (2008)",
+   "appearsIn": [
+    {
+     "id": "read-rage",
+     "title": "Rage of the Red Lanterns"
+    },
+    {
+     "id": "read-blackest-night",
+     "title": "Blackest Night"
+    }
+   ]
+  },
+  {
+   "id": "brother-warth",
+   "name": "Brother Warth",
+   "corps": "Blue Lantern Corps",
+   "corpsClass": "corps-blue",
+   "corpsPage": "corps/blue.html",
+   "portrait": "assets/characters/brother-warth.jpg",
+   "tagline": "Hope's gentle giant.",
+   "bio": "Brother Warth is a calm, elephantine alien chosen by Saint Walker as one of the very first Blue Lanterns. Gentle in manner and unshakable in hope, he stood beside Saint Walker for the Blue Corps' first great feat: reigniting a dying sun. Hope's gentle giant.",
+   "firstAppearance": "Green Lantern #36 (2008)",
+   "appearsIn": [
+    {
+     "id": "read-rage",
+     "title": "Rage of the Red Lanterns"
+    }
+   ]
+  },
+  {
+   "id": "sister-sercy",
+   "name": "Sister Sercy",
+   "corps": "Blue Lantern Corps",
+   "corpsClass": "corps-blue",
+   "corpsPage": "corps/blue.html",
+   "portrait": "assets/characters/sister-sercy.jpg",
+   "tagline": "Hope for her homeworld.",
+   "bio": "Sister Sercy was the fourth to join the Blue Lantern Corps, chosen to carry hope back to her sector. She sought the blue light to free her homeworld from the tyrant Evil Star — a mission of hope against impossible odds. Hope for her homeworld — and everyone else's.",
+   "firstAppearance": "Green Lantern #42 (2009)",
+   "appearsIn": [
+    {
+     "id": "read-agent-orange",
+     "title": "Agent Orange"
+    }
+   ]
+  },
+  {
+   "id": "indigo-1",
+   "name": "Indigo-1",
+   "corps": "Indigo Tribe",
+   "corpsClass": "corps-indigo",
+   "corpsPage": "corps/indigo.html",
+   "portrait": "assets/characters/indigo-1.jpg",
+   "tagline": "Wielder of the indigo light.",
+   "bio": "Indigo-1 is the enigmatic bearer of the indigo staff, leading a tribe that wields compassion itself as a weapon. Her past is a mystery the light keeps — and the Tribe keeps its secrets. What is known: where she walks, the merciless learn mercy, channeled through her staff.",
+   "firstAppearance": "Green Lantern #25 (2007)",
+   "appearsIn": [
+    {
+     "id": "read-blackest-night",
+     "title": "Blackest Night"
+    }
+   ]
+  },
+  {
+   "id": "munk",
+   "name": "Munk",
+   "corps": "Indigo Tribe",
+   "corpsClass": "corps-indigo",
+   "corpsPage": "corps/indigo.html",
+   "portrait": "assets/characters/munk.jpg",
+   "tagline": "The Tribe's second-in-command.",
+   "bio": "Munk is the second-in-command of the Indigo Tribe and Indigo-1's most trusted. A towering, silent presence who channels the indigo light of compassion through his staff. Where Indigo-1 leads, Munk enforces — with mercy, whether the target wants it or not.",
+   "firstAppearance": "Green Lantern #25 (2007)",
+   "appearsIn": [
+    {
+     "id": "read-blackest-night",
+     "title": "Blackest Night"
+    }
+   ]
+  },
+  {
+   "id": "carol-ferris",
+   "name": "Carol Ferris",
+   "corps": "Star Sapphires",
+   "corpsClass": "corps-violet",
+   "corpsPage": "corps/violet.html",
+   "portrait": "assets/characters/carol-ferris.jpg",
+   "tagline": "Queen of the Star Sapphires.",
+   "bio": "Carol Ferris is the heiress of Ferris Aircraft and Hal Jordan's great love — chosen by the violet light of love as the queen of the Star Sapphires. Torn between her heart and her duty, between Hal and her Corps, she has fought for love on every side of every war. A queen caught in the middle of everything.",
+   "firstAppearance": "Showcase #22 (1959)",
+   "appearsIn": [
+    {
+     "id": "read-rage",
+     "title": "Rage of the Red Lanterns"
+    },
+    {
+     "id": "read-blackest-night",
+     "title": "Blackest Night"
+    }
+   ]
+  },
+  {
+   "id": "fatality",
+   "name": "Fatality",
+   "corps": "Star Sapphires",
+   "corpsClass": "corps-violet",
+   "corpsPage": "corps/violet.html",
+   "portrait": "assets/characters/fatality.jpg",
+   "tagline": "The hunter claimed by love.",
+   "bio": "Yrra Cynril was the princess of Xanshi — the same world whose death haunts John Stewart. She hunted Lanterns across the stars as Fatality, blaming the Corps for her world's fate, until the violet light of love claimed the hunter herself. Love, at last, gave her something to protect instead of something to avenge.",
+   "firstAppearance": "Green Lantern #83 (1997)"
+  },
+  {
+   "id": "queen-agapo",
+   "name": "Queen Aga'po",
+   "corps": "Star Sapphires",
+   "corpsClass": "corps-violet",
+   "corpsPage": "corps/violet.html",
+   "portrait": "assets/characters/queen-agapo.jpg",
+   "tagline": "Queen of the Zamarons.",
+   "bio": "Queen Aga'po rules the Zamarons and the Star Sapphire Corps she built — forging the violet light of love into rings and a Central Power Battery. She is determined to spread love across the universe. By force, if needed: the Zamarons' love has always come with sharp edges.",
+   "firstAppearance": "Green Lantern Corps #30 (2009)",
+   "appearsIn": [
+    {
+     "id": "read-blackest-night",
+     "title": "Blackest Night"
+    }
+   ]
+  },
+  {
+   "id": "black-hand",
+   "name": "Black Hand",
+   "corps": "Black Lantern Corps",
+   "corpsClass": "corps-black",
+   "corpsPage": "corps/black.html",
+   "portrait": "assets/characters/black-hand.jpg",
+   "tagline": "Death's favorite hand.",
+   "bio": "William Hand has been obsessed with death since childhood — a lifelong Green Lantern foe who found his calling as the herald of the Black Lantern Corps. Where he points, the dead rise, and he preaches death's gospel with a convert's zeal. Death's favorite hand, and its loudest prophet.",
+   "firstAppearance": "Green Lantern #29 (1964)",
+   "appearsIn": [
+    {
+     "id": "read-blackest-night",
+     "title": "Blackest Night"
+    }
+   ]
+  },
+  {
+   "id": "nekron",
+   "name": "Nekron",
+   "corps": "Black Lantern Corps",
+   "corpsClass": "corps-black",
+   "corpsPage": "corps/black.html",
+   "portrait": "assets/characters/nekron.jpg",
+   "tagline": "Lord of the Unliving.",
+   "bio": "Nekron is death given will and voice — the Lord of the Unliving, and the power behind the Blackest Night itself. He is the darkness every light in the universe was made to hold back, and his black rings raise the dead to snuff out all emotion. When the dead rise, he is why.",
+   "firstAppearance": "Tales of the Green Lantern Corps #2 (1981)",
+   "appearsIn": [
+    {
+     "id": "read-blackest-night",
+     "title": "Blackest Night"
+    }
+   ]
+  },
+  {
+   "id": "scar",
+   "name": "Scar",
+   "corps": "Black Lantern Corps",
+   "corpsClass": "corps-black",
+   "corpsPage": "corps/black.html",
+   "portrait": "assets/characters/scar.jpg",
+   "tagline": "The scarred Guardian.",
+   "bio": "Scar was a Guardian of the Universe — until the Anti-Monitor's touch scarred her during the Sinestro Corps War. The wound never healed, and something dark took root in the scar. Now she stands among the Black Lanterns: a Guardian, unmade, and the crack through which the darkness entered.",
+   "firstAppearance": "Green Lantern #25 (2007)",
+   "appearsIn": [
+    {
+     "id": "read-scw",
+     "title": "Sinestro Corps War"
+    },
+    {
+     "id": "read-blackest-night",
+     "title": "Blackest Night"
+    }
+   ]
+  },
+  {
+   "id": "lyssa-drak",
+   "name": "Lyssa Drak",
+   "corps": "Sinestro Corps",
+   "corpsClass": "corps-yellow",
+   "corpsPage": "corps/yellow.html",
+   "portrait": "assets/characters/lyssa-drak.jpg",
+   "tagline": "The Corps' historian of fear.",
+   "firstAppearance": "Green Lantern #18 (2007)",
+   "bio": "A Talokite woman who serves as the Keeper of the Book of Parallax, the Sinestro Corps' dark counterpart to the Guardians' Book of Oa, which she carries chained to her wrist. Cold, scholarly, and utterly devoted to Sinestro's vision, she fancies herself the historian of fear itself — she famously boasts that she knows fear \"like no other.\" Captured by the Green Lantern Corps during the Sinestro Corps War and imprisoned in a Sciencell on Oa, she later escaped to continue chronicling the Corps' conquests. Her knowledge of the Corps' prophecies makes her one of its most dangerous non-combatants. She remains Sinestro's most loyal scribe, recording every atrocity as though it were scripture.",
+   "appearsIn": [
+    {
+     "id": "read-scw",
+     "title": "Sinestro Corps War"
+    }
+   ]
+  },
+  {
+   "id": "karu-sil",
+   "name": "Karu-Sil",
+   "corps": "Sinestro Corps",
+   "corpsClass": "corps-yellow",
+   "corpsPage": "corps/yellow.html",
+   "portrait": "assets/characters/karu-sil.jpg",
+   "tagline": "Raised by beasts; feared by all.",
+   "firstAppearance": "Green Lantern #19 (2007)",
+   "bio": "A native of Graxos III — the same world as the Green Lantern Arisia Rrab — Karu-Sil was the sole survivor of a raid that wiped out her village as a child, and was raised by a pack of wild beasts. To bond with her new family she carved her own mouth into a permanent rictus grin mirroring theirs, and she never left the wild behind. A yellow power ring chose her for her capacity to instill great fear, and she fights alongside hard-light constructs of her beloved animal pack. Feral, fiercely loyal, and utterly without mercy, she is one of the Sinestro Corps' most savage enforcers. Her tragedy is that the pack she loves exists now only as ring-light.",
+   "appearsIn": [
+    {
+     "id": "read-scw",
+     "title": "Sinestro Corps War"
+    }
+   ]
+  },
+  {
+   "id": "despotellis",
+   "name": "Despotellis",
+   "corps": "Sinestro Corps",
+   "corpsClass": "corps-yellow",
+   "corpsPage": "corps/yellow.html",
+   "portrait": "assets/characters/despotellis.jpg",
+   "tagline": "Fear at the microscopic level.",
+   "firstAppearance": "Green Lantern #18 (2007)",
+   "bio": "Despotellis is a sentient bio-virus and one of the most insidious living weapons ever recruited into the Sinestro Corps. Microscopic and virtually undetectable, he kills from inside his victims' bodies, spreading plague and terror that no shield can keep out. Sinestro deployed him as a weapon of mass destruction during the Sinestro Corps War, and Despotellis has wiped out entire planetary populations on his own. He embodies fear at its most intimate — the terror of an enemy already inside you. Even among the fear-wielding Corps, he is regarded with horror.",
+   "appearsIn": [
+    {
+     "id": "read-scw",
+     "title": "Sinestro Corps War"
+    }
+   ]
+  },
+  {
+   "id": "tomar-re",
+   "name": "Tomar-Re",
+   "corps": "Green Lantern Corps",
+   "corpsClass": "corps-green",
+   "corpsPage": "corps/green.html",
+   "portrait": "assets/characters/tomar-re.jpg",
+   "tagline": "The Corps' wisest veteran.",
+   "firstAppearance": "Green Lantern #6 (1961)",
+   "bio": "A Xudarian — a proud, bird-like alien — Tomar-Re was one of the Green Lantern Corps' most respected veterans, serving as the Lantern of Sector 2813 for decades. A scientist and diplomat by temperament, he was a close friend of Abin Sur and later a mentor figure to Earth's Lanterns, including Hal Jordan. His defining sorrow is that he once flew to save the planet Krypton but arrived too late — a failure that haunted him for the rest of his life. Wise, compassionate, and scholarly, he represented the Corps' ideals at their best. His son Tomar-Tu would later follow him into the Corps, carrying on the family legacy."
+  },
+  {
+   "id": "salaak",
+   "name": "Salaak",
+   "corps": "Green Lantern Corps",
+   "corpsClass": "corps-green",
+   "corpsPage": "corps/green.html",
+   "portrait": "assets/characters/salaak.jpg",
+   "tagline": "Keeper of the Book of Oa.",
+   "firstAppearance": "Green Lantern #149 (1982)",
+   "bio": "A four-armed, pink-skinned alien, Salaak is one of the Corps' longest-serving members and its resident pessimist — the Lantern most likely to point out everything that could go wrong. Beneath the gloom beats a deeply loyal heart: he rose to become the Corps' chief administrator on Oa, keeper of the Book of Oa and drillmaster to generations of recruits. By-the-book and protocol-obsessed, he clashed often with mavericks like Guy Gardner, yet his discipline held the Corps together through its darkest hours. His dour exterior hides a profound devotion to the Green Lantern ideal. When the Corps needs order, it turns to Salaak.",
+   "appearsIn": [
+    {
+     "id": "read-gl-v4",
+     "title": "Green Lantern vol. 4 #1–25"
+    },
+    {
+     "id": "read-scw",
+     "title": "Sinestro Corps War"
+    }
+   ]
+  },
+  {
+   "id": "arisia-rrab",
+   "name": "Arisia Rrab",
+   "corps": "Green Lantern Corps",
+   "corpsClass": "corps-green",
+   "corpsPage": "corps/green.html",
+   "portrait": "assets/characters/arisia-rrab.jpg",
+   "tagline": "Willpower beyond her years.",
+   "firstAppearance": "Tales of the Green Lantern Corps #1 (1981)",
+   "bio": "A Graxosian recruited into the Corps at just thirteen years old, Arisia used her power ring to age herself into adulthood so she could serve — a choice that defined her fierce determination to be taken seriously. Gold-skinned and white-haired, she became one of the Corps' most earnest young Lanterns and famously shared a romance with Hal Jordan. She endured the Crisis on Infinite Earths, which unmade and remade her world and her life, yet she always returned to the uniform. Brave, idealistic, and eager to prove herself, Arisia embodies the Corps' promise that willpower matters more than age. She remains one of its most beloved veterans."
+  },
+  {
+   "id": "soranik-natu",
+   "name": "Soranik Natu",
+   "corps": "Green Lantern Corps",
+   "corpsClass": "corps-green",
+   "corpsPage": "corps/green.html",
+   "portrait": "assets/characters/soranik-natu.jpg",
+   "tagline": "The healer who fights.",
+   "firstAppearance": "Green Lantern Corps: Recharge #1 (2005)",
+   "bio": "A brilliant neurosurgeon from Korugar — Sinestro's homeworld, where Green Lanterns were despised — Soranik initially refused her power ring, accepting it only to save a dying patient on the operating table. She quickly proved one of the finest Lanterns of her generation: disciplined, compassionate, and utterly fearless in the field. Her life was upended by the revelation that she is Sinestro's own daughter, a legacy she has spent years both rejecting and reckoning with. She shared a deep bond with Kyle Rayner, who saw past her father's shadow to the hero she chose to become. A healer first and a warrior second, Soranik fights to redeem both her world and her bloodline.",
+   "appearsIn": [
+    {
+     "id": "read-gl-v4",
+     "title": "Green Lantern vol. 4 #1–25"
+    },
+    {
+     "id": "read-scw",
+     "title": "Sinestro Corps War"
+    }
+   ]
+  },
+  {
+   "id": "ganthet",
+   "name": "Ganthet",
+   "corps": "Blue Lantern Corps",
+   "corpsClass": "corps-blue",
+   "corpsPage": "corps/blue.html",
+   "portrait": "assets/characters/ganthet.jpg",
+   "tagline": "The Guardian with a heart.",
+   "firstAppearance": "Green Lantern: Ganthet's Tale (1992)",
+   "bio": "Ganthet is a Guardian of the Universe — but unlike his cold, detached brethren, he never lost his capacity to feel. He befriended Kyle Rayner when the Corps was at its lowest, defied the other Guardians to protect Earth's Lanterns, and always believed emotion was a strength rather than a flaw. After the Sinestro Corps War, he and Sayd were banished from Oa for embracing feeling — so together they founded the Blue Lantern Corps on the planet Odym, wielding the blue light of hope. As the Blue Lanterns' leader, he became living proof that hope can move even the oldest and most rigid of beings. Warm, wise, and quietly rebellious, Ganthet is the Guardian with a heart.",
+   "appearsIn": [
+    {
+     "id": "read-rebirth",
+     "title": "Green Lantern: Rebirth"
+    },
+    {
+     "id": "read-scw",
+     "title": "Sinestro Corps War"
+    },
+    {
+     "id": "read-rage",
+     "title": "Rage of the Red Lanterns"
+    },
+    {
+     "id": "read-blackest-night",
+     "title": "Blackest Night"
+    }
+   ]
+  },
+  {
+   "id": "sayd",
+   "name": "Sayd",
+   "corps": "Blue Lantern Corps",
+   "corpsClass": "corps-blue",
+   "corpsPage": "corps/blue.html",
+   "portrait": "assets/characters/sayd.jpg",
+   "tagline": "Hope's quiet anchor.",
+   "firstAppearance": "Green Lantern: Sinestro Corps Special #1 (2007)",
+   "bio": "Sayd is a Guardian of the Universe and Ganthet's closest confidante — together they were the only Guardians who showed compassion when the Sinestro Corps War demanded it. Where the other Guardians saw emotion as weakness, Sayd saw it as truth, and she stood by Ganthet when that belief got them both exiled from Oa. On the planet Odym she co-founded the Blue Lantern Corps, becoming one of the first wielders of the blue light of hope. Gentle, empathetic, and quietly resolute, she is the Corps' spiritual anchor. Her hope is not naive optimism but a deliberate, defiant choice — and it has never wavered.",
+   "appearsIn": [
+    {
+     "id": "read-scw",
+     "title": "Sinestro Corps War"
+    }
+   ]
+  },
+  {
+   "id": "brother-hynn",
+   "name": "Brother Hynn",
+   "corps": "Blue Lantern Corps",
+   "corpsClass": "corps-blue",
+   "corpsPage": "corps/blue.html",
+   "portrait": "assets/characters/brother-hynn.jpg",
+   "tagline": "Hope's humble soldier.",
+   "firstAppearance": "Green Lantern #38 (2009)",
+   "bio": "Brother Hynn is an amphibious, fish-like alien and one of the earliest recruits of the Blue Lantern Corps, drawn to Odym by the promise of hope. A devout and humble soul, he serves the Corps faithfully from their homeworld, standing alongside Saint Walker, Brother Warth, and Sister Sercy as hope's quiet foot soldiers. Though a minor figure in the Corps' history, his steadfast faith embodies what the blue light is all about — ordinary beings choosing hope in a dark universe. He remains a loyal Blue Lantern to this day."
+  },
+  {
+   "id": "miri-riam",
+   "name": "Miri Riam",
+   "corps": "Star Sapphires",
+   "corpsClass": "corps-violet",
+   "corpsPage": "corps/violet.html",
+   "portrait": "assets/characters/miri-riam.jpg",
+   "tagline": "Love forged from loss.",
+   "firstAppearance": "Green Lantern Corps #29 (2008)",
+   "bio": "Miri Riam of the planet Lartnec was a young newlywed whose honeymoon was shattered when the ravenous Mongul destroyed her ship and killed her husband Kered. Adrift in space and drowning in grief, she was on the verge of taking her own life when a violet Star Sapphire ring found her — drawn to the enormity of the love in her heart — making her the first new recruit of the reformed Star Sapphire Corps. Trained on Zamaron under Queen Aga'po, she learned to turn her great love into great strength. She later proved herself pursuing the child-stealing Sinestro Corps member Kryb across the stars. Fierce, loving, and unbreakable, Miri shows that love, wielded with conviction, is one of the universe's mightiest forces."
+  }
+ ]
 }
