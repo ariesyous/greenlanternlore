@@ -573,6 +573,45 @@ body {
 
 .timeline-item:nth-child(even) .tl-cover { transform: rotate(-1.5deg); }
 
+/* ---------- homepage spectrum chart + interact figure ---------- */
+
+.panel.about { display: flow-root; }
+
+.about-figure {
+  float: right;
+  width: min(400px, 100%);
+  margin: 0.25rem 0 1rem 1.5rem;
+  border: 3px solid var(--line);
+  box-shadow: 6px 6px 0 var(--line);
+  background: var(--bg);
+}
+
+.about-figure img,
+.interact-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.about-figure figcaption,
+.interact-figure figcaption {
+  font-size: 0.78rem;
+  color: var(--ink-dim);
+  padding: 0.5rem 0.75rem;
+  border-top: 3px solid var(--line);
+}
+
+.interact-figure {
+  margin: 0 0 1.25rem;
+  border: 3px solid var(--line);
+  box-shadow: 6px 6px 0 var(--line);
+  background: var(--bg);
+}
+
+@media (max-width: 700px) {
+  .about-figure { float: none; width: 100%; margin: 0 0 1rem; }
+}
+
 /* ---------- in-universe era visuals ---------- */
 
 .era-panel { display: flex; gap: 1.1rem; align-items: flex-start; }
