@@ -53,8 +53,15 @@
           '<div><dt>Corps</dt><dd><a href="' + esc(c.corpsPage) + '">' + esc(c.corps) + '</a></dd></div>' +
           '<div><dt>First appearance</dt><dd>' + esc(c.firstAppearance) + '</dd></div>' +
         '</dl>' +
+        (c.keyStories && c.keyStories.length ?
+          '<div class="char-stories"><h2>Key Stories</h2><ul>' +
+          c.keyStories.map(s =>
+            '<li><a href="' + esc(s.url) + '"><strong>' + esc(s.title) + '</strong></a><br /><span class="story-issues">' + esc(s.issues) + '</span></li>'
+          ).join('') +
+          '</ul></div>'
+        : '') +
         (c.appearsIn && c.appearsIn.length ?
-          '<div class="char-stories"><h2>Key stories</h2><ul>' +
+          '<div class="char-stories"><h2>' + (c.keyStories && c.keyStories.length ? 'Reading order' : 'Key stories') + '</h2><ul>' +
           c.appearsIn.map(s =>
             '<li><a href="timeline.html#' + esc(s.id) + '">' + esc(s.title) + '</a></li>'
           ).join('') +
