@@ -1757,3 +1757,18 @@ html {
   border-color: var(--corps, var(--green));
   color: var(--corps, var(--green));
 }
+
+/* Clickable entity cards (worlds index) */
+.entity-link-card {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+}
+.entity-link-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+.entity-link-card h3 {
+  color: var(--ink);
+}
