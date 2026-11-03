@@ -838,7 +838,9 @@
       "corps": "green",
       "portrait": "assets/characters/galius-zed.jpg",
       "first": "Tales of the Green Lantern Corps #2 (1981)",
-      "bio": "The Green Lantern with the giant head — literally. Galius Zed is a Noc'sagian, a race whose bodies are essentially one enormous cranium with arms and legs extending directly from it, built to survive their homeworld's crushing gravity. Quick-tempered, outspoken, and always first to volunteer for a fight, Zed served as a foil to Hal Jordan and even rebelled against the Guardians when he learned they'd withheld yellow-immune rings. Murdered by Fatality during her vendetta against the Corps, he later rose as a Black Lantern. His unforgettable design made him a fan favorite across comics, animation, and the 2011 film."
+      "bio": "The Green Lantern with the giant head — literally. Galius Zed is a Noc'sagian, a race whose bodies are essentially one enormous cranium with arms and legs extending directly from it, built to survive their homeworld's crushing gravity. Quick-tempered, outspoken, and always first to volunteer for a fight, Zed served as a foil to Hal Jordan and even rebelled against the Guardians when he learned they'd withheld yellow-immune rings. Murdered by Fatality during her vendetta against the Corps, he later rose as a Black Lantern. His unforgettable design made him a fan favorite across comics, animation, and the 2011 film.",
+      "firstAppearance": "Tales of the Green Lantern Corps #2 (1981)",
+      "sources": "Publication details via Wikipedia"
     },
     {
       "id": "jessica-cruz",
@@ -846,7 +848,9 @@
       "corps": "green",
       "portrait": "assets/characters/jessica-cruz.jpg",
       "first": "Green Lantern #20 (2013) — cameo; full debut Justice League (vol. 2) #31 (2014)",
-      "bio": "The first female human Green Lantern — and one of the most human heroes in the Corps. Jessica Cruz, a Mexican-American from Portland, didn't seek out heroism: a cursed ring from another universe forced itself onto her, and she spent her early days fighting crippling anxiety as much as supervillains. What makes her extraordinary is that she won anyway — mastering her fear through sheer willpower until a true Green Lantern ring chose her on merit. Now a mainstay of both the Corps and the Justice League, she partners with Simon Baz as Earth's newest generation of Lanterns, proving that courage isn't the absence of fear but what you do with it."
+      "bio": "The first female human Green Lantern — and one of the most human heroes in the Corps. Jessica Cruz, a Mexican-American from Portland, didn't seek out heroism: a cursed ring from another universe forced itself onto her, and she spent her early days fighting crippling anxiety as much as supervillains. What makes her extraordinary is that she won anyway — mastering her fear through sheer willpower until a true Green Lantern ring chose her on merit. Now a mainstay of both the Corps and the Justice League, she partners with Simon Baz as Earth's newest generation of Lanterns, proving that courage isn't the absence of fear but what you do with it.",
+      "firstAppearance": "Green Lantern #20 (2013) — cameo; first full appearance in Justice League (vol. 2) #31 (2014)",
+      "sources": "Publication details via Wikipedia"
     },
     {
       "id": "simon-baz",
@@ -854,7 +858,9 @@
       "corps": "green",
       "portrait": "assets/characters/simon-baz.jpg",
       "first": "The New 52 Free Comic Book Day Special Edition #1 (2012) — cameo; proper debut Green Lantern #0 (2012)",
-      "bio": "The first Muslim-American Green Lantern, and the Corps' most unlikely recruit. Simon Baz, a Lebanese-American mechanic from Dearborn, Michigan, was chosen by a ring in the chaos after Hal Jordan's apparent death — a working-class kid suddenly handed the universe's most powerful weapon. His early days were defined by distrust: of the authorities hunting him, and of the ring itself, which is why he famously carries a sidearm as backup. But Simon's stubborn decency won out, earning him a place in the Justice League and a partnership with Jessica Cruz. He represents a Green Lantern for the modern age — flawed, grounded, and utterly determined."
+      "bio": "The first Muslim-American Green Lantern, and the Corps' most unlikely recruit. Simon Baz, a Lebanese-American mechanic from Dearborn, Michigan, was chosen by a ring in the chaos after Hal Jordan's apparent death — a working-class kid suddenly handed the universe's most powerful weapon. His early days were defined by distrust: of the authorities hunting him, and of the ring itself, which is why he famously carries a sidearm as backup. But Simon's stubborn decency won out, earning him a place in the Justice League and a partnership with Jessica Cruz. He represents a Green Lantern for the modern age — flawed, grounded, and utterly determined.",
+      "firstAppearance": "The New 52 Free Comic Book Day Special Edition #1 (2012) — cameo; debut in Green Lantern #0 (2012)",
+      "sources": "Publication details via Wikipedia"
     },
     {
       "id": "abin-sur",
