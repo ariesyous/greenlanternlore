@@ -109,6 +109,27 @@
             <p>Where life itself sleeps — the White Lantern's cradle.</p>
           </div>
         </a>
+      <a class="entity-card entity-link-card" style="--corps:var(--yellow)" href="korugar.html">
+          <img src="../assets/worlds/korugar.jpg" alt="Korugar — Green Lantern comic art" loading="lazy" />
+          <div>
+            <h3>Korugar</h3>
+            <p>Sinestro's homeworld — the world that fear built, and fury destroyed.</p>
+          </div>
+        </a>
+      <a class="entity-card entity-link-card" style="--corps:var(--green)" href="ungara.html">
+          <img src="../assets/worlds/ungara.jpg" alt="Ungara — Abin Sur's memorial, Green Lantern comic art" loading="lazy" />
+          <div>
+            <h3>Ungara</h3>
+            <p>Abin Sur's homeworld — a world of eternal spring that lost its champion.</p>
+          </div>
+        </a>
+      <a class="entity-card entity-link-card" style="--corps:var(--green)" href="xudar.html">
+          <img src="../assets/worlds/xudar.jpg" alt="Xudar — Tomar-Re, Green Lantern comic art" loading="lazy" />
+          <div>
+            <h3>Xudar</h3>
+            <p>Tomar-Re's homeworld — where science takes wing.</p>
+          </div>
+        </a>
   </div></div>
 </main>
 
@@ -148,7 +169,8 @@
   if (!btn) return;
   const worlds = [
     'oa.html', 'qward.html', 'zamaron.html', 'ysmault.html', 'odym.html',
-    'nok.html', 'okaara.html', 'ryut.html', 'earth.html'
+    'nok.html', 'okaara.html', 'ryut.html', 'earth.html',
+    'korugar.html', 'ungara.html', 'xudar.html'
   ];
   btn.addEventListener('click', () => {
     const pick = worlds[Math.floor(Math.random() * worlds.length)];
