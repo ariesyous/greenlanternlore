@@ -1689,13 +1689,4 @@ html {
   color: var(--green);
 }
 
-/* Spectrum list reset */
-ul.spectrum {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: contents;
-}
-ul.spectrum > li {
-  display: contents;
-}
+
