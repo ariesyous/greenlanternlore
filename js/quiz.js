@@ -124,10 +124,13 @@
 
   var scores, step;
 
+  var answers = [];
+
   function reset() {
     scores = {};
     Object.keys(CORPS).forEach(function (k) { scores[k] = 0; });
     step = 0;
+    answers = [];
     renderStart();
   }
 
@@ -158,6 +161,7 @@
     q.a.forEach(function (ans) {
       var b = el("button", null, ans.t);
       b.addEventListener("click", function () {
+        answers.push(ans.c.slice());
         ans.c.forEach(function (k) { scores[k] += 1; });
         step++;
         if (step < QUESTIONS.length) renderQuestion();
@@ -166,6 +170,16 @@
       list.appendChild(b);
     });
     root.appendChild(list);
+    if (step > 0) {
+      var back = el("button", "quiz-back", "&larr; Back");
+      back.addEventListener("click", function () {
+        var last = answers.pop();
+        if (last) last.forEach(function (k) { scores[k] -= 1; });
+        step--;
+        renderQuestion();
+      });
+      root.appendChild(back);
+    }
   }
 
   function renderResult() {

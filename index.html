@@ -34,7 +34,7 @@
       <input type="search" name="q" placeholder="Search the lore…" aria-label="Search the lore" autocomplete="off" />
       <div class="search-results" hidden></div>
     </form>
-    <nav id="site-nav" class="site-nav">
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
       <a href="index.html" class="active">Home</a>
       <a href="index.html#corps">Corps</a>
       <a href="characters.html">Characters</a>
@@ -54,62 +54,62 @@
       <h1>Every light<br />in the universe.</h1>
       <p class="lede">Nine colors. Nine emotions. Nine Corps.<br />Pick a light to begin.</p>
 
-      <div class="spectrum" role="list" aria-label="The emotional spectrum">
-        <a class="band corps-red" role="listitem" href="corps/red.html">
+      <ul class="spectrum" aria-label="The emotional spectrum">
+        <li><a class="band corps-red" href="corps/red.html" aria-label="Red Lanterns — Rage">
           <span class="band-swatch" aria-hidden="true"></span>
           <img class="band-img" src="assets/corps-red.webp" alt="Red Lantern Corps art" loading="lazy" />
           <span class="band-name">Red</span>
           <span class="band-emotion">Rage</span>
-        </a>
-        <a class="band corps-orange" role="listitem" href="corps/orange.html">
+        </a></li>
+        <li><a class="band corps-orange" href="corps/orange.html" aria-label="Orange Lanterns — Avarice">
           <span class="band-swatch" aria-hidden="true"></span>
           <img class="band-img" src="assets/corps-orange.webp" alt="Orange Lantern Corps art" loading="lazy" />
           <span class="band-name">Orange</span>
           <span class="band-emotion">Avarice</span>
-        </a>
-        <a class="band corps-yellow" role="listitem" href="corps/yellow.html">
+        </a></li>
+        <li><a class="band corps-yellow" href="corps/yellow.html" aria-label="Yellow Lanterns — Fear">
           <span class="band-swatch" aria-hidden="true"></span>
           <img class="band-img" src="assets/corps-yellow.webp" alt="Sinestro Corps art" loading="lazy" />
           <span class="band-name">Yellow</span>
           <span class="band-emotion">Fear</span>
-        </a>
-        <a class="band corps-green" role="listitem" href="corps/green.html">
+        </a></li>
+        <li><a class="band corps-green" href="corps/green.html" aria-label="Green Lanterns — Will">
           <span class="band-swatch" aria-hidden="true"></span>
           <img class="band-img" src="assets/corps-green.webp" alt="Green Lantern Corps art" loading="lazy" />
           <span class="band-name">Green</span>
           <span class="band-emotion">Will</span>
-        </a>
-        <a class="band corps-blue" role="listitem" href="corps/blue.html">
+        </a></li>
+        <li><a class="band corps-blue" href="corps/blue.html" aria-label="Blue Lanterns — Hope">
           <span class="band-swatch" aria-hidden="true"></span>
           <img class="band-img" src="assets/corps-blue.webp" alt="Blue Lantern Corps art" loading="lazy" />
           <span class="band-name">Blue</span>
           <span class="band-emotion">Hope</span>
-        </a>
-        <a class="band corps-indigo" role="listitem" href="corps/indigo.html">
+        </a></li>
+        <li><a class="band corps-indigo" href="corps/indigo.html" aria-label="Indigo Lanterns — Compassion">
           <span class="band-swatch" aria-hidden="true"></span>
           <img class="band-img" src="assets/corps-indigo.webp" alt="Indigo Tribe art" loading="lazy" />
           <span class="band-name">Indigo</span>
           <span class="band-emotion">Compassion</span>
-        </a>
-        <a class="band corps-violet" role="listitem" href="corps/violet.html">
+        </a></li>
+        <li><a class="band corps-violet" href="corps/violet.html" aria-label="Violet Lanterns — Love">
           <span class="band-swatch" aria-hidden="true"></span>
           <img class="band-img" src="assets/corps-violet.webp" alt="Star Sapphires art" loading="lazy" />
           <span class="band-name">Violet</span>
           <span class="band-emotion">Love</span>
-        </a>
-        <a class="band corps-black" role="listitem" href="corps/black.html">
+        </a></li>
+        <li><a class="band corps-black" href="corps/black.html" aria-label="Black Lanterns — Death">
           <span class="band-swatch" aria-hidden="true"></span>
           <img class="band-img" src="assets/corps-black.webp" alt="Black Lantern Corps art" loading="lazy" />
           <span class="band-name">Black</span>
           <span class="band-emotion">Death</span>
-        </a>
-        <a class="band corps-white" role="listitem" href="corps/white.html">
+        </a></li>
+        <li><a class="band corps-white" href="corps/white.html" aria-label="White Lanterns — Life">
           <span class="band-swatch" aria-hidden="true"></span>
           <img class="band-img" src="assets/corps-white.webp" alt="White Lantern Corps art" loading="lazy" />
           <span class="band-name">White</span>
           <span class="band-emotion">Life</span>
-        </a>
-      </div>
+        </a></li>
+      </ul>
     </section>
 
     <!-- NEW HERE -->
@@ -127,7 +127,7 @@
           <img class="card-img" src="assets/characters/kyle-rayner.jpg" alt="Kyle Rayner, Green Lantern" loading="lazy" />
           <h3>Meet the Players</h3>
           <p class="card-emotion">Characters first</p>
-          <p class="card-figure">39 Lanterns, villains, and Guardians — bios, first appearances, and portraits</p>
+          <p class="card-figure">51 Lanterns, villains, and Guardians — bios, first appearances, and portraits</p>
         </a>
         <a class="corps-card" style="--corps:var(--violet)" href="quiz.html">
           <img class="card-img" src="assets/spectrum-chart.jpg" alt="The nine lights of the emotional spectrum chart" loading="lazy" />
@@ -236,7 +236,7 @@
         <a class="corps-card" style="--corps:var(--green)" href="characters.html">
           <img class="card-img" src="assets/characters/hal-jordan.jpg" alt="Hal Jordan, Green Lantern" loading="lazy" />
           <h3>Meet the Lanterns</h3>
-          <p class="card-emotion">28 characters</p>
+          <p class="card-emotion">51 characters</p>
           <p class="card-figure">Bios, first appearances, portraits</p>
         </a>
         <a class="corps-card" style="--corps:var(--violet)" href="quiz.html">
