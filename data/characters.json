@@ -240,7 +240,29 @@
           "title": "Sinestro Corps War"
         }
       ],
-      "signature": "A massive power hammer; also the Corps' drill sergeant \u2014 \"poozers\" beware."
+      "signature": "A massive power hammer; also the Corps' drill sergeant \u2014 \"poozers\" beware.",
+      "keyStories": [
+        {
+          "title": "Emerald Twilight",
+          "issues": "Green Lantern vol. 3 #48\u201350 (1994)",
+          "url": "events/emerald-twilight.html"
+        },
+        {
+          "title": "Green Lantern Corps: Recharge",
+          "issues": "#1\u20135 (2005)",
+          "url": "stories/recharge.html"
+        },
+        {
+          "title": "Sinestro Corps War",
+          "issues": "Green Lantern vol. 4 #21\u201325 (2007)",
+          "url": "events/sinestro-corps-war.html"
+        },
+        {
+          "title": "Blackest Night",
+          "issues": "#0\u20138 (2009\u201310)",
+          "url": "events/blackest-night.html"
+        }
+      ]
     },
     {
       "id": "sinestro",
@@ -518,7 +540,29 @@
           "title": "Blackest Night"
         }
       ],
-      "signature": "His entire corps is one construct army \u2014 the stolen identities of everyone he's killed."
+      "signature": "His entire corps is one construct army \u2014 the stolen identities of everyone he's killed.",
+      "keyStories": [
+        {
+          "title": "Agent Orange",
+          "issues": "Green Lantern vol. 4 #39\u201342 (2009)",
+          "url": "stories/agent-orange.html"
+        },
+        {
+          "title": "Blackest Night",
+          "issues": "#0\u20138 (2009\u201310)",
+          "url": "events/blackest-night.html"
+        },
+        {
+          "title": "Brightest Day",
+          "issues": "#0\u201324 (2010\u201311)",
+          "url": "stories/brightest-day.html"
+        },
+        {
+          "title": "Green Lantern vol. 4",
+          "issues": "#25 (2008) \u2014 first appearance",
+          "url": "stories/gl-vol4.html"
+        }
+      ]
     },
     {
       "id": "glomulus",
@@ -558,7 +602,29 @@
           "title": "Blackest Night"
         }
       ],
-      "signature": "Hope constructs that heal \u2014 his light once reignited a dying sun."
+      "signature": "Hope constructs that heal \u2014 his light once reignited a dying sun.",
+      "keyStories": [
+        {
+          "title": "Rage of the Red Lanterns",
+          "issues": "Green Lantern #36\u201338 (2008\u201309)",
+          "url": "stories/rage.html"
+        },
+        {
+          "title": "Blackest Night",
+          "issues": "#0\u20138 (2009\u201310)",
+          "url": "events/blackest-night.html"
+        },
+        {
+          "title": "Brightest Day",
+          "issues": "#0\u201324 (2010\u201311)",
+          "url": "stories/brightest-day.html"
+        },
+        {
+          "title": "War of the Green Lanterns",
+          "issues": "Green Lantern #63\u201367 (2011)",
+          "url": "events/war-of-the-green-lanterns.html"
+        }
+      ]
     },
     {
       "id": "brother-warth",
@@ -652,7 +718,29 @@
           "title": "Blackest Night"
         }
       ],
-      "signature": "Crystal-heart constructs \u2014 love as a weapon and a shield."
+      "signature": "Crystal-heart constructs \u2014 love as a weapon and a shield.",
+      "keyStories": [
+        {
+          "title": "Secret Origin",
+          "issues": "Green Lantern vol. 4 #29\u201335 (2008)",
+          "url": "stories/secret-origin.html"
+        },
+        {
+          "title": "Rage of the Red Lanterns",
+          "issues": "Green Lantern #36\u201338 (2008\u201309)",
+          "url": "stories/rage.html"
+        },
+        {
+          "title": "Blackest Night",
+          "issues": "#0\u20138 (2009\u201310)",
+          "url": "events/blackest-night.html"
+        },
+        {
+          "title": "War of the Green Lanterns",
+          "issues": "Green Lantern #63\u201367 (2011)",
+          "url": "events/war-of-the-green-lanterns.html"
+        }
+      ]
     },
     {
       "id": "fatality",
@@ -892,7 +980,29 @@
           "title": "Sinestro Corps War"
         }
       ],
-      "signature": "A surgeon's precision \u2014 she was a doctor before she was a Lantern."
+      "signature": "A surgeon's precision \u2014 she was a doctor before she was a Lantern.",
+      "keyStories": [
+        {
+          "title": "Green Lantern Corps: Recharge",
+          "issues": "#1\u20135 (2005)",
+          "url": "stories/recharge.html"
+        },
+        {
+          "title": "Sinestro Corps War",
+          "issues": "Green Lantern vol. 4 #21\u201325 (2007)",
+          "url": "events/sinestro-corps-war.html"
+        },
+        {
+          "title": "Rage of the Red Lanterns",
+          "issues": "Green Lantern #36\u201338 (2008\u201309)",
+          "url": "stories/rage.html"
+        },
+        {
+          "title": "War of the Green Lanterns",
+          "issues": "Green Lantern #63\u201367 (2011)",
+          "url": "events/war-of-the-green-lanterns.html"
+        }
+      ]
     },
     {
       "id": "ganthet",
@@ -979,6 +1089,28 @@
         {
           "id": "read-scw",
           "title": "Sinestro Corps War"
+        }
+      ],
+      "keyStories": [
+        {
+          "title": "Sinestro Corps War",
+          "issues": "Green Lantern vol. 4 #21\u201325 (2007)",
+          "url": "events/sinestro-corps-war.html"
+        },
+        {
+          "title": "Rage of the Red Lanterns",
+          "issues": "Green Lantern #36\u201338 (2008\u201309)",
+          "url": "stories/rage.html"
+        },
+        {
+          "title": "Blackest Night",
+          "issues": "#0\u20138 (2009\u201310)",
+          "url": "events/blackest-night.html"
+        },
+        {
+          "title": "Brightest Day",
+          "issues": "#0\u201324 (2010\u201311)",
+          "url": "stories/brightest-day.html"
         }
       ]
     },
