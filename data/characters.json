@@ -933,6 +933,39 @@
       ],
       "signature": "A ring interrupted his execution — and made him one of the Corps' most loyal soldiers.",
       "sources": "Publication details via Wikipedia"
+    },
+    {
+      "id": "bdg",
+      "name": "B'dg",
+      "corps": "Green Lantern Corps",
+      "corpsClass": "corps-green",
+      "corpsPage": "corps/green.html",
+      "portrait": "assets/characters/bdg.jpg",
+      "tagline": "Ch'p's successor — the squirrel Lantern of Sector 1014.",
+      "bio": "B'dg is a squirrel-like alien from the planet H'lven, chosen to succeed the legendary Ch'p as Green Lantern of Sector 1014. Created by Geoff Johns and Ethan Van Sciver, B'dg brings the same fearless heart as his predecessor — proving that heroism comes in all sizes. He later joined the Blue Lantern Corps as well.",
+      "firstAppearance": "Green Lantern (vol. 4) #4 (2005)",
+      "appearsIn": [
+        "Green Lantern (vol. 4)",
+        "Green Lantern Corps"
+      ],
+      "signature": "Smallest Lantern, biggest heart",
+      "sources": "Publication details via Wikipedia"
+    },
+    {
+      "id": "rot-lop-fan",
+      "name": "Rot Lop Fan",
+      "corps": "Green Lantern Corps",
+      "corpsClass": "corps-green",
+      "corpsPage": "corps/green.html",
+      "portrait": "assets/characters/rot-lop-fan.jpg",
+      "tagline": "The blind Lantern — the F-Sharp Bell.",
+      "bio": "Rot Lop Fan hails from the Obsidian Deeps, a lightless region where his species evolved without sight. Recruited by Katma Tui, he couldn't comprehend 'green' or 'lantern' — so she reimagined his ring as the F-Sharp Bell, wielding sound instead of light. Created by Alan Moore and Bill Willingham, he's one of the Corps' most unique members.",
+      "firstAppearance": "Tales of the Green Lantern Corps Annual #3 (1987)",
+      "appearsIn": [
+        "Tales of the Green Lantern Corps"
+      ],
+      "signature": "In loudest din or hush profound...",
+      "sources": "Publication details via DC Comics"
     }
   ]
 }
