@@ -296,7 +296,17 @@
       "tagline": "The Corps' most human heart.",
       "bio": "Jack Moore was an ordinary young man until grief and fury earned him a red ring — and he became Rankorr. Unlike most Red Lanterns, something human survived in him: he fights the rage from the inside, every day. The most human heart in the most inhuman Corps.",
       "firstAppearance": "Red Lanterns #1 (2011)",
-      "signature": "Chains and blades forged from pure rage."
+      "signature": "Chains and blades forged from pure rage.",
+      "appearsIn": [
+        {
+          "id": "read-rage",
+          "title": "Rage of the Red Lanterns"
+        },
+        {
+          "id": "read-blackest-night",
+          "title": "Blackest Night"
+        }
+      ]
     },
     {
       "id": "skallox",
@@ -518,7 +528,17 @@
       "tagline": "The hunter claimed by love.",
       "bio": "Yrra Cynril was the princess of Xanshi — the same world whose death haunts John Stewart. She hunted Lanterns across the stars as Fatality, blaming the Corps for her world's fate, until the violet light of love claimed the hunter herself. Love, at last, gave her something to protect instead of something to avenge.",
       "firstAppearance": "Green Lantern #83 (1997)",
-      "signature": "A violet energy arsenal aimed at one target: Sinestro."
+      "signature": "A violet energy arsenal aimed at one target: Sinestro.",
+      "appearsIn": [
+        {
+          "id": "read-scw",
+          "title": "Sinestro Corps War"
+        },
+        {
+          "id": "read-blackest-night",
+          "title": "Blackest Night"
+        }
+      ]
     },
     {
       "id": "queen-agapo",
@@ -660,7 +680,17 @@
       "tagline": "The Corps' wisest veteran.",
       "firstAppearance": "Green Lantern #6 (1961)",
       "bio": "A Xudarian — a proud, bird-like alien — Tomar-Re was one of the Green Lantern Corps' most respected veterans, serving as the Lantern of Sector 2813 for decades. A scientist and diplomat by temperament, he was a close friend of Abin Sur and later a mentor figure to Earth's Lanterns, including Hal Jordan. His defining sorrow is that he once flew to save the planet Krypton but arrived too late — a failure that haunted him for the rest of his life. Wise, compassionate, and scholarly, he represented the Corps' ideals at their best. His son Tomar-Tu would later follow him into the Corps, carrying on the family legacy.",
-      "signature": "A scholar's precise, efficient constructs."
+      "signature": "A scholar's precise, efficient constructs.",
+      "appearsIn": [
+        {
+          "id": "read-rebirth",
+          "title": "Green Lantern: Rebirth"
+        },
+        {
+          "id": "read-secret-origin",
+          "title": "Secret Origin"
+        }
+      ]
     },
     {
       "id": "salaak",
@@ -694,7 +724,17 @@
       "tagline": "Willpower beyond her years.",
       "firstAppearance": "Tales of the Green Lantern Corps #1 (1981)",
       "bio": "A Graxosian recruited into the Corps at just thirteen years old, Arisia used her power ring to age herself into adulthood so she could serve — a choice that defined her fierce determination to be taken seriously. Gold-skinned and white-haired, she became one of the Corps' most earnest young Lanterns and famously shared a romance with Hal Jordan. She endured the Crisis on Infinite Earths, which unmade and remade her world and her life, yet she always returned to the uniform. Brave, idealistic, and eager to prove herself, Arisia embodies the Corps' promise that willpower matters more than age. She remains one of its most beloved veterans.",
-      "signature": "Youthful, creative constructs — she joined the Corps as a teenager."
+      "signature": "Youthful, creative constructs — she joined the Corps as a teenager.",
+      "appearsIn": [
+        {
+          "id": "read-gl-v4",
+          "title": "Green Lantern vol. 4 #1–25"
+        },
+        {
+          "id": "read-scw",
+          "title": "Sinestro Corps War"
+        }
+      ]
     },
     {
       "id": "soranik-natu",
@@ -776,7 +816,17 @@
       "tagline": "Hope's humble soldier.",
       "firstAppearance": "Green Lantern #38 (2009)",
       "bio": "Brother Hynn is an amphibious, fish-like alien and one of the earliest recruits of the Blue Lantern Corps, drawn to Odym by the promise of hope. A devout and humble soul, he serves the Corps faithfully from their homeworld, standing alongside Saint Walker, Brother Warth, and Sister Sercy as hope's quiet foot soldiers. Though a minor figure in the Corps' history, his steadfast faith embodies what the blue light is all about — ordinary beings choosing hope in a dark universe. He remains a loyal Blue Lantern to this day.",
-      "signature": "Quiet, steadfast hope constructs."
+      "signature": "Quiet, steadfast hope constructs.",
+      "appearsIn": [
+        {
+          "id": "read-rage",
+          "title": "Rage of the Red Lanterns"
+        },
+        {
+          "id": "read-agent-orange",
+          "title": "Agent Orange"
+        }
+      ]
     },
     {
       "id": "miri-riam",
@@ -788,7 +838,13 @@
       "tagline": "Love forged from loss.",
       "firstAppearance": "Green Lantern Corps #29 (2008)",
       "bio": "Miri Riam of the planet Lartnec was a young newlywed whose honeymoon was shattered when the ravenous Mongul destroyed her ship and killed her husband Kered. Adrift in space and drowning in grief, she was on the verge of taking her own life when a violet Star Sapphire ring found her — drawn to the enormity of the love in her heart — making her the first new recruit of the reformed Star Sapphire Corps. Trained on Zamaron under Queen Aga'po, she learned to turn her great love into great strength. She later proved herself pursuing the child-stealing Sinestro Corps member Kryb across the stars. Fierce, loving, and unbreakable, Miri shows that love, wielded with conviction, is one of the universe's mightiest forces.",
-      "signature": "Love constructs tinged with grief — she lost everything to rage."
+      "signature": "Love constructs tinged with grief — she lost everything to rage.",
+      "appearsIn": [
+        {
+          "id": "read-scw",
+          "title": "Sinestro Corps War"
+        }
+      ]
     },
     {
       "id": "sodam-yat",
@@ -818,7 +874,13 @@
       "tagline": "The first female Green Lantern — John's mentor and wife.",
       "bio": "Katma Tui was the Green Lantern of Sector 1417 and the first female Green Lantern ever introduced in the comics. A native of Korugar — the same world as Sinestro — she took over the sector after his fall and proved herself one of the Corps' finest. She later became John Stewart's mentor, training Earth's newest Lantern, and the two fell in love and married. Her murder at the hands of Star Sapphire remains one of the most infamous tragedies in Green Lantern history. Known to her people as \"Katma Tui the Lost,\" she is remembered as a pioneer who opened the Corps to a new generation.",
       "firstAppearance": "Green Lantern vol. 2 #30 (1964)",
-      "signature": "A pioneer's constructs — the first woman to wield the green light."
+      "signature": "A pioneer's constructs — the first woman to wield the green light.",
+      "appearsIn": [
+        {
+          "id": "read-rebirth",
+          "title": "Green Lantern: Rebirth"
+        }
+      ]
     },
     {
       "id": "chp",
@@ -830,7 +892,13 @@
       "tagline": "The squirrel Lantern of Sector 1014.",
       "bio": "Ch'p is a squirrel-like alien from the planet H'lven and the Green Lantern of Sector 1014 — and one of the most beloved oddballs in the Corps. Captured and sentenced to death by the invading Doctor Ub'x, he was offered a power ring by a Guardian in his cell and used it to liberate his homeworld. Trained by Kilowog alongside Hal Jordan's class, he became a trusted and capable Lantern despite his diminutive size. He later settled on Earth with the Corps' Earth contingent, where his small stature made him a master of stealth missions. Ch'p proves the ring chooses the worthy, whatever their shape.",
       "firstAppearance": "Green Lantern vol. 2 #148 (1982)",
-      "signature": "Tiny, clever constructs — proof size doesn't matter to a ring."
+      "signature": "Tiny, clever constructs — proof size doesn't matter to a ring.",
+      "appearsIn": [
+        {
+          "id": "read-gl-v4",
+          "title": "Green Lantern vol. 4 #1–25"
+        }
+      ]
     },
     {
       "id": "galius-zed",
@@ -840,7 +908,13 @@
       "first": "Tales of the Green Lantern Corps #2 (1981)",
       "bio": "The Green Lantern with the giant head — literally. Galius Zed is a Noc'sagian, a race whose bodies are essentially one enormous cranium with arms and legs extending directly from it, built to survive their homeworld's crushing gravity. Quick-tempered, outspoken, and always first to volunteer for a fight, Zed served as a foil to Hal Jordan and even rebelled against the Guardians when he learned they'd withheld yellow-immune rings. Murdered by Fatality during her vendetta against the Corps, he later rose as a Black Lantern. His unforgettable design made him a fan favorite across comics, animation, and the 2011 film.",
       "firstAppearance": "Tales of the Green Lantern Corps #2 (1981)",
-      "sources": "Publication details via Wikipedia"
+      "sources": "Publication details via Wikipedia",
+      "appearsIn": [
+        {
+          "id": "read-scw",
+          "title": "Sinestro Corps War"
+        }
+      ]
     },
     {
       "id": "jessica-cruz",
@@ -850,7 +924,13 @@
       "first": "Green Lantern #20 (2013) — cameo; full debut Justice League (vol. 2) #31 (2014)",
       "bio": "The first female human Green Lantern — and one of the most human heroes in the Corps. Jessica Cruz, a Mexican-American from Portland, didn't seek out heroism: a cursed ring from another universe forced itself onto her, and she spent her early days fighting crippling anxiety as much as supervillains. What makes her extraordinary is that she won anyway — mastering her fear through sheer willpower until a true Green Lantern ring chose her on merit. Now a mainstay of both the Corps and the Justice League, she partners with Simon Baz as Earth's newest generation of Lanterns, proving that courage isn't the absence of fear but what you do with it.",
       "firstAppearance": "Green Lantern #20 (2013) — cameo; first full appearance in Justice League (vol. 2) #31 (2014)",
-      "sources": "Publication details via Wikipedia"
+      "sources": "Publication details via Wikipedia",
+      "appearsIn": [
+        {
+          "id": "read-wotgl",
+          "title": "War of the Green Lanterns"
+        }
+      ]
     },
     {
       "id": "simon-baz",
@@ -860,7 +940,13 @@
       "first": "The New 52 Free Comic Book Day Special Edition #1 (2012) — cameo; proper debut Green Lantern #0 (2012)",
       "bio": "The first Muslim-American Green Lantern, and the Corps' most unlikely recruit. Simon Baz, a Lebanese-American mechanic from Dearborn, Michigan, was chosen by a ring in the chaos after Hal Jordan's apparent death — a working-class kid suddenly handed the universe's most powerful weapon. His early days were defined by distrust: of the authorities hunting him, and of the ring itself, which is why he famously carries a sidearm as backup. But Simon's stubborn decency won out, earning him a place in the Justice League and a partnership with Jessica Cruz. He represents a Green Lantern for the modern age — flawed, grounded, and utterly determined.",
       "firstAppearance": "The New 52 Free Comic Book Day Special Edition #1 (2012) — cameo; debut in Green Lantern #0 (2012)",
-      "sources": "Publication details via Wikipedia"
+      "sources": "Publication details via Wikipedia",
+      "appearsIn": [
+        {
+          "id": "read-wotgl",
+          "title": "War of the Green Lanterns"
+        }
+      ]
     },
     {
       "id": "abin-sur",
@@ -873,9 +959,14 @@
       "bio": "Abin Sur was the Green Lantern of Sector 2814 — the sector containing Earth — long before Hal Jordan ever touched a ring. A history professor from the planet Ungara, he served the Corps with distinction until his ship was damaged by yellow radiation and he crash-landed in the California desert. Dying, he commanded his ring to find a worthy successor. It chose test pilot Hal Jordan, and the modern Green Lantern era began. Abin Sur's legacy echoes through every story that follows: his capture of Atrocitus, his discovery of the Blackest Night prophecy, and his mentorship of a young Sinestro all shaped the universe Hal inherited.",
       "firstAppearance": "Showcase #22 (1959)",
       "appearsIn": [
-        "Showcase #22",
-        "Green Lantern: Emerald Dawn",
-        "Blackest Night"
+        {
+          "id": "read-rebirth",
+          "title": "Green Lantern: Rebirth"
+        },
+        {
+          "id": "read-secret-origin",
+          "title": "Secret Origin"
+        }
       ],
       "signature": "His dying command — 'find a worthy successor' — chose Hal Jordan and launched the Silver Age of Green Lantern.",
       "sources": "Publication details via Wikipedia"
@@ -891,9 +982,14 @@
       "bio": "Mogo is a sentient planet and a full member of the Green Lantern Corps — one of its most powerful. Created by Alan Moore and Dave Gibbons in the legendary six-page story 'Mogo Doesn't Socialize,' he guides the Corps' rings to their bearers and serves as a sanctuary for Lanterns to recover. His sheer scale makes him a force unlike any other Lantern: when the Sinestro Corps came for the Green Lanterns, they came for Mogo too. A living world wearing the green light, Mogo is proof that willpower takes every shape imaginable.",
       "firstAppearance": "Green Lantern (vol. 2) #188 (1985)",
       "appearsIn": [
-        "Mogo Doesn't Socialize",
-        "Green Lantern Corps: Recharge",
-        "Sinestro Corps War"
+        {
+          "id": "read-scw",
+          "title": "Sinestro Corps War"
+        },
+        {
+          "id": "read-blackest-night",
+          "title": "Blackest Night"
+        }
       ],
       "signature": "A planet-sized Lantern whose foliage forms the Corps symbol — 'Mogo doesn't socialize.'",
       "sources": "Publication details via Wikipedia"
@@ -909,9 +1005,14 @@
       "bio": "Boodikka of Bellatrix was a mercenary with the Bellatrix Bombers before the Corps recruited her — a warrior who joined because she believed a Green Lantern could never be defeated. She proved herself one of the Corps' fiercest fighters, standing against Hal Jordan during Emerald Twilight and surviving what most did not. After the Sinestro Corps War, she became a charter member of the Alpha Lanterns, the Corps' internal affairs division, her body enhanced with Manhunter technology. Her arc — from mercenary to the Corps' conscience — is one of its most compelling.",
       "firstAppearance": "Green Lantern (vol. 3) #20 (1992)",
       "appearsIn": [
-        "Emerald Twilight",
-        "Sinestro Corps War",
-        "War of the Green Lanterns"
+        {
+          "id": "read-scw",
+          "title": "Sinestro Corps War"
+        },
+        {
+          "id": "read-blackest-night",
+          "title": "Blackest Night"
+        }
       ],
       "signature": "Charter Alpha Lantern — the Corps policing itself, at the cost of her own humanity.",
       "sources": "Publication details via Wikipedia"
@@ -927,9 +1028,14 @@
       "bio": "Isamot Kol is a Lizarkon — a reptilian humanoid from Thanagar — who was about to be executed for killing his commanding officer when a Green Lantern ring stopped the axe mid-swing. Recruited in Green Lantern Corps: Recharge alongside his partner Vath Sarn, Kol brought a soldier's discipline and a fierce moral code to the rebuilt Corps. Named for editor Peter Tomasi (spelled backward), he became one of the most dependable Lanterns of the modern era, serving through the Sinestro Corps War and beyond.",
       "firstAppearance": "Green Lantern Corps: Recharge #1 (2005)",
       "appearsIn": [
-        "Green Lantern Corps: Recharge",
-        "Sinestro Corps War",
-        "Blackest Night"
+        {
+          "id": "read-recharge",
+          "title": "Green Lantern Corps: Recharge"
+        },
+        {
+          "id": "read-scw",
+          "title": "Sinestro Corps War"
+        }
       ],
       "signature": "A ring interrupted his execution — and made him one of the Corps' most loyal soldiers.",
       "sources": "Publication details via Wikipedia"
@@ -945,8 +1051,14 @@
       "bio": "B'dg is a squirrel-like alien from the planet H'lven, chosen to succeed the legendary Ch'p as Green Lantern of Sector 1014. Created by Geoff Johns and Ethan Van Sciver, B'dg brings the same fearless heart as his predecessor — proving that heroism comes in all sizes. He later joined the Blue Lantern Corps as well.",
       "firstAppearance": "Green Lantern (vol. 4) #4 (2005)",
       "appearsIn": [
-        "Green Lantern (vol. 4)",
-        "Green Lantern Corps"
+        {
+          "id": "read-gl-v4",
+          "title": "Green Lantern vol. 4 #1–25"
+        },
+        {
+          "id": "read-blackest-night",
+          "title": "Blackest Night"
+        }
       ],
       "signature": "Smallest Lantern, biggest heart",
       "sources": "Publication details via Wikipedia"
@@ -962,7 +1074,10 @@
       "bio": "Rot Lop Fan hails from the Obsidian Deeps, a lightless region where his species evolved without sight. Recruited by Katma Tui, he couldn't comprehend 'green' or 'lantern' — so she reimagined his ring as the F-Sharp Bell, wielding sound instead of light. Created by Alan Moore and Bill Willingham, he's one of the Corps' most unique members.",
       "firstAppearance": "Tales of the Green Lantern Corps Annual #3 (1987)",
       "appearsIn": [
-        "Tales of the Green Lantern Corps"
+        {
+          "id": "read-blackest-night",
+          "title": "Blackest Night"
+        }
       ],
       "signature": "In loudest din or hush profound...",
       "sources": "Publication details via DC Comics"
