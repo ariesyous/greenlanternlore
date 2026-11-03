@@ -82,4 +82,12 @@
     <loc>https://dev1magnascale.github.io/greenlanternlore/moments/third-army.html</loc>
     <changefreq>monthly</changefreq>
   </url>
+  <url>
+    <loc>https://dev1magnascale.github.io/greenlanternlore/moments/guardians-fall.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://dev1magnascale.github.io/greenlanternlore/compare.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>
