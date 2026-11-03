@@ -1,662 +1,686 @@
 [
- {
-  "t": "Hal Jordan",
-  "s": "Green Lantern Corps — The Corps' greatest — and most reckless — Lantern.",
-  "u": "character.html?id=hal-jordan",
-  "k": "hal jordan green lantern corps the corps' greatest — and most reckless — lantern."
- },
- {
-  "t": "John Stewart",
-  "s": "Green Lantern Corps — The Corps' strategist.",
-  "u": "character.html?id=john-stewart",
-  "k": "john stewart green lantern corps the corps' strategist."
- },
- {
-  "t": "Guy Gardner",
-  "s": "Green Lantern Corps — The brawler.",
-  "u": "character.html?id=guy-gardner",
-  "k": "guy gardner green lantern corps the brawler."
- },
- {
-  "t": "Kyle Rayner",
-  "s": "Green Lantern Corps — The artist.",
-  "u": "character.html?id=kyle-rayner",
-  "k": "kyle rayner green lantern corps the artist."
- },
- {
-  "t": "Kilowog",
-  "s": "Green Lantern Corps — Drill sergeant of the Corps.",
-  "u": "character.html?id=kilowog",
-  "k": "kilowog green lantern corps drill sergeant of the corps."
- },
- {
-  "t": "Sinestro",
-  "s": "Sinestro Corps — The Corps' greatest enemy.",
-  "u": "character.html?id=sinestro",
-  "k": "sinestro sinestro corps the corps' greatest enemy."
- },
- {
-  "t": "Arkillo",
-  "s": "Sinestro Corps — The Sinestro Corps' drill sergeant.",
-  "u": "character.html?id=arkillo",
-  "k": "arkillo sinestro corps the sinestro corps' drill sergeant."
- },
- {
-  "t": "Atrocitus",
-  "s": "Red Lantern Corps — Rage given purpose.",
-  "u": "character.html?id=atrocitus",
-  "k": "atrocitus red lantern corps rage given purpose."
- },
- {
-  "t": "Bleez",
-  "s": "Red Lantern Corps — Winged fury of the Red Lanterns.",
-  "u": "character.html?id=bleez",
-  "k": "bleez red lantern corps winged fury of the red lanterns."
- },
- {
-  "t": "Dex-Starr",
-  "s": "Red Lantern Corps — Rage kitty. Do not pet.",
-  "u": "character.html?id=dex-starr",
-  "k": "dex-starr red lantern corps rage kitty. do not pet."
- },
- {
-  "t": "Zilius Zox",
-  "s": "Red Lantern Corps — All muscle, all rage.",
-  "u": "character.html?id=zilius-zox",
-  "k": "zilius zox red lantern corps all muscle, all rage."
- },
- {
-  "t": "Rankorr",
-  "s": "Red Lantern Corps — The Corps' most human heart.",
-  "u": "character.html?id=rankorr",
-  "k": "rankorr red lantern corps the corps' most human heart."
- },
- {
-  "t": "Skallox",
-  "s": "Red Lantern Corps — Betrayed, burned, reborn in rage.",
-  "u": "character.html?id=skallox",
-  "k": "skallox red lantern corps betrayed, burned, reborn in rage."
- },
- {
-  "t": "Vice",
-  "s": "Red Lantern Corps — The Corps' most ruthless hunter.",
-  "u": "character.html?id=vice",
-  "k": "vice red lantern corps the corps' most ruthless hunter."
- },
- {
-  "t": "Laira",
-  "s": "Red Lantern Corps — Honor Guard discipline, Red Lantern rage.",
-  "u": "character.html?id=laira",
-  "k": "laira red lantern corps honor guard discipline, red lantern rage."
- },
- {
-  "t": "Larfleeze",
-  "s": "Orange Lantern Corps — The greediest being alive.",
-  "u": "character.html?id=larfleeze",
-  "k": "larfleeze orange lantern corps the greediest being alive."
- },
- {
-  "t": "Glomulus",
-  "s": "Orange Lantern Corps — Larfleeze's loyal construct.",
-  "u": "character.html?id=glomulus",
-  "k": "glomulus orange lantern corps larfleeze's loyal construct."
- },
- {
-  "t": "Saint Walker",
-  "s": "Blue Lantern Corps — Hope's gentlest warrior.",
-  "u": "character.html?id=saint-walker",
-  "k": "saint walker blue lantern corps hope's gentlest warrior."
- },
- {
-  "t": "Brother Warth",
-  "s": "Blue Lantern Corps — Hope's gentle giant.",
-  "u": "character.html?id=brother-warth",
-  "k": "brother warth blue lantern corps hope's gentle giant."
- },
- {
-  "t": "Sister Sercy",
-  "s": "Blue Lantern Corps — Hope for her homeworld.",
-  "u": "character.html?id=sister-sercy",
-  "k": "sister sercy blue lantern corps hope for her homeworld."
- },
- {
-  "t": "Indigo-1",
-  "s": "Indigo Tribe — Wielder of the indigo light.",
-  "u": "character.html?id=indigo-1",
-  "k": "indigo-1 indigo tribe wielder of the indigo light."
- },
- {
-  "t": "Munk",
-  "s": "Indigo Tribe — The Tribe's second-in-command.",
-  "u": "character.html?id=munk",
-  "k": "munk indigo tribe the tribe's second-in-command."
- },
- {
-  "t": "Carol Ferris",
-  "s": "Star Sapphires — Queen of the Star Sapphires.",
-  "u": "character.html?id=carol-ferris",
-  "k": "carol ferris star sapphires queen of the star sapphires."
- },
- {
-  "t": "Fatality",
-  "s": "Star Sapphires — The hunter claimed by love.",
-  "u": "character.html?id=fatality",
-  "k": "fatality star sapphires the hunter claimed by love."
- },
- {
-  "t": "Queen Aga'po",
-  "s": "Star Sapphires — Queen of the Zamarons.",
-  "u": "character.html?id=queen-agapo",
-  "k": "queen aga'po star sapphires queen of the zamarons."
- },
- {
-  "t": "Black Hand",
-  "s": "Black Lantern Corps — Death's favorite hand.",
-  "u": "character.html?id=black-hand",
-  "k": "black hand black lantern corps death's favorite hand."
- },
- {
-  "t": "Nekron",
-  "s": "Black Lantern Corps — Lord of the Unliving.",
-  "u": "character.html?id=nekron",
-  "k": "nekron black lantern corps lord of the unliving."
- },
- {
-  "t": "Scar",
-  "s": "Black Lantern Corps — The scarred Guardian.",
-  "u": "character.html?id=scar",
-  "k": "scar black lantern corps the scarred guardian."
- },
- {
-  "t": "Lyssa Drak",
-  "s": "Sinestro Corps — The Corps' historian of fear.",
-  "u": "character.html?id=lyssa-drak",
-  "k": "lyssa drak sinestro corps the corps' historian of fear."
- },
- {
-  "t": "Karu-Sil",
-  "s": "Sinestro Corps — Raised by beasts; feared by all.",
-  "u": "character.html?id=karu-sil",
-  "k": "karu-sil sinestro corps raised by beasts; feared by all."
- },
- {
-  "t": "Despotellis",
-  "s": "Sinestro Corps — Fear at the microscopic level.",
-  "u": "character.html?id=despotellis",
-  "k": "despotellis sinestro corps fear at the microscopic level."
- },
- {
-  "t": "Tomar-Re",
-  "s": "Green Lantern Corps — The Corps' wisest veteran.",
-  "u": "character.html?id=tomar-re",
-  "k": "tomar-re green lantern corps the corps' wisest veteran."
- },
- {
-  "t": "Salaak",
-  "s": "Green Lantern Corps — Keeper of the Book of Oa.",
-  "u": "character.html?id=salaak",
-  "k": "salaak green lantern corps keeper of the book of oa."
- },
- {
-  "t": "Arisia Rrab",
-  "s": "Green Lantern Corps — Willpower beyond her years.",
-  "u": "character.html?id=arisia-rrab",
-  "k": "arisia rrab green lantern corps willpower beyond her years."
- },
- {
-  "t": "Soranik Natu",
-  "s": "Green Lantern Corps — The healer who fights.",
-  "u": "character.html?id=soranik-natu",
-  "k": "soranik natu green lantern corps the healer who fights."
- },
- {
-  "t": "Ganthet",
-  "s": "Blue Lantern Corps — The Guardian with a heart.",
-  "u": "character.html?id=ganthet",
-  "k": "ganthet blue lantern corps the guardian with a heart."
- },
- {
-  "t": "Sayd",
-  "s": "Blue Lantern Corps — Hope's quiet anchor.",
-  "u": "character.html?id=sayd",
-  "k": "sayd blue lantern corps hope's quiet anchor."
- },
- {
-  "t": "Brother Hynn",
-  "s": "Blue Lantern Corps — Hope's humble soldier.",
-  "u": "character.html?id=brother-hynn",
-  "k": "brother hynn blue lantern corps hope's humble soldier."
- },
- {
-  "t": "Miri Riam",
-  "s": "Star Sapphires — Love forged from loss.",
-  "u": "character.html?id=miri-riam",
-  "k": "miri riam star sapphires love forged from loss."
- },
- {
-  "t": "Red Lantern Corps",
-  "s": "Rage — Corps profile, oath, members, lore",
-  "u": "corps/red.html",
-  "k": "red lantern corps rage corps oath"
- },
- {
-  "t": "Orange Lantern Corps",
-  "s": "Avarice — Corps profile, oath, members, lore",
-  "u": "corps/orange.html",
-  "k": "orange lantern corps avarice corps oath"
- },
- {
-  "t": "Sinestro Corps",
-  "s": "Fear — Corps profile, oath, members, lore",
-  "u": "corps/yellow.html",
-  "k": "sinestro corps fear corps oath"
- },
- {
-  "t": "Green Lantern Corps",
-  "s": "Will — Corps profile, oath, members, lore",
-  "u": "corps/green.html",
-  "k": "green lantern corps will corps oath"
- },
- {
-  "t": "Blue Lantern Corps",
-  "s": "Hope — Corps profile, oath, members, lore",
-  "u": "corps/blue.html",
-  "k": "blue lantern corps hope corps oath"
- },
- {
-  "t": "Indigo Tribe",
-  "s": "Compassion — Corps profile, oath, members, lore",
-  "u": "corps/indigo.html",
-  "k": "indigo tribe compassion corps oath"
- },
- {
-  "t": "Star Sapphires",
-  "s": "Love — Corps profile, oath, members, lore",
-  "u": "corps/violet.html",
-  "k": "star sapphires love corps oath"
- },
- {
-  "t": "Black Lantern Corps",
-  "s": "Death — Corps profile, oath, members, lore",
-  "u": "corps/black.html",
-  "k": "black lantern corps death corps oath"
- },
- {
-  "t": "White Lantern Corps",
-  "s": "Life — Corps profile, oath, members, lore",
-  "u": "corps/white.html",
-  "k": "white lantern corps life corps oath"
- },
- {
-  "t": "The Emotional Spectrum",
-  "s": "The seven lights, the entities, how colors interact",
-  "u": "spectrum.html",
-  "k": "the emotional spectrum the seven lights, the entities, how colors interact"
- },
- {
-  "t": "Timeline",
-  "s": "Reading order, in-universe history, on-screen adaptations",
-  "u": "timeline.html",
-  "k": "timeline reading order, in-universe history, on-screen adaptations"
- },
- {
-  "t": "Which Corps Are You?",
-  "s": "Personality quiz — discover your corps",
-  "u": "quiz.html",
-  "k": "which corps are you? personality quiz — discover your corps"
- },
- {
-  "t": "Meet the Lanterns",
-  "s": "Every character: bios, first appearances, portraits",
-  "u": "characters.html",
-  "k": "meet the lanterns every character: bios, first appearances, portraits"
- },
- {
-  "t": "Home",
-  "s": "Every light in the universe",
-  "u": "index.html",
-  "k": "home every light in the universe"
- },
- {
-  "t": "Glossary",
-  "s": "The language of the Lanterns: rings, sectors, oaths, entities",
-  "u": "glossary.html",
-  "k": "glossary terms power ring sector oath entity guardian"
- },
- {
-  "t": "Major Events",
-  "s": "The saga-defining events of Green Lantern lore: Emerald Twilight, Sinestro Corps War, Blackest Night, War of the Green Lanterns.",
-  "u": "events.html",
-  "k": "major events the saga-defining events of green lantern lore: emerald twilight, sinestro corps war, blackest night, war of the green lanterns."
- },
- {
-  "t": "Emerald Twilight",
-  "s": "1994 — Hal Jordan's fall, the destruction of the Green Lantern Corps, and the rise of Parallax.",
-  "u": "events/emerald-twilight.html",
-  "k": "emerald twilight 1994 — hal jordan's fall, the destruction of the green lantern corps, and the rise of parallax."
- },
- {
-  "t": "Sinestro Corps War",
-  "s": "2007–2008 — Sinestro's yellow army and the war that nearly ended the Green Lantern Corps.",
-  "u": "events/sinestro-corps-war.html",
-  "k": "sinestro corps war 2007–2008 — sinestro's yellow army and the war that nearly ended the green lantern corps."
- },
- {
-  "t": "Blackest Night",
-  "s": "2009–2010 — Nekron's Black Lanterns rise; all nine lights must unite.",
-  "u": "events/blackest-night.html",
-  "k": "blackest night 2009–2010 — nekron's black lanterns rise; all nine lights must unite."
- },
- {
-  "t": "War of the Green Lanterns",
-  "s": "2011 — Krona seizes the Central Power Battery; four rogue Lanterns fight back.",
-  "u": "events/war-of-the-green-lanterns.html",
-  "k": "war of the green lanterns 2011 — krona seizes the central power battery; four rogue lanterns fight back."
- },
- {
-  "t": "Powers of the Ring",
-  "s": "What a power ring can do: constructs, flight, force fields, translation, wormholes — and the limits.",
-  "u": "powers.html",
-  "k": "powers of the ring what a power ring can do: constructs, flight, force fields, translation, wormholes — and the limits."
- },
- {
-  "t": "The Oaths",
-  "s": "Every Lantern Corps oath: red, orange, yellow, green, blue, indigo, violet, black.",
-  "u": "quotes.html",
-  "k": "the oaths every lantern corps oath: red, orange, yellow, green, blue, indigo, violet, black."
- },
- {
-  "t": "Sources & Credits",
-  "s": "The comics cited, art credits, and fan tribute notice.",
-  "u": "sources.html",
-  "k": "sources & credits the comics cited, art credits, and fan tribute notice."
- },
- {
-  "t": "Sodam Yat",
-  "s": "Green Lantern Corps — The prophesied Lantern — Ion's host.",
-  "u": "character.html?id=sodam-yat",
-  "k": "sodam yat green lantern corps — the prophesied lantern — ion's host."
- },
- {
-  "t": "Katma Tui",
-  "s": "Green Lantern Corps — The first female Green Lantern — John's mentor and wife.",
-  "u": "character.html?id=katma-tui",
-  "k": "katma tui green lantern corps — the first female green lantern — john's mentor and wife."
- },
- {
-  "t": "Ch'p",
-  "s": "Green Lantern Corps — The squirrel Lantern of Sector 1014.",
-  "u": "character.html?id=chp",
-  "k": "ch'p green lantern corps — the squirrel lantern of sector 1014."
- },
- {
-  "t": "Emerald Twilight, Explained",
-  "s": "Why did Hal Jordan destroy the Corps? The full story, explained.",
-  "u": "explained/emerald-twilight.html",
-  "k": "emerald twilight, explained why did hal jordan destroy the corps? the full story, explained."
- },
- {
-  "t": "Geoff Johns and Green Lantern, Explained",
-  "s": "How one writer's nine-year run rebuilt the franchise.",
-  "u": "explained/geoff-johns.html",
-  "k": "geoff johns and green lantern, explained how one writer's nine-year run rebuilt the franchise."
- },
- {
-  "t": "The Creators",
-  "s": "The writers and artists behind the mythos: Johns, Reis, Marz, Moore, O'Neil, Kane, Morrison.",
-  "u": "creators.html",
-  "k": "the creators the writers and artists behind the mythos: johns, reis, marz, moore, o'neil, kane, morrison."
- },
- {
-  "t": "Constructs Gallery",
-  "s": "Famous hard-light constructs: Hal's boxing glove, John's architecture, fear blades, rage plasma.",
-  "u": "constructs.html",
-  "k": "constructs gallery famous hard-light constructs: hal's boxing glove, john's architecture, fear blades, rage plasma."
- },
- {
-  "t": "Ion",
-  "s": "Emotional entity of willpower — the green light given life.",
-  "u": "entities/ion.html",
-  "k": "ion entity willpower green light emotional embodiment"
- },
- {
-  "t": "Parallax",
-  "s": "Emotional entity of fear — the yellow light's living nightmare.",
-  "u": "entities/parallax.html",
-  "k": "parallax entity fear yellow light hal jordan emerald twilight"
- },
- {
-  "t": "The Butcher",
-  "s": "Emotional entity of rage — born from the first murder.",
-  "u": "entities/butcher.html",
-  "k": "butcher entity rage red light atrocitus"
- },
- {
-  "t": "Ophidian",
-  "s": "Emotional entity of avarice — the hungriest of the entities.",
-  "u": "entities/ophidian.html",
-  "k": "ophidian entity avarice orange light larfleeze serpent"
- },
- {
-  "t": "Adara",
-  "s": "Emotional entity of hope — the light that supercharges will.",
-  "u": "entities/adara.html",
-  "k": "adara entity hope blue light bird"
- },
- {
-  "t": "Proselyte",
-  "s": "Emotional entity of compassion — the light that feels all pain.",
-  "u": "entities/proselyte.html",
-  "k": "proselyte entity compassion indigo light"
- },
- {
-  "t": "The Predator",
-  "s": "Emotional entity of love — the light that claims and keeps.",
-  "u": "entities/predator.html",
-  "k": "predator entity love violet light star sapphire"
- },
- {
-  "t": "The Life Entity",
-  "s": "Emotional entity of life — the white light that began everything.",
-  "u": "entities/life-entity.html",
-  "k": "life entity white light blackest night"
- },
- {
-  "t": "Justice League / JLU",
-  "s": "On screen: John Stewart as the League's Green Lantern (2001–2006).",
-  "u": "screen/justice-league.html",
-  "k": "justice league unlimited jlu john stewart animated series tv"
- },
- {
-  "t": "Green Lantern: First Flight",
-  "s": "On screen: Hal Jordan's animated origin (2009).",
-  "u": "screen/first-flight.html",
-  "k": "first flight animated movie hal jordan sinestro 2009"
- },
- {
-  "t": "Green Lantern (2011)",
-  "s": "On screen: the Corps' live-action big-screen debut.",
-  "u": "screen/green-lantern-2011.html",
-  "k": "green lantern 2011 movie ryan reynolds parallax film"
- },
- {
-  "t": "Green Lantern: Emerald Knights",
-  "s": "On screen: animated anthology of Corps tales (2011).",
-  "u": "screen/emerald-knights.html",
-  "k": "emerald knights animated anthology laira arisia 2011"
- },
- {
-  "t": "Green Lantern: The Animated Series",
-  "s": "On screen: the space-western with Hal, Kilowog and Razer (2011–2013).",
-  "u": "screen/animated-series.html",
-  "k": "animated series tas hal kilowog razer cartoon"
- },
- {
-  "t": "Lanterns (HBO)",
-  "s": "On screen: the HBO series — Hal and John, veteran and rookie (2026).",
-  "u": "screen/lanterns-hbo.html",
-  "k": "lanterns hbo max series hal jordan john stewart tv show 2026"
- },
- {
-  "t": "The New 52 Era",
-  "s": "Reading era 2011–2015: the universe reboots, the Corps starts over.",
-  "u": "eras/new52.html",
-  "k": "new 52 era 2011 2015 green lantern vol 5 red lanterns sinestro"
- },
- {
-  "t": "DC Rebirth",
-  "s": "Reading era 2016–2018: Hal Jordan and the Green Lantern Corps + Green Lanterns.",
-  "u": "eras/rebirth-era.html",
-  "k": "dc rebirth 2016 2018 hal jordan green lantern corps jessica cruz simon baz"
- },
- {
-  "t": "Morrison & Sharp",
-  "s": "Reading era 2019–2021: Grant Morrison's psychedelic space-cop run.",
-  "u": "eras/morrison-sharp.html",
-  "k": "morrison sharp 2019 2021 the green lantern grant morrison liam sharp"
- },
- {
-  "t": "The Current Era",
-  "s": "Reading era 2023–present: Jeremy Adams' Green Lantern and War Journal.",
-  "u": "eras/current.html",
-  "k": "current era 2023 jeremy adams green lantern war journal john stewart ongoing"
- },
- {
-  "t": "Green Lantern: Rebirth",
-  "s": "Reading order: Hal Jordan returns (2004–05).",
-  "u": "stories/rebirth.html",
-  "k": "rebirth hal jordan return 2004 2005 reading order"
- },
- {
-  "t": "Green Lantern Corps: Recharge",
-  "s": "Reading order: the Corps rebuilds (2005).",
-  "u": "stories/recharge.html",
-  "k": "recharge corps rebuild 2005 reading order"
- },
- {
-  "t": "Green Lantern vol. 4 #1–25",
-  "s": "Reading order: the road to war (2005–07).",
-  "u": "stories/gl-vol4.html",
-  "k": "green lantern vol 4 2005 2007 sinestro road to war"
- },
- {
-  "t": "Secret Origin",
-  "s": "Reading order: Hal Jordan's origin retold (2008).",
-  "u": "stories/secret-origin.html",
-  "k": "secret origin hal jordan 2008 reading order"
- },
- {
-  "t": "Rage of the Red Lanterns",
-  "s": "Reading order: rage enters the spectrum (2008–09).",
-  "u": "stories/rage.html",
-  "k": "rage red lanterns atrocitus 2008 2009 reading order"
- },
- {
-  "t": "Agent Orange",
-  "s": "Reading order: Larfleeze and the orange light (2009).",
-  "u": "stories/agent-orange.html",
-  "k": "agent orange larfleeze avarice 2009 reading order"
- },
- {
-  "t": "Brightest Day",
-  "s": "Reading order: after the Blackest Night (2010–11).",
-  "u": "stories/brightest-day.html",
-  "k": "brightest day aftermath 2010 2011 reading order"
- },
- {
-  "t": "The Corps Is Forged",
-  "s": "In-universe history: the Guardians found the Corps.",
-  "u": "moments/corps-forged.html",
-  "k": "corps forged guardians oa history"
- },
- {
-  "t": "The Massacre of Sector 666",
-  "s": "In-universe history: the Manhunters' atrocity.",
-  "u": "moments/sector-666.html",
-  "k": "sector 666 massacre manhunters atrocitus history"
- },
- {
-  "t": "The Miser of Okaara",
-  "s": "In-universe history: Larfleeze claims the orange light.",
-  "u": "moments/miser-okaara.html",
-  "k": "miser okaara larfleeze orange light history"
- },
- {
-  "t": "The First Lantern of Earth",
-  "s": "In-universe history: Alan Scott and the Starheart (1940).",
-  "u": "moments/first-lantern.html",
-  "k": "alan scott first lantern earth starheart 1940 history"
- },
- {
-  "t": "Fear Organizes",
-  "s": "In-universe history: Sinestro founds his Corps.",
-  "u": "moments/fear-organizes.html",
-  "k": "fear organizes sinestro corps founded history"
- },
- {
-  "t": "The Spectrum Mobilizes",
-  "s": "In-universe history: the War of Light begins.",
-  "u": "moments/spectrum-mobilizes.html",
-  "k": "spectrum mobilizes war of light corps history"
- },
- {
-  "t": "Worlds",
-  "s": "The key worlds of the Green Lantern mythos.",
-  "u": "worlds/index.html",
-  "k": "worlds planets locations oa qward zamaron ysmault odym nok"
- },
- {
-  "t": "Oa",
-  "s": "The heart of the Green Lantern Corps.",
-  "u": "worlds/oa.html",
-  "k": "oa green lantern homeworld guardians central power battery"
- },
- {
-  "t": "Qward",
-  "s": "Home of the Weaponers and the Sinestro Corps.",
-  "u": "worlds/qward.html",
-  "k": "qward sinestro corps weaponers antimatter"
- },
- {
-  "t": "Zamaron",
-  "s": "Home of the Star Sapphires.",
-  "u": "worlds/zamaron.html",
-  "k": "zamaron star sapphire zamarons violet"
- },
- {
-  "t": "Ysmault",
-  "s": "The Red Lanterns' fortress.",
-  "u": "worlds/ysmault.html",
-  "k": "ysmault red lantern blood ocean atrocitus"
- },
- {
-  "t": "Odym",
-  "s": "The Blue Lanterns' sanctuary.",
-  "u": "worlds/odym.html",
-  "k": "odym blue lantern saint walker hope"
- },
- {
-  "t": "Nok",
-  "s": "The Indigo Tribe's hidden home.",
-  "u": "worlds/nok.html",
-  "k": "nok indigo tribe jungle"
- },
- {
-  "t": "Galius Zed",
-  "s": "The Green Lantern with the giant head — literally. Galius Zed is a Noc'sagian, a race whose bodies are essentially one e...",
-  "u": "character.html?id=galius-zed",
-  "k": "galius zed green lantern character tales of the green lantern corps #2 (1981)"
- },
- {
-  "t": "Jessica Cruz",
-  "s": "The first female human Green Lantern — and one of the most human heroes in the Corps. Jessica Cruz, a Mexican-American f...",
-  "u": "character.html?id=jessica-cruz",
-  "k": "jessica cruz green lantern character green lantern #20 (2013) — cameo; full debut justice league (vol. 2) #31 (2014)"
- },
- {
-  "t": "Simon Baz",
-  "s": "The first Muslim-American Green Lantern, and the Corps' most unlikely recruit. Simon Baz, a Lebanese-American mechanic f...",
-  "u": "character.html?id=simon-baz",
-  "k": "simon baz green lantern character the new 52 free comic book day special edition #1 (2012) — cameo; proper debut green lantern #0 (2012)"
- }
+  {
+    "t": "Hal Jordan",
+    "s": "Green Lantern Corps — The Corps' greatest — and most reckless — Lantern.",
+    "u": "character.html?id=hal-jordan",
+    "k": "hal jordan green lantern corps the corps' greatest — and most reckless — lantern."
+  },
+  {
+    "t": "John Stewart",
+    "s": "Green Lantern Corps — The Corps' strategist.",
+    "u": "character.html?id=john-stewart",
+    "k": "john stewart green lantern corps the corps' strategist."
+  },
+  {
+    "t": "Guy Gardner",
+    "s": "Green Lantern Corps — The brawler.",
+    "u": "character.html?id=guy-gardner",
+    "k": "guy gardner green lantern corps the brawler."
+  },
+  {
+    "t": "Kyle Rayner",
+    "s": "Green Lantern Corps — The artist.",
+    "u": "character.html?id=kyle-rayner",
+    "k": "kyle rayner green lantern corps the artist."
+  },
+  {
+    "t": "Kilowog",
+    "s": "Green Lantern Corps — Drill sergeant of the Corps.",
+    "u": "character.html?id=kilowog",
+    "k": "kilowog green lantern corps drill sergeant of the corps."
+  },
+  {
+    "t": "Sinestro",
+    "s": "Sinestro Corps — The Corps' greatest enemy.",
+    "u": "character.html?id=sinestro",
+    "k": "sinestro sinestro corps the corps' greatest enemy."
+  },
+  {
+    "t": "Arkillo",
+    "s": "Sinestro Corps — The Sinestro Corps' drill sergeant.",
+    "u": "character.html?id=arkillo",
+    "k": "arkillo sinestro corps the sinestro corps' drill sergeant."
+  },
+  {
+    "t": "Atrocitus",
+    "s": "Red Lantern Corps — Rage given purpose.",
+    "u": "character.html?id=atrocitus",
+    "k": "atrocitus red lantern corps rage given purpose."
+  },
+  {
+    "t": "Bleez",
+    "s": "Red Lantern Corps — Winged fury of the Red Lanterns.",
+    "u": "character.html?id=bleez",
+    "k": "bleez red lantern corps winged fury of the red lanterns."
+  },
+  {
+    "t": "Dex-Starr",
+    "s": "Red Lantern Corps — Rage kitty. Do not pet.",
+    "u": "character.html?id=dex-starr",
+    "k": "dex-starr red lantern corps rage kitty. do not pet."
+  },
+  {
+    "t": "Zilius Zox",
+    "s": "Red Lantern Corps — All muscle, all rage.",
+    "u": "character.html?id=zilius-zox",
+    "k": "zilius zox red lantern corps all muscle, all rage."
+  },
+  {
+    "t": "Rankorr",
+    "s": "Red Lantern Corps — The Corps' most human heart.",
+    "u": "character.html?id=rankorr",
+    "k": "rankorr red lantern corps the corps' most human heart."
+  },
+  {
+    "t": "Skallox",
+    "s": "Red Lantern Corps — Betrayed, burned, reborn in rage.",
+    "u": "character.html?id=skallox",
+    "k": "skallox red lantern corps betrayed, burned, reborn in rage."
+  },
+  {
+    "t": "Vice",
+    "s": "Red Lantern Corps — The Corps' most ruthless hunter.",
+    "u": "character.html?id=vice",
+    "k": "vice red lantern corps the corps' most ruthless hunter."
+  },
+  {
+    "t": "Laira",
+    "s": "Red Lantern Corps — Honor Guard discipline, Red Lantern rage.",
+    "u": "character.html?id=laira",
+    "k": "laira red lantern corps honor guard discipline, red lantern rage."
+  },
+  {
+    "t": "Larfleeze",
+    "s": "Orange Lantern Corps — The greediest being alive.",
+    "u": "character.html?id=larfleeze",
+    "k": "larfleeze orange lantern corps the greediest being alive."
+  },
+  {
+    "t": "Glomulus",
+    "s": "Orange Lantern Corps — Larfleeze's loyal construct.",
+    "u": "character.html?id=glomulus",
+    "k": "glomulus orange lantern corps larfleeze's loyal construct."
+  },
+  {
+    "t": "Saint Walker",
+    "s": "Blue Lantern Corps — Hope's gentlest warrior.",
+    "u": "character.html?id=saint-walker",
+    "k": "saint walker blue lantern corps hope's gentlest warrior."
+  },
+  {
+    "t": "Brother Warth",
+    "s": "Blue Lantern Corps — Hope's gentle giant.",
+    "u": "character.html?id=brother-warth",
+    "k": "brother warth blue lantern corps hope's gentle giant."
+  },
+  {
+    "t": "Sister Sercy",
+    "s": "Blue Lantern Corps — Hope for her homeworld.",
+    "u": "character.html?id=sister-sercy",
+    "k": "sister sercy blue lantern corps hope for her homeworld."
+  },
+  {
+    "t": "Indigo-1",
+    "s": "Indigo Tribe — Wielder of the indigo light.",
+    "u": "character.html?id=indigo-1",
+    "k": "indigo-1 indigo tribe wielder of the indigo light."
+  },
+  {
+    "t": "Munk",
+    "s": "Indigo Tribe — The Tribe's second-in-command.",
+    "u": "character.html?id=munk",
+    "k": "munk indigo tribe the tribe's second-in-command."
+  },
+  {
+    "t": "Carol Ferris",
+    "s": "Star Sapphires — Queen of the Star Sapphires.",
+    "u": "character.html?id=carol-ferris",
+    "k": "carol ferris star sapphires queen of the star sapphires."
+  },
+  {
+    "t": "Fatality",
+    "s": "Star Sapphires — The hunter claimed by love.",
+    "u": "character.html?id=fatality",
+    "k": "fatality star sapphires the hunter claimed by love."
+  },
+  {
+    "t": "Queen Aga'po",
+    "s": "Star Sapphires — Queen of the Zamarons.",
+    "u": "character.html?id=queen-agapo",
+    "k": "queen aga'po star sapphires queen of the zamarons."
+  },
+  {
+    "t": "Black Hand",
+    "s": "Black Lantern Corps — Death's favorite hand.",
+    "u": "character.html?id=black-hand",
+    "k": "black hand black lantern corps death's favorite hand."
+  },
+  {
+    "t": "Nekron",
+    "s": "Black Lantern Corps — Lord of the Unliving.",
+    "u": "character.html?id=nekron",
+    "k": "nekron black lantern corps lord of the unliving."
+  },
+  {
+    "t": "Scar",
+    "s": "Black Lantern Corps — The scarred Guardian.",
+    "u": "character.html?id=scar",
+    "k": "scar black lantern corps the scarred guardian."
+  },
+  {
+    "t": "Lyssa Drak",
+    "s": "Sinestro Corps — The Corps' historian of fear.",
+    "u": "character.html?id=lyssa-drak",
+    "k": "lyssa drak sinestro corps the corps' historian of fear."
+  },
+  {
+    "t": "Karu-Sil",
+    "s": "Sinestro Corps — Raised by beasts; feared by all.",
+    "u": "character.html?id=karu-sil",
+    "k": "karu-sil sinestro corps raised by beasts; feared by all."
+  },
+  {
+    "t": "Despotellis",
+    "s": "Sinestro Corps — Fear at the microscopic level.",
+    "u": "character.html?id=despotellis",
+    "k": "despotellis sinestro corps fear at the microscopic level."
+  },
+  {
+    "t": "Tomar-Re",
+    "s": "Green Lantern Corps — The Corps' wisest veteran.",
+    "u": "character.html?id=tomar-re",
+    "k": "tomar-re green lantern corps the corps' wisest veteran."
+  },
+  {
+    "t": "Salaak",
+    "s": "Green Lantern Corps — Keeper of the Book of Oa.",
+    "u": "character.html?id=salaak",
+    "k": "salaak green lantern corps keeper of the book of oa."
+  },
+  {
+    "t": "Arisia Rrab",
+    "s": "Green Lantern Corps — Willpower beyond her years.",
+    "u": "character.html?id=arisia-rrab",
+    "k": "arisia rrab green lantern corps willpower beyond her years."
+  },
+  {
+    "t": "Soranik Natu",
+    "s": "Green Lantern Corps — The healer who fights.",
+    "u": "character.html?id=soranik-natu",
+    "k": "soranik natu green lantern corps the healer who fights."
+  },
+  {
+    "t": "Ganthet",
+    "s": "Blue Lantern Corps — The Guardian with a heart.",
+    "u": "character.html?id=ganthet",
+    "k": "ganthet blue lantern corps the guardian with a heart."
+  },
+  {
+    "t": "Sayd",
+    "s": "Blue Lantern Corps — Hope's quiet anchor.",
+    "u": "character.html?id=sayd",
+    "k": "sayd blue lantern corps hope's quiet anchor."
+  },
+  {
+    "t": "Brother Hynn",
+    "s": "Blue Lantern Corps — Hope's humble soldier.",
+    "u": "character.html?id=brother-hynn",
+    "k": "brother hynn blue lantern corps hope's humble soldier."
+  },
+  {
+    "t": "Miri Riam",
+    "s": "Star Sapphires — Love forged from loss.",
+    "u": "character.html?id=miri-riam",
+    "k": "miri riam star sapphires love forged from loss."
+  },
+  {
+    "t": "Red Lantern Corps",
+    "s": "Rage — Corps profile, oath, members, lore",
+    "u": "corps/red.html",
+    "k": "red lantern corps rage corps oath"
+  },
+  {
+    "t": "Orange Lantern Corps",
+    "s": "Avarice — Corps profile, oath, members, lore",
+    "u": "corps/orange.html",
+    "k": "orange lantern corps avarice corps oath"
+  },
+  {
+    "t": "Sinestro Corps",
+    "s": "Fear — Corps profile, oath, members, lore",
+    "u": "corps/yellow.html",
+    "k": "sinestro corps fear corps oath"
+  },
+  {
+    "t": "Green Lantern Corps",
+    "s": "Will — Corps profile, oath, members, lore",
+    "u": "corps/green.html",
+    "k": "green lantern corps will corps oath"
+  },
+  {
+    "t": "Blue Lantern Corps",
+    "s": "Hope — Corps profile, oath, members, lore",
+    "u": "corps/blue.html",
+    "k": "blue lantern corps hope corps oath"
+  },
+  {
+    "t": "Indigo Tribe",
+    "s": "Compassion — Corps profile, oath, members, lore",
+    "u": "corps/indigo.html",
+    "k": "indigo tribe compassion corps oath"
+  },
+  {
+    "t": "Star Sapphires",
+    "s": "Love — Corps profile, oath, members, lore",
+    "u": "corps/violet.html",
+    "k": "star sapphires love corps oath"
+  },
+  {
+    "t": "Black Lantern Corps",
+    "s": "Death — Corps profile, oath, members, lore",
+    "u": "corps/black.html",
+    "k": "black lantern corps death corps oath"
+  },
+  {
+    "t": "White Lantern Corps",
+    "s": "Life — Corps profile, oath, members, lore",
+    "u": "corps/white.html",
+    "k": "white lantern corps life corps oath"
+  },
+  {
+    "t": "The Emotional Spectrum",
+    "s": "The seven lights, the entities, how colors interact",
+    "u": "spectrum.html",
+    "k": "the emotional spectrum the seven lights, the entities, how colors interact"
+  },
+  {
+    "t": "Timeline",
+    "s": "Reading order, in-universe history, on-screen adaptations",
+    "u": "timeline.html",
+    "k": "timeline reading order, in-universe history, on-screen adaptations"
+  },
+  {
+    "t": "Which Corps Are You?",
+    "s": "Personality quiz — discover your corps",
+    "u": "quiz.html",
+    "k": "which corps are you? personality quiz — discover your corps"
+  },
+  {
+    "t": "Meet the Lanterns",
+    "s": "Every character: bios, first appearances, portraits",
+    "u": "characters.html",
+    "k": "meet the lanterns every character: bios, first appearances, portraits"
+  },
+  {
+    "t": "Home",
+    "s": "Every light in the universe",
+    "u": "index.html",
+    "k": "home every light in the universe"
+  },
+  {
+    "t": "Glossary",
+    "s": "The language of the Lanterns: rings, sectors, oaths, entities",
+    "u": "glossary.html",
+    "k": "glossary terms power ring sector oath entity guardian"
+  },
+  {
+    "t": "Major Events",
+    "s": "The saga-defining events of Green Lantern lore: Emerald Twilight, Sinestro Corps War, Blackest Night, War of the Green Lanterns.",
+    "u": "events.html",
+    "k": "major events the saga-defining events of green lantern lore: emerald twilight, sinestro corps war, blackest night, war of the green lanterns."
+  },
+  {
+    "t": "Emerald Twilight",
+    "s": "1994 — Hal Jordan's fall, the destruction of the Green Lantern Corps, and the rise of Parallax.",
+    "u": "events/emerald-twilight.html",
+    "k": "emerald twilight 1994 — hal jordan's fall, the destruction of the green lantern corps, and the rise of parallax."
+  },
+  {
+    "t": "Sinestro Corps War",
+    "s": "2007–2008 — Sinestro's yellow army and the war that nearly ended the Green Lantern Corps.",
+    "u": "events/sinestro-corps-war.html",
+    "k": "sinestro corps war 2007–2008 — sinestro's yellow army and the war that nearly ended the green lantern corps."
+  },
+  {
+    "t": "Blackest Night",
+    "s": "2009–2010 — Nekron's Black Lanterns rise; all nine lights must unite.",
+    "u": "events/blackest-night.html",
+    "k": "blackest night 2009–2010 — nekron's black lanterns rise; all nine lights must unite."
+  },
+  {
+    "t": "War of the Green Lanterns",
+    "s": "2011 — Krona seizes the Central Power Battery; four rogue Lanterns fight back.",
+    "u": "events/war-of-the-green-lanterns.html",
+    "k": "war of the green lanterns 2011 — krona seizes the central power battery; four rogue lanterns fight back."
+  },
+  {
+    "t": "Powers of the Ring",
+    "s": "What a power ring can do: constructs, flight, force fields, translation, wormholes — and the limits.",
+    "u": "powers.html",
+    "k": "powers of the ring what a power ring can do: constructs, flight, force fields, translation, wormholes — and the limits."
+  },
+  {
+    "t": "The Oaths",
+    "s": "Every Lantern Corps oath: red, orange, yellow, green, blue, indigo, violet, black.",
+    "u": "quotes.html",
+    "k": "the oaths every lantern corps oath: red, orange, yellow, green, blue, indigo, violet, black."
+  },
+  {
+    "t": "Sources & Credits",
+    "s": "The comics cited, art credits, and fan tribute notice.",
+    "u": "sources.html",
+    "k": "sources & credits the comics cited, art credits, and fan tribute notice."
+  },
+  {
+    "t": "Sodam Yat",
+    "s": "Green Lantern Corps — The prophesied Lantern — Ion's host.",
+    "u": "character.html?id=sodam-yat",
+    "k": "sodam yat green lantern corps — the prophesied lantern — ion's host."
+  },
+  {
+    "t": "Katma Tui",
+    "s": "Green Lantern Corps — The first female Green Lantern — John's mentor and wife.",
+    "u": "character.html?id=katma-tui",
+    "k": "katma tui green lantern corps — the first female green lantern — john's mentor and wife."
+  },
+  {
+    "t": "Ch'p",
+    "s": "Green Lantern Corps — The squirrel Lantern of Sector 1014.",
+    "u": "character.html?id=chp",
+    "k": "ch'p green lantern corps — the squirrel lantern of sector 1014."
+  },
+  {
+    "t": "Emerald Twilight, Explained",
+    "s": "Why did Hal Jordan destroy the Corps? The full story, explained.",
+    "u": "explained/emerald-twilight.html",
+    "k": "emerald twilight, explained why did hal jordan destroy the corps? the full story, explained."
+  },
+  {
+    "t": "Geoff Johns and Green Lantern, Explained",
+    "s": "How one writer's nine-year run rebuilt the franchise.",
+    "u": "explained/geoff-johns.html",
+    "k": "geoff johns and green lantern, explained how one writer's nine-year run rebuilt the franchise."
+  },
+  {
+    "t": "The Creators",
+    "s": "The writers and artists behind the mythos: Johns, Reis, Marz, Moore, O'Neil, Kane, Morrison.",
+    "u": "creators.html",
+    "k": "the creators the writers and artists behind the mythos: johns, reis, marz, moore, o'neil, kane, morrison."
+  },
+  {
+    "t": "Constructs Gallery",
+    "s": "Famous hard-light constructs: Hal's boxing glove, John's architecture, fear blades, rage plasma.",
+    "u": "constructs.html",
+    "k": "constructs gallery famous hard-light constructs: hal's boxing glove, john's architecture, fear blades, rage plasma."
+  },
+  {
+    "t": "Ion",
+    "s": "Emotional entity of willpower — the green light given life.",
+    "u": "entities/ion.html",
+    "k": "ion entity willpower green light emotional embodiment"
+  },
+  {
+    "t": "Parallax",
+    "s": "Emotional entity of fear — the yellow light's living nightmare.",
+    "u": "entities/parallax.html",
+    "k": "parallax entity fear yellow light hal jordan emerald twilight"
+  },
+  {
+    "t": "The Butcher",
+    "s": "Emotional entity of rage — born from the first murder.",
+    "u": "entities/butcher.html",
+    "k": "butcher entity rage red light atrocitus"
+  },
+  {
+    "t": "Ophidian",
+    "s": "Emotional entity of avarice — the hungriest of the entities.",
+    "u": "entities/ophidian.html",
+    "k": "ophidian entity avarice orange light larfleeze serpent"
+  },
+  {
+    "t": "Adara",
+    "s": "Emotional entity of hope — the light that supercharges will.",
+    "u": "entities/adara.html",
+    "k": "adara entity hope blue light bird"
+  },
+  {
+    "t": "Proselyte",
+    "s": "Emotional entity of compassion — the light that feels all pain.",
+    "u": "entities/proselyte.html",
+    "k": "proselyte entity compassion indigo light"
+  },
+  {
+    "t": "The Predator",
+    "s": "Emotional entity of love — the light that claims and keeps.",
+    "u": "entities/predator.html",
+    "k": "predator entity love violet light star sapphire"
+  },
+  {
+    "t": "The Life Entity",
+    "s": "Emotional entity of life — the white light that began everything.",
+    "u": "entities/life-entity.html",
+    "k": "life entity white light blackest night"
+  },
+  {
+    "t": "Justice League / JLU",
+    "s": "On screen: John Stewart as the League's Green Lantern (2001–2006).",
+    "u": "screen/justice-league.html",
+    "k": "justice league unlimited jlu john stewart animated series tv"
+  },
+  {
+    "t": "Green Lantern: First Flight",
+    "s": "On screen: Hal Jordan's animated origin (2009).",
+    "u": "screen/first-flight.html",
+    "k": "first flight animated movie hal jordan sinestro 2009"
+  },
+  {
+    "t": "Green Lantern (2011)",
+    "s": "On screen: the Corps' live-action big-screen debut.",
+    "u": "screen/green-lantern-2011.html",
+    "k": "green lantern 2011 movie ryan reynolds parallax film"
+  },
+  {
+    "t": "Green Lantern: Emerald Knights",
+    "s": "On screen: animated anthology of Corps tales (2011).",
+    "u": "screen/emerald-knights.html",
+    "k": "emerald knights animated anthology laira arisia 2011"
+  },
+  {
+    "t": "Green Lantern: The Animated Series",
+    "s": "On screen: the space-western with Hal, Kilowog and Razer (2011–2013).",
+    "u": "screen/animated-series.html",
+    "k": "animated series tas hal kilowog razer cartoon"
+  },
+  {
+    "t": "Lanterns (HBO)",
+    "s": "On screen: the HBO series — Hal and John, veteran and rookie (2026).",
+    "u": "screen/lanterns-hbo.html",
+    "k": "lanterns hbo max series hal jordan john stewart tv show 2026"
+  },
+  {
+    "t": "The New 52 Era",
+    "s": "Reading era 2011–2015: the universe reboots, the Corps starts over.",
+    "u": "eras/new52.html",
+    "k": "new 52 era 2011 2015 green lantern vol 5 red lanterns sinestro"
+  },
+  {
+    "t": "DC Rebirth",
+    "s": "Reading era 2016–2018: Hal Jordan and the Green Lantern Corps + Green Lanterns.",
+    "u": "eras/rebirth-era.html",
+    "k": "dc rebirth 2016 2018 hal jordan green lantern corps jessica cruz simon baz"
+  },
+  {
+    "t": "Morrison & Sharp",
+    "s": "Reading era 2019–2021: Grant Morrison's psychedelic space-cop run.",
+    "u": "eras/morrison-sharp.html",
+    "k": "morrison sharp 2019 2021 the green lantern grant morrison liam sharp"
+  },
+  {
+    "t": "The Current Era",
+    "s": "Reading era 2023–present: Jeremy Adams' Green Lantern and War Journal.",
+    "u": "eras/current.html",
+    "k": "current era 2023 jeremy adams green lantern war journal john stewart ongoing"
+  },
+  {
+    "t": "Green Lantern: Rebirth",
+    "s": "Reading order: Hal Jordan returns (2004–05).",
+    "u": "stories/rebirth.html",
+    "k": "rebirth hal jordan return 2004 2005 reading order"
+  },
+  {
+    "t": "Green Lantern Corps: Recharge",
+    "s": "Reading order: the Corps rebuilds (2005).",
+    "u": "stories/recharge.html",
+    "k": "recharge corps rebuild 2005 reading order"
+  },
+  {
+    "t": "Green Lantern vol. 4 #1–25",
+    "s": "Reading order: the road to war (2005–07).",
+    "u": "stories/gl-vol4.html",
+    "k": "green lantern vol 4 2005 2007 sinestro road to war"
+  },
+  {
+    "t": "Secret Origin",
+    "s": "Reading order: Hal Jordan's origin retold (2008).",
+    "u": "stories/secret-origin.html",
+    "k": "secret origin hal jordan 2008 reading order"
+  },
+  {
+    "t": "Rage of the Red Lanterns",
+    "s": "Reading order: rage enters the spectrum (2008–09).",
+    "u": "stories/rage.html",
+    "k": "rage red lanterns atrocitus 2008 2009 reading order"
+  },
+  {
+    "t": "Agent Orange",
+    "s": "Reading order: Larfleeze and the orange light (2009).",
+    "u": "stories/agent-orange.html",
+    "k": "agent orange larfleeze avarice 2009 reading order"
+  },
+  {
+    "t": "Brightest Day",
+    "s": "Reading order: after the Blackest Night (2010–11).",
+    "u": "stories/brightest-day.html",
+    "k": "brightest day aftermath 2010 2011 reading order"
+  },
+  {
+    "t": "The Corps Is Forged",
+    "s": "In-universe history: the Guardians found the Corps.",
+    "u": "moments/corps-forged.html",
+    "k": "corps forged guardians oa history"
+  },
+  {
+    "t": "The Massacre of Sector 666",
+    "s": "In-universe history: the Manhunters' atrocity.",
+    "u": "moments/sector-666.html",
+    "k": "sector 666 massacre manhunters atrocitus history"
+  },
+  {
+    "t": "The Miser of Okaara",
+    "s": "In-universe history: Larfleeze claims the orange light.",
+    "u": "moments/miser-okaara.html",
+    "k": "miser okaara larfleeze orange light history"
+  },
+  {
+    "t": "The First Lantern of Earth",
+    "s": "In-universe history: Alan Scott and the Starheart (1940).",
+    "u": "moments/first-lantern.html",
+    "k": "alan scott first lantern earth starheart 1940 history"
+  },
+  {
+    "t": "Fear Organizes",
+    "s": "In-universe history: Sinestro founds his Corps.",
+    "u": "moments/fear-organizes.html",
+    "k": "fear organizes sinestro corps founded history"
+  },
+  {
+    "t": "The Spectrum Mobilizes",
+    "s": "In-universe history: the War of Light begins.",
+    "u": "moments/spectrum-mobilizes.html",
+    "k": "spectrum mobilizes war of light corps history"
+  },
+  {
+    "t": "Worlds",
+    "s": "The key worlds of the Green Lantern mythos.",
+    "u": "worlds/index.html",
+    "k": "worlds planets locations oa qward zamaron ysmault odym nok"
+  },
+  {
+    "t": "Oa",
+    "s": "The heart of the Green Lantern Corps.",
+    "u": "worlds/oa.html",
+    "k": "oa green lantern homeworld guardians central power battery"
+  },
+  {
+    "t": "Qward",
+    "s": "Home of the Weaponers and the Sinestro Corps.",
+    "u": "worlds/qward.html",
+    "k": "qward sinestro corps weaponers antimatter"
+  },
+  {
+    "t": "Zamaron",
+    "s": "Home of the Star Sapphires.",
+    "u": "worlds/zamaron.html",
+    "k": "zamaron star sapphire zamarons violet"
+  },
+  {
+    "t": "Ysmault",
+    "s": "The Red Lanterns' fortress.",
+    "u": "worlds/ysmault.html",
+    "k": "ysmault red lantern blood ocean atrocitus"
+  },
+  {
+    "t": "Odym",
+    "s": "The Blue Lanterns' sanctuary.",
+    "u": "worlds/odym.html",
+    "k": "odym blue lantern saint walker hope"
+  },
+  {
+    "t": "Nok",
+    "s": "The Indigo Tribe's hidden home.",
+    "u": "worlds/nok.html",
+    "k": "nok indigo tribe jungle"
+  },
+  {
+    "t": "Galius Zed",
+    "s": "The Green Lantern with the giant head — literally. Galius Zed is a Noc'sagian, a race whose bodies are essentially one e...",
+    "u": "character.html?id=galius-zed",
+    "k": "galius zed green lantern character tales of the green lantern corps #2 (1981)"
+  },
+  {
+    "t": "Jessica Cruz",
+    "s": "The first female human Green Lantern — and one of the most human heroes in the Corps. Jessica Cruz, a Mexican-American f...",
+    "u": "character.html?id=jessica-cruz",
+    "k": "jessica cruz green lantern character green lantern #20 (2013) — cameo; full debut justice league (vol. 2) #31 (2014)"
+  },
+  {
+    "t": "Simon Baz",
+    "s": "The first Muslim-American Green Lantern, and the Corps' most unlikely recruit. Simon Baz, a Lebanese-American mechanic f...",
+    "u": "character.html?id=simon-baz",
+    "k": "simon baz green lantern character the new 52 free comic book day special edition #1 (2012) — cameo; proper debut green lantern #0 (2012)"
+  },
+  {
+    "t": "Abin Sur",
+    "s": "Green Lantern Corps — The Lantern whose death made Hal Jordan.",
+    "u": "character.html?id=abin-sur",
+    "k": "abin sur green lantern corps the lantern whose death made hal jordan. abin sur was the green lantern of sector 2814 — the sector containing earth — long before hal jordan ever touched a ring. a history professor from the planet ungara, he served the corps with distincti"
+  },
+  {
+    "t": "Mogo",
+    "s": "Green Lantern Corps — The living planet. Mogo doesn't socialize.",
+    "u": "character.html?id=mogo",
+    "k": "mogo green lantern corps the living planet. mogo doesn't socialize. mogo is a sentient planet and a full member of the green lantern corps — one of its most powerful. created by alan moore and dave gibbons in the legendary six-page story 'mogo doesn't socialize,' he g"
+  },
+  {
+    "t": "Boodikka",
+    "s": "Green Lantern Corps — The Bellatrix warrior. First of the Alpha Lanterns.",
+    "u": "character.html?id=boodikka",
+    "k": "boodikka green lantern corps the bellatrix warrior. first of the alpha lanterns. boodikka of bellatrix was a mercenary with the bellatrix bombers before the corps recruited her — a warrior who joined because she believed a green lantern could never be defeated. she proved herself "
+  },
+  {
+    "t": "Isamot Kol",
+    "s": "Green Lantern Corps — Saved from execution by a ring.",
+    "u": "character.html?id=isamot-kol",
+    "k": "isamot kol green lantern corps saved from execution by a ring. isamot kol is a lizarkon — a reptilian humanoid from thanagar — who was about to be executed for killing his commanding officer when a green lantern ring stopped the axe mid-swing. recruited in green "
+  }
 ]
