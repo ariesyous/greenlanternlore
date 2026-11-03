@@ -206,4 +206,20 @@
     <loc>https://dev1magnascale.github.io/greenlanternlore/stories/brightest-day.html</loc>
     <changefreq>monthly</changefreq>
   </url>
+  <url>
+    <loc>https://dev1magnascale.github.io/greenlanternlore/moments/hal-becomes-lantern.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://dev1magnascale.github.io/greenlanternlore/moments/sinestros-fall.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://dev1magnascale.github.io/greenlanternlore/moments/coast-city-falls.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://dev1magnascale.github.io/greenlanternlore/moments/parallax-sealed.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>
