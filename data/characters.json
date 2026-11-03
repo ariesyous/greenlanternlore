@@ -209,8 +209,8 @@
       "corpsClass": "corps-red",
       "corpsPage": "corps/red.html",
       "portrait": "assets/characters/atrocitus.jpg",
-      "tagline": "Rage given purpose.",
-      "bio": "Atrocitus is one of the Five Inversions — five survivors of the Massacre of Sector 666, who nursed his rage across the ages until the red light answered. He forged the Red Lantern Corps from his own fury — and from a prophecy of the darkness to come, the Blackest Night. Rage with a purpose, and a plan: Atrocitus doesn't just burn, he burns toward something.",
+      "tagline": "Founder of the Red Lanterns — rage with a prophecy.",
+      "bio": "Atrocitus — born Atros on the planet Ryut in Sector 666 — is one of the Five Inversions, the only survivors of the Manhunters' massacre of his sector. For centuries, the Inversions waged a blood-magic war on the Guardians, building the Empire of Tears from their prison on Ysmault. But Atros had gazed into his own future using a murdered Guardian's blood: he saw himself standing over his comrades' corpses. He made it real — bludgeoning Qull to death with the first red power battery, then bleeding out Roixeaume, Orphram, and Dal Xauix. Their crystallized blood became the first red ring; their sacrifice raised the Red Central Power Battery over Ysmault's lake of blood. As the first Red Lantern, Atrocitus doesn't just burn — he burns with purpose: vengeance on the Guardians, war on Sinestro, and a prophecy of the Blackest Night that drove him to forge an army from rage itself.",
       "firstAppearance": "Green Lantern #25 (2007)",
       "appearsIn": [
         {
@@ -220,6 +220,10 @@
         {
           "id": "read-blackest-night",
           "title": "Blackest Night"
+        },
+        {
+          "id": "read-scw",
+          "title": "Sinestro Corps War"
         }
       ],
       "signature": "Rage plasma — his ring replaces the heart and lets him vomit corrosive blood-fire."
