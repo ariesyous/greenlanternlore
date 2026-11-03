@@ -38,6 +38,7 @@
     <a href="index.html" class="active">Worlds</a>
     <a href="../quiz.html">Quiz</a>
     <a href="../glossary.html">Glossary</a>
+      <a href="../faq.html">FAQ</a>
   </nav>
 </header>
 <main class="page" id="main">
@@ -116,6 +117,13 @@
             <p>Sinestro's homeworld — the world that fear built, and fury destroyed.</p>
           </div>
         </a>
+      <a class="entity-card entity-link-card" style="--corps:var(--green)" href="daxam.html">
+          <img src="../assets/worlds/daxam.jpg" alt="Sodam Yat of Daxam — Green Lantern comic art" loading="lazy" />
+          <div>
+            <h3>Daxam</h3>
+            <p>Sodam Yat's homeworld — a world of supermen who fear the stars.</p>
+          </div>
+        </a>
       <a class="entity-card entity-link-card" style="--corps:var(--green)" href="ungara.html">
           <img src="../assets/worlds/ungara.jpg" alt="Ungara — Abin Sur's memorial, Green Lantern comic art" loading="lazy" />
           <div>
@@ -157,7 +165,8 @@
     </section>
   <footer class="site-footer">
   <nav class="footer-sitemap" aria-label="Site map">
-    <a href="../index.html">Home</a><a href="../characters.html">Characters</a><a href="../spectrum.html">Spectrum</a><a href="../timeline.html">Timeline</a><a href="../events.html">Events</a><a href="../worlds/index.html">Worlds</a><a href="../powers.html">Powers</a><a href="../constructs.html">Constructs</a><a href="../quotes.html">Oaths</a><a href="../creators.html">Creators</a><a href="../quiz.html">Quiz</a><a href="../glossary.html">Glossary</a><a href="../sources.html">Sources</a>
+    <a href="../index.html">Home</a><a href="../characters.html">Characters</a><a href="../spectrum.html">Spectrum</a><a href="../timeline.html">Timeline</a><a href="../events.html">Events</a><a href="../worlds/index.html">Worlds</a><a href="../powers.html">Powers</a><a href="../constructs.html">Constructs</a><a href="../quotes.html">Oaths</a><a href="../creators.html">Creators</a><a href="../quiz.html">Quiz</a><a href="../glossary.html">Glossary</a>
+      <a href="../faq.html">FAQ</a><a href="../sources.html">Sources</a>
   </nav>
   <p>A fan-made tribute. Not affiliated with DC Comics.</p><p>© 2026 Lantern Lore</p>
 </footer>
@@ -170,7 +179,7 @@
   const worlds = [
     'oa.html', 'qward.html', 'zamaron.html', 'ysmault.html', 'odym.html',
     'nok.html', 'okaara.html', 'ryut.html', 'earth.html',
-    'korugar.html', 'ungara.html', 'xudar.html'
+    'korugar.html', 'ungara.html', 'xudar.html', 'daxam.html'
   ];
   btn.addEventListener('click', () => {
     const pick = worlds[Math.floor(Math.random() * worlds.length)];
