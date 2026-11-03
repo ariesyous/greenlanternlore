@@ -44,6 +44,7 @@
   <nav class="crumbs" aria-label="Breadcrumb"><a href="../index.html">Home</a> › Worlds</nav>
   <h1>Worlds</h1>
   <p class="lede">Every Corps has a home. These are the worlds that shaped the Green Lantern mythos — fortresses, sanctuaries, and crime scenes, each soaked in its Corps' light.</p>
+      <p><button class="random-btn" id="random-world" type="button">🌍 Visit a random world</button></p>
   <div class="explainer"><div class="entity-grid">
       <a class="entity-card entity-link-card" style="--corps:var(--green)" href="oa.html">
           <img src="../assets/worlds/oa.jpg" alt="Oa — Green Lantern comic art" loading="lazy" />
@@ -140,5 +141,20 @@
   <p>A fan-made tribute. Not affiliated with DC Comics.</p><p>© 2026 Lantern Lore</p>
 </footer>
 <script src="../js/search.js"></script>
+
+<script>
+(function() {
+  const btn = document.getElementById('random-world');
+  if (!btn) return;
+  const worlds = [
+    'oa.html', 'qward.html', 'zamaron.html', 'ysmault.html', 'odym.html',
+    'nok.html', 'okaara.html', 'ryut.html', 'earth.html'
+  ];
+  btn.addEventListener('click', () => {
+    const pick = worlds[Math.floor(Math.random() * worlds.length)];
+    window.location.href = pick;
+  });
+})();
+</script>
 </body>
 </html>

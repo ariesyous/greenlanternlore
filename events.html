@@ -47,6 +47,7 @@
     <section class="hero" style="padding-bottom:1.5rem">
       <p class="eyebrow">Saga Guide</p>
       <h1>Major<br />Events</h1>
+      <p><button class="random-btn" id="random-event" type="button">⚡ Relive a random event</button></p>
       <p class="lede">The wars and cataclysms that reshaped the Corps — the stories every Lantern fan should know.</p>
     </section>
 
@@ -154,5 +155,21 @@
     <p>A fan-made tribute. Not affiliated with DC Comics.</p>
     <p>&copy; <span id="year">2026</span> Lantern Lore</p>
   </footer>
+
+<script>
+(function() {
+  const btn = document.getElementById('random-event');
+  if (!btn) return;
+  const events = [
+    'events/emerald-twilight.html', 'events/sinestro-corps-war.html',
+    'events/blackest-night.html', 'events/war-of-the-green-lanterns.html',
+    'events/zero-hour.html', 'events/wrath-of-the-first-lantern.html'
+  ];
+  btn.addEventListener('click', () => {
+    const pick = events[Math.floor(Math.random() * events.length)];
+    window.location.href = pick;
+  });
+})();
+</script>
 </body>
 </html>

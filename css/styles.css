@@ -1772,3 +1772,92 @@ html {
 .entity-link-card h3 {
   color: var(--ink);
 }
+
+/* Compare Corps page */
+.compare-selectors {
+  display: flex;
+  gap: 1.5rem;
+  align-items: end;
+  justify-content: center;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+.compare-select label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+}
+.compare-select select {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 2px solid var(--line);
+  background: var(--bg);
+  color: var(--ink);
+  min-height: 44px;
+  cursor: pointer;
+}
+.compare-vs {
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--muted);
+  padding-bottom: 0.75rem;
+}
+.compare-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+.compare-card {
+  border: 2px solid var(--corps, var(--line));
+  border-radius: 12px;
+  padding: 1.5rem;
+  background: var(--card-bg, rgba(255,255,255,0.02));
+}
+.compare-card h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+.compare-facts {
+  margin: 1rem 0;
+}
+.compare-facts > div {
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.compare-facts dt {
+  font-weight: 700;
+  min-width: 100px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+.compare-facts dd {
+  margin: 0;
+}
+.compare-oath {
+  font-style: italic;
+  border-left: 3px solid var(--corps, var(--line));
+  padding-left: 1rem;
+  margin: 1rem 0;
+}
+@media (max-width: 640px) {
+  .compare-grid {
+    grid-template-columns: 1fr;
+  }
+  .compare-selectors {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .compare-vs {
+    text-align: center;
+    padding: 0;
+  }
+}
