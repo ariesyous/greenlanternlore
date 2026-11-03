@@ -1210,6 +1210,53 @@
       "appearsIn": [],
       "signature": "A self-sustaining ring \u2014 the Corps' secret weapon, no battery required.",
       "sources": "N.K. Jemisin (writer), Jamal Campbell (artist)"
+    },
+    {
+      "id": "jade",
+      "name": "Jade",
+      "corps": "Green Lantern Corps",
+      "corpsClass": "green",
+      "corpsPage": "corps/green.html",
+      "portrait": "assets/characters/jade.jpg",
+      "tagline": "Alan Scott's daughter \u2014 Earth's first female Green Lantern.",
+      "bio": "Jennifer-Lynn Hayden, known as Jade, is the daughter of Alan Scott \u2014 the Golden Age Green Lantern \u2014 and the villain Thorn. She inherited her father's Starheart powers, channeling green energy through the star-shaped birthmark on her palm rather than a ring. When Kyle Rayner gave her a spare power ring, she became Earth's first female Green Lantern and joined the Corps. Jade has served with the Justice Society, Infinity Inc., and the Justice League, carrying her father's legacy into the modern era.",
+      "firstAppearance": "All-Star Squadron #25 (September 1983)",
+      "appearsIn": [],
+      "signature": "Starheart energy through her palm \u2014 inherited power, no ring required.",
+      "sources": "Roy Thomas (writer), Jerry Ordway (artist)"
+    },
+    {
+      "id": "green-man",
+      "name": "Green Man",
+      "corps": "Green Lantern Corps",
+      "corpsClass": "green",
+      "corpsPage": "corps/green.html",
+      "portrait": "assets/characters/green-man.jpg",
+      "tagline": "The Lantern of Uxor \u2014 a world without names.",
+      "bio": "Green Man hails from Uxor, a planet where inhabitants are not given proper names \u2014 he is known only by his title. Assigned to Sector 2828, which contains the Vega system, he served as the Green Lantern of a region the Guardians had pacted to avoid. He later partnered with Stel, the robotic Lantern of Grenda, and served with distinction through multiple Corps crises. His alien perspective \u2014 from a world without individual identity \u2014 gave him a unique understanding of the Corps' collective purpose.",
+      "firstAppearance": "Green Lantern (vol. 2) #164 (May 1983)",
+      "appearsIn": [],
+      "signature": "A nameless Lantern \u2014 identity through service, not self.",
+      "sources": "Todd Klein (writer), Dave Gibbons (artist)"
+    },
+    {
+      "id": "jack-t-chance",
+      "name": "Jack T. Chance",
+      "corps": "Green Lantern Corps",
+      "corpsClass": "green",
+      "corpsPage": "corps/green.html",
+      "portrait": "assets/characters/jack-t-chance.jpg",
+      "tagline": "The Lantern of Hellhole \u2014 who brings a gun to a ring fight.",
+      "bio": "Jack T. Chance is the Green Lantern of Garnet, a world so crime-ridden it's called Hellhole. When the previous Lantern died, the ring chose Jack \u2014 a brutal enforcer who saw the ring as just another weapon. The Guardians were horrified by his methods but had no alternative; no one else would take the post. Jack was famously granted the sole exemption to the Corps' prohibition on lethal force, and he carried a pistol alongside his ring. He died fighting Parallax during Emerald Twilight, refusing to stand down.",
+      "firstAppearance": "Green Lantern Corps Quarterly #1 (Summer 1992)",
+      "appearsIn": [
+        {
+          "id": "emerald-twilight",
+          "title": "Emerald Twilight"
+        }
+      ],
+      "signature": "A pistol and a power ring \u2014 the Corps' most controversial Lantern.",
+      "sources": "John Ostrander (writer), Flint Henry (artist)"
     }
   ]
 }
