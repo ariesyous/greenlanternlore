@@ -222,4 +222,12 @@
     <loc>https://dev1magnascale.github.io/greenlanternlore/moments/parallax-sealed.html</loc>
     <changefreq>monthly</changefreq>
   </url>
+  <url>
+    <loc>https://dev1magnascale.github.io/greenlanternlore/moments/rage-ignites.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://dev1magnascale.github.io/greenlanternlore/moments/xanshi-burns.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>
