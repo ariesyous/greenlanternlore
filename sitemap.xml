@@ -74,4 +74,12 @@
     <loc>https://dev1magnascale.github.io/greenlanternlore/worlds/earth.html</loc>
     <changefreq>monthly</changefreq>
   </url>
+  <url>
+    <loc>https://dev1magnascale.github.io/greenlanternlore/moments/kyle-white-lantern.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://dev1magnascale.github.io/greenlanternlore/moments/third-army.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>
