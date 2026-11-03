@@ -1309,6 +1309,58 @@
       "appearsIn": [],
       "signature": "Ring and claws \u2014 the law of the Sciencells.",
       "sources": "Chuck Dixon (writer)"
+    },
+    {
+      "id": "tomar-tu",
+      "name": "Tomar-Tu",
+      "corps": "Green Lantern Corps",
+      "corpsClass": "green",
+      "corpsPage": "corps/green.html",
+      "portrait": "assets/characters/tomar-tu.jpg",
+      "tagline": "The son who inherited his hero's ring \u2014 and his name.",
+      "bio": "Tomar-Tu is a Xudarian Green Lantern of Sector 2813 and the son of the legendary Tomar-Re \u2014 though he didn't know it at first. Born on the Mosaic World, a patchwork planet assembled by the mad Guardian Appa Ali Apsa from stolen cities, Tomar-Tu grew up idolizing Tomar-Re as a hero before discovering the hero was his father. He earned his own ring in Green Lantern vol. 3 #24 (1992) and served with distinction, counting as one of the Lost Lanterns who survived Parallax's rampage. Carrying the Tomar name means carrying its legacy \u2014 and Tomar-Tu has spent his career proving he deserves both.",
+      "firstAppearance": "Green Lantern (vol. 3) #5 (October 1990)",
+      "appearsIn": [],
+      "signature": "A legacy Lantern \u2014 earning a name he was born to.",
+      "sources": "Gerard Jones (writer), Pat Broderick (artist)"
+    },
+    {
+      "id": "ash",
+      "name": "Ash",
+      "corps": "Green Lantern Corps",
+      "corpsClass": "green",
+      "corpsPage": "corps/green.html",
+      "portrait": "assets/characters/ash.jpg",
+      "tagline": "The vampire hunter of Sector 650.",
+      "bio": "Ashel Sabian Formanta \u2014 known as Ash \u2014 is the Green Lantern of Sector 650, a former farmer from the planet Arata whose wife Tasha was killed by vampires. He turned his grief into a crusade, hunting the blood-drinkers across his sector with his ring. Ash survived the fall of the Corps during Emerald Twilight and rejoined when it was rebuilt. His defining mission came during the War of Light, when the scarred Guardian sent him into the lightless Sector 666 to find the Anti-Monitor's corpse. There he met Saarek, and together they found the Black Central Power Battery on Ryut \u2014 and their deaths. Both rose as Black Lanterns when the dead rose.",
+      "firstAppearance": "Green Lantern Corps Quarterly #7 (January 1994)",
+      "appearsIn": [
+        {
+          "id": "blackest-night",
+          "title": "Blackest Night"
+        }
+      ],
+      "signature": "A farmer turned hunter \u2014 fearless in the dark.",
+      "sources": "Green Lantern Corps Quarterly #7"
+    },
+    {
+      "id": "saarek",
+      "name": "Saarek",
+      "corps": "Green Lantern Corps",
+      "corpsClass": "green",
+      "corpsPage": "corps/green.html",
+      "portrait": "assets/characters/saarek.jpg",
+      "tagline": "The Lantern who speaks with the dead.",
+      "bio": "Saarek is the Green Lantern of Sector 773, a telepath from the planet Vulcan who claims he can commune with the dead \u2014 a claim most of the Corps met with skepticism. His gift proved real and terrible: he identified the killers who were harvesting the eyes of Lanterns' families by reading the last image in a victim's eye. The scarred Guardian chose him for a secret mission into Sector 666 to find the Anti-Monitor's corpse, where he met Ash. Together they discovered the Black Central Power Battery on Ryut, and the countless dead screaming in Saarek's mind overwhelmed him. He died there \u2014 and rose as a Black Lantern, the dead he once spoke to now his masters.",
+      "firstAppearance": "Green Lantern Corps (vol. 2) #27 (October 2008)",
+      "appearsIn": [
+        {
+          "id": "blackest-night",
+          "title": "Blackest Night"
+        }
+      ],
+      "signature": "He heard the dead \u2014 until he joined them.",
+      "sources": "Peter Tomasi (writer), Luke Ross (artist)"
     }
   ]
 }
