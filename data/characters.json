@@ -1361,6 +1361,67 @@
       ],
       "signature": "He heard the dead \u2014 until he joined them.",
       "sources": "Peter Tomasi (writer), Luke Ross (artist)"
+    },
+    {
+      "id": "gnort",
+      "name": "G'nort",
+      "corps": "Green Lantern Corps",
+      "corpsClass": "green",
+      "corpsPage": "corps/green.html",
+      "portrait": "assets/characters/gnort.jpg",
+      "tagline": "The Corps' most unlikely hero.",
+      "bio": "G'nort is a dog-like humanoid alien and, by every measure the Guardians use, the least qualified being ever to wear a power ring \u2014 which is exactly why fans adore him. He debuted in Justice League International #10 (1988), bumbling into the League during the Millennium crossover, and briefly served as the team's Green Lantern before being kicked out. The truth was stranger than the comedy: his ring was a fake, planted by the Weaponers of Qward through the clown-like Poglachians to discredit the Corps. But when it mattered, on Qward itself, G'nort saved Guy Gardner's life and destroyed the source of the fake rings \u2014 earning a genuine ring and the reluctant respect of the real Guardians. He lost it all in Emerald Twilight, served with the Darkstars, and was later revealed as Larfleeze's cousin. Useless? Often. Fearless? Always.",
+      "firstAppearance": "Justice League International #10 (1988)",
+      "appearsIn": [
+        {
+          "id": "emerald-twilight",
+          "title": "Emerald Twilight"
+        }
+      ],
+      "signature": "Earned a real ring on Qward by saving Guy Gardner.",
+      "sources": "Keith Giffen, J.M. DeMatteis (writers)"
+    },
+    {
+      "id": "graf-toren",
+      "name": "Graf Toren",
+      "corps": "Green Lantern Corps",
+      "corpsClass": "green",
+      "corpsPage": "corps/green.html",
+      "portrait": "assets/characters/graf-toren.jpg",
+      "tagline": "The Light Monk who hunted the Spider Guild.",
+      "bio": "Graf Toren was a Karaxian Light Monk who spent years hunting the Spider Guild across his sector before the Guardians chose him as their Lantern. He debuted in Guy Gardner #11 (August 1993), created by Chuck Dixon and Joe Staton, and his hexagonal, orange-skinned design made him one of the most visually distinctive Lanterns of the era. Toren stood among the Lanterns who tried to stop Hal Jordan's rampage on Oa during Emerald Twilight \u2014 and fell. But death was not the end: he was discovered years later in suspended animation on Biot, the Manhunter homeworld, where the Cyborg Superman had been using forgotten Lanterns as living power sources. Freed by Hal Jordan and Guy Gardner, Toren became one of the Lost Lanterns and fought through the Sinestro Corps War, finally getting the second chance his first death denied him.",
+      "firstAppearance": "Guy Gardner #11 (August 1993)",
+      "appearsIn": [
+        {
+          "id": "emerald-twilight",
+          "title": "Emerald Twilight"
+        },
+        {
+          "id": "read-scw",
+          "title": "Sinestro Corps War"
+        }
+      ],
+      "signature": "A monk's discipline behind a warrior's ring.",
+      "sources": "Chuck Dixon (writer), Joe Staton (artist)"
+    },
+    {
+      "id": "charlie-vicker",
+      "name": "Charlie Vicker",
+      "corps": "Green Lantern Corps",
+      "corpsClass": "green",
+      "corpsPage": "corps/green.html",
+      "portrait": "assets/characters/charlie-vicker.jpg",
+      "tagline": "The actor who became the real thing.",
+      "bio": "Charlie Vicker was a flamboyant television actor famous for playing Green Lantern on an Earth TV show \u2014 until life imitated art in the worst way. When space criminals mistook his stand-in brother Roger for the real Lantern during a live broadcast, Roger was killed, and a guilt-stricken Charlie demanded Hal Jordan take him along to hunt the murderer. Hal deputized him with a fallen Lantern's ring in Green Lantern (vol. 2) #55 (September 1967), and Charlie proved himself so thoroughly that the Guardians granted him a ring of his own and assigned him to Sector 3319. After the Corps fell he joined John Stewart's Darkstars, died in the Battle of Rann, and \u2014 like so many Lanterns \u2014 returned when the Corps was reborn, answering the call again during the War of the Green Lanterns. He began as a man pretending to be a hero, and became one for real.",
+      "firstAppearance": "Green Lantern (vol. 2) #55 (September 1967)",
+      "appearsIn": [
+        {
+          "id": "read-wotgl",
+          "title": "War of the Green Lanterns"
+        }
+      ],
+      "signature": "From TV hero to true Lantern of Sector 3319.",
+      "sources": "John Broome (writer), Gil Kane (artist)"
     }
   ]
 }
