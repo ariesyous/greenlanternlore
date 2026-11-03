@@ -8,7 +8,7 @@
       "corpsPage": "corps/green.html",
       "portrait": "assets/characters/hal-jordan.jpg",
       "tagline": "The Corps' greatest \u2014 and most reckless \u2014 Lantern.",
-      "bio": "Hal Jordan was a fearless test pilot for Ferris Aircraft when the dying alien Abin Sur passed him a power ring \u2014 and the most famous Lantern in the universe was born. Chosen for his ability to overcome great fear, Hal has saved the universe more times than anyone can count, from the Manhunters to the Anti-Monitor. He once fell to the fear entity Parallax and destroyed the Corps itself \u2014 and came back from it, rebuilding everything from the ashes. Reckless, inspiring, and utterly incapable of backing down: the standard every Lantern is measured against.",
+      "bio": "Hal Jordan was a fearless test pilot for Ferris Aircraft when the dying alien Abin Sur passed him a power ring \u2014 and the Guardians' choice proved inspired, if endlessly exasperating. Where other Lanterns recite procedure, Hal improvises: he has punched through armies, outflown supernovae, and talked his way out of cosmic courts, all on the strength of a willpower so absolute it borders on defiance of reality itself. Trained by Sinestro himself, Hal inherited his mentor's brilliance and rejected his mentor's tyranny \u2014 a tension that has defined both men ever since. His fall was the Corps' darkest hour: when Coast City was destroyed, Hal's grief broke him, and as Parallax he unmade the Corps itself in Emerald Twilight. But Green Lantern: Rebirth revealed the truth \u2014 a fear entity had been festering in his ring all along \u2014 and Hal's return rebuilt the mythology from the foundation up. He went on to lead the Corps through the Sinestro Corps War, Blackest Night, and the War of the Green Lanterns, forging the rainbow coalition that saved the universe. Whether as the Corps' greatest hero, its prodigal exile, or Morrison's intergalactic lawman, Hal Jordan remains the standard every Lantern is measured against: the man with the will to do anything, and the recklessness to try. He has died, been reborn, wielded every color of the spectrum, and faced down gods \u2014 yet his defining trait never changed: when everyone else sees the odds, Hal sees the opening. That is why the ring chose him, why it keeps choosing him, and why the Corps' oath might as well have been written about one man.",
       "firstAppearance": "Showcase #22 (1959)",
       "appearsIn": [
         {
@@ -105,8 +105,8 @@
       "corpsClass": "corps-green",
       "corpsPage": "corps/green.html",
       "portrait": "assets/characters/kyle-rayner.jpg",
-      "tagline": "The artist.",
-      "bio": "Kyle Rayner was a freelance artist handed a power ring on the worst day of the Corps' history \u2014 with almost no training and no backup. He carried the torch alone as the last Green Lantern, then helped rebuild everything from the ashes. Along the way he hosted Ion, the living embodiment of willpower, and became the one Lantern to master the entire emotional spectrum as a White Lantern. The artist of the Corps: where others make constructs, Kyle makes art.",
+      "tagline": "The artist who became the White Lantern.",
+      "bio": "Kyle Rayner was a freelance artist handed a power ring on the worst day of the Corps' history \u2014 with almost no training and no Corps to train him. Where Hal Jordan was a test pilot who imposed his will on the universe, Kyle was an illustrator who imagined his way through it: his constructs had an artist's flair, detailed and inventive in ways no Lantern before him had attempted. Thrust into the role during Emerald Twilight's aftermath, Kyle carried the entire Green Lantern legacy alone through the late 1990s, earning the name Torchbearer. He briefly wielded the godlike power of Ion, sacrificed it to reignite the Central Power Battery and resurrect the Guardians, and stood at Hal's side through the Sinestro Corps War and Blackest Night. His greatest feat came later: journeying across the emotional spectrum in Green Lantern: New Guardians, Kyle mastered all seven lights and became the White Lantern \u2014 the living embodiment of life itself. The kid who got the last ring became the one Lantern who could wield them all. Unlike Hal, Kyle never had a mentor's shadow to escape \u2014 he had a vacuum to fill, and he filled it with imagination. His era proved the Corps was an idea bigger than any one bearer, and his White Lantern ascension proved that the idea's fullest expression belonged to the artist who never stopped drawing new possibilities. When the history of the Corps is written, Kyle's chapter is the one about reinvention.",
       "firstAppearance": "Green Lantern #48 (1994)",
       "appearsIn": [
         {
@@ -161,8 +161,8 @@
       "corpsClass": "corps-yellow",
       "corpsPage": "corps/yellow.html",
       "portrait": "assets/characters/sinestro.jpg",
-      "tagline": "The Corps' greatest enemy.",
-      "bio": "Thaal Sinestro was once the Green Lantern Corps' most celebrated member \u2014 the greatest Lantern of his era, and Hal Jordan's mentor. Exiled for ruling his sector through fear, he decided fear was the point: he forged the yellow light into the Sinestro Corps, an army built on terror, and nearly broke the universe in the war that followed. Brilliant, ruthless, and utterly convinced he is the hero of his own story \u2014 and sometimes, terrifyingly, he has a point.",
+      "tagline": "The Corps' greatest enemy \u2014 and its greatest cautionary tale.",
+      "bio": "Thaal Sinestro was once the Green Lantern Corps' most celebrated member \u2014 the greatest Lantern of his era, and Hal Jordan's own mentor. A Korugarian anthropologist obsessed with order, Sinestro decided that his homeworld's peace required his absolute rule, and he built a dictatorship with his power ring, crushing dissent in the name of stability. When Hal exposed him, the Guardians stripped Sinestro of his ring and exiled him to the antimatter universe of Qward \u2014 where he did what exiles do: he built an army. Forging the yellow ring from the fear entity Parallax, Sinestro founded the Sinestro Corps on a single doctrine: where the Guardians offer willpower, he offers the order that only terror can enforce. He has died and returned, conquered and been conquered, led his Corps in the war that bears his name and stood beside Hal against the Black Lanterns. In the New 52 he even wore green again, however briefly, and his solo series asked the uncomfortable question: can fear serve justice? Sinestro endures because he is never merely a villain \u2014 he is the Corps' mirror, the argument that willpower without order is chaos, made by the one man brilliant enough to almost prove it. His relationship with his daughter Soranik Natu \u2014 a Green Lantern herself \u2014 adds the one complication his philosophy cannot resolve: love. Every era of Green Lantern reinvents Sinestro, because every era needs to ask his question again: how much order is worth how much freedom?",
       "firstAppearance": "Green Lantern #7 (1961)",
       "appearsIn": [
         {
@@ -1257,6 +1257,58 @@
       ],
       "signature": "A pistol and a power ring \u2014 the Corps' most controversial Lantern.",
       "sources": "John Ostrander (writer), Flint Henry (artist)"
+    },
+    {
+      "id": "bzzd",
+      "name": "Bzzd",
+      "corps": "Green Lantern Corps",
+      "corpsClass": "green",
+      "corpsPage": "corps/green.html",
+      "portrait": "assets/characters/bzzd.jpg",
+      "tagline": "The wasp who fought like a giant.",
+      "bio": "Bzzd was a wasp-like Green Lantern from the planet Apiaton, assigned to Sector 2261 as the partner of Mogo \u2014 a pairing of the Corps' smallest and largest members. Constantly underestimated because of his size, Bzzd compensated with oversized constructs and unshakable willpower; his greatest fear was being stripped of his ring and returned to an insignificant insect. During the Sinestro Corps War he gave his life fighting Mongul to defend his fellow Lanterns, and his ring passed to Mother Mercy. He later rose as a Black Lantern, because even death could not keep so stubborn a will down for long.",
+      "firstAppearance": "Green Lantern Corps (vol. 2) #12 (July 2007)",
+      "appearsIn": [
+        {
+          "id": "sinestro-corps-war",
+          "title": "Sinestro Corps War"
+        }
+      ],
+      "signature": "Oversized constructs from the Corps' tiniest Lantern.",
+      "sources": "Dave Gibbons (writer)"
+    },
+    {
+      "id": "hannu",
+      "name": "Hannu",
+      "corps": "Green Lantern Corps",
+      "corpsClass": "green",
+      "corpsPage": "corps/green.html",
+      "portrait": "assets/characters/hannu.jpg",
+      "tagline": "The Lantern who fights with his fists, not his ring.",
+      "bio": "Hannu hails from Ovacron 6, where warriors consider weapons dishonorable \u2014 so this ten-foot, stone-skinned Lantern refuses to use his power ring in combat, employing it only for flight and transport. He fights with his bare hands, and his pride in his strength is matched only by his devotion to the Corps. Hannu was among the Lanterns sent to stop Hal Jordan during Emerald Twilight; defeated and stripped of his ring, he was left for dead, then captured by the Manhunters and imprisoned on Biot for years. He survived it all \u2014 one of the storied 'Lost Lanterns' \u2014 and returned to the Corps with his fists still his weapon of choice.",
+      "firstAppearance": "Green Lantern (vol. 3) #49 (February 1994)",
+      "appearsIn": [
+        {
+          "id": "emerald-twilight",
+          "title": "Emerald Twilight"
+        }
+      ],
+      "signature": "A ring worn as decoration \u2014 his fists do the talking.",
+      "sources": "Ron Marz (writer), Darryl Banks (artist)"
+    },
+    {
+      "id": "voz",
+      "name": "Voz",
+      "corps": "Green Lantern Corps",
+      "corpsClass": "green",
+      "corpsPage": "corps/green.html",
+      "portrait": "assets/characters/voz.jpg",
+      "tagline": "Warden of the Sciencells \u2014 the Corps' most feared jailer.",
+      "bio": "Voz of Eciram, Sector 571, is one of the oldest and fiercest members of the Green Lantern Corps \u2014 a seven-foot, 816-pound wall of brown fur, claws, and absolute authority. After escaping the Draal, an alien species that cloned Lanterns and stole their rings, Voz's fearlessness convinced the Guardians to appoint him warden of the Sciencells, the most impenetrable prison in the cosmos. No inmate has ever been rehabilitated on his watch, and none has ever escaped \u2014 until the Red Lantern Vice broke free during the Emerald Eclipse and overpowered even Voz. He takes the failure personally, because for Voz, the Sciencells are not a posting. They are a sacred trust.",
+      "firstAppearance": "Guy Gardner #11 (August 1993)",
+      "appearsIn": [],
+      "signature": "Ring and claws \u2014 the law of the Sciencells.",
+      "sources": "Chuck Dixon (writer)"
     }
   ]
 }
