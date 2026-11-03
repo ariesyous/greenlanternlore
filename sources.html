@@ -32,7 +32,7 @@
       <input type="search" name="q" placeholder="Search the lore&hellip;" aria-label="Search the lore" autocomplete="off" />
       <div class="search-results" hidden></div>
     </form>
-    <nav id="site-nav" class="site-nav">
+    <nav id="site-nav" class="site-nav" aria-label="Primary">
       <a href="index.html">Home</a>
       <a href="index.html#corps">Corps</a>
       <a href="characters.html">Characters</a>
@@ -87,6 +87,29 @@
     </div>
   </main>
 
+  
+    <!-- KEEP EXPLORING -->
+    <section class="corps-section" aria-label="Keep exploring" style="max-width:880px;margin:0 auto 3rem;padding:0 1.25rem">
+      <h2>Keep Exploring</h2>
+      <p class="section-lede">The lore goes deeper. Pick your next stop.</p>
+      <div class="corps-grid">
+        <a class="corps-card" style="--corps:var(--green)" href="characters.html">
+          <h3>Meet the Lanterns</h3>
+          <p class="card-emotion">51 characters</p>
+          <p class="card-figure">Bios, first appearances, portraits</p>
+        </a>
+        <a class="corps-card" style="--corps:var(--violet)" href="quiz.html">
+          <h3>Which Corps Are You?</h3>
+          <p class="card-emotion">12 questions</p>
+          <p class="card-figure">The ring decides</p>
+        </a>
+        <a class="corps-card" style="--corps:var(--yellow)" href="timeline.html">
+          <h3>Timeline</h3>
+          <p class="card-emotion">Reading order + history</p>
+          <p class="card-figure">From Rebirth to today</p>
+        </a>
+      </div>
+    </section>
   <footer class="site-footer">
     <nav class="footer-sitemap" aria-label="Site map">
       <a href="index.html">Home</a>
