@@ -133,10 +133,11 @@ select:focus-visible {
   text-decoration: none;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 0.85rem;
-  letter-spacing: 0.06em;
-  padding: 0.45rem 0.8rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  padding: 0.45rem 0.6rem;
   border: 2px solid transparent;
+  white-space: nowrap;
 }
 
 .site-nav a:hover,
@@ -1398,6 +1399,13 @@ a.character-card:hover {
   background: var(--bg-2);
   font-size: 0.85rem;
   font-weight: 700;
+}
+
+.char-stories .story-issues {
+  display: block;
+  font-size: 0.78rem;
+  opacity: 0.75;
+  margin-top: 0.15rem;
 }
 
 /* ---------- essays ---------- */
