@@ -54,9 +54,37 @@
     t = setTimeout(function () { show(input.value.trim()); }, 120);
   });
   input.addEventListener("focus", function () { show(input.value.trim()); });
+  var activeIdx = -1;
+
+  function setActive(idx) {
+    var hits = box.querySelectorAll(".search-hit");
+    hits.forEach(function (h) { h.classList.remove("active"); h.removeAttribute("aria-selected"); });
+    activeIdx = idx;
+    if (idx >= 0 && idx < hits.length) {
+      hits[idx].classList.add("active");
+      hits[idx].setAttribute("aria-selected", "true");
+      hits[idx].scrollIntoView({ block: "nearest" });
+    }
+  }
+
   input.addEventListener("keydown", function (e) {
-    if (e.key === "Escape") { hide(); input.blur(); }
+    if (e.key === "Escape") { hide(); input.blur(); activeIdx = -1; }
+    else if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+      var hits = box.querySelectorAll(".search-hit");
+      if (!hits.length) return;
+      e.preventDefault();
+      if (e.key === "ArrowDown") setActive((activeIdx + 1) % hits.length);
+      else setActive((activeIdx - 1 + hits.length) % hits.length);
+    }
+    else if (e.key === "Enter" && activeIdx >= 0) {
+      var hits = box.querySelectorAll(".search-hit");
+      if (hits[activeIdx]) { window.location.href = hits[activeIdx].getAttribute("href"); }
+    }
   });
+
+  // Reset active index when results change
+  var origShow = show;
+  show = function (q) { activeIdx = -1; origShow(q); };
   document.addEventListener("click", function (e) {
     if (!form.contains(e.target)) hide();
   });

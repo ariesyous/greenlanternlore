@@ -49,6 +49,40 @@ body {
   line-height: 1.6;
 }
 
+/* ---------- accessibility: skip link + focus ---------- */
+
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 1rem;
+  z-index: 100;
+  padding: 0.6rem 1rem;
+  background: var(--green);
+  color: #06130a;
+  font-weight: 800;
+  text-decoration: none;
+  border-radius: 0 0 6px 6px;
+  transition: top 0.15s ease;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+:focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: 2px;
+}
+
+/* Keep focus visible on dark interactive elements */
+button:focus-visible,
+input:focus-visible,
+summary:focus-visible,
+select:focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: 2px;
+}
+
 /* ---------- header ---------- */
 
 .site-header {
@@ -469,6 +503,12 @@ body {
 .search-hit strong { display: block; font-size: 0.9rem; }
 
 .search-hit span { font-size: 0.78rem; color: var(--ink-dim); }
+
+.search-hit.active {
+  background: rgba(46, 255, 110, 0.12);
+  outline: 2px solid var(--green);
+  outline-offset: -2px;
+}
 
 .search-type {
   display: inline-block;
