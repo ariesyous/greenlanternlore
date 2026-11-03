@@ -1081,6 +1081,52 @@
       ],
       "signature": "In loudest din or hush profound...",
       "sources": "Publication details via DC Comics"
+    },
+    {
+      "id": "stel",
+      "name": "Stel",
+      "corps": "Green Lantern Corps",
+      "corpsClass": "corps-green",
+      "corpsPage": "corps/green.html",
+      "portrait": "assets/characters/stel.jpg",
+      "tagline": "The robot Lantern — 60 tons of willpower.",
+      "bio": "Stel is a sentient robot from the planet Grenda, where all life is mechanical. One of the earliest alien Lanterns (debuting in 1962), Stel was trained by Sinestro himself before the Korugarian's fall. Weighing 60 tons and standing 8'6\", Stel computes the odds of success on every mission — then tries to beat them. He was torn apart by Krona and rebuilt, served through Crisis on Infinite Earths, and became the Corps' drill instructor after Kilowog stepped down.",
+      "firstAppearance": "Green Lantern (vol. 2) #11 (1962)",
+      "appearsIn": [
+        {
+          "id": "read-rebirth",
+          "title": "Green Lantern: Rebirth"
+        },
+        {
+          "id": "read-scw",
+          "title": "Sinestro Corps War"
+        }
+      ],
+      "signature": "Reckless for a robot",
+      "sources": "Publication details via DC Comics"
+    },
+    {
+      "id": "medphyll",
+      "name": "Medphyll",
+      "corps": "Green Lantern Corps",
+      "corpsClass": "corps-green",
+      "corpsPage": "corps/green.html",
+      "portrait": "assets/characters/medphyll.jpg",
+      "tagline": "The plant Lantern — mind-stalks and photosynthesis.",
+      "bio": "Medphyll is a sentient plant from the world J586, where flora is the dominant life form. With bark-like skin, root-feet, and photosynthetic 'mind stalks' instead of hair, Medphyll can transfer his consciousness into any nearby plant life — making him the Corps' ultimate reconnaissance agent. He famously aided Swamp Thing in Alan Moore's run (Swamp Thing vol. 2 #61, 1987) and served with distinction through the Crisis on Infinite Earths.",
+      "firstAppearance": "Green Lantern (vol. 2) #11 (1962)",
+      "appearsIn": [
+        {
+          "id": "read-rebirth",
+          "title": "Green Lantern: Rebirth"
+        },
+        {
+          "id": "read-blackest-night",
+          "title": "Blackest Night"
+        }
+      ],
+      "signature": "The Corps' botanist",
+      "sources": "Publication details via DC Comics"
     }
   ]
 }
