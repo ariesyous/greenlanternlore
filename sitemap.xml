@@ -62,4 +62,16 @@
     <loc>https://dev1magnascale.github.io/greenlanternlore/events/wrath-of-the-first-lantern.html</loc>
     <changefreq>monthly</changefreq>
   </url>
+  <url>
+    <loc>https://dev1magnascale.github.io/greenlanternlore/worlds/okaara.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://dev1magnascale.github.io/greenlanternlore/worlds/ryut.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://dev1magnascale.github.io/greenlanternlore/worlds/earth.html</loc>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>
