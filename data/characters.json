@@ -40,7 +40,29 @@
           "title": "War of the Green Lanterns"
         }
       ],
-      "signature": "Giant boxing-glove construct \u2014 the most famous hard-light creation in comics."
+      "signature": "Giant boxing-glove construct \u2014 the most famous hard-light creation in comics.",
+      "keyStories": [
+        {
+          "title": "Emerald Twilight",
+          "issues": "Green Lantern vol. 3 #48\u201350 (1994)",
+          "url": "events/emerald-twilight.html"
+        },
+        {
+          "title": "Green Lantern: Rebirth",
+          "issues": "#1\u20136 (2004\u201305)",
+          "url": "stories/rebirth.html"
+        },
+        {
+          "title": "Sinestro Corps War",
+          "issues": "Green Lantern vol. 4 #21\u201325 (2007)",
+          "url": "events/sinestro-corps-war.html"
+        },
+        {
+          "title": "Blackest Night",
+          "issues": "#0\u20138 (2009\u201310)",
+          "url": "events/blackest-night.html"
+        }
+      ]
     },
     {
       "id": "john-stewart",
@@ -66,7 +88,29 @@
           "title": "War of the Green Lanterns"
         }
       ],
-      "signature": "Architectural constructs built with engineer's precision; once sniped a target from 3 sectors away."
+      "signature": "Architectural constructs built with engineer's precision; once sniped a target from 3 sectors away.",
+      "keyStories": [
+        {
+          "title": "Cosmic Odyssey",
+          "issues": "#1\u20134 (1988) \u2014 the tragedy of Xanshi",
+          "url": "moments/xanshi-burns.html"
+        },
+        {
+          "title": "Green Lantern Corps: Recharge",
+          "issues": "#1\u20135 (2005)",
+          "url": "stories/recharge.html"
+        },
+        {
+          "title": "Sinestro Corps War",
+          "issues": "Green Lantern Corps #14\u201319 (2007)",
+          "url": "events/sinestro-corps-war.html"
+        },
+        {
+          "title": "War of the Green Lanterns",
+          "issues": "Green Lantern Corps #58\u201360 (2011)",
+          "url": "events/war-of-the-green-lanterns.html"
+        }
+      ]
     },
     {
       "id": "guy-gardner",
@@ -96,7 +140,29 @@
           "title": "War of the Green Lanterns"
         }
       ],
-      "signature": "A giant green fist \u2014 subtle as a brick, twice as effective."
+      "signature": "A giant green fist \u2014 subtle as a brick, twice as effective.",
+      "keyStories": [
+        {
+          "title": "Emerald Twilight",
+          "issues": "Green Lantern vol. 3 #48\u201350 (1994) \u2014 Guy takes Sinestro's yellow ring",
+          "url": "events/emerald-twilight.html"
+        },
+        {
+          "title": "Sinestro Corps War",
+          "issues": "Green Lantern Corps #14\u201319 (2007)",
+          "url": "events/sinestro-corps-war.html"
+        },
+        {
+          "title": "Ring Quest",
+          "issues": "Green Lantern Corps vol. 2 #19\u201326 (2008)",
+          "url": "moments/ring-quest.html"
+        },
+        {
+          "title": "Red Lanterns",
+          "issues": "#1\u201340 (2011\u201315) \u2014 Guy becomes a Red Lantern",
+          "url": "stories/red-lanterns.html"
+        }
+      ]
     },
     {
       "id": "kyle-rayner",
@@ -130,7 +196,29 @@
           "title": "War of the Green Lanterns"
         }
       ],
-      "signature": "Intricate, artistic constructs \u2014 he thinks in illustrations, not weapons."
+      "signature": "Intricate, artistic constructs \u2014 he thinks in illustrations, not weapons.",
+      "keyStories": [
+        {
+          "title": "Emerald Twilight",
+          "issues": "Green Lantern vol. 3 #48\u201350 (1994) \u2014 Kyle inherits the last ring",
+          "url": "events/emerald-twilight.html"
+        },
+        {
+          "title": "Becoming Ion",
+          "issues": "Green Lantern vol. 3 #142\u2013150 (2001\u201302)",
+          "url": "moments/kyle-becomes-ion.html"
+        },
+        {
+          "title": "Sinestro Corps War",
+          "issues": "Green Lantern vol. 4 #21\u201325 (2007)",
+          "url": "events/sinestro-corps-war.html"
+        },
+        {
+          "title": "The New Guardians",
+          "issues": "#1\u201312 (2011\u201312) \u2014 Kyle becomes the White Lantern",
+          "url": "moments/kyle-white-lantern.html"
+        }
+      ]
     },
     {
       "id": "kilowog",
@@ -182,7 +270,29 @@
           "title": "Blackest Night"
         }
       ],
-      "signature": "Fear made manifest \u2014 his constructs don't just hurt you, they terrify you first."
+      "signature": "Fear made manifest \u2014 his constructs don't just hurt you, they terrify you first.",
+      "keyStories": [
+        {
+          "title": "Sinestro's Fall",
+          "issues": "Green Lantern vol. 2 #7 (1961)",
+          "url": "moments/sinestros-fall.html"
+        },
+        {
+          "title": "Sinestro Corps War",
+          "issues": "Green Lantern vol. 4 #21\u201325 + GLC #14\u201319 (2007)",
+          "url": "events/sinestro-corps-war.html"
+        },
+        {
+          "title": "Secret Origin",
+          "issues": "Green Lantern vol. 4 #29\u201335 (2008)",
+          "url": "stories/secret-origin.html"
+        },
+        {
+          "title": "War of the Green Lanterns",
+          "issues": "Green Lantern #63\u201367 (2011)",
+          "url": "events/war-of-the-green-lanterns.html"
+        }
+      ]
     },
     {
       "id": "arkillo",
@@ -226,7 +336,29 @@
           "title": "Sinestro Corps War"
         }
       ],
-      "signature": "Rage plasma \u2014 his ring replaces the heart and lets him vomit corrosive blood-fire."
+      "signature": "Rage plasma \u2014 his ring replaces the heart and lets him vomit corrosive blood-fire.",
+      "keyStories": [
+        {
+          "title": "Rage Ignites",
+          "issues": "Green Lantern vol. 4 #25 (2007) \u2014 first appearance",
+          "url": "moments/rage-ignites.html"
+        },
+        {
+          "title": "Rage of the Red Lanterns",
+          "issues": "Green Lantern vol. 4 #36\u201338 (2008\u201309)",
+          "url": "stories/rage.html"
+        },
+        {
+          "title": "Blackest Night",
+          "issues": "#0\u20138 (2009\u201310)",
+          "url": "events/blackest-night.html"
+        },
+        {
+          "title": "Red Lanterns",
+          "issues": "#1\u201340 (2011\u201315)",
+          "url": "stories/red-lanterns.html"
+        }
+      ]
     },
     {
       "id": "bleez",
