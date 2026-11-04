@@ -49,6 +49,10 @@ body {
   line-height: 1.6;
 }
 
+/* Keep prose and source links readable against the dark page background. */
+a { color: var(--green); }
+.eyebrow a { color: inherit; }
+
 /* ---------- accessibility: skip link + focus ---------- */
 
 .skip-link {
