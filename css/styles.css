@@ -1075,6 +1075,21 @@ a.character-card:hover {
   background: var(--bg-2);
 }
 
+.char-artwork { margin: 0; min-width: 0; }
+.char-artwork .art-credit { margin-top: 1.25rem; text-align: left; }
+.portrait-placeholder { display: grid; place-items: center; min-height: 5rem; background: var(--bg-2); color: var(--ink-dim); font-size: 2rem; font-weight: 900; }
+.character-card > .portrait-placeholder { aspect-ratio: 3 / 4; border-bottom: 3px solid var(--line); }
+.member-chip > .portrait-placeholder { width: 64px; height: 80px; flex: none; min-height: 0; font-size: 1.2rem; }
+.art-page-credits { max-width: 880px; margin: 2.5rem auto; padding: 1.25rem; border: 1px solid var(--ink-dim); }
+.art-page-credits summary, .art-record summary { cursor: pointer; font-weight: 800; }
+.art-page-credits li { margin-block: .75rem; }
+.art-page-credits p, .art-page-credits li, .art-record { font-size: .9rem; overflow-wrap: anywhere; }
+.art-category-links { line-height: 2; }
+.art-category { margin-top: 2rem; }
+.art-record { padding: .9rem 0; border-top: 1px solid var(--ink-dim); scroll-margin-top: 6rem; }
+.art-record:target { border-color: var(--green); }
+.art-status { display: block; margin-top: .2rem; color: var(--ink-dim); font-size: .8rem; font-weight: 400; }
+
 .char-detail h1 {
   font-size: clamp(2rem, 5vw, 3rem);
   font-weight: 900;

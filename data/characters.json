@@ -80,7 +80,10 @@
       ],
       "reviewed": "2026-11-04",
       "continuity": "Main DC comics continuity; this profile follows the cited era rather than asserting a permanent present-day status.",
-      "sourceNote": "DC’s debut list identifies Showcase #22 (1959). Its Rebirth commentary supports the later possession explanation; the 1994 story did not originally present that explanation."
+      "sourceNote": "DC’s debut list identifies Showcase #22 (1959). Its Rebirth commentary supports the later possession explanation; the 1994 story did not originally present that explanation.",
+      "artCredit": "Hal Jordan and the Green Lantern Corps #45 (2018), Tyler Kirkham variant cover, cropped detail. Tyler Kirkham (cover pencils and inks); Arif Prianto (cover colors).",
+      "artCreditHref": "sources.html#art-characters-hal-jordan-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "john-stewart",
@@ -155,7 +158,10 @@
       ],
       "reviewed": "2026-11-04",
       "continuity": "Main DC comics continuity; this profile follows the cited era rather than asserting a permanent present-day status.",
-      "sourceNote": "DC identifies #87 as John’s debut. The independent issue index records October 28, 1971 publication and a December 1971–January 1972 cover date."
+      "sourceNote": "DC identifies #87 as John’s debut. The independent issue index records October 28, 1971 publication and a December 1971–January 1972 cover date.",
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-john-stewart-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "guy-gardner",
@@ -220,7 +226,10 @@
         }
       ],
       "continuity": "Main DC comics continuity; this profile follows the cited era rather than asserting a permanent present-day status.",
-      "sourceNote": "The official character profile verifies Guy’s origin and debut. Recharge and Red Lanterns provide distinct reading eras; his yellow-ring period predates Emerald Twilight."
+      "sourceNote": "The official character profile verifies Guy’s origin and debut. Recharge and Red Lanterns provide distinct reading eras; his yellow-ring period predates Emerald Twilight.",
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-guy-gardner-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "kyle-rayner",
@@ -302,7 +311,10 @@
         }
       ],
       "continuity": "Main DC comics continuity; this profile follows the cited era rather than asserting a permanent present-day status.",
-      "sourceNote": "DC identifies #48 as Kyle’s first appearance. The independent issue index distinguishes its January 1994 cover date from its 1993 publication. New Guardians #16 marks the later spectrum milestone."
+      "sourceNote": "DC identifies #48 as Kyle’s first appearance. The independent issue index distinguishes its January 1994 cover date from its 1993 publication. New Guardians #16 marks the later spectrum milestone.",
+      "artCredit": "Green Lantern (2023) #33 / legacy #600 (2026), David Nakayama variant cover, cropped detail. David Nakayama (cover art and colors).",
+      "artCreditHref": "sources.html#art-characters-kyle-rayner-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "kilowog",
@@ -360,7 +372,10 @@
         }
       ],
       "continuity": "Main DC comics continuity; this profile follows the cited era rather than asserting a permanent present-day status.",
-      "sourceNote": "DC identifies his debut in Green Lantern Corps #201 (1986). Recharge #1 identifies his role with the new generation."
+      "sourceNote": "DC identifies his debut in Green Lantern Corps #201 (1986). Recharge #1 identifies his role with the new generation.",
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-kilowog-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "sinestro",
@@ -430,7 +445,10 @@
         }
       ],
       "continuity": "Main DC comics continuity; this profile follows the cited era rather than asserting a permanent present-day status.",
-      "sourceNote": "The official profile verifies Green Lantern #7 (1961). DC’s timeline distinguishes the original Qward exile from the later Corps era."
+      "sourceNote": "The official profile verifies Green Lantern #7 (1961). DC’s timeline distinguishes the original Qward exile from the later Corps era.",
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-sinestro-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "arkillo",
@@ -473,7 +491,10 @@
           "issues": "Sinestro Corps Special #1; Green Lantern #21–25; Green Lantern Corps #14–19 (2007)",
           "url": "events/sinestro-corps-war.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-arkillo-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "atrocitus",
@@ -535,7 +556,10 @@
         }
       ],
       "continuity": "Main DC comics continuity; this profile follows the cited era rather than asserting a permanent present-day status.",
-      "sourceNote": "DC’s character profile identifies Green Lantern #25 (2007) as the debut. Its series launch material supports the Red Lanterns premise."
+      "sourceNote": "DC’s character profile identifies Green Lantern #25 (2007) as the debut. Its series launch material supports the Red Lanterns premise.",
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-atrocitus-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "bleez",
@@ -582,7 +606,10 @@
           "issues": "Opening arc: #1–6 (2011–2012)",
           "url": "stories/red-lanterns.html"
         }
-      ]
+      ],
+      "artCredit": "Lady Bleez (Earth-27 fan project), Phil Cho commission (2018). Phil Cho (illustration).",
+      "artCreditHref": "sources.html#art-characters-bleez-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "dex-starr",
@@ -629,7 +656,10 @@
           "issues": "Opening arc: #1–6 (2011–2012)",
           "url": "stories/red-lanterns.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-dex-starr-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "zilius-zox",
@@ -672,7 +702,10 @@
           "issues": "Opening arc: #1–6 (2011–2012)",
           "url": "stories/red-lanterns.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-zilius-zox-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "rankorr",
@@ -715,7 +748,10 @@
           "issues": "Opening arc: #1–6 (2011–2012)",
           "url": "stories/red-lanterns.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-rankorr-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "skallox",
@@ -754,7 +790,10 @@
           "issues": "Opening arc: #1–6 (2011–2012)",
           "url": "stories/red-lanterns.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-skallox-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "vice",
@@ -797,7 +836,10 @@
           "issues": "#1–3 (2009), origin anthology",
           "url": "https://www.dc.com/comics/blackest-night-tales-of-the-corps-2009/blackest-night-tales-of-the-corps-1"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-vice-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "laira",
@@ -841,7 +883,10 @@
           "issues": "One-shot and Green Lantern #36–38 (2008–2009)",
           "url": "stories/rage.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-laira-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "larfleeze",
@@ -902,7 +947,10 @@
         }
       ],
       "continuity": "Main DC comics continuity; this profile follows the cited era rather than asserting a permanent present-day status.",
-      "sourceNote": "The secondary chronology records the #25 cameo and a DC Universe #0 (2008) appearance. Green Lantern #39 (2009) launches Agent Orange; it is not treated here as an unqualified first appearance."
+      "sourceNote": "The secondary chronology records the #25 cameo and a DC Universe #0 (2008) appearance. Green Lantern #39 (2009) launches Agent Orange; it is not treated here as an unqualified first appearance.",
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-larfleeze-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "glomulus",
@@ -937,7 +985,10 @@
           "issues": "Green Lantern (2005) #40 (2009), within #39–42",
           "url": "stories/agent-orange.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-glomulus-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "saint-walker",
@@ -994,7 +1045,10 @@
         }
       ],
       "continuity": "Main DC comics continuity; this profile follows the cited era rather than asserting a permanent present-day status.",
-      "sourceNote": "DC supports the origin and recruitment context. The secondary chronology identifies an image cameo in #25 before the Rage of the Red Lanterns one-shot introduction."
+      "sourceNote": "DC supports the origin and recruitment context. The secondary chronology identifies an image cameo in #25 before the Rage of the Red Lanterns one-shot introduction.",
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-saint-walker-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "brother-warth",
@@ -1033,7 +1087,10 @@
           "issues": "Green Lantern #36–38 (2008–2009)",
           "url": "stories/rage.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-brother-warth-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "sister-sercy",
@@ -1072,7 +1129,10 @@
           "issues": "Green Lantern #42 (2009), within #39–42",
           "url": "stories/agent-orange.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-sister-sercy-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "indigo-1",
@@ -1115,7 +1175,10 @@
           "issues": "Green Lantern (2011) #7–10 (2012)",
           "url": "https://www.dc.com/comics/green-lantern-2011/green-lantern-2011-8"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-indigo-1-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "munk",
@@ -1154,7 +1217,10 @@
           "issues": "Main event #0–8 (2009–2010); guide identifies companion series",
           "url": "events/blackest-night.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-munk-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "carol-ferris",
@@ -1216,7 +1282,10 @@
         }
       ],
       "continuity": "Main DC comics continuity; this profile follows the cited era rather than asserting a permanent present-day status.",
-      "sourceNote": "DC’s timeline distinguishes Carol’s Showcase debut from her Star Sapphire debut. The organized violet Corps is a later publishing-era development."
+      "sourceNote": "DC’s timeline distinguishes Carol’s Showcase debut from her Star Sapphire debut. The organized violet Corps is a later publishing-era development.",
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-carol-ferris-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "fatality",
@@ -1263,7 +1332,10 @@
           "issues": "Green Lantern Corps (2006) #27–32 (2008–2009)",
           "url": "https://www.dc.com/graphic-novels/green-lantern-corps-2006/green-lantern-corps-sins-of-the-star-sapphire"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-fatality-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "queen-agapo",
@@ -1302,7 +1374,10 @@
           "issues": "Green Lantern Corps (2006) #27–32 (2008–2009)",
           "url": "https://www.dc.com/graphic-novels/green-lantern-corps-2006/green-lantern-corps-sins-of-the-star-sapphire"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-queen-agapo-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "black-hand",
@@ -1346,7 +1421,10 @@
           "issues": "Main event #0–8 (2009–2010); guide identifies companion series",
           "url": "events/blackest-night.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-black-hand-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "nekron",
@@ -1394,7 +1472,10 @@
           "issues": "Main event #0–8 (2009–2010); guide identifies companion series",
           "url": "events/blackest-night.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-nekron-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "scar",
@@ -1450,7 +1531,10 @@
           "issues": "Main event #0–8 (2009–2010); guide identifies companion series",
           "url": "events/blackest-night.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-scar-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "lyssa-drak",
@@ -1497,7 +1581,10 @@
           "issues": "Issue #1 (2014) begins the ongoing series",
           "url": "https://www.dc.com/comics/sinestro-2014/sinestro-1"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-lyssa-drak-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "karu-sil",
@@ -1536,7 +1623,10 @@
           "issues": "Sinestro Corps Special #1; Green Lantern #21–25; Green Lantern Corps #14–19 (2007)",
           "url": "events/sinestro-corps-war.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-karu-sil-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "despotellis",
@@ -1575,7 +1665,10 @@
           "issues": "Green Lantern Corps (2006) #10–13 (2007)",
           "url": "https://www.dc.com/blog/2021/12/09/ask-the-question-does-mogo-ever-create-constructs"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-despotellis-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "tomar-re",
@@ -1613,7 +1706,10 @@
           "issues": "The 1981 miniseries, short stories and 1980s ensemble",
           "url": "stories/classic-corps.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-tomar-re-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "salaak",
@@ -1656,7 +1752,10 @@
           "issues": "#1–5 (2005–2006)",
           "url": "stories/recharge.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-salaak-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "arisia-rrab",
@@ -1712,7 +1811,10 @@
           "issues": "Green Lantern Corps #35 (2009), within the Daxam thread",
           "url": "https://www.dc.com/comics/green-lantern-corps-2006/green-lantern-corps-35"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-arisia-rrab-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "soranik-natu",
@@ -1769,7 +1871,10 @@
         }
       ],
       "continuity": "Introduced as a Green Lantern in Recharge; later Sinestro Corps leadership is discussed in the closed history.",
-      "sourceNote": "DC identifies Recharge #1 (2005) as the debut and documents the later Yellow Lantern period in its #25 recap."
+      "sourceNote": "DC identifies Recharge #1 (2005) as the debut and documents the later Yellow Lantern period in its #25 recap.",
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-soranik-natu-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "ganthet",
@@ -1828,7 +1933,10 @@
           "issues": "Hal Jordan and the Green Lantern Corps #33 (2017), opening chapter",
           "url": "https://www.dc.com/comics/hal-jordan-and-the-green-lantern-corps-2016/hal-jordan-and-the-green-lantern-corps-33"
         }
-      ]
+      ],
+      "artCredit": "Image withheld: The illustration depicts Highfather, not Ganthet. Highfather (Earth-27) commission (2023). Phil Cho (illustration).",
+      "artCreditHref": "sources.html#art-characters-ganthet-jpg",
+      "portraitWithheld": true
     },
     {
       "id": "sayd",
@@ -1871,7 +1979,10 @@
           "issues": "Hal Jordan and the Green Lantern Corps #33 (2017), opening chapter",
           "url": "https://www.dc.com/comics/hal-jordan-and-the-green-lantern-corps-2016/hal-jordan-and-the-green-lantern-corps-33"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-sayd-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "brother-hynn",
@@ -1914,7 +2025,10 @@
           "issues": "Green Lantern #38 (2009)",
           "url": "stories/rage.html"
         }
-      ]
+      ],
+      "artCredit": "Blackest Night #0 (2009), Blue Lantern Corps profile, cropped detail. Doug Mahnke (profile pencils); Tom Nguyen (profile inks); Nei Ruffino (profile colors).",
+      "artCreditHref": "sources.html#art-characters-brother-hynn-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "miri-riam",
@@ -1948,7 +2062,10 @@
         }
       ],
       "continuity": "Main DC comics continuity; this profile follows the cited era rather than asserting a permanent present-day status.",
-      "sourceNote": "DC confirms the collection contents. The secondary index identifies Miri’s #29 debut and the events of her origin."
+      "sourceNote": "DC confirms the collection contents. The secondary index identifies Miri’s #29 debut and the events of her origin.",
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-miri-riam-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "sodam-yat",
@@ -1996,7 +2113,10 @@
           "issues": "Sinestro Corps Special #1; Green Lantern #21–25; Green Lantern Corps #14–19 (2007)",
           "url": "events/sinestro-corps-war.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-sodam-yat-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "katma-tui",
@@ -2038,7 +2158,10 @@
           "issues": "The 1981 miniseries, short stories and 1980s ensemble",
           "url": "stories/classic-corps.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-katma-tui-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "chp",
@@ -2068,7 +2191,10 @@
           "issues": "The 1981 miniseries, short stories and 1980s ensemble",
           "url": "stories/classic-corps.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-chp-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "galius-zed",
@@ -2104,7 +2230,10 @@
           "issues": "The 1981 miniseries, short stories and 1980s ensemble",
           "url": "stories/classic-corps.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-galius-zed-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "jessica-cruz",
@@ -2149,7 +2278,10 @@
           "issues": "Green Lanterns: Rebirth #1 and Green Lanterns #1–6 (2016)",
           "url": "stories/green-lanterns.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-jessica-cruz-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "simon-baz",
@@ -2190,7 +2322,10 @@
           "issues": "Green Lanterns: Rebirth #1 and Green Lanterns #1–6 (2016)",
           "url": "stories/green-lanterns.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-simon-baz-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "abin-sur",
@@ -2239,7 +2374,10 @@
           "issues": "The 1981 miniseries, short stories and 1980s ensemble",
           "url": "stories/classic-corps.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-abin-sur-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "mogo",
@@ -2279,7 +2417,10 @@
           "issues": "The 1981 miniseries, short stories and 1980s ensemble",
           "url": "stories/classic-corps.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-mogo-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "boodikka",
@@ -2327,7 +2468,10 @@
           "issues": "Green Lantern (2005) #7–13 (2006)",
           "url": "https://www.dc.com/graphic-novels/green-lantern-2005/green-lantern-revenge-of-the-green-lanterns"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-boodikka-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "isamot-kol",
@@ -2371,7 +2515,10 @@
           "issues": "#1–5 (2005–2006)",
           "url": "stories/recharge.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-isamot-kol-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "bdg",
@@ -2419,7 +2566,10 @@
           "issues": "Issue #4 (2005), debut within the opening arc",
           "url": "stories/gl-vol4.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-bdg-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "rot-lop-fan",
@@ -2455,7 +2605,10 @@
           "issues": "The 1981 miniseries, short stories and 1980s ensemble",
           "url": "stories/classic-corps.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-rot-lop-fan-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "stel",
@@ -2499,7 +2652,10 @@
           "issues": "Issue #11 (2007), Stel and Green Man",
           "url": "https://www.dc.com/comics/green-lantern-corps-2006/green-lantern-corps-11"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-stel-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "medphyll",
@@ -2543,7 +2699,10 @@
           "issues": "Swamp Thing #61 (1987); DC’s background article",
           "url": "https://www.dc.com/blog/2022/03/10/ask-the-question-how-many-lantern-oaths-are-there"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-medphyll-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "amon-sur",
@@ -2587,7 +2746,10 @@
           "issues": "Sinestro Corps Special #1; Green Lantern #21–25; Green Lantern Corps #14–19 (2007)",
           "url": "events/sinestro-corps-war.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-amon-sur-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "vath-sarn",
@@ -2631,7 +2793,10 @@
           "issues": "#1–5 (2005–2006)",
           "url": "stories/recharge.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-vath-sarn-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "kryb",
@@ -2675,7 +2840,10 @@
           "issues": "Green Lantern Corps (2006) #27–32 (2008–2009)",
           "url": "https://www.dc.com/graphic-novels/green-lantern-corps-2006/green-lantern-corps-sins-of-the-star-sapphire"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-kryb-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "jo-mullein",
@@ -2728,7 +2896,10 @@
           "url": "https://www.dc.com/comics/green-lantern-2021/green-lantern-5-2021"
         }
       ],
-      "sourceNote": "The linked publisher material supports the origin, continuity distinctions and reading recommendations. Later developments are kept in the closed history."
+      "sourceNote": "The linked publisher material supports the origin, continuity distinctions and reading recommendations. Later developments are kept in the closed history.",
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-jo-mullein-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "jade",
@@ -2773,7 +2944,10 @@
           "issues": "Green Lantern #137–140, reprinted in DC Comics Presents: Green Lantern #1",
           "url": "https://www.dc.com/blog/2010/07/16/and-now-dc-comics-presents"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-jade-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "green-man",
@@ -2808,7 +2982,10 @@
           "issues": "Issue #11 (2007), with Stel",
           "url": "https://www.dc.com/comics/green-lantern-corps-2006/green-lantern-corps-11"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-green-man-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "jack-t-chance",
@@ -2853,7 +3030,10 @@
           "issues": "Sinestro Corps Special #1; Green Lantern #21–25; Green Lantern Corps #14–19 (2007)",
           "url": "events/sinestro-corps-war.html"
         }
-      ]
+      ],
+      "artCredit": "Green Lantern Corps Quarterly #1 (1992), cover. Flint Henry (cover art).",
+      "artCreditHref": "sources.html#art-characters-jack-t-chance-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "bzzd",
@@ -2889,7 +3069,10 @@
           "issues": "Sinestro Corps Special #1; Green Lantern #21–25; Green Lantern Corps #14–19 (2007)",
           "url": "events/sinestro-corps-war.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-bzzd-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "hannu",
@@ -2933,7 +3116,10 @@
           "issues": "Green Lantern Corps #51 (2010), Hannu’s rescue mission",
           "url": "https://www.dc.com/comics/green-lantern-corps-2006/green-lantern-corps-51"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-hannu-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "voz",
@@ -2972,7 +3158,10 @@
           "issues": "Green Lantern Corps #35 (2009), the prison crisis",
           "url": "https://www.dc.com/comics/green-lantern-corps-2006/green-lantern-corps-35"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-voz-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "tomar-tu",
@@ -3007,7 +3196,10 @@
           "issues": "Hal Jordan and the Green Lantern Corps #25 (2017); spoiler recap",
           "url": "https://www.dc.com/blog/2017/07/28/this-just-happened-like-father-like-daughter"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-tomar-tu-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "ash",
@@ -3047,7 +3239,10 @@
           "issues": "Green Lantern #42 (2009), Blackest Night setup",
           "url": "stories/agent-orange.html"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-ash-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "saarek",
@@ -3087,7 +3282,10 @@
           "issues": "Green Lantern Corps (2006) #27–32 (2008–2009)",
           "url": "https://www.dc.com/graphic-novels/green-lantern-corps-2006/green-lantern-corps-sins-of-the-star-sapphire"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-saarek-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "gnort",
@@ -3122,7 +3320,10 @@
           "issues": "Justice League International #10 (1988); secondary issue chronology",
           "url": "https://dcuguide.com/G%27nort"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-gnort-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "graf-toren",
@@ -3166,7 +3367,10 @@
           "issues": "Green Lantern (2005) #7–13 (2006)",
           "url": "https://www.dc.com/graphic-novels/green-lantern-2005/green-lantern-revenge-of-the-green-lanterns"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-graf-toren-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "charlie-vicker",
@@ -3197,7 +3401,10 @@
           "issues": "Green Lantern #55–56 (1967); secondary issue references",
           "url": "https://dcuguide.com/Charlie_Vicker"
         }
-      ]
+      ],
+      "artCredit": "Artist credit unconfirmed.",
+      "artCreditHref": "sources.html#art-characters-charlie-vicker-jpg",
+      "portraitWithheld": false
     },
     {
       "id": "alan-scott",
@@ -3246,7 +3453,10 @@
           "url": "https://www.dc.com/graphic-novels/alan-scott-the-green-lantern-2023/alan-scott-the-green-lantern"
         }
       ],
-      "sourceNote": "The linked publisher material supports the origin, continuity distinctions and reading recommendations. Later developments are kept in the closed history."
+      "sourceNote": "The linked publisher material supports the origin, continuity distinctions and reading recommendations. Later developments are kept in the closed history.",
+      "artCredit": "Alan Scott: The Green Lantern #1 (2023), David Talaski cover, cropped detail. David Talaski (cover art).",
+      "artCreditHref": "sources.html#art-eras-alan-scott-jpg",
+      "portraitWithheld": false
     }
   ]
 }

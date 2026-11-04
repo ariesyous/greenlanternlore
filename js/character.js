@@ -43,7 +43,10 @@
 
   root.innerHTML =
     '<article class="char-detail ' + esc(c.corpsClass) + '">' +
-      '<img class="char-portrait" src="' + esc(c.portrait) + '" alt="' + esc(c.name) + '" />' +
+      '<figure class="char-artwork">' +
+        (c.portraitWithheld ? '<div class="char-portrait portrait-placeholder" role="img" aria-label="Portrait unavailable for ' + esc(c.name) + '"><span aria-hidden="true">' + esc(c.name.split(/\s+/).map(s => s[0]).slice(0, 2).join('')) + '</span></div>' : '<img class="char-portrait" src="' + esc(c.portrait) + '" alt="' + esc(c.name) + '" />') +
+        '<figcaption class="art-credit">' + esc(c.artCredit) + ' <a href="' + esc(c.artCreditHref) + '">Artwork source &amp; details</a>.</figcaption>' +
+      '</figure>' +
       '<div class="char-body">' +
         '<p class="eyebrow">' + esc(c.corps) + '</p>' +
         '<h1>' + esc(c.name) + '</h1>' +

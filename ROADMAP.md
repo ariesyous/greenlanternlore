@@ -113,6 +113,26 @@ are historical records and include completed work that still appears as planned.
   hub, classic route, and sources page; refreshed search and the sitemap. Mobile event
   facts stack for readability, and reference-scope notes remain visible outside spoilers.
 
+### Artwork attribution release — 2026-11-04
+
+- [x] Reviewed all 179 local images against their visible content and available source
+  evidence. The inventory now has 59 files with supported named artist roles, one with
+  an exact publication match but roles pending, and 119 unresolved. The earlier 9/3/167
+  snapshot above is historical; this pass adds 50 credited files.
+- [x] Added a browsable, linked record for every file on the sources page, compact
+  credits on illustrated pages, and visible attribution on all seventy profiles.
+  Publisher references, creator posts and independent issue indexes are distinguished;
+  edition, colorist, crop and download gaps remain explicit.
+- [x] Corrected cover variants, cover-versus-interior roles, world-image labels and
+  illustrations misleadingly presented as specific historical moments. Withheld the
+  confirmed Highfather portrait previously displayed as Ganthet; retained the evidence
+  and archived file in the catalogue.
+- [x] Added a repeatable credit-sync command and checks for complete inventory, file
+  hashes, supported status counts, catalogue links and withheld-portrait rendering.
+- [ ] Continue tracing the 119 unresolved assets and the remaining contributor gaps.
+  Many legacy crops lack original URLs; specific checked leads are recorded rather
+  than assigning artists from style, filenames or character-creator credits.
+
 ### Ongoing reference maintenance
 
 This release addresses each remaining editorial workstream; it does not certify every

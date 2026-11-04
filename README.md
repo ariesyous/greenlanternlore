@@ -62,6 +62,23 @@ supported by a linked source from debut citations that still need checking. Upda
 `sitemap.xml` when adding a page, then run the checks above. The prioritized editorial
 work and completed release are recorded in [ROADMAP.md](ROADMAP.md).
 
+Artwork attribution lives in `data/art-credits.json`. Each record distinguishes confirmed
+artist roles from unidentified crops, fan art, edition differences and missing download
+provenance. The public catalogue is on `sources.html`, with credits on illustrated pages
+and all character profiles. The November 4 audit reviewed 179 files: 59 have supported
+named credits, one has an identified publication with artist roles pending, and 119 remain
+unresolved. The mislabeled Highfather image is withheld from Ganthet's profile and cards.
+
+After updating the manifest, regenerate the static catalogue and profile/page credits:
+
+```bash
+node scripts/sync-art-credits.cjs
+node --test tests/*.test.cjs
+```
+
+Update the nearby image caption too when its publication, subject or credit changes.
+The sync script does not replace editorial captions or infer new artist credits.
+
 ## Project spec
 
 The full vision, scope, and build plan live in [PROJECT_SPEC.md](PROJECT_SPEC.md) —
