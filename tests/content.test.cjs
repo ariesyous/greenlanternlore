@@ -6,7 +6,7 @@ const vm = require('node:vm');
 
 const root = path.resolve(__dirname, '..');
 const siteUrl = 'https://ariesyous.github.io/greenlanternlore/';
-const sections = ['assets', 'corps', 'css', 'data', 'entities', 'eras', 'events', 'explained', 'glossary', 'guardians', 'js', 'moments', 'powers', 'screen', 'stories', 'villains', 'worlds'];
+const sections = ['assets', 'characters', 'corps', 'css', 'data', 'entities', 'eras', 'events', 'explained', 'glossary', 'guardians', 'js', 'moments', 'powers', 'screen', 'stories', 'villains', 'worlds'];
 const publicFiles = new Set(fs.readdirSync(root).filter(file => /\.(html|xml|txt)$/.test(file)));
 for (const section of sections) {
   for (const file of fs.readdirSync(path.join(root, section), { recursive: true })) {
@@ -47,7 +47,7 @@ test('public pages, character references, search, and sitemap have valid local d
   const searchEntries = JSON.parse(read('data/search-index.json'));
   const searchUrls = new Set(searchEntries.map(entry => entry.u));
   for (const entry of searchEntries) check(entry.u, 'index.html');
-  for (const c of characters) assert.ok(searchUrls.has(`character.html?id=${c.id}`), `${c.id}: missing from search`);
+  for (const c of characters) assert.ok(searchUrls.has(`characters/${c.id}.html`), `${c.id}: missing from search`);
   const sitemap = [...read('sitemap.xml').matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1]);
   for (const url of sitemap) check(url, 'index.html');
   for (const file of pages.filter(file => !['404.html', 'character.html'].includes(file))) {

@@ -12,6 +12,17 @@ even when a suitable credited illustration is not yet available.
 
 ## Content audit — 2026-11-04
 
+### Search discovery release — 2026-11-04
+
+- [x] Clear Green Lantern homepage and reading-guide titles, descriptions, and canonical URLs.
+- [x] Seventy complete static character pages with unique search/sharing metadata,
+  spoiler disclosures, artwork credits, and compatibility redirects for old bookmarks.
+- [x] Static character destinations in internal links, site search, quiz results,
+  and the 219-URL sitemap; GitHub Pages packaging includes the new directory.
+- [x] Deterministic profile generation and freshness checks, integrated with artwork-credit sync.
+- [x] Corrected the Johns essay's finale and Hal's pre-Rebirth history, and replaced
+  unsupported HBO premiere claims with dated primary sources and regional viewing guidance.
+
 The site already has substantial coverage, four homepage entry paths, character profiles,
 essays, creator spotlights, and a reading checklist. The next editorial pass should improve
 accuracy, reading guidance, and depth before adding more pages. Earlier phase lists below

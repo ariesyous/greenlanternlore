@@ -7,7 +7,7 @@ const { test } = require('node:test');
 const source = fs.readFileSync(path.join(__dirname, '../js/search.js'), 'utf8');
 const entries = [
   { k: 'green lantern', t: 'Green Lantern', s: 'Willpower', u: 'corps/green.html' },
-  { k: 'green lantern hal jordan', t: 'Hal Jordan', s: 'Sector 2814', u: 'character.html?id=hal-jordan' }
+  { k: 'green lantern hal jordan', t: 'Hal Jordan', s: 'Sector 2814', u: 'characters/hal-jordan.html' }
 ];
 
 async function loadSearch(pageUrl, scriptUrl) {
@@ -62,13 +62,14 @@ async function loadSearch(pageUrl, scriptUrl) {
 }
 
 for (const root of ['https://ariesyous.github.io/greenlanternlore/', 'https://lantern.example/']) {
-  for (const page of ['index.html', 'corps/green.html', 'worlds/oa.html', 'stories/rebirth.html', 'entities/ion.html', 'glossary/power-ring.html']) {
+  for (const page of ['index.html', 'characters/hal-jordan.html', 'corps/green.html', 'worlds/oa.html', 'stories/rebirth.html', 'entities/ion.html', 'glossary/power-ring.html']) {
     test(`search resolves the index and result links from ${root}${page}`, async () => {
       const search = await loadSearch(root + page, root + 'js/search.js');
       assert.equal(search.requestedUrl, root + 'data/search-index.json');
       assert.equal(search.box.hidden, false);
       assert.ok(search.box.innerHTML.includes(`href="${root}corps/green.html"`));
-      assert.ok(search.box.innerHTML.includes(`href="${root}character.html?id=hal-jordan"`));
+      assert.ok(search.box.innerHTML.includes(`href="${root}characters/hal-jordan.html"`));
+      assert.ok(search.box.innerHTML.includes('<em class="search-type">Character</em>'));
     });
   }
 }
@@ -81,7 +82,7 @@ test('Enter follows the keyboard-selected result without submitting to the first
   let defaultPrevented = false;
   search.inputListeners.keydown({ key: 'Enter', preventDefault() { defaultPrevented = true; } });
   assert.equal(defaultPrevented, true);
-  assert.equal(search.location.href, root + 'character.html?id=hal-jordan');
+  assert.equal(search.location.href, root + 'characters/hal-jordan.html');
 });
 
 test('submitting without a keyboard selection follows the first result', async () => {

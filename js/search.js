@@ -29,7 +29,7 @@
       box.innerHTML = hits.map(function (e) {
         var type = 'Page';
         var u = e.u;
-        if (u.indexOf('character.html') !== -1) type = 'Character';
+        if (u.indexOf('characters/') === 0 || u.indexOf('character.html') !== -1) type = 'Character';
         else if (u.indexOf('worlds/') !== -1) type = u === 'worlds/index.html' ? 'Section' : 'World';
         else if (u.indexOf('stories/') !== -1) type = 'Story';
         else if (u.indexOf('moments/') !== -1) type = 'Moment';

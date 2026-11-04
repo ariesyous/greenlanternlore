@@ -1,47 +1,12 @@
-/* Lantern Lore — character detail page. Renders one character from data/characters.json via ?id=. */
-(async () => {
-  const root = document.getElementById('character-detail');
-  const id = new URLSearchParams(location.search).get('id');
-
-  const fail = () => {
-    document.title = 'Unknown Lantern — Lantern Lore';
-    root.innerHTML = '<h2>Unknown lantern</h2>' +
-      '<p class="section-lede">No character found with that id.</p>' +
-      '<p><a href="characters.html" style="color:var(--green);font-weight:800">← Back to the roster</a></p>';
-  };
-
-  if (!id) { fail(); return; }
-
-  let data;
-  try {
-    const res = await fetch('data/characters.json');
-    if (!res.ok) throw new Error('fetch failed');
-    data = await res.json();
-  } catch (e) {
-    fail();
-    return;
-  }
-
-  const c = (data.characters || []).find(x => x.id === id);
-  if (!c) { fail(); return; }
-
-  document.title = c.name + ' — Lantern Lore';
-  const preview = c.summary || c.tagline;
-  // Per-character meta description for sharing/tab previews
-  let md = document.querySelector('meta[name="description"]');
-  if (md && preview) md.setAttribute('content', preview.slice(0, 155));
-  let ogt = document.querySelector('meta[property="og:title"]');
-  if (ogt) ogt.setAttribute('content', c.name + ' — Lantern Lore');
-  let ogd = document.querySelector('meta[property="og:description"]');
-  if (ogd && preview) ogd.setAttribute('content', preview.slice(0, 155));
-
+/* Shared profile markup for static generation and the legacy URL fallback. */
+function renderCharacter(c) {
   const esc = s => String(s)
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;');
 
-  root.innerHTML =
+  return (
     '<article class="char-detail ' + esc(c.corpsClass) + '">' +
       '<figure class="char-artwork">' +
         (c.portraitWithheld ? '<div class="char-portrait portrait-placeholder" role="img" aria-label="Portrait unavailable for ' + esc(c.name) + '"><span aria-hidden="true">' + esc(c.name.split(/\s+/).map(s => s[0]).slice(0, 2).join('')) + '</span></div>' : '<img class="char-portrait" src="' + esc(c.portrait) + '" alt="' + esc(c.name) + '" />') +
@@ -84,5 +49,45 @@
         (c.reviewed ? '<p class="source-note">Profile reviewed ' + esc(c.reviewed) + '.</p>' : '') +
         '<p><a href="characters.html" style="color:var(--green);font-weight:800">← Back to the roster</a></p>' +
       '</div>' +
-    '</article>';
-})();
+    '</article>');
+}
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { renderCharacter };
+} else {
+  (async () => {
+    const root = document.getElementById('character-detail');
+    const id = new URLSearchParams(location.search).get('id');
+    const fail = () => {
+      document.title = 'Unknown Lantern — Lantern Lore';
+      root.innerHTML = '<h1>Unknown lantern</h1>' +
+        '<p class="section-lede">No character found with that id.</p>' +
+        '<p><a href="characters.html" style="color:var(--green);font-weight:800">← Back to the roster</a></p>';
+    };
+    if (!id) { fail(); return; }
+
+    let data;
+    try {
+      const res = await fetch('data/characters.json');
+      if (!res.ok) throw new Error('fetch failed');
+      data = await res.json();
+    } catch (e) {
+      root.innerHTML = '<h1>Find your Lantern</h1><p>The profile could not be loaded. Open a character from the <a href="characters.html">roster</a>.</p>';
+      return;
+    }
+
+    const c = (data.characters || []).find(x => x.id === id);
+    if (!c) { fail(); return; }
+    // Resolve old bookmarked links only after validating against the roster.
+    if (typeof location.replace === 'function') {
+      location.replace('characters/' + encodeURIComponent(c.id) + '.html' + (location.hash || ''));
+      return;
+    }
+
+    document.title = c.name + ' — Lantern Lore';
+    const preview = c.summary || c.tagline;
+    const md = document.querySelector('meta[name="description"]');
+    if (md && preview) md.setAttribute('content', preview.slice(0, 155));
+    root.innerHTML = renderCharacter(c);
+  })();
+}

@@ -43,7 +43,7 @@ jobs:
         run: |
           mkdir _site
           cp *.html robots.txt sitemap.xml _site/
-          cp -R assets corps css data entities eras events explained glossary guardians js moments powers screen stories villains worlds _site/
+          cp -R assets characters corps css data entities eras events explained glossary guardians js moments powers screen stories villains worlds _site/
           touch _site/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4

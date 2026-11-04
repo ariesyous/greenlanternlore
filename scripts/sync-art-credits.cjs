@@ -47,7 +47,8 @@ for (const character of roster.characters) {
   character.artCredit = caption(record);
   character.artCreditHref = 'sources.html#' + anchor(record.asset);
   character.portraitWithheld = record.display === 'withheld';
-  usedBy.get(record.asset).add('character.html?id=' + character.id);
+  usedBy.get(record.asset).add('characters/' + character.id + '.html');
+  if (character.portraitWithheld) usedBy.get('assets/og-preview.jpg').add('characters/' + character.id + '.html');
 }
 write('data/characters.json', JSON.stringify(roster, null, 2) + '\n');
 // The catalogue itself also uses the standard social card.
@@ -72,3 +73,6 @@ let sources = read('sources.html').replace(/      <article class="panel" id="art
 if (!sources.includes('src="js/art-credits.js"')) sources = sources.replace('<script src="js/search.js" defer></script>', '<script src="js/search.js" defer></script>\n  <script src="js/art-credits.js" defer></script>');
 write('sources.html', sources.replace(/[ \t]+(?=\r?$)/gm, ''));
 console.log(`Updated ${pages.length} pages and ${roster.characters.length} profiles. Artwork: ${JSON.stringify(counts)}`);
+// Profiles publish the same credits in their initial HTML, so refresh them together.
+const generated = require('./build-character-pages.cjs').buildSite();
+console.log(`Refreshed ${generated.profiles} static profiles and ${generated.urls} sitemap URLs.`);

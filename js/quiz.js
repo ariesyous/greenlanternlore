@@ -192,7 +192,7 @@
     root.appendChild(el("p", "quiz-emotion", c.emotion));
     root.appendChild(el("p", null, c.blurb));
     var kindred = el("p", "quiz-kindred", null);
-    kindred.innerHTML = "You'd fight alongside <a href=\"character.html?id=" + c.kindredId + "\">" + c.kindred + "</a>.";
+    kindred.innerHTML = "You'd fight alongside <a href=\"characters/" + c.kindredId + ".html\">" + c.kindred + "</a>.";
     root.appendChild(kindred);
     var actions = el("div", "quiz-actions");
     var go = el("a", "quiz-go", "Explore the " + c.name + " &rarr;");

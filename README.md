@@ -23,7 +23,8 @@ every color of the emotional spectrum, their oaths, members, homeworlds, and lor
 ## Tech
 
 Pure static site — hand-written HTML, CSS, and vanilla JavaScript.
-No frameworks, no application build step, no backend.
+No frameworks or backend. Character pages are generated ahead of time and checked
+into the repository; GitHub Pages serves their complete HTML directly.
 
 ## Deployment
 
@@ -40,12 +41,25 @@ Then push to `main` or run **Deploy to GitHub Pages** from the Actions tab.
 
 ## Preview locally
 
-Serve the folder over HTTP so search and character profiles can load their JSON:
+Serve the folder over HTTP so site search can load its index:
 
 ```bash
 python3 -m http.server 8000
 # → http://localhost:8000
 ```
+
+After editing character data, the profile template (`character.html`), or the shared
+renderer (`js/character.js`), regenerate the static profiles and discovery files:
+
+```bash
+node scripts/build-character-pages.cjs
+```
+
+This updates all 70 `characters/<id>.html` pages, their search entries, and the
+sitemap. Each profile includes its biography, spoiler disclosure, artwork credits,
+and unique search/sharing metadata without requiring JavaScript. Existing
+`character.html?id=...` bookmarks redirect to the matching profile; without
+JavaScript, the legacy page links to the static roster.
 
 Run the content-link, character-profile, and search checks with Node.js:
 
@@ -53,13 +67,20 @@ Run the content-link, character-profile, and search checks with Node.js:
 node --test tests/*.test.cjs
 ```
 
+The tests also check generated-file freshness. To check it alone without writing:
+
+```bash
+node scripts/build-character-pages.cjs --check
+```
+
 ## Editing the lore
 
 Keep introductions at premise level and put major outcomes in labeled spoiler sections.
 Use series years and issue numbers, distinguish continuity and retcons, and link primary
 publisher references beside reading advice. Profile reference notes distinguish the claims
-supported by a linked source from debut citations that still need checking. Update `data/search-index.json` and
-`sitemap.xml` when adding a page, then run the checks above. The prioritized editorial
+supported by a linked source from debut citations that still need checking. Add a search entry to
+`data/search-index.json` when adding a non-character page, regenerate the sitemap with
+`node scripts/build-character-pages.cjs`, then run the checks above. The prioritized editorial
 work and completed release are recorded in [ROADMAP.md](ROADMAP.md).
 
 Artwork attribution lives in `data/art-credits.json`. Each record distinguishes confirmed
@@ -73,7 +94,8 @@ in the manifest's replacement history. Ash now uses Tony Harris's cover painting
 Green Lantern Corps Quarterly #7. Sister Sercy uses her labeled Blackest Night #0
 profile illustration; the superseded Mindy Marvel fan-art evidence remains recorded.
 
-After updating the manifest, regenerate the static catalogue and profile/page credits:
+After updating the manifest, regenerate the static catalogue and profile/page credits
+(this also regenerates the static character pages, search entries, and sitemap):
 
 ```bash
 node scripts/sync-art-credits.cjs

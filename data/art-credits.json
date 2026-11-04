@@ -20,8 +20,8 @@
       "sha256": "3a4d28853e9f56368da9dd9ef1712d0a65d93f6074e78de1c668a08466fec1aa",
       "category": "characters",
       "usedBy": [
-        "character.html?id=abin-sur",
         "characters.html",
+        "characters/abin-sur.html",
         "moments/abin-sur-dies.html"
       ],
       "status": "verified_credit",
@@ -60,8 +60,8 @@
       "sha256": "6c27398f87ca451989439eb9a7db240b4fcc3658b9ff640f8a1d1510eea120d8",
       "category": "characters",
       "usedBy": [
-        "character.html?id=amon-sur",
-        "characters.html"
+        "characters.html",
+        "characters/amon-sur.html"
       ],
       "status": "unresolved",
       "work": null,
@@ -81,8 +81,8 @@
       "sha256": "a4b8ffa265ae55c29c122379bc4dcda8d09755b3faa4985ca51bf1b4c0454db6",
       "category": "characters",
       "usedBy": [
-        "character.html?id=arisia-rrab",
-        "characters.html"
+        "characters.html",
+        "characters/arisia-rrab.html"
       ],
       "status": "unresolved",
       "work": null,
@@ -109,8 +109,8 @@
       "sha256": "f8e2b89409ceb1789e0e646b413d517e88f68acfb51455c1969c2b72741e400a",
       "category": "characters",
       "usedBy": [
-        "character.html?id=arkillo",
         "characters.html",
+        "characters/arkillo.html",
         "corps/yellow.html"
       ],
       "status": "unresolved",
@@ -136,8 +136,8 @@
       "sha256": "374d34307bdb1a0d07d0b8975c1bb0bb3799652545a618f55a0254c92cf93a9e",
       "category": "characters",
       "usedBy": [
-        "character.html?id=ash",
-        "characters.html"
+        "characters.html",
+        "characters/ash.html"
       ],
       "status": "verified_credit",
       "work": "Ash — Green Lantern Corps Quarterly #7 (1993), painted cover detail",
@@ -177,8 +177,8 @@
       "sha256": "873bb28cf8e1635e80c674d928e4a96e6d18bc8384324874164bb026e01945cc",
       "category": "characters",
       "usedBy": [
-        "character.html?id=atrocitus",
         "characters.html",
+        "characters/atrocitus.html",
         "corps/red.html",
         "entities/butcher.html",
         "eras/johns-era.html",
@@ -210,8 +210,8 @@
       "sha256": "3d9b975746b7821823f0260235a16f0e2a8206ec9987d94f1d627bb0a6e8b0e9",
       "category": "characters",
       "usedBy": [
-        "character.html?id=bdg",
-        "characters.html"
+        "characters.html",
+        "characters/bdg.html"
       ],
       "status": "verified_credit",
       "work": "Green Lantern (2011) #15 (released December 2012; February 2013 cover date), interior panel",
@@ -238,7 +238,6 @@
         "The repository’s original download page or edition remains unknown."
       ],
       "reviewed": "2026-11-04",
-      "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit.",
       "displayCaption": "B’dg in Green Lantern #15 (2012), pencils by Doug Mahnke and colors by Alex Sinclair; panel inker unconfirmed."
     },
     {
@@ -246,8 +245,8 @@
       "sha256": "93c2a8fc9220611687b25484272d47bd6114ec8a7752ae9f357a58b2c4bac855",
       "category": "characters",
       "usedBy": [
-        "character.html?id=black-hand",
         "characters.html",
+        "characters/black-hand.html",
         "corps/black.html",
         "events/blackest-night.html"
       ],
@@ -290,8 +289,8 @@
       "sha256": "d837ca2d72b27aef4f37290e66a46f692b96e4406b518ff247ac7d69e1097b4b",
       "category": "characters",
       "usedBy": [
-        "character.html?id=bleez",
         "characters.html",
+        "characters/bleez.html",
         "corps/red.html",
         "moments/sector-666.html",
         "stories/red-lanterns.html"
@@ -326,8 +325,8 @@
       "sha256": "8393dbf03cb71ad16e30fd97cdb6ddeb8586e5786a0d959efec769db6bd630e5",
       "category": "characters",
       "usedBy": [
-        "character.html?id=boodikka",
-        "characters.html"
+        "characters.html",
+        "characters/boodikka.html"
       ],
       "status": "verified_credit",
       "work": "Green Lantern Corps (2006) #63 (2011), Now and Forever! chapter one, story page 2, bottom two panels",
@@ -361,8 +360,8 @@
       "sha256": "d7e2ee59130c115ac015b7acb30bb07fd647fdb0513f01ef6cbdd0447ade7535",
       "category": "characters",
       "usedBy": [
-        "character.html?id=brother-hynn",
         "characters.html",
+        "characters/brother-hynn.html",
         "corps/blue.html"
       ],
       "status": "verified_credit",
@@ -403,8 +402,8 @@
       "sha256": "ff9b95b070445b811b590dca6f8ef50c280793d3d6c9a1209010b820f38f8e77",
       "category": "characters",
       "usedBy": [
-        "character.html?id=brother-warth",
         "characters.html",
+        "characters/brother-warth.html",
         "corps/blue.html"
       ],
       "status": "unresolved",
@@ -435,8 +434,8 @@
       "sha256": "fcc5a2495fab0d139feb0c362eea0587dbcc1a14230f6421c03a547762b6ef74",
       "category": "characters",
       "usedBy": [
-        "character.html?id=bzzd",
-        "characters.html"
+        "characters.html",
+        "characters/bzzd.html"
       ],
       "status": "unresolved",
       "work": null,
@@ -456,8 +455,8 @@
       "sha256": "7e1f13e7612636137f4df3b47914f80c21cfaf57a65c1a11ff1ed66e5d6d25c1",
       "category": "characters",
       "usedBy": [
-        "character.html?id=carol-ferris",
         "characters.html",
+        "characters/carol-ferris.html",
         "corps/violet.html",
         "entities/predator.html",
         "events/wrath-of-the-first-lantern.html",
@@ -497,8 +496,8 @@
       "sha256": "6a9cd04be18cc9eee6c47a23ce8055752d9ab66ccc90ca34834bb560d0e8f48f",
       "category": "characters",
       "usedBy": [
-        "character.html?id=charlie-vicker",
-        "characters.html"
+        "characters.html",
+        "characters/charlie-vicker.html"
       ],
       "status": "unresolved",
       "work": null,
@@ -518,8 +517,8 @@
       "sha256": "13b57108603a19151e25173adde8ae3a9a1b156e3debc5e3e01c9809ba4a5607",
       "category": "characters",
       "usedBy": [
-        "character.html?id=chp",
         "characters.html",
+        "characters/chp.html",
         "corps/green.html"
       ],
       "status": "verified_credit",
@@ -558,8 +557,8 @@
       "sha256": "82e8f2147b3873f70522c1b602385a85bee9c5dd3077d09fba9241dbe55dd347",
       "category": "characters",
       "usedBy": [
-        "character.html?id=despotellis",
         "characters.html",
+        "characters/despotellis.html",
         "corps/yellow.html"
       ],
       "status": "unresolved",
@@ -585,8 +584,8 @@
       "sha256": "c3e1828b6fc5b1f194d749a4a905ca1784edc02d88ffa4bcef47ace0a6103f3c",
       "category": "characters",
       "usedBy": [
-        "character.html?id=dex-starr",
         "characters.html",
+        "characters/dex-starr.html",
         "corps/red.html"
       ],
       "status": "unresolved",
@@ -612,8 +611,8 @@
       "sha256": "15162ed9da5d8a8da09a868d78141303d4e34e3df3144e16f3f515ace6986339",
       "category": "characters",
       "usedBy": [
-        "character.html?id=fatality",
         "characters.html",
+        "characters/fatality.html",
         "corps/violet.html"
       ],
       "status": "unresolved",
@@ -639,8 +638,8 @@
       "sha256": "0c0a0a4d2b41faa46691a4c4b1ae091da7ae56974c5a92bc983f834f0348f6e9",
       "category": "characters",
       "usedBy": [
-        "character.html?id=galius-zed",
-        "characters.html"
+        "characters.html",
+        "characters/galius-zed.html"
       ],
       "status": "unresolved",
       "work": null,
@@ -660,8 +659,8 @@
       "sha256": "3020607406b8db94336e8d5360837edef9373ce95a369036c11d0feaaa701c5a",
       "category": "characters",
       "usedBy": [
-        "character.html?id=ganthet",
         "characters.html",
+        "characters/ganthet.html",
         "corps/blue.html",
         "events/emerald-twilight.html",
         "events/war-of-the-green-lanterns.html",
@@ -711,8 +710,8 @@
       "sha256": "5ed5c47af01a26e44081086394b4460714557636824a7c7db3ad2ee45c8bc65b",
       "category": "characters",
       "usedBy": [
-        "character.html?id=glomulus",
         "characters.html",
+        "characters/glomulus.html",
         "corps/orange.html"
       ],
       "status": "unresolved",
@@ -738,8 +737,8 @@
       "sha256": "03330f20443c46a4bf9fc3cabd1e790c6a310ed0d6a81e512890b4fafa5385ac",
       "category": "characters",
       "usedBy": [
-        "character.html?id=gnort",
-        "characters.html"
+        "characters.html",
+        "characters/gnort.html"
       ],
       "status": "unresolved",
       "work": null,
@@ -759,8 +758,8 @@
       "sha256": "f23ec198c394e69c843a1ab07aaa40a198463581ebfcb97ae8bfde988a705c91",
       "category": "characters",
       "usedBy": [
-        "character.html?id=graf-toren",
-        "characters.html"
+        "characters.html",
+        "characters/graf-toren.html"
       ],
       "status": "unresolved",
       "work": null,
@@ -780,8 +779,8 @@
       "sha256": "80cc034fd27af9618ab54fddeedd5929b84cc13824e0ab63480a70832852300a",
       "category": "characters",
       "usedBy": [
-        "character.html?id=green-man",
-        "characters.html"
+        "characters.html",
+        "characters/green-man.html"
       ],
       "status": "unresolved",
       "work": null,
@@ -801,8 +800,8 @@
       "sha256": "b60b5ab7f45fdfbd84307e8388f06789d0b89778027b3c155feb3ba1de5d7d51",
       "category": "characters",
       "usedBy": [
-        "character.html?id=guy-gardner",
         "characters.html",
+        "characters/guy-gardner.html",
         "corps/green.html",
         "corps/red.html",
         "eras/new52.html",
@@ -835,8 +834,8 @@
       "sha256": "f40ab9228195d8793527bcb8b94761856186e9299c76eaf1e1f27be1e625b202",
       "category": "characters",
       "usedBy": [
-        "character.html?id=hal-jordan",
         "characters.html",
+        "characters/hal-jordan.html",
         "corps/green.html",
         "entities/life-entity.html",
         "eras/johns-era.html",
@@ -905,8 +904,8 @@
       "sha256": "1e8974fb70138ce543852389a7f9ee68ffa05684b8b6f5260efcee7787e1fbe0",
       "category": "characters",
       "usedBy": [
-        "character.html?id=hannu",
-        "characters.html"
+        "characters.html",
+        "characters/hannu.html"
       ],
       "status": "unresolved",
       "work": null,
@@ -926,8 +925,8 @@
       "sha256": "6433010972eae5f628761605f47c2b5650684cbc9d0c8dc0b661b305c3302c71",
       "category": "characters",
       "usedBy": [
-        "character.html?id=indigo-1",
         "characters.html",
+        "characters/indigo-1.html",
         "corps/indigo.html",
         "entities/proselyte.html",
         "moments/indigo-tribe-rises.html",
@@ -957,8 +956,8 @@
       "sha256": "f053ba9690fee6ed268646dcefb0b9351df01de330da55474387cdc253dd36c9",
       "category": "characters",
       "usedBy": [
-        "character.html?id=isamot-kol",
-        "characters.html"
+        "characters.html",
+        "characters/isamot-kol.html"
       ],
       "status": "unresolved",
       "work": null,
@@ -978,8 +977,8 @@
       "sha256": "211b98d03c867147aafa40dde8d235085f82fd782e93b64f2a792eadd63b3dc4",
       "category": "characters",
       "usedBy": [
-        "character.html?id=jack-t-chance",
-        "characters.html"
+        "characters.html",
+        "characters/jack-t-chance.html"
       ],
       "status": "verified_credit",
       "work": "Green Lantern Corps Quarterly #1 (1992), cover",
@@ -1005,8 +1004,8 @@
       "sha256": "97cbd40ab70ab6f1e58fd858f1907a0c0f666e3137b5f22ac2dc8c3baecab0f6",
       "category": "characters",
       "usedBy": [
-        "character.html?id=jade",
-        "characters.html"
+        "characters.html",
+        "characters/jade.html"
       ],
       "status": "unresolved",
       "work": null,
@@ -1028,8 +1027,8 @@
       "sha256": "86767a39e732372e84b240a282dd899a82109d666e622b519f74a2c60d2e99f0",
       "category": "characters",
       "usedBy": [
-        "character.html?id=jessica-cruz",
         "characters.html",
+        "characters/jessica-cruz.html",
         "stories/green-lanterns.html"
       ],
       "status": "verified_credit",
@@ -1064,8 +1063,8 @@
       "sha256": "cedfc8d7308c99f90a85c9e9bb74f354435ea08504a5904ab96081e68beb0c07",
       "category": "characters",
       "usedBy": [
-        "character.html?id=jo-mullein",
         "characters.html",
+        "characters/jo-mullein.html",
         "index.html",
         "stories/far-sector.html"
       ],
@@ -1089,8 +1088,8 @@
       "sha256": "93f630fb7ad87217176793767089ffd43d48cd2a76c526a6c0aa2b57330fe586",
       "category": "characters",
       "usedBy": [
-        "character.html?id=john-stewart",
         "characters.html",
+        "characters/john-stewart.html",
         "corps/green.html",
         "eras/rebirth-era.html",
         "events/war-of-the-green-lanterns.html",
@@ -1133,8 +1132,8 @@
       "sha256": "6944edb7a4a91fefb2f6261022495878120031f83d43afdef13384e18f7d94d0",
       "category": "characters",
       "usedBy": [
-        "character.html?id=karu-sil",
         "characters.html",
+        "characters/karu-sil.html",
         "corps/yellow.html"
       ],
       "status": "unresolved",
@@ -1159,8 +1158,8 @@
       "sha256": "44926196ae7dd8f6eafbd98b8c91d0fcb4d2c12514000ef5c44c3f3062390b05",
       "category": "characters",
       "usedBy": [
-        "character.html?id=katma-tui",
         "characters.html",
+        "characters/katma-tui.html",
         "corps/green.html"
       ],
       "status": "verified_credit",
@@ -1189,8 +1188,8 @@
       "sha256": "c7f90852b5e20c43bb97f9b29b1545c2882ec751cd434831e62eede0727cb4e5",
       "category": "characters",
       "usedBy": [
-        "character.html?id=kilowog",
         "characters.html",
+        "characters/kilowog.html",
         "corps/green.html",
         "events/emerald-twilight.html",
         "screen/animated-series.html",
@@ -1220,8 +1219,8 @@
       "sha256": "af3f54b66784a816a413e75eb37b384ce9cf3d4a990a5fae41474322e8cfbe2e",
       "category": "characters",
       "usedBy": [
-        "character.html?id=kryb",
-        "characters.html"
+        "characters.html",
+        "characters/kryb.html"
       ],
       "status": "unresolved",
       "work": null,
@@ -1240,8 +1239,8 @@
       "sha256": "abae0b793141dfaac15a6ab3d0fe32e15a3da932d9533b8ba5a69df650f86f30",
       "category": "characters",
       "usedBy": [
-        "character.html?id=kyle-rayner",
         "characters.html",
+        "characters/kyle-rayner.html",
         "corps/green.html",
         "corps/white.html",
         "entities/life-entity.html",
@@ -1289,8 +1288,8 @@
       "sha256": "7c2f7d4c8c14d4d80f742cf4c6ea2add723c909ab0590ab418b082c156690b19",
       "category": "characters",
       "usedBy": [
-        "character.html?id=laira",
         "characters.html",
+        "characters/laira.html",
         "corps/red.html",
         "screen/emerald-knights.html"
       ],
@@ -1316,8 +1315,8 @@
       "sha256": "659a86a5d28046d4a92bb467252daf8cbce90d92cefa61c5a3ab8f06d6741ac1",
       "category": "characters",
       "usedBy": [
-        "character.html?id=larfleeze",
         "characters.html",
+        "characters/larfleeze.html",
         "corps/orange.html",
         "entities/ophidian.html",
         "moments/miser-okaara.html",
@@ -1345,8 +1344,8 @@
       "sha256": "97aa302031ff165422571aff78fdc9a4199952ded012ad475df15ae3bd174963",
       "category": "characters",
       "usedBy": [
-        "character.html?id=lyssa-drak",
         "characters.html",
+        "characters/lyssa-drak.html",
         "corps/yellow.html",
         "moments/fear-organizes.html"
       ],
@@ -1379,8 +1378,8 @@
       "sha256": "2e464895f29abdd1f3215eba45a6286a8f5e54dc777a66f4c499b319af0c1d92",
       "category": "characters",
       "usedBy": [
-        "character.html?id=medphyll",
-        "characters.html"
+        "characters.html",
+        "characters/medphyll.html"
       ],
       "status": "unresolved",
       "work": null,
@@ -1399,8 +1398,8 @@
       "sha256": "f24b7c4de6f1221beefe2d8f46fc0474748da430670e50290a5e707c2e12fd79",
       "category": "characters",
       "usedBy": [
-        "character.html?id=miri-riam",
         "characters.html",
+        "characters/miri-riam.html",
         "corps/violet.html"
       ],
       "status": "unresolved",
@@ -1425,8 +1424,8 @@
       "sha256": "bbba2d73bb78de9fa20084c3ef54469da460da70dc4d4f0fb7c8796eb46713b2",
       "category": "characters",
       "usedBy": [
-        "character.html?id=mogo",
-        "characters.html"
+        "characters.html",
+        "characters/mogo.html"
       ],
       "status": "unresolved",
       "work": null,
@@ -1445,8 +1444,8 @@
       "sha256": "24883f63753c717407597e0b4d2da527ffb619c2b0f7b597fcc72e560e3d8854",
       "category": "characters",
       "usedBy": [
-        "character.html?id=munk",
         "characters.html",
+        "characters/munk.html",
         "corps/indigo.html"
       ],
       "status": "verified_credit",
@@ -1479,8 +1478,8 @@
       "sha256": "40a7b729416a974e92a80562c5d9340696e9a1853c09360b1f8059a7e7543e7d",
       "category": "characters",
       "usedBy": [
-        "character.html?id=nekron",
         "characters.html",
+        "characters/nekron.html",
         "corps/black.html"
       ],
       "status": "unresolved",
@@ -1505,8 +1504,8 @@
       "sha256": "ccada87e482a03e704697f9c26c4b88c0dd5f4bdcecbfd7e291f94af46181d59",
       "category": "characters",
       "usedBy": [
-        "character.html?id=queen-agapo",
         "characters.html",
+        "characters/queen-agapo.html",
         "corps/violet.html"
       ],
       "status": "unresolved",
@@ -1531,8 +1530,8 @@
       "sha256": "2c787068d4c01a5c03e4dd61b4420d9aba233288368b837c4d30db688925a5ed",
       "category": "characters",
       "usedBy": [
-        "character.html?id=rankorr",
         "characters.html",
+        "characters/rankorr.html",
         "corps/red.html"
       ],
       "status": "unresolved",
@@ -1557,8 +1556,8 @@
       "sha256": "4f391c6b313a0efcbf230727648f060bf58fee262c316c5d3fed6fcadf0f9cf3",
       "category": "characters",
       "usedBy": [
-        "character.html?id=rot-lop-fan",
-        "characters.html"
+        "characters.html",
+        "characters/rot-lop-fan.html"
       ],
       "status": "unresolved",
       "work": null,
@@ -1577,8 +1576,8 @@
       "sha256": "1a47c562d392fd075b42bde099a3a70cae14123292551819969a799d00273a42",
       "category": "characters",
       "usedBy": [
-        "character.html?id=saarek",
-        "characters.html"
+        "characters.html",
+        "characters/saarek.html"
       ],
       "status": "verified_credit",
       "work": "Green Lantern Corps (2006) #28 (2008), cover artwork",
@@ -1605,8 +1604,8 @@
       "sha256": "cddab1f7e037edf9940be7d3d55043cfa1312f1c736060656b0361def47b353e",
       "category": "characters",
       "usedBy": [
-        "character.html?id=saint-walker",
         "characters.html",
+        "characters/saint-walker.html",
         "corps/blue.html",
         "entities/adara.html",
         "events/blackest-night.html",
@@ -1636,8 +1635,8 @@
       "sha256": "53cf4d5fd2b889838fc68742b755064229d0712d6d9ca382f5cabc3099a5f5c8",
       "category": "characters",
       "usedBy": [
-        "character.html?id=salaak",
         "characters.html",
+        "characters/salaak.html",
         "corps/green.html"
       ],
       "status": "unresolved",
@@ -1662,8 +1661,8 @@
       "sha256": "2a36c3c368a1c6d84a643ca09d242da53d9f158a93aeece5be575263e4adc358",
       "category": "characters",
       "usedBy": [
-        "character.html?id=sayd",
         "characters.html",
+        "characters/sayd.html",
         "corps/blue.html",
         "moments/manhunter-rebellion.html"
       ],
@@ -1689,8 +1688,8 @@
       "sha256": "403d9feed3b9bedf757796eea15ec7fb361285ce3dcd66f662dbfdcb0921a33b",
       "category": "characters",
       "usedBy": [
-        "character.html?id=scar",
         "characters.html",
+        "characters/scar.html",
         "corps/black.html"
       ],
       "status": "unresolved",
@@ -1715,8 +1714,8 @@
       "sha256": "700f06f005f9b31fba92902dfe69a2cefc3830067607853f9966324fdf7d09ea",
       "category": "characters",
       "usedBy": [
-        "character.html?id=simon-baz",
         "characters.html",
+        "characters/simon-baz.html",
         "stories/green-lanterns.html"
       ],
       "status": "unresolved",
@@ -1736,8 +1735,8 @@
       "sha256": "ed512ae9318c03b152883bb036c65071b56cec755b6a3fe2a9d0bf9f783f00fd",
       "category": "characters",
       "usedBy": [
-        "character.html?id=sinestro",
         "characters.html",
+        "characters/sinestro.html",
         "corps/yellow.html",
         "eras/johns-era.html",
         "eras/new52.html",
@@ -1793,8 +1792,8 @@
       "sha256": "76d91ff96837d8bd63c51e8f29cc334688b8db7d7121619451a6d83a964605ce",
       "category": "characters",
       "usedBy": [
-        "character.html?id=sister-sercy",
         "characters.html",
+        "characters/sister-sercy.html",
         "corps/blue.html"
       ],
       "status": "verified_credit",
@@ -1826,11 +1825,6 @@
         "No reproduction license is documented; the record identifies the source and artists."
       ],
       "reviewed": "2026-11-04",
-      "legacySourceLead": {
-        "source": "Former characters.html hidden portrait-source comment",
-        "claim": "fan art by Monsanto (2009), via Pinterest",
-        "verification": "Unverified historical download or attribution lead; does not override the evidence, status or credits in this record."
-      },
       "previousArtwork": {
         "asset": "assets/characters/sister-sercy.jpg",
         "sha256": "759d6cf4bafe976c6e62d8391cbda4c81a5e7f0bb11b73e630580e127aaba7c7",
@@ -1847,7 +1841,12 @@
         ],
         "imageSource": "https://www.deviantart.com/gammaknight/art/mindy-blue-lantern-final-119990991",
         "evidence": "Opened the artist’s gallery in Chrome, found the exact image via the gallery’s blue search, and compared the full published artwork with the local file. Orange curls, hood, domino mask, leaping pose, blue glow, white background and MONSANTO 2009 signature all match. The original post is titled mindy blue lantern final, dated April 21, 2009, with the description mindy blue lantern marvel. The creator profile identifies gammaknight as Gilbert Monsanto. It depicts Mindy Marvel, not Sister Sercy.",
-        "reasonReplaced": "The original creator identifies the previous artwork as Mindy Marvel, not Sister Sercy. The superseded binary remains in Git history."
+        "reasonReplaced": "The original creator identifies the previous artwork as Mindy Marvel, not Sister Sercy. The superseded binary remains in Git history.",
+        "legacySourceLead": {
+          "source": "Former characters.html hidden portrait-source comment",
+          "claim": "fan art by Monsanto (2009), via Pinterest",
+          "verification": "Unverified historical download or attribution lead; does not override the evidence, status or credits in this record."
+        }
       }
     },
     {
@@ -1855,8 +1854,8 @@
       "sha256": "0ae32538cf69d8df7af171467b5679481979f4f01fbcfdc93679f9ecc278c336",
       "category": "characters",
       "usedBy": [
-        "character.html?id=skallox",
         "characters.html",
+        "characters/skallox.html",
         "corps/red.html"
       ],
       "status": "unresolved",
@@ -1881,8 +1880,8 @@
       "sha256": "d2a725ce340a2717cd24535d6b77e1cc6dcf41421e34e8f5b95c96627ad67d1f",
       "category": "characters",
       "usedBy": [
-        "character.html?id=sodam-yat",
         "characters.html",
+        "characters/sodam-yat.html",
         "corps/green.html"
       ],
       "status": "unresolved",
@@ -1902,8 +1901,8 @@
       "sha256": "04a03fe07658584989f52ce7b6c56d9835c3ac941dcb400d8718305240a9f0de",
       "category": "characters",
       "usedBy": [
-        "character.html?id=soranik-natu",
-        "characters.html"
+        "characters.html",
+        "characters/soranik-natu.html"
       ],
       "status": "unresolved",
       "work": null,
@@ -1927,8 +1926,8 @@
       "sha256": "1ec42c3c1cde27a8903cc5aef0ec96612c13775e670e882da94903ad190d905e",
       "category": "characters",
       "usedBy": [
-        "character.html?id=stel",
-        "characters.html"
+        "characters.html",
+        "characters/stel.html"
       ],
       "status": "unresolved",
       "work": null,
@@ -1947,8 +1946,8 @@
       "sha256": "2c7f06023a27b65d17913c60380607697894890a0b2e23caa4719a5bbfec57ce",
       "category": "characters",
       "usedBy": [
-        "character.html?id=tomar-re",
         "characters.html",
+        "characters/tomar-re.html",
         "corps/green.html"
       ],
       "status": "unresolved",
@@ -1973,8 +1972,8 @@
       "sha256": "681a2c77bb0d8e4b42379bf2cc0cd488130de52d3419b753e6d5c97f8ed3688a",
       "category": "characters",
       "usedBy": [
-        "character.html?id=tomar-tu",
-        "characters.html"
+        "characters.html",
+        "characters/tomar-tu.html"
       ],
       "status": "unresolved",
       "work": null,
@@ -1993,8 +1992,8 @@
       "sha256": "5a86cf350dff487e5c3e94d14b23e940b112d95ec3afcf57bc997ae6a5a6405a",
       "category": "characters",
       "usedBy": [
-        "character.html?id=vath-sarn",
-        "characters.html"
+        "characters.html",
+        "characters/vath-sarn.html"
       ],
       "status": "unresolved",
       "work": null,
@@ -2014,8 +2013,8 @@
       "sha256": "eba9e71d00380c980fa6d94424931a8dc0ec8da381a130b1de365c084d0a1799",
       "category": "characters",
       "usedBy": [
-        "character.html?id=vice",
         "characters.html",
+        "characters/vice.html",
         "corps/red.html"
       ],
       "status": "unresolved",
@@ -2040,8 +2039,8 @@
       "sha256": "0ce0dc992937da38bf43811e2d1ef93a148d488c8f46ab3d91c067720192e9fd",
       "category": "characters",
       "usedBy": [
-        "character.html?id=voz",
-        "characters.html"
+        "characters.html",
+        "characters/voz.html"
       ],
       "status": "unresolved",
       "work": null,
@@ -2060,8 +2059,8 @@
       "sha256": "c094c34b31e3e35e1d30e8e0047d8dfbdbe41269902582e9c9461be756591a8a",
       "category": "characters",
       "usedBy": [
-        "character.html?id=zilius-zox",
         "characters.html",
+        "characters/zilius-zox.html",
         "corps/red.html"
       ],
       "status": "unresolved",
@@ -4048,8 +4047,8 @@
       "sha256": "c43ed3452b26a7454c2786e711fa6d851b4d181e5c148e9010d2916f2b1fca0c",
       "category": "eras",
       "usedBy": [
-        "character.html?id=alan-scott",
         "characters.html",
+        "characters/alan-scott.html",
         "creators.html",
         "events/zero-hour.html",
         "moments/first-lantern.html",
