@@ -1,0 +1,3709 @@
+{
+  "schemaVersion": 1,
+  "reviewed": "2026-11-04",
+  "scope": "All local raster/vector image files under assets; inline SVG icons are excluded. An inventory record is not a claim that its artwork credit is verified.",
+  "statusDefinitions": {
+    "verified_credit": "Artwork identified and the named artist role corroborated by a publisher cover credit. This does not mean every contributor, local edition, colorist or original download is known; see remainingGaps.",
+    "source_matched": "Artwork visually matched to a publisher reference, but specific cover contributor roles still need confirmation.",
+    "unresolved": "The exact artwork source or edition has not been established. A filename, character creator, signature or generic DC attribution is not sufficient."
+  },
+  "rightsNote": "Provenance and credit records do not grant a license or imply permission from the rights holder. No new AI artwork was added.",
+  "counts": {
+    "total": 179,
+    "verified_credit": 9,
+    "source_matched": 3,
+    "unresolved": 167
+  },
+  "priorityGroups": {
+    "homepage-corps": {
+      "description": "The nine homepage Corps images",
+      "gap": "Existing reseller/news/wallpaper attributions do not identify the original issue, panel, variant or artist. These remain unresolved."
+    },
+    "characters": {
+      "description": "Character portraits in assets/characters",
+      "gap": "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+    },
+    "entities": {
+      "description": "Emotional-entity guide illustrations",
+      "gap": "Generic DC attribution does not identify the exact panel, cover or contributors. All eight need further provenance work."
+    }
+  },
+  "assets": [
+    {
+      "asset": "assets/characters/abin-sur.jpg",
+      "sha256": "3a4d28853e9f56368da9dd9ef1712d0a65d93f6074e78de1c668a08466fec1aa",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=abin-sur",
+        "characters.html",
+        "moments/abin-sur-dies.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/amon-sur.jpg",
+      "sha256": "6c27398f87ca451989439eb9a7db240b4fcc3658b9ff640f8a1d1510eea120d8",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=amon-sur",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/arisia-rrab.jpg",
+      "sha256": "a4b8ffa265ae55c29c122379bc4dcda8d09755b3faa4985ca51bf1b4c0454db6",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=arisia-rrab",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/arkillo.jpg",
+      "sha256": "f8e2b89409ceb1789e0e646b413d517e88f68acfb51455c1969c2b72741e400a",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=arkillo",
+        "characters.html",
+        "corps/yellow.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/ash.jpg",
+      "sha256": "375e61869a04530b4172780d7f214906661ddd8122b85081e1af668652d74839",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=ash",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/atrocitus.jpg",
+      "sha256": "873bb28cf8e1635e80c674d928e4a96e6d18bc8384324874164bb026e01945cc",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=atrocitus",
+        "characters.html",
+        "corps/red.html",
+        "entities/butcher.html",
+        "eras/johns-era.html",
+        "events/wrath-of-the-first-lantern.html",
+        "moments/sector-666.html",
+        "stories/rage.html",
+        "stories/red-lanterns.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/bdg.jpg",
+      "sha256": "3d9b975746b7821823f0260235a16f0e2a8206ec9987d94f1d627bb0a6e8b0e9",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=bdg",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/black-hand.jpg",
+      "sha256": "93c2a8fc9220611687b25484272d47bd6114ec8a7752ae9f357a58b2c4bac855",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=black-hand",
+        "characters.html",
+        "corps/black.html",
+        "events/blackest-night.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/bleez.jpg",
+      "sha256": "d837ca2d72b27aef4f37290e66a46f692b96e4406b518ff247ac7d69e1097b4b",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=bleez",
+        "characters.html",
+        "corps/red.html",
+        "moments/sector-666.html",
+        "stories/red-lanterns.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/boodikka.jpg",
+      "sha256": "8393dbf03cb71ad16e30fd97cdb6ddeb8586e5786a0d959efec769db6bd630e5",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=boodikka",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/brother-hynn.jpg",
+      "sha256": "d7e2ee59130c115ac015b7acb30bb07fd647fdb0513f01ef6cbdd0447ade7535",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=brother-hynn",
+        "characters.html",
+        "corps/blue.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/brother-warth.jpg",
+      "sha256": "ff9b95b070445b811b590dca6f8ef50c280793d3d6c9a1209010b820f38f8e77",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=brother-warth",
+        "characters.html",
+        "corps/blue.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/bzzd.jpg",
+      "sha256": "fcc5a2495fab0d139feb0c362eea0587dbcc1a14230f6421c03a547762b6ef74",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=bzzd",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/carol-ferris.jpg",
+      "sha256": "7e1f13e7612636137f4df3b47914f80c21cfaf57a65c1a11ff1ed66e5d6d25c1",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=carol-ferris",
+        "characters.html",
+        "corps/violet.html",
+        "entities/predator.html",
+        "events/wrath-of-the-first-lantern.html",
+        "moments/star-sapphires-rise.html",
+        "screen/green-lantern-2011.html",
+        "stories/secret-origin.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/charlie-vicker.jpg",
+      "sha256": "6a9cd04be18cc9eee6c47a23ce8055752d9ab66ccc90ca34834bb560d0e8f48f",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=charlie-vicker",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/chp.jpg",
+      "sha256": "13b57108603a19151e25173adde8ae3a9a1b156e3debc5e3e01c9809ba4a5607",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=chp",
+        "characters.html",
+        "corps/green.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/despotellis.jpg",
+      "sha256": "82e8f2147b3873f70522c1b602385a85bee9c5dd3077d09fba9241dbe55dd347",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=despotellis",
+        "characters.html",
+        "corps/yellow.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/dex-starr.jpg",
+      "sha256": "c3e1828b6fc5b1f194d749a4a905ca1784edc02d88ffa4bcef47ace0a6103f3c",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=dex-starr",
+        "characters.html",
+        "corps/red.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/fatality.jpg",
+      "sha256": "15162ed9da5d8a8da09a868d78141303d4e34e3df3144e16f3f515ace6986339",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=fatality",
+        "characters.html",
+        "corps/violet.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/galius-zed.jpg",
+      "sha256": "0c0a0a4d2b41faa46691a4c4b1ae091da7ae56974c5a92bc983f834f0348f6e9",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=galius-zed",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/ganthet.jpg",
+      "sha256": "ce09e78a89b351fdf1110261135d00a65a72aa53ee9fa2969bac0733c64c5053",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=ganthet",
+        "characters.html",
+        "corps/blue.html",
+        "events/emerald-twilight.html",
+        "events/war-of-the-green-lanterns.html",
+        "guardians/index.html",
+        "moments/corps-forged.html",
+        "moments/kronas-sin.html",
+        "moments/last-ring.html",
+        "moments/manhunter-rebellion.html",
+        "moments/templar-guardians.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/glomulus.jpg",
+      "sha256": "5ed5c47af01a26e44081086394b4460714557636824a7c7db3ad2ee45c8bc65b",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=glomulus",
+        "characters.html",
+        "corps/orange.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/gnort.jpg",
+      "sha256": "03330f20443c46a4bf9fc3cabd1e790c6a310ed0d6a81e512890b4fafa5385ac",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=gnort",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/graf-toren.jpg",
+      "sha256": "f23ec198c394e69c843a1ab07aaa40a198463581ebfcb97ae8bfde988a705c91",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=graf-toren",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/green-man.jpg",
+      "sha256": "80cc034fd27af9618ab54fddeedd5929b84cc13824e0ab63480a70832852300a",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=green-man",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/guy-gardner.jpg",
+      "sha256": "b60b5ab7f45fdfbd84307e8388f06789d0b89778027b3c155feb3ba1de5d7d51",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=guy-gardner",
+        "characters.html",
+        "corps/green.html",
+        "corps/red.html",
+        "eras/new52.html",
+        "events/sinestro-corps-war.html",
+        "events/war-of-the-green-lanterns.html",
+        "stories/gl-vol5.html",
+        "stories/recharge.html",
+        "stories/red-lanterns.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/hal-jordan.jpg",
+      "sha256": "f40ab9228195d8793527bcb8b94761856186e9299c76eaf1e1f27be1e625b202",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=hal-jordan",
+        "characters.html",
+        "corps/green.html",
+        "entities/life-entity.html",
+        "eras/johns-era.html",
+        "eras/morrison-sharp.html",
+        "eras/new52.html",
+        "eras/rebirth-era.html",
+        "events/blackest-night.html",
+        "events/emerald-twilight.html",
+        "events/sinestro-corps-war.html",
+        "events/war-of-the-green-lanterns.html",
+        "events/wrath-of-the-first-lantern.html",
+        "events/zero-hour.html",
+        "index.html",
+        "moments/abin-sur-dies.html",
+        "moments/hal-vs-sinestro.html",
+        "moments/templar-guardians.html",
+        "screen/animated-series.html",
+        "screen/emerald-knights.html",
+        "screen/first-flight.html",
+        "screen/green-lantern-2011.html",
+        "screen/lanterns-hbo.html",
+        "stories/agent-orange.html",
+        "stories/gl-vol4.html",
+        "stories/gl-vol5.html",
+        "stories/hard-traveling-heroes.html",
+        "stories/hjglc.html",
+        "stories/morrison-gl.html",
+        "stories/rage.html",
+        "stories/rebirth.html",
+        "stories/secret-origin.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The existing split-costume/flight-jacket portrait does not match the current official DC character thumbnail. Original issue or artist source still needed."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/hannu.jpg",
+      "sha256": "1e8974fb70138ce543852389a7f9ee68ffa05684b8b6f5260efcee7787e1fbe0",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=hannu",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/indigo-1.jpg",
+      "sha256": "6433010972eae5f628761605f47c2b5650684cbc9d0c8dc0b661b305c3302c71",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=indigo-1",
+        "characters.html",
+        "corps/indigo.html",
+        "entities/proselyte.html",
+        "moments/indigo-tribe-rises.html",
+        "moments/spectrum-mobilizes.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/isamot-kol.jpg",
+      "sha256": "f053ba9690fee6ed268646dcefb0b9351df01de330da55474387cdc253dd36c9",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=isamot-kol",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/jack-t-chance.jpg",
+      "sha256": "211b98d03c867147aafa40dde8d235085f82fd782e93b64f2a792eadd63b3dc4",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=jack-t-chance",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/jade.jpg",
+      "sha256": "97cbd40ab70ab6f1e58fd858f1907a0c0f666e3137b5f22ac2dc8c3baecab0f6",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=jade",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/jessica-cruz.jpg",
+      "sha256": "86767a39e732372e84b240a282dd899a82109d666e622b519f74a2c60d2e99f0",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=jessica-cruz",
+        "characters.html",
+        "stories/green-lanterns.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/jo-mullein.jpg",
+      "sha256": "cedfc8d7308c99f90a85c9e9bb74f354435ea08504a5904ab96081e68beb0c07",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=jo-mullein",
+        "characters.html",
+        "index.html",
+        "stories/far-sector.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Jo character creators are not a credit for this particular portrait. Original publication, cover variant or artist source still needed."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/john-stewart.jpg",
+      "sha256": "93f630fb7ad87217176793767089ffd43d48cd2a76c526a6c0aa2b57330fe586",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=john-stewart",
+        "characters.html",
+        "corps/green.html",
+        "eras/rebirth-era.html",
+        "events/war-of-the-green-lanterns.html",
+        "index.html",
+        "screen/justice-league.html",
+        "screen/lanterns-hbo.html",
+        "stories/green-lantern-2021.html",
+        "stories/hjglc.html",
+        "stories/rebirth.html",
+        "stories/war-journal.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The existing painted profile does not match the current official DC character thumbnail. Original artist/source still needed."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/karu-sil.jpg",
+      "sha256": "6944edb7a4a91fefb2f6261022495878120031f83d43afdef13384e18f7d94d0",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=karu-sil",
+        "characters.html",
+        "corps/yellow.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/katma-tui.jpg",
+      "sha256": "44926196ae7dd8f6eafbd98b8c91d0fcb4d2c12514000ef5c44c3f3062390b05",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=katma-tui",
+        "characters.html",
+        "corps/green.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/kilowog.jpg",
+      "sha256": "c7f90852b5e20c43bb97f9b29b1545c2882ec751cd434831e62eede0727cb4e5",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=kilowog",
+        "characters.html",
+        "corps/green.html",
+        "events/emerald-twilight.html",
+        "screen/animated-series.html",
+        "screen/emerald-knights.html",
+        "screen/green-lantern-2011.html",
+        "stories/recharge.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/kryb.jpg",
+      "sha256": "af3f54b66784a816a413e75eb37b384ce9cf3d4a990a5fae41474322e8cfbe2e",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=kryb",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/kyle-rayner.jpg",
+      "sha256": "abae0b793141dfaac15a6ab3d0fe32e15a3da932d9533b8ba5a69df650f86f30",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=kyle-rayner",
+        "characters.html",
+        "corps/green.html",
+        "corps/white.html",
+        "entities/life-entity.html",
+        "eras/johns-era.html",
+        "events/emerald-twilight.html",
+        "events/sinestro-corps-war.html",
+        "events/war-of-the-green-lanterns.html",
+        "events/wrath-of-the-first-lantern.html",
+        "events/zero-hour.html",
+        "moments/kyle-becomes-ion.html",
+        "moments/kyle-white-lantern.html",
+        "moments/last-ring.html",
+        "stories/hjglc.html",
+        "stories/rebirth.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/laira.jpg",
+      "sha256": "7c2f7d4c8c14d4d80f742cf4c6ea2add723c909ab0590ab418b082c156690b19",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=laira",
+        "characters.html",
+        "corps/red.html",
+        "screen/emerald-knights.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/larfleeze.jpg",
+      "sha256": "659a86a5d28046d4a92bb467252daf8cbce90d92cefa61c5a3ab8f06d6741ac1",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=larfleeze",
+        "characters.html",
+        "corps/orange.html",
+        "entities/ophidian.html",
+        "moments/miser-okaara.html",
+        "stories/agent-orange.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/lyssa-drak.jpg",
+      "sha256": "97aa302031ff165422571aff78fdc9a4199952ded012ad475df15ae3bd174963",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=lyssa-drak",
+        "characters.html",
+        "corps/yellow.html",
+        "moments/fear-organizes.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/medphyll.jpg",
+      "sha256": "2e464895f29abdd1f3215eba45a6286a8f5e54dc777a66f4c499b319af0c1d92",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=medphyll",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/miri-riam.jpg",
+      "sha256": "f24b7c4de6f1221beefe2d8f46fc0474748da430670e50290a5e707c2e12fd79",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=miri-riam",
+        "characters.html",
+        "corps/violet.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/mogo.jpg",
+      "sha256": "bbba2d73bb78de9fa20084c3ef54469da460da70dc4d4f0fb7c8796eb46713b2",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=mogo",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/munk.jpg",
+      "sha256": "24883f63753c717407597e0b4d2da527ffb619c2b0f7b597fcc72e560e3d8854",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=munk",
+        "characters.html",
+        "corps/indigo.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/nekron.jpg",
+      "sha256": "40a7b729416a974e92a80562c5d9340696e9a1853c09360b1f8059a7e7543e7d",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=nekron",
+        "characters.html",
+        "corps/black.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/queen-agapo.jpg",
+      "sha256": "ccada87e482a03e704697f9c26c4b88c0dd5f4bdcecbfd7e291f94af46181d59",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=queen-agapo",
+        "characters.html",
+        "corps/violet.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/rankorr.jpg",
+      "sha256": "2c787068d4c01a5c03e4dd61b4420d9aba233288368b837c4d30db688925a5ed",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=rankorr",
+        "characters.html",
+        "corps/red.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/rot-lop-fan.jpg",
+      "sha256": "4f391c6b313a0efcbf230727648f060bf58fee262c316c5d3fed6fcadf0f9cf3",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=rot-lop-fan",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/saarek.jpg",
+      "sha256": "1a47c562d392fd075b42bde099a3a70cae14123292551819969a799d00273a42",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=saarek",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/saint-walker.jpg",
+      "sha256": "cddab1f7e037edf9940be7d3d55043cfa1312f1c736060656b0361def47b353e",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=saint-walker",
+        "characters.html",
+        "corps/blue.html",
+        "entities/adara.html",
+        "events/blackest-night.html",
+        "moments/blue-lanterns-born.html",
+        "moments/spectrum-mobilizes.html",
+        "stories/rage.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/salaak.jpg",
+      "sha256": "53cf4d5fd2b889838fc68742b755064229d0712d6d9ca382f5cabc3099a5f5c8",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=salaak",
+        "characters.html",
+        "corps/green.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/sayd.jpg",
+      "sha256": "2a36c3c368a1c6d84a643ca09d242da53d9f158a93aeece5be575263e4adc358",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=sayd",
+        "characters.html",
+        "corps/blue.html",
+        "moments/manhunter-rebellion.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/scar.jpg",
+      "sha256": "403d9feed3b9bedf757796eea15ec7fb361285ce3dcd66f662dbfdcb0921a33b",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=scar",
+        "characters.html",
+        "corps/black.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/simon-baz.jpg",
+      "sha256": "700f06f005f9b31fba92902dfe69a2cefc3830067607853f9966324fdf7d09ea",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=simon-baz",
+        "characters.html",
+        "stories/green-lanterns.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/sinestro.jpg",
+      "sha256": "ed512ae9318c03b152883bb036c65071b56cec755b6a3fe2a9d0bf9f783f00fd",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=sinestro",
+        "characters.html",
+        "corps/yellow.html",
+        "eras/johns-era.html",
+        "eras/new52.html",
+        "eras/rebirth-era.html",
+        "events/blackest-night.html",
+        "events/sinestro-corps-war.html",
+        "events/wrath-of-the-first-lantern.html",
+        "guardians/index.html",
+        "moments/corps-forged.html",
+        "moments/fear-organizes.html",
+        "moments/guardians-fall.html",
+        "moments/hal-vs-sinestro.html",
+        "screen/first-flight.html",
+        "screen/green-lantern-2011.html",
+        "stories/gl-vol4.html",
+        "stories/gl-vol5.html",
+        "stories/hjglc.html",
+        "stories/secret-origin.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The signed Tan portrait differs from both the current official character thumbnail and the standard Green Lantern #23.4 cover. Signature alone is insufficient to identify publication and all artist roles."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/sister-sercy.jpg",
+      "sha256": "759d6cf4bafe976c6e62d8391cbda4c81a5e7f0bb11b73e630580e127aaba7c7",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=sister-sercy",
+        "characters.html",
+        "corps/blue.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/skallox.jpg",
+      "sha256": "0ae32538cf69d8df7af171467b5679481979f4f01fbcfdc93679f9ecc278c336",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=skallox",
+        "characters.html",
+        "corps/red.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/sodam-yat.jpg",
+      "sha256": "d2a725ce340a2717cd24535d6b77e1cc6dcf41421e34e8f5b95c96627ad67d1f",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=sodam-yat",
+        "characters.html",
+        "corps/green.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/soranik-natu.jpg",
+      "sha256": "04a03fe07658584989f52ce7b6c56d9835c3ac941dcb400d8718305240a9f0de",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=soranik-natu",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/stel.jpg",
+      "sha256": "1ec42c3c1cde27a8903cc5aef0ec96612c13775e670e882da94903ad190d905e",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=stel",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/tomar-re.jpg",
+      "sha256": "2c7f06023a27b65d17913c60380607697894890a0b2e23caa4719a5bbfec57ce",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=tomar-re",
+        "characters.html",
+        "corps/green.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/tomar-tu.jpg",
+      "sha256": "681a2c77bb0d8e4b42379bf2cc0cd488130de52d3419b753e6d5c97f8ed3688a",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=tomar-tu",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/vath-sarn.jpg",
+      "sha256": "5a86cf350dff487e5c3e94d14b23e940b112d95ec3afcf57bc997ae6a5a6405a",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=vath-sarn",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/vice.jpg",
+      "sha256": "eba9e71d00380c980fa6d94424931a8dc0ec8da381a130b1de365c084d0a1799",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=vice",
+        "characters.html",
+        "corps/red.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/voz.jpg",
+      "sha256": "0ce0dc992937da38bf43811e2d1ef93a148d488c8f46ab3d91c067720192e9fd",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=voz",
+        "characters.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/characters/zilius-zox.jpg",
+      "sha256": "c094c34b31e3e35e1d30e8e0047d8dfbdbe41269902582e9c9461be756591a8a",
+      "category": "characters",
+      "usedBy": [
+        "character.html?id=zilius-zox",
+        "characters.html",
+        "corps/red.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The character creator or a biography source is not a portrait credit. Match the exact illustration before attributing it."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/constructs/boxing-glove.jpg",
+      "sha256": "86e2cbf0f847c239df0167e313065bcb1e575ca6cd7527261b99159a3e68a0e0",
+      "category": "constructs",
+      "usedBy": [
+        "constructs.html",
+        "powers.html",
+        "powers/energy-constructs.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/constructs/fear-construct.jpg",
+      "sha256": "113336bb5c5d6a2659baf9b3718e8cd41dfbd8567c93d250d9736bf1067997ef",
+      "category": "constructs",
+      "usedBy": [
+        "constructs.html",
+        "powers.html",
+        "powers/energy-projection.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/constructs/hammer.jpg",
+      "sha256": "2bb11af32ec3b3cc1482084eaf91f9b5eca7dbf585c72e5d2d6fe3871170235a",
+      "category": "constructs",
+      "usedBy": [
+        "constructs.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/constructs/rage-construct.jpg",
+      "sha256": "8feef05aff05bb4cda80a3cf4ed5e4ed87a880c7a23fd41099e162fad93cd8df",
+      "category": "constructs",
+      "usedBy": [
+        "constructs.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/constructs/stewart-construct.jpg",
+      "sha256": "3da8fc6c1f150b5c0e9f8e79b1ea76db7c869bd25c5cbc3c987ad4df8a458d7b",
+      "category": "constructs",
+      "usedBy": [
+        "constructs.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/corps-black.webp",
+      "sha256": "8572e52ba2adc471eec5b56308a1481cb056c387007fd070b81b2bd4d10f072c",
+      "category": "homepage-corps",
+      "usedBy": [
+        "corps/black.html",
+        "index.html",
+        "quotes.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Existing reseller/news/wallpaper attributions do not identify the original issue, panel, variant or artist. These remain unresolved."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/corps-blue.webp",
+      "sha256": "831175c6819387eca98b32c09939d6ab49f4446a19c90e70855d4e0dc4e2971c",
+      "category": "homepage-corps",
+      "usedBy": [
+        "corps/blue.html",
+        "index.html",
+        "moments/spectrum-mobilizes.html",
+        "quotes.html",
+        "spectrum.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Existing reseller/news/wallpaper attributions do not identify the original issue, panel, variant or artist. These remain unresolved."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/corps-green.webp",
+      "sha256": "d795b812ba1a20c6f89008fd8fb969cdc7a90cb46a1c12cfbe88b8e02e84ed79",
+      "category": "homepage-corps",
+      "usedBy": [
+        "corps/green.html",
+        "index.html",
+        "moments/corps-forged.html",
+        "quotes.html",
+        "spectrum.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Existing reseller/news/wallpaper attributions do not identify the original issue, panel, variant or artist. These remain unresolved."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/corps-indigo.webp",
+      "sha256": "596b4dffc12945cebde2232813553985b6a798c0c512de28ca105371c9963b77",
+      "category": "homepage-corps",
+      "usedBy": [
+        "corps/indigo.html",
+        "index.html",
+        "quotes.html",
+        "spectrum.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Existing reseller/news/wallpaper attributions do not identify the original issue, panel, variant or artist. These remain unresolved."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/corps-orange.webp",
+      "sha256": "d378e0d828493646b937c16119680fbbb4f6f23f3bf828b0003db5edb5bb5564",
+      "category": "homepage-corps",
+      "usedBy": [
+        "corps/orange.html",
+        "index.html",
+        "moments/miser-okaara.html",
+        "quotes.html",
+        "spectrum.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Existing reseller/news/wallpaper attributions do not identify the original issue, panel, variant or artist. These remain unresolved."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/corps-red.webp",
+      "sha256": "dda0479f7508758d253583ec8f430e70234fcf518da19932413e0d604b9a693d",
+      "category": "homepage-corps",
+      "usedBy": [
+        "corps/red.html",
+        "guardians/index.html",
+        "index.html",
+        "moments/sector-666.html",
+        "quotes.html",
+        "spectrum.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Existing reseller/news/wallpaper attributions do not identify the original issue, panel, variant or artist. These remain unresolved."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/corps-violet.webp",
+      "sha256": "77022ca9d77898074f45c8872337dd7c072ca2e24f23877adc260cce84e56f6d",
+      "category": "homepage-corps",
+      "usedBy": [
+        "corps/violet.html",
+        "index.html",
+        "quotes.html",
+        "spectrum.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Existing reseller/news/wallpaper attributions do not identify the original issue, panel, variant or artist. These remain unresolved."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/corps-white.webp",
+      "sha256": "5ae9aff871d4174125bcfca8606b848ff33df0e364e22f62ab054a4f89c75edd",
+      "category": "homepage-corps",
+      "usedBy": [
+        "corps/white.html",
+        "index.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Existing reseller/news/wallpaper attributions do not identify the original issue, panel, variant or artist. These remain unresolved."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/corps-yellow.webp",
+      "sha256": "5d2d167acf4514e4fb2438e9901b226f95e5a919ee974eeaae5b47a81f486f5d",
+      "category": "homepage-corps",
+      "usedBy": [
+        "corps/yellow.html",
+        "index.html",
+        "moments/fear-organizes.html",
+        "quotes.html",
+        "spectrum.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Existing reseller/news/wallpaper attributions do not identify the original issue, panel, variant or artist. These remain unresolved."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/cover-agent-orange.jpg",
+      "sha256": "d87eefcd7fecff5f94639cd2a969a668d2a5ff46e43367e172820b328002e193",
+      "category": "covers",
+      "usedBy": [
+        "stories/agent-orange.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/cover-blackest-night.jpg",
+      "sha256": "fd26f818f01fb9c6838ca2cdff3046292bc258b3a47dff172f1e397865229208",
+      "category": "covers",
+      "usedBy": [
+        "events.html",
+        "events/blackest-night.html",
+        "timeline.html"
+      ],
+    "status": "verified_credit",
+    "work": "Blackest Night #1 (2009), main cover",
+    "credits": [
+      {
+        "name": "Ivan Reis",
+        "role": "cover pencils"
+      }
+    ],
+      "sources": [
+      "https://www.dc.com/comics/blackest-night-2009/blackest-night-1",
+      "https://www.dc.com/blog/2009/04/07/and-now-the-inked-cover-to-blackest-night-1"
+      ],
+      "imageSource": "https://static.dc.com/dc/files/default_images/blackestnight_1_5b245aeeaa9fb3.24288035.jpg",
+    "evidence": "Visually matched the skull, rings and issue number with the publisher cover. DC's April 7, 2009 cover reveal explicitly identifies Ivan Reis as the cover penciller; it does not name the inker.",
+      "remainingGaps": [
+      "Cover inks and colors have not been separately corroborated. Do not convert the issue-level artist list or the credits of a different collected-edition cover into additional credits for this image.",
+        "Original download location of this legacy file is not recorded."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/cover-brightest-day.jpg",
+      "sha256": "c875d18db27458d7493f14bd9ddd53ce12d5708b42852c454b57e5e61f77c3a2",
+      "category": "covers",
+      "usedBy": [
+        "stories/brightest-day.html",
+        "timeline.html"
+      ],
+      "status": "verified_credit",
+      "work": "Brightest Day #1 (2010), main cover",
+      "credits": [
+        {
+          "name": "David Finch",
+          "role": "cover artist (publisher credit)"
+        }
+      ],
+      "sources": [
+        "https://www.dc.com/comics/brightest-day-2010/brightest-day-1",
+        "https://www.dc.com/blog/2010/02/12/brightest-day-solicitations-for-may"
+      ],
+      "imageSource": "https://static.dc.com/dc/files/default_images/brightestday_1_5b245d78a5a8f7.95316625.jpg",
+      "evidence": "Visually matched the publisher cover. The solicitation credits the main cover to David Finch, separately from the variant and interior teams.",
+      "remainingGaps": [
+        "Additional cover contributor roles are not fully established by this pass.",
+        "Original download location of this legacy file is not recorded."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/cover-emerald-twilight.jpg",
+      "sha256": "e7ad7d714b04d85b45c9c9d9714e3119e90de0fa4cf3f57b47f549aece65bb38",
+      "category": "covers",
+      "usedBy": [
+        "creators.html",
+        "events.html",
+        "events/emerald-twilight.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/cover-gl1.jpg",
+      "sha256": "9baff73da62b636f4a20eedcb76d782f236158e2d2047a33be2d8989a305fc2c",
+      "category": "covers",
+      "usedBy": [
+        "creators.html",
+        "stories/gl-vol4.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/cover-rage.jpg",
+      "sha256": "24dddbc326ae650ab52c583c515cefeb13f50a7dcd8136991254c95e0a85b747",
+      "category": "covers",
+      "usedBy": [
+        "stories/rage.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/cover-rebirth.jpg",
+      "sha256": "7e281724bf5d8c231c8267c06d12584020ace2ce67fdd3cda2cdfd05d5bc82a0",
+      "category": "covers",
+      "usedBy": [
+        "creators.html",
+        "index.html",
+        "stories/rebirth.html",
+        "timeline.html"
+      ],
+      "status": "source_matched",
+      "work": "Green Lantern: Rebirth #1 (2004), main cover",
+      "credits": [],
+      "sources": [
+        "https://www.dc.com/comics/green-lantern-rebirth-2004/green-lantern-rebirth-1"
+      ],
+      "imageSource": "https://static.dc.com/dc/files/default_images/glantern_rebirth_1_5b24641ae058c1.82932026.jpg",
+      "evidence": "Visually matched face, battery reflection, energy and issue title with the publisher image.",
+      "remainingGaps": [
+        "DC lists issue-level pencils, inks and color credits, but this pass has not separately corroborated every cover role. Do not turn the issue talent list into a complete cover credit.",
+        "Original download location of this legacy file is not recorded."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/cover-recharge.jpg",
+      "sha256": "34570c2561e0854466abc575b20a0ebb13568434d0e2ac995cfa0664f3b377ee",
+      "category": "covers",
+      "usedBy": [
+        "stories/recharge.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/cover-scw.jpg",
+      "sha256": "628d61104984dc259bb11e7abac3df0358601674c7c06c2c3a0c577b08b8e50a",
+      "category": "covers",
+      "usedBy": [
+        "creators.html",
+        "events.html",
+        "events/sinestro-corps-war.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The local file says Green Lantern: Sinestro Corps Special #1, but has Hal in front; the current DC listing shows Sinestro in front against the same background. Exact variant, printing or promotional version and its art credits remain unverified. It is not a Green Lantern #25 cover."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/cover-secret-origin.jpg",
+      "sha256": "92f8c5248697f5a13e1c003c32b0cf1e2500857f007a59273a5f6935ab427d40",
+      "category": "covers",
+      "usedBy": [
+        "index.html",
+        "stories/secret-origin.html",
+        "timeline.html"
+      ],
+      "status": "source_matched",
+      "work": "Green Lantern #29 (2008), Secret Origin part one cover",
+      "credits": [],
+      "sources": [
+        "https://www.dc.com/comics/green-lantern-2005/green-lantern-29"
+      ],
+      "imageSource": "https://static.dc.com/dc/files/default_images/glantern_v4_29_5b157c6cb665c2.03636441.jpg",
+      "evidence": "Visually matched Abin Sur, Hal, battery, title and issue number with the publisher image. This is the single issue cover, not a collected-edition cover.",
+      "remainingGaps": [
+        "DC lists issue-level pencils and inks. Specific cover contributor roles still need a cover-specific corroboration.",
+        "Original download location of this legacy file is not recorded."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/cover-wotgl.jpg",
+      "sha256": "328f17f9dc101cb7b378a53b27e84af47e9064ac7740a18d540a5ca247b9a6c2",
+      "category": "covers",
+      "usedBy": [
+        "events.html",
+        "events/war-of-the-green-lanterns.html",
+        "moments/third-army.html",
+        "timeline.html"
+      ],
+      "status": "source_matched",
+      "work": "Green Lantern #63 (2011), main cover",
+      "credits": [],
+      "sources": [
+        "https://www.dc.com/comics/green-lantern-2005/green-lantern-63"
+      ],
+      "imageSource": "https://static.dc.com/dc/files/default_images/glantern_v4_63_5b157f4a684602.77614959.jpg",
+      "evidence": "Visually matched Krona, the entities, title and issue number with the publisher cover.",
+      "remainingGaps": [
+        "The advance solicitation names a different planned creative team from the published cover trade dress. Final cover contributors require corroboration; do not copy the advance solicitation as a settled cover credit.",
+        "Original download location of this legacy file is not recorded."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/cover-wrath-first-lantern.jpg",
+      "sha256": "0eb2cb58f767c01054de732f8fe54b44ed58d0090a0ddbaef06d39e09a177bc3",
+      "category": "covers",
+      "usedBy": [
+        "events.html",
+        "events/wrath-of-the-first-lantern.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/cover-zero-hour.jpg",
+      "sha256": "0850c8fdfbbadb6c72b3ce08dd850943b7fb694a1607240e6518509b5cf67dd8",
+      "category": "covers",
+      "usedBy": [
+        "events.html",
+        "events/zero-hour.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/moment-abin-sur.jpg",
+      "sha256": "6e477f2dcc27bb721fe03d706481dbf0b77fa40064f64dd7f3219facab52e1de",
+      "category": "covers",
+      "usedBy": [
+        "moments/abin-sur-dies.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/moment-alex-dewitt.jpg",
+      "sha256": "c2356cdc25bc33f8d9c07a63940b1418e440b8c40e048e8635c6e87ead3da853",
+      "category": "covers",
+      "usedBy": [
+        "moments/alex-dewitt.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/moment-alpha-lanterns.jpg",
+      "sha256": "9a986f00a09c5d9c36c20d7a1899874b48355b1ae9a30408234fc3994f893794",
+      "category": "covers",
+      "usedBy": [
+        "moments/alpha-lanterns.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/moment-black-hand.jpg",
+      "sha256": "451b2208025d8803aeb1e817a764d5e5714748de633794a04445e9e35d6505c8",
+      "category": "covers",
+      "usedBy": [
+        "moments/black-hand-rises.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/moment-book-rewritten.jpg",
+      "sha256": "b53ffe19a4fe841a025da794b92d780e2cd4f25590ebf1023c69e5fab1a2f770",
+      "category": "covers",
+      "usedBy": [
+        "moments/book-of-oa-rewritten.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/moment-coast-city-gl48.jpg",
+      "sha256": "e7071e83e7d12fa7ba8d93122e9fbebf86aa2bca3a36be3ceaf1904c108a40c6",
+      "category": "covers",
+      "usedBy": [
+        "moments/coast-city-falls.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/moment-emerald-dawn.jpg",
+      "sha256": "eaa82ced0a2cef253c1a45aa8a98ae091215c9fb70cb54bdd2359faec49550a9",
+      "category": "covers",
+      "usedBy": [
+        "moments/emerald-dawn.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/moment-ganthet-sayd.jpg",
+      "sha256": "83bcf9cdaf4a330ea024378d673d1d72e64b939ea2d790ae4d9d5a0871d02b60",
+      "category": "covers",
+      "usedBy": [
+        "moments/ganthet-sayd-exiled.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/moment-hal-showcase22.jpg",
+      "sha256": "c3708e114e951e025a0cb889ac63531d5b3c588f70d0b42df3b59bcae6d792f8",
+      "category": "covers",
+      "usedBy": [
+        "moments/hal-becomes-lantern.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/moment-hal-sinestro.jpg",
+      "sha256": "8b7f613110df03ec5409c34aaa01aa5519320c1f1f23cd97fda7648cb3bc6f7b",
+      "category": "covers",
+      "usedBy": [
+        "moments/hal-vs-sinestro.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/moment-krona.jpg",
+      "sha256": "8fd5cbeb92c970e904bae0c1b8ecd54c079c8ff861225b50eb617dcbaf7d6d60",
+      "category": "covers",
+      "usedBy": [
+        "moments/kronas-sin.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/moment-kyle-ion.jpg",
+      "sha256": "eb11f5c1e2e944981afb644560f623bc4644e8469965f17585caf88abfc24a78",
+      "category": "covers",
+      "usedBy": [
+        "moments/kyle-becomes-ion.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/moment-last-ring.jpg",
+      "sha256": "c647ba1223a0fc381b636d09d714bdd2d42c200495e673301f19749245a30eea",
+      "category": "covers",
+      "usedBy": [
+        "moments/last-ring.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/moment-manhunter-rebellion.jpg",
+      "sha256": "9ec4fbe775ce18f7b2b1577ba7865819caf5a8f958c7905dab2af8973a1c8cd2",
+      "category": "covers",
+      "usedBy": [
+        "guardians/index.html",
+        "moments/manhunter-rebellion.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/moment-mogo.jpg",
+      "sha256": "d5fe8f257c54656cd1623c871e76df6551d08e2ad6cfc5fd6d8dbdbc87291876",
+      "category": "covers",
+      "usedBy": [
+        "moments/mogo-revealed.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/moment-rage-ignites.jpg",
+      "sha256": "65985280c406e9942623f58754dda781b0dae54e241b34358922c323b542cd3f",
+      "category": "covers",
+      "usedBy": [
+        "moments/rage-ignites.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/moment-ring-quest.jpg",
+      "sha256": "9dd4404883323ea26deb2a96faab7bc244b254b60229067083a6b4c96e4948d6",
+      "category": "covers",
+      "usedBy": [
+        "moments/ring-quest.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/moment-sinestro-gl7.jpg",
+      "sha256": "836a945fce02c5f066d7d559377444c0620e343942715568c92ef8bdcd13baec",
+      "category": "covers",
+      "usedBy": [
+        "moments/sinestros-fall.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/moment-starheart.jpg",
+      "sha256": "2b5444fcbdf765fb6e512009375748257b553ddb3a8bf9168fc07a5759c1fda3",
+      "category": "covers",
+      "usedBy": [],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/moment-templar-guardians.jpg",
+      "sha256": "35d1591b3c34b21d0abd9e2a926c05abf1abe59af37beb7f66623017ea0aabdc",
+      "category": "covers",
+      "usedBy": [
+        "moments/templar-guardians.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/moment-xanshi-burns.jpg",
+      "sha256": "27906104bd2e963eb4ce1e364869a0a9988a28d3540cf9e6044cda0258212f37",
+      "category": "covers",
+      "usedBy": [
+        "moments/xanshi-burns.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/story-gl-vol5.jpg",
+      "sha256": "9db5471307f738c59e2b9c55a21b2e1216e8ab66cb3b49a9c06063a1f5e8ef3f",
+      "category": "covers",
+      "usedBy": [
+        "stories/gl-vol5.html",
+        "timeline.html"
+      ],
+      "status": "verified_credit",
+      "work": "Green Lantern #1 (2011), Sinestro cover artwork",
+      "credits": [
+        {
+          "name": "Ivan Reis",
+          "role": "cover artist (publisher credit)"
+        },
+        {
+          "name": "Joe Prado",
+          "role": "cover artist (publisher credit)"
+        }
+      ],
+      "sources": [
+        "https://www.dc.com/comics/green-lantern-2011/green-lantern-1",
+        "https://www.dc.com/blog/2011/07/13/spoiler-warning-the-new-green-lantern-of-sector-2814-revealed-on-the-cover-to-green-lantern-1",
+        "https://www.dc.com/blog/2011/06/03/green-lantern-1s"
+      ],
+      "imageSource": "https://static.dc.com/dc/files/default_images/glantern_v5_1_5b158554ca8fd2.65519150.jpg",
+      "evidence": "The Sinestro figure and ring-flame composition match the publisher cover. DC explicitly credits the original cover to Ivan Reis and Joe Prado. The local story file is an Italian edition; the era file uses a red background rather than the green publisher reference.",
+      "remainingGaps": [
+        "Specific local edition or recoloring provenance is unresolved.",
+        "The original cover colorist is not separately verified here.",
+        "Original download locations of these legacy files are not recorded."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/story-green-lanterns.jpg",
+      "sha256": "55058796aec3be6dc0976a88418d33f31f4097bf449a5a92c8b4e7fd4063fad1",
+      "category": "covers",
+      "usedBy": [
+        "stories/green-lanterns.html",
+        "timeline.html"
+      ],
+      "status": "verified_credit",
+      "work": "Green Lanterns: Rebirth #1 (2016), main cover",
+      "credits": [
+        {
+          "name": "Ethan Van Sciver",
+          "role": "cover artist (publisher credit)"
+        }
+      ],
+      "sources": [
+        "https://www.dc.com/comics/dc-universe-rebirth-2016/green-lanterns-rebirth-1"
+      ],
+      "imageSource": "https://static.dc.com/dc/files/default_images/gls_rb_1_5b2d1cb52d27e6.76280738.jpg",
+      "evidence": "Visually matched Jessica, Simon and battery composition against the publisher cover. Trade dress differs. The issue listing explicitly credits the cover to Ethan Van Sciver.",
+      "remainingGaps": [
+        "Cover coloring is not separately established by the cited source.",
+        "Original download location of this legacy file is not recorded."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/story-hjglc.jpg",
+      "sha256": "0bc9326ed25231c3f61edac3122fb469761bb4b3fb84fb055bf33fc959512b0f",
+      "category": "covers",
+      "usedBy": [
+        "stories/hjglc.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/story-morrison-gl.jpg",
+      "sha256": "4975b891126c2beaecf4c5d6c123c829db62bdea2faaa4495fa603f3fe3e78c4",
+      "category": "covers",
+      "usedBy": [
+        "stories/morrison-gl.html",
+        "timeline.html"
+      ],
+      "status": "verified_credit",
+      "work": "The Green Lantern #1 (2018), main cover",
+      "credits": [
+        {
+          "name": "Liam Sharp",
+          "role": "cover artist (publisher credit)"
+        }
+      ],
+      "sources": [
+        "https://www.dc.com/comics/the-green-lantern-2018/the-green-lantern-1",
+        "https://www.dc.com/characters/green-lantern"
+      ],
+      "imageSource": "https://static.dc.com/dc/files/default_images/Char_Thumb_GreenLantern_20200721_5f173ac65f56f7.70929296.jpg",
+      "evidence": "The local files show the same issue #1 cover at different resolutions. The pictured Hal artwork also matches the publisher character thumbnail; the issue listing explicitly names Liam Sharp as cover artist.",
+      "remainingGaps": [
+        "The issue listing does not separately establish the cover colorist.",
+        "Original download locations of these legacy files are not recorded."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/covers/story-red-lanterns.jpg",
+      "sha256": "4a2723960c9cf1979aade3178150601a34dd839b62c0243151eb562294c54da5",
+      "category": "covers",
+      "usedBy": [
+        "stories/red-lanterns.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/entities/adara.jpg",
+      "sha256": "008da96cba73c78f4894b9a70c6e981a498c7b1488157a42c7bf9f24e46f5e41",
+      "category": "entities",
+      "usedBy": [
+        "entities/adara.html",
+        "spectrum.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Generic DC attribution does not identify the exact panel, cover or contributors. All eight need further provenance work."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/entities/butcher.jpg",
+      "sha256": "a239a05cafbd5c442f3877470ab973426f78819feff2b896513a773008ae972b",
+      "category": "entities",
+      "usedBy": [
+        "entities/butcher.html",
+        "spectrum.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Generic DC attribution does not identify the exact panel, cover or contributors. All eight need further provenance work."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/entities/ion.jpg",
+      "sha256": "3bb05c537556f882a33e05dba23cd7017458304e5d60f0cb086b75dadc7d369a",
+      "category": "entities",
+      "usedBy": [
+        "entities/ion.html",
+        "spectrum.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "The illustration depicts Kyle Rayner in his Ion identity. Exact source and artists are unresolved; this is not an isolated image of the separate will entity."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/entities/life-entity.jpg",
+      "sha256": "34b5930051e675098157f6a60f3b700fa99c6e5468b8e9881c91d49b646f92f1",
+      "category": "entities",
+      "usedBy": [
+        "entities/life-entity.html",
+        "spectrum.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Existing multi-panel illustration contains Blackest Night outcome spoilers. Exact page, reproduction source and artist roles remain unverified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/entities/ophidian.jpg",
+      "sha256": "defba1c7e2d1a06fbaf39b3834cfb1c789712e9ef5903b0b9d1e3defa2d8a955",
+      "category": "entities",
+      "usedBy": [
+        "entities/ophidian.html",
+        "spectrum.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Generic DC attribution does not identify the exact panel, cover or contributors. All eight need further provenance work."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/entities/parallax.jpg",
+      "sha256": "a3c04ae731edfecd4a299081b466a8c7050b5b68995daa7cfded5b5002bef664",
+      "category": "entities",
+      "usedBy": [
+        "entities/parallax.html",
+        "moments/parallax-sealed.html",
+        "spectrum.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Original cover or illustration source and specific contributors are unresolved. A resemblance to a known cover or a visible signature is not treated as full verification."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/entities/predator.jpg",
+      "sha256": "7c4d53ea2222869df4fa0659e48c871512b1a92fc1c7acad2ebfee63505b3d3f",
+      "category": "entities",
+      "usedBy": [
+        "entities/predator.html",
+        "spectrum.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Generic DC attribution does not identify the exact panel, cover or contributors. All eight need further provenance work."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/entities/proselyte.jpg",
+      "sha256": "35e50eee203b2088d19d2d804d9c0fd4ad07309be56abdb2348d78b55e8677eb",
+      "category": "entities",
+      "usedBy": [
+        "entities/proselyte.html",
+        "spectrum.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Generic DC attribution does not identify the exact panel, cover or contributors. All eight need further provenance work."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/eras/alan-scott.jpg",
+      "sha256": "c43ed3452b26a7454c2786e711fa6d851b4d181e5c148e9010d2916f2b1fca0c",
+      "category": "eras",
+      "usedBy": [
+        "character.html?id=alan-scott",
+        "characters.html",
+        "creators.html",
+        "moments/first-lantern.html",
+        "moments/starheart.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/eras/era-current.jpg",
+      "sha256": "61f8469d0e27ff3d7c6c262602eb42e55c33aa065ba1c6f60f608b8451a5d435",
+      "category": "eras",
+      "usedBy": [
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/eras/era-johns.jpg",
+      "sha256": "9eedfd23a340b4940c6aecd171cf2eb0e8c761466c787c40cbbc4999e89aee89",
+      "category": "eras",
+      "usedBy": [
+        "eras/johns-era.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/eras/era-morrison.jpg",
+      "sha256": "16e311b35e9d1048e6c44c18b09e11c13bae3ad307e1a427d839e664581e61a3",
+      "category": "eras",
+      "usedBy": [
+        "creators.html",
+        "eras/morrison-sharp.html"
+      ],
+      "status": "verified_credit",
+      "work": "The Green Lantern #1 (2018), main cover",
+      "credits": [
+        {
+          "name": "Liam Sharp",
+          "role": "cover artist (publisher credit)"
+        }
+      ],
+      "sources": [
+        "https://www.dc.com/comics/the-green-lantern-2018/the-green-lantern-1",
+        "https://www.dc.com/characters/green-lantern"
+      ],
+      "imageSource": "https://static.dc.com/dc/files/default_images/Char_Thumb_GreenLantern_20200721_5f173ac65f56f7.70929296.jpg",
+      "evidence": "The local files show the same issue #1 cover at different resolutions. The pictured Hal artwork also matches the publisher character thumbnail; the issue listing explicitly names Liam Sharp as cover artist.",
+      "remainingGaps": [
+        "The issue listing does not separately establish the cover colorist.",
+        "Original download locations of these legacy files are not recorded."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/eras/era-new52.jpg",
+      "sha256": "db6e871d4e439bda008a25d00607433f6311021ebb61270cfaf71ff371c3c65d",
+      "category": "eras",
+      "usedBy": [
+        "eras/new52.html"
+      ],
+      "status": "verified_credit",
+      "work": "Green Lantern #1 (2011), Sinestro cover artwork",
+      "credits": [
+        {
+          "name": "Ivan Reis",
+          "role": "cover artist (publisher credit)"
+        },
+        {
+          "name": "Joe Prado",
+          "role": "cover artist (publisher credit)"
+        }
+      ],
+      "sources": [
+        "https://www.dc.com/comics/green-lantern-2011/green-lantern-1",
+        "https://www.dc.com/blog/2011/07/13/spoiler-warning-the-new-green-lantern-of-sector-2814-revealed-on-the-cover-to-green-lantern-1",
+        "https://www.dc.com/blog/2011/06/03/green-lantern-1s"
+      ],
+      "imageSource": "https://static.dc.com/dc/files/default_images/glantern_v5_1_5b158554ca8fd2.65519150.jpg",
+      "evidence": "The Sinestro figure and ring-flame composition match the publisher cover. DC explicitly credits the original cover to Ivan Reis and Joe Prado. The local story file is an Italian edition; the era file uses a red background rather than the green publisher reference.",
+      "remainingGaps": [
+        "Specific local edition or recoloring provenance is unresolved.",
+        "The original cover colorist is not separately verified here.",
+        "Original download locations of these legacy files are not recorded."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/eras/era-rebirth.jpg",
+      "sha256": "ca087dd522adc22b3b89c33e6f61545a55fc4829ea32e305e0d29e04aec915bf",
+      "category": "eras",
+      "usedBy": [
+        "eras/rebirth-era.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/explained/guardians.jpg",
+      "sha256": "1b47f2aee10bb25d900993c725235929735e50b30b03ba1a9923ce83dff593b7",
+      "category": "explained",
+      "usedBy": [
+        "guardians/index.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/explained/sinestro.jpg",
+      "sha256": "880b0a13a2bcf2fcf2a5cba6b819179d0f6aebf458e6c56f68cbcedfaf82eee0",
+      "category": "explained",
+      "usedBy": [],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/explained/spectrum.jpg",
+      "sha256": "f24822e88115076f9ed26790a8d8ec72ed05cb532a23ab3cf14f0ef5c0c23b6c",
+      "category": "explained",
+      "usedBy": [],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/glossary/book-of-the-black.jpg",
+      "sha256": "a80b878346b2533aa912872ce4e4837decdca94c3af2e505beb1b09ff915b6d8",
+      "category": "glossary",
+      "usedBy": [
+        "glossary/book-of-the-black.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/guardians/guardians.jpg",
+      "sha256": "e7bedcb2c121067c469a3d8002a6da037bea65012293ade1fab10b3f320b2b25",
+      "category": "guardians",
+      "usedBy": [
+        "guardians/index.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/interactions/interact-blue-green.jpg",
+      "sha256": "2b985231e812096459ace34b0eabaed497a68240a742709b76175773980fd711",
+      "category": "interactions",
+      "usedBy": [
+        "spectrum.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/interactions/interact-blue-red.jpg",
+      "sha256": "954b6ae20930dcb8a0921de2d1553b25937ccc14a5201b925b4783072ae96edd",
+      "category": "interactions",
+      "usedBy": [
+        "spectrum.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/interactions/interact-indigo-all.jpg",
+      "sha256": "c374b5ed3255fb3829807e87a8abe02cdd7a694e6eaab65c84c12c7da1895dac",
+      "category": "interactions",
+      "usedBy": [
+        "spectrum.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/lights-interact.jpg",
+      "sha256": "081d57e4f73b9fa93d819c86141f70d3a26b34222f7806d5c120be668b9e7dee",
+      "category": "site",
+      "usedBy": [
+        "spectrum.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/og-preview.jpg",
+      "sha256": "b5c56e1bd94b861b8e84a6396bcc89b83b84c0decd352911ccf608359990e3aa",
+      "category": "site",
+      "usedBy": [],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Composite or preview provenance and the underlying artwork contributors have not been established."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/powers/flight.jpg",
+      "sha256": "bd341e9fa5844216d7e510ed9a9e3ff8ebe32050134a2f07d0e7c01c59b64a80",
+      "category": "powers",
+      "usedBy": [
+        "powers.html",
+        "powers/flight.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/powers/force-fields.jpg",
+      "sha256": "6aaadb6547957c45f7045cfd8147e21cb9fe088f048b05e6f87169783e88d853",
+      "category": "powers",
+      "usedBy": [
+        "powers.html",
+        "powers/force-fields.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/powers/healing-green-lanterns-20.jpg",
+      "sha256": "ee0f6bd11299d20418a75dea9a16546e1a03753c946c7b5e4431877eae40c56a",
+      "category": "powers",
+      "usedBy": [
+        "powers/healing.html"
+      ],
+      "status": "verified_credit",
+      "work": "Green Lanterns #20 (2017), main cover art without trade dress",
+      "credits": [
+        {
+          "name": "Robson Rocha",
+          "role": "cover artist (publisher credit)"
+        },
+        {
+          "name": "Daniel Henriques",
+          "role": "cover artist (publisher credit)"
+        }
+      ],
+      "sources": [
+        "https://www.dc.com/comics/green-lanterns-2016/green-lanterns-20",
+        "https://www.dc.com/blog/2017/04/05/polaris-primed-sam-humphries-raises-the-stakes-on-green-lanterns"
+      ],
+      "imageSource": "https://static.dc.com/sites/default/files/imce/2017/04-APR/GLS_Cv20_58e46a4132c585.58347688.jpg",
+      "evidence": "Downloaded from the publisher creator interview and visually inspected. The issue listing names Rocha and Henriques in its Cover field.",
+      "remainingGaps": [
+        "The cited publisher sources do not separately identify the cover colorist."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/powers/scanning-far-sector-1.jpg",
+      "sha256": "754b87c1a9adf2836f791992eb1ea68c2115d884e25b8373b66c3cd20671e381",
+      "category": "powers",
+      "usedBy": [
+        "powers/scanning.html"
+      ],
+      "status": "verified_credit",
+      "work": "Far Sector #1 (2019), main cover",
+      "credits": [
+        {
+          "name": "Jamal Campbell",
+          "role": "cover artist (publisher credit)"
+        }
+      ],
+      "sources": [
+        "https://www.dc.com/comics/far-sector-2019/far-sector-1",
+        "https://www.dc.com/blog/2019/10/15/first-look-welcome-to-far-sector"
+      ],
+      "imageSource": "https://static.dc.com/dc/files/default_images/FARS_01_300-001_HD_5dc5c8655fd9d5.45911883.jpg?w=640",
+      "evidence": "Downloaded from the publisher image linked by the issue listing; visually inspected. The publisher preview explicitly credits the main cover to Jamal Campbell.",
+      "remainingGaps": [],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/powers/space-time.jpg",
+      "sha256": "ce936d0a38b55489d0240e89fbb71f35b48123d5a5338db3fe6a2eaba7da9372",
+      "category": "powers",
+      "usedBy": [
+        "powers.html",
+        "powers/space-time.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/powers/translation.jpg",
+      "sha256": "52a55146599d2ddbace9daa07fd71b0a93b94496026eeaf14afae8f371778fb0",
+      "category": "powers",
+      "usedBy": [
+        "powers.html",
+        "powers/translation.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/screen/emerald-knights.jpg",
+      "sha256": "921ead4d4ce6a2d0e2b690b53ef8be93bdbcdc56c86e29d0f006d5a849c1ec81",
+      "category": "screen",
+      "usedBy": [
+        "screen/emerald-knights.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/screen/first-flight.jpg",
+      "sha256": "d71ea955ccb06e6b735987a263f5e1cbcca2a60e4bd77305912c83d9bac84865",
+      "category": "screen",
+      "usedBy": [
+        "screen/first-flight.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/screen/gl-film-2011.jpg",
+      "sha256": "42c2f9d37d1774a9a982e09db2d96577e11e853de90132bb1701b8d55e127b26",
+      "category": "screen",
+      "usedBy": [
+        "screen/green-lantern-2011.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/screen/gl-tas.jpg",
+      "sha256": "c9e8e3bd7915c52e8c54ce1f62deb75dcd45db40d6f505986c97ded95ab8813c",
+      "category": "screen",
+      "usedBy": [
+        "screen/animated-series.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/screen/jlu.jpg",
+      "sha256": "835bb736f74a3458503fcd3039b8685852a0e3f00b0770c86683b379bb00cdf2",
+      "category": "screen",
+      "usedBy": [
+        "screen/justice-league.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/screen/lanterns-hbo.jpg",
+      "sha256": "d99cf099209c9d5604d8d5821dac0faf2b05425357bf301ca04e01f206192aa7",
+      "category": "screen",
+      "usedBy": [
+        "screen/lanterns-hbo.html",
+        "timeline.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/spectrum-chart.jpg",
+      "sha256": "f8315675eba290f61e2315bc393826dbf0995182f789f32a4e236e16f963229d",
+      "category": "site",
+      "usedBy": [
+        "index.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/villains/anti-monitor.jpg",
+      "sha256": "713072af13615cfae654ee75b8d502ebef63b9c4a1a9ba82064ebc68c89d8339",
+      "category": "villains",
+      "usedBy": [
+        "villains/anti-monitor.html",
+        "villains/index.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/villains/black-hand.jpg",
+      "sha256": "e91efa047c55d6ffa9b5343fc1f2db25e905816a92a197f12ff8ec83c045590d",
+      "category": "villains",
+      "usedBy": [
+        "villains/black-hand.html",
+        "villains/index.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/villains/evil-star.jpg",
+      "sha256": "31d6ac9fe213ac7ffb0542f321433fb80341bbf7a314947d00107bc278ef2882",
+      "category": "villains",
+      "usedBy": [
+        "villains/evil-star.html",
+        "villains/index.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/villains/krona.jpg",
+      "sha256": "c78308eb21fb3f2cb200ce26e8e1c463e1478b97d0eff98c8d21a60157d61532",
+      "category": "villains",
+      "usedBy": [
+        "villains/index.html",
+        "villains/krona.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/villains/mongul.jpg",
+      "sha256": "4cd04a678df3b043ff1a48ea9c5f2e64b8e1e0a43268a19616f54172beae2154",
+      "category": "villains",
+      "usedBy": [
+        "villains/index.html",
+        "villains/mongul.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/villains/nekron.jpg",
+      "sha256": "4ccf12db1d8c40bdbd890262113d25c6256fc5a1f02ab6c97fe9e6c3e32c8453",
+      "category": "villains",
+      "usedBy": [
+        "villains/index.html",
+        "villains/nekron.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/villains/volthoom.jpg",
+      "sha256": "32b3295b0609d4481290f04f39300e5f2248e688f7f869dfc3435292c3ed5d7e",
+      "category": "villains",
+      "usedBy": [
+        "villains/index.html",
+        "villains/volthoom.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/worlds/daxam.jpg",
+      "sha256": "d69b78067a5b5bf2fdaed04adf1478a359974f8c01c160920c4b5889d5eb1df0",
+      "category": "worlds",
+      "usedBy": [
+        "worlds/daxam.html",
+        "worlds/index.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/worlds/earth.jpg",
+      "sha256": "2e5f5de3657b8868bdd9bff17994719261dba55a9ad8878bb7fb4ed64b6710c3",
+      "category": "worlds",
+      "usedBy": [
+        "worlds/earth.html",
+        "worlds/index.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/worlds/korugar.jpg",
+      "sha256": "28ddc2cf8baada0fd5b1efef1437ab404dd6b651f10b63de3d5aba8dccd1f631",
+      "category": "worlds",
+      "usedBy": [
+        "worlds/index.html",
+        "worlds/korugar.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/worlds/nok.jpg",
+      "sha256": "1e1fe348bb5b3b0259cdf2d7a37844c98cc03d0bd71f3fd19d2171d9784bdb97",
+      "category": "worlds",
+      "usedBy": [
+        "worlds/index.html",
+        "worlds/nok.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/worlds/oa.jpg",
+      "sha256": "727cd7520d05e98a30da274ed6cb20ae7c7d1ddccdd41d35e2f394ad7d226752",
+      "category": "worlds",
+      "usedBy": [
+        "guardians/index.html",
+        "index.html",
+        "worlds/index.html",
+        "worlds/oa.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/worlds/odym.jpg",
+      "sha256": "1a9a71ca8e39c4dda7a29d4c7197c2c4a02bdbd58a744b54c147d679b2be1c15",
+      "category": "worlds",
+      "usedBy": [
+        "worlds/index.html",
+        "worlds/odym.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/worlds/okaara.jpg",
+      "sha256": "a90959de26cb45d065ecbac768ae6ba5b036b655840bdacf33e4cb80e128273a",
+      "category": "worlds",
+      "usedBy": [
+        "worlds/index.html",
+        "worlds/okaara.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/worlds/qward.jpg",
+      "sha256": "be9935b1b64a3b4399ca97699bd03fb7d2f4dbce87f8aba7b5ed36c18ba3a0db",
+      "category": "worlds",
+      "usedBy": [
+        "worlds/index.html",
+        "worlds/qward.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/worlds/ryut.jpg",
+      "sha256": "ff7a72b2bddeb244d0e22fda2b6618503842cc30fd9d7a44e726e4ef711b63a1",
+      "category": "worlds",
+      "usedBy": [
+        "worlds/index.html",
+        "worlds/ryut.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/worlds/ungara.jpg",
+      "sha256": "e58521b6fe27fb3766fe72a661e7d63acc06c10efdec28b949d9081ef0dae73a",
+      "category": "worlds",
+      "usedBy": [
+        "worlds/index.html",
+        "worlds/ungara.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/worlds/xudar.jpg",
+      "sha256": "938f67eb861dab5fd136b8594ab2c9f6731b8e4d0e5bc9048984c2a2b62a894d",
+      "category": "worlds",
+      "usedBy": [
+        "worlds/index.html",
+        "worlds/xudar.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/worlds/ysmault.jpg",
+      "sha256": "00844cc48f034d86b98fd1e7d75813c9d30b183d597679ae94c7065fc3f1492f",
+      "category": "worlds",
+      "usedBy": [
+        "worlds/index.html",
+        "worlds/ysmault.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    },
+    {
+      "asset": "assets/worlds/zamaron.jpg",
+      "sha256": "4c4a32caf8e103361641ddc9f82e1159eff881d1e44fd463bd0989cc3afb4c93",
+      "category": "worlds",
+      "usedBy": [
+        "worlds/index.html",
+        "worlds/zamaron.html"
+      ],
+      "status": "unresolved",
+      "work": null,
+      "credits": [],
+      "sources": [],
+      "imageSource": null,
+      "evidence": null,
+      "remainingGaps": [
+        "Exact original artwork source and specific artist roles have not been verified."
+      ],
+      "reviewed": "2026-11-04"
+    }
+  ]
+}

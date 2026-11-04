@@ -77,6 +77,7 @@
           c.sourceLinks.map(s => '<li><a href="' + esc(s.url) + '">' + esc(s.title) + '</a></li>').join('') +
           '</ul></section>'
         : '') +
+        (c.sourceNote ? '<p class="source-note"><strong>Reference scope:</strong> ' + esc(c.sourceNote) + '</p>' : '') +
         (c.reviewed ? '<p class="source-note">Profile reviewed ' + esc(c.reviewed) + '.</p>' : '') +
         '<p><a href="characters.html" style="color:var(--green);font-weight:800">← Back to the roster</a></p>' +
       '</div>' +

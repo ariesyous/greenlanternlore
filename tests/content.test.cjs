@@ -79,6 +79,7 @@ test('every character can render with a closed story-history section and safe pr
     assert.ok(history, `${c.id}: history must start closed`);
     assert.ok(history[1].includes(escape(c.bio)), `${c.id}: biography missing from history`);
     assert.ok(!element.innerHTML.replace(history[0], '').includes(escape(c.bio)), `${c.id}: biography leaks outside history`);
+    if (c.sourceNote) assert.ok(element.innerHTML.replace(history[0], '').includes(escape(c.sourceNote)), `${c.id}: reference scope must be visible before opening story history`);
     assert.ok(!element.innerHTML.includes('undefined'), `${c.id}: missing rendered value`);
   }
 });

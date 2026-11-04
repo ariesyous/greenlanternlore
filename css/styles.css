@@ -1343,6 +1343,7 @@ a.character-card:hover {
   .event-hero { flex-direction: column; text-align: center; padding-top: 2rem; }
   .event-cover { width: 170px; }
   .event-hero-text h1 { font-size: 2rem; }
+  .panel .fact-row { grid-template-columns: 1fr; gap: 0.2rem; }
 }
 
 /* ---------- reading checklist ---------- */

@@ -16,6 +16,9 @@ every color of the emotional spectrum, their oaths, members, homeworlds, and lor
 - **"Which Lantern Corps are you?" quiz** — 12 questions, 100% client-side
 - **Illustrated lore** — comic covers, character portraits, and adaptation artwork
 - **Comic reading-order timeline** — the Geoff Johns saga and guides to other eras
+- **Issue-by-issue crossover guide** — core chapters, Lantern branches, and optional tie-ins
+- **Classic Corps routes** — the 1981 miniseries, anthology stories, and the 1980s ensemble
+- **Dated recent-era guide** — collection gaps, the 2025 Corps, and separate Absolute continuity
 
 ## Tech
 
@@ -54,7 +57,8 @@ node --test tests/*.test.cjs
 
 Keep introductions at premise level and put major outcomes in labeled spoiler sections.
 Use series years and issue numbers, distinguish continuity and retcons, and link primary
-publisher references beside reading advice. Update `data/search-index.json` and
+publisher references beside reading advice. Profile reference notes distinguish the claims
+supported by a linked source from debut citations that still need checking. Update `data/search-index.json` and
 `sitemap.xml` when adding a page, then run the checks above. The prioritized editorial
 work and completed release are recorded in [ROADMAP.md](ROADMAP.md).
 

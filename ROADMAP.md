@@ -78,16 +78,49 @@ are historical records and include completed work that still appears as planned.
   distinguish earlier identities from later emotional-entity revelations. The Morrison
   guide includes *Blackstars* and the annual, with consistent publication dates.
 
-### Continue the editorial work
+### Follow-up content release — 2026-11-04
 
-- Extend the issue-level citation and concise-biography pass to older character and
-  event pages. Source links on selected profiles are not a claim that all legacy prose
-  has been independently reverified.
-- Add finer issue-by-issue crossover guidance and further classic Corps stories as
-  separately scoped additions, keeping the core route readable.
-- Continue image-credit verification and add suitable credited illustrations for the
-  scanning and healing guides. Missing artwork must not prevent useful lore coverage.
-- Keep current-era coverage dated and recheck publication status when extending it.
+- [x] **Full roster editorial pass.** All seventy profiles now have concise introductions,
+  scoped source links, and reviewed biographies/readings. Corrected unsupported feats,
+  misleading firsts, debut distinctions, and recommendations that predate a character.
+  Reference notes identify where a linked source supports a role or reading choice but
+  does not independently confirm a legacy debut citation. Roster cards and search
+  previews use the revised character data.
+- [x] **All six event guides.** Reworked Emerald Twilight, Sinestro Corps War, Blackest
+  Night, War of the Green Lanterns, Zero Hour, and Wrath of the First Lantern around
+  prerequisites, precise issue commitments, creative credits, optional branches, and
+  closed story histories. Corrected event outcomes and separated later retcons.
+- [x] **Finer crossover guidance.** Added `stories/crossover-guide.html`: twelve Sinestro
+  Corps War stops including its epilogue; nineteen Blackest Night/Lantern stops plus
+  nine optional Corps chapters; and the War of the Green Lanterns prologue plus ten
+  numbered parts. Edition overlaps and gaps are explicit. The main checklist stays
+  readable and preserves existing progress IDs.
+- [x] **Further classic Corps stories.** Added `stories/classic-corps.html` for the 1981
+  Tales miniseries, the Moore/Gibbons/O'Neill/Willingham short stories, and a bounded
+  Englehart/Staton ensemble selection. Exact editions, commitments, overlapping annuals,
+  continuity context, and spoiler boundaries are supplied.
+- [x] **Art provenance and missing illustrations.** Added credited, self-hosted Far
+  Sector #1 and Green Lanterns #20 covers to scanning and healing. The inventory in
+  `data/art-credits.json` tracks all 179 images: nine with a verified named cover credit,
+  three matched to publisher artwork with contributor roles unresolved, and 167 with
+  unresolved provenance. Additional contributor gaps remain explicit even on credited
+  records. Removed the blanket claim that every legacy image has a verified credit.
+- [x] **Dated current-era coverage.** Rebuilt `eras/current.html` with Hal's collection
+  sequence, the 2025 Corps, Starbreaker Supremacy's placement, the publisher-listed
+  Corps #6 gap, and a November 4, 2026 publication checkpoint. Released and upcoming
+  issues/collections are distinguished; Absolute continuity remains separate.
+- [x] **Discovery and maintenance.** Linked the new guides from the homepage, events
+  hub, classic route, and sources page; refreshed search and the sitemap. Mobile event
+  facts stack for readability, and reference-scope notes remain visible outside spoilers.
+
+### Ongoing reference maintenance
+
+This release addresses each remaining editorial workstream; it does not certify every
+legacy claim or image attribution. Exact unresolved image files and evidence gaps are
+listed in the art inventory. Profile reference notes identify debut citations still
+requiring corroboration. Revisit those records when an identifiable original issue or
+cover credit is available, and recheck dated publication/collection information before
+extending the recent-era guide. The older phase lists below remain historical records.
 
 Primary references are linked beside the relevant claims and collections on the site.
 This release implements the prioritized audit above; the older phase lists below are
