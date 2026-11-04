@@ -17,7 +17,7 @@
         },
         {
           "id": "read-gl-v4",
-          "title": "Green Lantern vol. 4 #1\u201325"
+          "title": "Green Lantern (2005) #1\u201320"
         },
         {
           "id": "read-scw",
@@ -62,6 +62,18 @@
           "issues": "#0\u20138 (2009\u201310)",
           "url": "events/blackest-night.html"
         }
+      ],
+      "summary": "Hal Jordan is a test pilot who inherits Abin Sur's ring and responsibility for Earth's space sector. His stories often put personal judgment against the authority of the Guardians. Begin with Secret Origin for his recruitment, then Rebirth for the modern Corps saga.",
+      "historySpoilers": "Emerald Twilight, Rebirth, and the Johns-era events",
+      "sourceLinks": [
+        {
+          "title": "DC: Hal Jordan \u2014 origin and role",
+          "url": "https://www.dc.com/characters/green-lantern"
+        },
+        {
+          "title": "DC: Secret Origin \u2014 Green Lantern (2005) #29\u201335",
+          "url": "https://www.dc.com/graphic-novels/green-lantern-2005/green-lantern-secret-origin"
+        }
       ]
     },
     {
@@ -77,7 +89,7 @@
       "appearsIn": [
         {
           "id": "read-gl-v4",
-          "title": "Green Lantern vol. 4 #1\u201325"
+          "title": "Green Lantern (2005) #1\u201320"
         },
         {
           "id": "read-scw",
@@ -110,6 +122,14 @@
           "issues": "Green Lantern Corps #58\u201360 (2011)",
           "url": "events/war-of-the-green-lanterns.html"
         }
+      ],
+      "summary": "John Stewart is one of Earth's principal Green Lanterns, with a history that reaches from the classic Hal Jordan stories to the modern Corps. War Journal offers a focused solo route; the 2021 Green Lantern run follows his place in the larger ensemble.",
+      "historySpoilers": "Cosmic Odyssey and later Corps stories",
+      "sourceLinks": [
+        {
+          "title": "DC: Architect of Justice \u2014 John Stewart's history",
+          "url": "https://www.dc.com/blog/2026-08-20/architect-of-justice-five-things-you-didn-t-know-about-john-stewart"
+        }
       ]
     },
     {
@@ -125,7 +145,7 @@
       "appearsIn": [
         {
           "id": "read-gl-v4",
-          "title": "Green Lantern vol. 4 #1\u201325"
+          "title": "Green Lantern (2005) #1\u201320"
         },
         {
           "id": "read-scw",
@@ -181,7 +201,7 @@
         },
         {
           "id": "read-gl-v4",
-          "title": "Green Lantern vol. 4 #1\u201325"
+          "title": "Green Lantern (2005) #1\u201320"
         },
         {
           "id": "read-scw",
@@ -233,7 +253,7 @@
       "appearsIn": [
         {
           "id": "read-gl-v4",
-          "title": "Green Lantern vol. 4 #1\u201325"
+          "title": "Green Lantern (2005) #1\u201320"
         },
         {
           "id": "read-scw",
@@ -925,7 +945,7 @@
       "appearsIn": [
         {
           "id": "read-gl-v4",
-          "title": "Green Lantern vol. 4 #1\u201325"
+          "title": "Green Lantern (2005) #1\u201320"
         },
         {
           "id": "read-scw",
@@ -948,7 +968,7 @@
       "appearsIn": [
         {
           "id": "read-gl-v4",
-          "title": "Green Lantern vol. 4 #1\u201325"
+          "title": "Green Lantern (2005) #1\u201320"
         },
         {
           "id": "read-scw",
@@ -969,7 +989,7 @@
       "appearsIn": [
         {
           "id": "read-gl-v4",
-          "title": "Green Lantern vol. 4 #1\u201325"
+          "title": "Green Lantern (2005) #1\u201320"
         },
         {
           "id": "read-scw",
@@ -1150,7 +1170,7 @@
       "appearsIn": [
         {
           "id": "read-gl-v4",
-          "title": "Green Lantern vol. 4 #1\u201325"
+          "title": "Green Lantern (2005) #1\u201320"
         }
       ]
     },
@@ -1190,7 +1210,15 @@
       ],
       "corpsClass": "corps-green",
       "corpsPage": "corps/green.html",
-      "tagline": "A Green Lantern who finds courage while living with anxiety."
+      "tagline": "A Green Lantern who finds courage while living with anxiety.",
+      "summary": "Jessica Cruz brings the experience of living with anxiety to a role built around courage. Her partnership with Simon Baz in Green Lanterns is a direct route into her life as a Corps member; her earlier Ring of Volthoom story belongs to Justice League.",
+      "historySpoilers": "Justice League origin and later Green Lanterns stories",
+      "sourceLinks": [
+        {
+          "title": "DC: Jessica Cruz \u2014 origin, partner, and first appearance",
+          "url": "https://www.dc.com/characters/jessica-cruz"
+        }
+      ]
     },
     {
       "id": "simon-baz",
@@ -1209,7 +1237,15 @@
       ],
       "corpsClass": "corps-green",
       "corpsPage": "corps/green.html",
-      "tagline": "Dearborn's Green Lantern."
+      "tagline": "Dearborn's Green Lantern.",
+      "summary": "Simon Baz is a Green Lantern from Dearborn, Michigan. His early distrust of his ring and his partnership with Jessica Cruz give his stories a different angle on learning to be a hero. Green Lanterns follows the two as partners.",
+      "historySpoilers": "New 52 origin and Green Lanterns",
+      "sourceLinks": [
+        {
+          "title": "DC: Simon Baz \u2014 background and partnership",
+          "url": "https://www.dc.com/characters/simon-baz"
+        }
+      ]
     },
     {
       "id": "abin-sur",
@@ -1316,7 +1352,7 @@
       "appearsIn": [
         {
           "id": "read-gl-v4",
-          "title": "Green Lantern vol. 4 #1\u201325"
+          "title": "Green Lantern (2005) #1\u201320"
         },
         {
           "id": "read-blackest-night",
@@ -1460,20 +1496,51 @@
       "id": "jo-mullein",
       "name": "Jo Mullein",
       "corps": "Green Lantern Corps",
-      "corpsClass": "green",
+      "corpsClass": "corps-green",
       "corpsPage": "corps/green.html",
       "portrait": "assets/characters/jo-mullein.jpg",
-      "tagline": "The Far Sector Lantern \u2014 Hugo Award-winning modern hero.",
-      "bio": "Sojourner 'Jo' Mullein is a former Earth police officer recruited by the Guardians for a top-secret mission to the Far Sector \u2014 a region so distant its numbering is uncertain. She was given a prototype ring that never needs recharging, designed to keep her off the grid as the Guardians' ace in the hole. Her series Far Sector (2019\u20132021), by novelist N.K. Jemisin and artist Jamal Campbell, won the 2022 Hugo Award for Best Graphic Story \u2014 the first Green Lantern story to win comics' most prestigious literary prize. Jo returned to a broken Corps after the Central Battery's destruction, rallying the survivors with the same determination that made her a great cop.",
-      "firstAppearance": "Far Sector #1 (January 2020)",
+      "tagline": "A detective with a different kind of power ring.",
+      "bio": "Jo brings experience with military and police institutions to a city whose official peace depends on suppressing emotion. Her investigation tests whether maintaining order is the same as protecting the people who live under it. Created by writer N.K. Jemisin and artist Jamal Campbell, she leads Far Sector (2019\u20132021), with letters by Deron Bennett. Her experimental ring recharges itself over time rather than through the usual external battery, but its available energy remains limited. That distinction creates real constraints during the story\u2019s escalating crisis; \u201cno battery\u201d does not mean \u201ccannot run out.\u201d After Far Sector, Geoffrey Thorne\u2019s Green Lantern (2021) brings Jo into the wider Corps ensemble. Following the Central Power Battery\u2019s destruction, she investigates the attack while other Lanterns struggle without their rings. The move from one remote city to a Corps-wide crisis changes the scale of her work, while keeping her investigative role central. Her self-contained debut and later ensemble appearances are separate reading commitments.",
+      "firstAppearance": "Far Sector #1 (on sale November 13, 2019)",
       "appearsIn": [],
-      "signature": "A self-sustaining ring \u2014 the Corps' secret weapon, no battery required.",
+      "signature": "An experimental ring that recharges itself, with a finite supply of energy available at any moment.",
       "sources": "N.K. Jemisin (writer), Jamal Campbell (artist)",
       "keyStories": [
         {
           "title": "Far Sector",
-          "issues": "#1\u201312 (2019\u20132021)",
-          "url": "https://www.dc.com/graphic-novels/far-sector"
+          "issues": "#1\u201312 (2019\u20132021) \u2014 complete mystery",
+          "url": "stories/far-sector.html"
+        },
+        {
+          "title": "Green Lantern (2021)",
+          "issues": "#1\u201312, with the 2021 Annual \u2014 the wider Corps",
+          "url": "stories/green-lantern-2021.html"
+        }
+      ],
+      "summary": "Sojourner \u201cJo\u201d Mullein is a former soldier and New York police officer assigned to the distant City Enduring. Her debut, Far Sector, follows a rookie Green Lantern investigating a murder in a society that has suppressed emotion. It is a complete twelve-issue mystery that requires no earlier Lantern reading.",
+      "historySpoilers": "Career history and ring mechanics \u2014 spoilers for Far Sector and Green Lantern (2021)",
+      "continuity": "Main DC comics continuity. Far Sector is a self-contained introduction; Green Lantern (2021) follows Jo into the wider Corps.",
+      "reviewed": "2026-11-04",
+      "sourceLinks": [
+        {
+          "title": "DC: Far Sector #1 \u2014 debut and creators",
+          "url": "https://www.dc.com/comics/far-sector-2019/far-sector-1"
+        },
+        {
+          "title": "DC: Jemisin and Campbell on Jo and her ring",
+          "url": "https://www.dc.com/blog/2019/11/12/an-untried-green-lantern-confronts-a-deep-space-mystery-in-far-sector"
+        },
+        {
+          "title": "DC: self-charging ring and City Enduring",
+          "url": "https://www.dc.com/blog/2022/01/06/my-2021-top-three-tim-beedle"
+        },
+        {
+          "title": "DC: Far Sector #11 \u2014 limited ring power",
+          "url": "https://www.dc.com/comics/far-sector-2019/far-sector-11"
+        },
+        {
+          "title": "DC: Green Lantern #5 (2021) \u2014 Jo\u2019s investigation",
+          "url": "https://www.dc.com/comics/green-lantern-2021/green-lantern-5-2021"
         }
       ]
     },
@@ -1688,6 +1755,54 @@
       ],
       "signature": "From TV hero to true Lantern of Sector 3319.",
       "sources": "John Broome (writer), Gil Kane (artist)"
+    },
+    {
+      "id": "alan-scott",
+      "name": "Alan Scott",
+      "corps": "Justice Society / Starheart",
+      "affiliationLabel": "Affiliation",
+      "corpsClass": "corps-green",
+      "corpsPage": "moments/starheart.html",
+      "portrait": "assets/eras/alan-scott.jpg",
+      "tagline": "The original Green Lantern, powered by a magical flame.",
+      "summary": "Alan Scott was the first hero published under the Green Lantern name, debuting in 1940. A founding Justice Society member, he channels the mystical Starheart through a ring and lantern. His Golden Age legacy is a distinct branch of the mythology, alongside the spacefaring Green Lantern Corps.",
+      "bio": "Alan Scott survives a sabotaged train wreck through the protection of a mysterious green flame. He fashions a ring from the lantern that holds it and begins a career as Green Lantern. Later stories call that magical power the Starheart and connect its origin to the Guardians, but Alan\u2019s original heroic identity is not a Corps recruitment story. He becomes one of the Justice Society\u2019s enduring figures and a mentor to later generations. His earliest adventures began in All-American Comics #16 (1940); his history subsequently crosses several versions of DC continuity. The younger Alan of the New 52 Earth 2 series is a separate incarnation, an avatar of the elemental Green rather than simply the same Starheart hero at an earlier age. Tim Sheridan and Cian Tormey\u2019s Alan Scott: The Green Lantern (2023\u20132024) instead revisits the Justice Society hero\u2019s past, exploring his hidden personal life and a mystery linked to his first love. Treat those retellings and alternate-world versions by their own series labels rather than merging every origin into one biography.",
+      "firstAppearance": "All-American Comics #16 (1940)",
+      "signature": "A ring and lantern that channel the Starheart\u2019s magical green flame.",
+      "appearsIn": [],
+      "historySpoilers": "Origin and later reinterpretations \u2014 spoilers for Alan\u2019s origin and alternate incarnations",
+      "continuity": "This profile centers on the Golden Age / Justice Society Alan Scott. The New 52 Earth 2 Alan is a separate incarnation. Starheart magic and Corps rings are not interchangeable power systems.",
+      "reviewed": "2026-11-04",
+      "keyStories": [
+        {
+          "title": "The Starheart and Alan\u2019s original legacy",
+          "issues": "All-American Comics #16 (1940) \u2014 origin and continuity guide",
+          "url": "moments/starheart.html"
+        },
+        {
+          "title": "Alan Scott: The Green Lantern",
+          "issues": "#1\u20136 (2023\u20132024), plus DC Pride: Through the Years #1 story in the collection",
+          "url": "https://www.dc.com/graphic-novels/alan-scott-the-green-lantern-2023/alan-scott-the-green-lantern"
+        }
+      ],
+      "sourceLinks": [
+        {
+          "title": "DC: Alan Scott \u2014 first appearance, JSA, and alternate Earth-2 incarnation",
+          "url": "https://www.dc.com/characters/alan-scott"
+        },
+        {
+          "title": "DC: original origin and later Starheart connection",
+          "url": "https://www.dc.com/blog/2020/05/22/in-brightest-day-twelve-iconic-moments-in-the-green-lantern-saga"
+        },
+        {
+          "title": "DC: The New Golden Age \u2014 the 2023 retelling",
+          "url": "https://www.dc.com/blog/2023/05/05/the-new-golden-age-adds-three-new-series"
+        },
+        {
+          "title": "DC: Alan Scott collection \u2014 creators and contents",
+          "url": "https://www.dc.com/graphic-novels/alan-scott-the-green-lantern-2023/alan-scott-the-green-lantern"
+        }
+      ]
     }
   ]
 }

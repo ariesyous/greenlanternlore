@@ -12,7 +12,7 @@ every color of the emotional spectrum, their oaths, members, homeworlds, and lor
   Red (Rage), Orange (Avarice), Yellow (Fear), Green (Will),
   Blue (Hope), Indigo (Compassion), Violet (Love), Black (Death), White (Life)
 - **Spectrum explainer** — how the lights work, the Entities, how colors interact
-- **Timeline** — a spoiler-light history of the Lantern mythos
+- **Reading routes and history** — separate story chronology, era overviews, and a saved reading checklist
 - **"Which Lantern Corps are you?" quiz** — 12 questions, 100% client-side
 - **Illustrated lore** — comic covers, character portraits, and adaptation artwork
 - **Comic reading-order timeline** — the Geoff Johns saga and guides to other eras
@@ -26,7 +26,7 @@ No frameworks, no application build step, no backend.
 
 Hosted on **GitHub Pages** and deployed automatically by **GitHub Actions**
 on every push to `main` (see `.github/workflows/pages.yml`).
-Pull requests run the search checks without publishing. The deploy job packages
+Pull requests run content and interaction checks without publishing. The deploy job packages
 only the public HTML, data, and assets; repository documents and tests stay out
 of the deployment.
 
@@ -44,11 +44,19 @@ python3 -m http.server 8000
 # → http://localhost:8000
 ```
 
-Run the search regression checks with Node.js:
+Run the content-link, character-profile, and search checks with Node.js:
 
 ```bash
-node --test tests/search.test.cjs
+node --test tests/*.test.cjs
 ```
+
+## Editing the lore
+
+Keep introductions at premise level and put major outcomes in labeled spoiler sections.
+Use series years and issue numbers, distinguish continuity and retcons, and link primary
+publisher references beside reading advice. Update `data/search-index.json` and
+`sitemap.xml` when adding a page, then run the checks above. The prioritized editorial
+work and completed release are recorded in [ROADMAP.md](ROADMAP.md).
 
 ## Project spec
 

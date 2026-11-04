@@ -41,53 +41,57 @@ are historical records and include completed work that still appears as planned.
   and Simon Baz; corrected Rankorr and Miri Riam's pre-debut recommendations; and added
   Jo Mullein's *Far Sector* collection with the correct 2019–2021 publication range.
 
-### Recommended next, in priority order
+### Implemented content release — 2026-11-04
 
-1. **Make the reading order dependable.** In `timeline.html`, separate era overviews
-   from books to read: the sequence currently reaches Morrison, jumps back to the Johns
-   era, and repeats several runs. Give each actual reading step issue ranges, collection
-   details, prerequisites, essential/optional status, and a next step. Reconcile the two
-   Morrison collection descriptions and include *Blackstars*;
-   [DC's Season Two Vol. 1 listing](https://www.dc.com/graphic-novels/the-green-lantern-season-two-vol-1)
-   includes *Blackstars* #1–3 and *Season Two* #1–6.
-2. **Separate publication dates from fictional history.** The in-universe section in
-   `timeline.html` mixes relative eras with publication years, repeats Alan Scott's
-   origin, and jumps from modern events back to ancient history. Order events within
-   the chosen continuity and label publication dates separately. Explain retcons and
-   distinguish mainstream comics, alternate universes, and adaptations.
-3. **Build on the four existing homepage paths.** `index.html` already provides
-   discovery cards; give their destinations more useful reader choices: a single-book
-   introduction, Hal's origin, John Stewart, the spectrum saga, and classic stories.
-   Replace `faq.html`'s blanket description of *Emerald Twilight* and *Blackest Night*
-   as self-contained beginner choices with prerequisites and reading commitments.
-   A *Far Sector* route offers a contained twelve-issue option:
-   [DC's collection contents](https://www.dc.com/graphic-novels/far-sector) and
-   [DC's introduction for new readers](https://www.dc.com/blog/2025/04/04/jo-mullein-shows-us-true-heroics-and-strength-in-far-sector).
-4. **State spoiler boundaries.** Keep a premise-only introduction, then label story
-   history and aftermath by the arc they spoil. `moments/ring-quest.html` announces a
-   character's death in its introductory line, while `data/characters.json` combines
-   origins and major outcomes in single biographies. Readers following the
-   spoiler-light guide should know when a link reveals endings.
-5. **Replace general praise with specific lore and evidence.** Expand thin summaries
-   such as `stories/brightest-day.html` with the actual cast, relationship to Lantern
-   tie-ins, and consequences. Give powers pages named examples and issue references;
-   `powers/scanning.html` currently claims John uses scanning more than any other
-   Lantern without evidence. Separate editorial interpretation from reference facts.
-6. **Broaden coverage beyond the Johns backbone.** Add meaningful routes for Alan
-   Scott, pre-1994 stories, *Far Sector*, and the 2021–2022 Geoffrey Thorne run, which
-   connects John, Jo, and the Corps before the 2023 relaunch.
-   [DC's Green Lantern (2021) #12 listing](https://www.dc.com/comics/green-lantern-2021/green-lantern-2021-12).
-   Keep alternate-continuity coverage clearly labeled, including
-   [Absolute Green Lantern](https://www.dc.com/graphic-novels/absolute-green-lantern-2025/absolute-green-lantern-vol-2-sojourner).
-7. **Make sources and maintenance part of each article.** Improve `sources.html`
-   with issue-level support for major claims and direct publisher collection links;
-   a general publication-details link does not verify every plot assertion. Date-check
-   current coverage and reconcile stale roadmap entries. Prioritize characters by lore value;
-   use a neutral portrait placeholder instead of omitting someone solely for lack of art.
-8. **Separate identities from later entity revelations.** `entities/parallax.html`
-   should distinguish Hal's 1994 Parallax identity from the fear entity revealed in
-   *Green Lantern: Rebirth*. Review the Ion profile with the same distinction in mind.
-   [DC's Rebirth retrospective](https://www.dc.com/blog/2016/05/19/reading-through-green-lantern-rebirth).
+- [x] **Dependable reading order.** Rebuilt `timeline.html` around thirteen Johns-era
+  stops (eleven core, two optional), with issue ranges, collection references, and next
+  links. Removed the repeated era entries from the checklist, filled the #26–28 gap,
+  separated the central *Brightest Day* series from the Green Lantern tie-ins, and
+  carried the saga through the 2013 finale. Six later/parallel paths have their own
+  counts. Existing anchors remain valid; checkmarks persist in the reader's browser.
+- [x] **Fictional history separated from publication.** Consolidated the duplicated
+  moments into twenty-three ordered cards with relative eras and separate publication
+  context. The history is behind a spoiler disclosure; era overviews and adaptations
+  remain separate sections. Legacy deep links land at the spoiler gate.
+- [x] **Useful entry routes.** The homepage now leads to one complete book (*Far
+  Sector*), Hal's origin, John Stewart, or the long spectrum saga. The guide also
+  offers classics. Each route explains prerequisites and commitment. The FAQ no longer
+  describes *Emerald Twilight* and *Blackest Night* as standalone beginner alternatives.
+- [x] **Spoiler boundaries.** All seventy character histories start closed; preview
+  metadata uses a summary or tagline. New guides and revised Ring Quest, Starheart,
+  and entity sections put major outcomes behind labeled disclosures. Core profiles
+  now offer safe introductions before their histories.
+- [x] **Deeper explanations.** Rewrote the *Brightest Day* guide with the actual cast,
+  creative teams, central-series/GL distinction, and collection contents. Revised
+  scanning, healing, and space/time travel around examples and limitations; removed
+  contradictory blanket claims from the powers hub and adjacent guides.
+- [x] **Broader coverage.** Added Alan Scott as a distinct Starheart/Justice Society
+  profile, expanded the Starheart and Jo Mullein material, and added sourced guides for
+  *Far Sector*, *Hard-Traveling Heroes*, *Green Lantern* (2021), and *War Journal*.
+  The continuity guide supplies a separately labeled *Absolute Green Lantern* entry.
+- [x] **Sources and maintenance.** Revised guides include direct publisher references,
+  issue ranges, and review dates. `sources.html` explains publication dates, retcons,
+  interpretation, spoiler conventions, and the limits of older citations. Search and
+  the sitemap include the new material. CI checks local destinations, profile rendering,
+  search behavior, and checklist persistence/fallbacks before deploying.
+- [x] **Identity versus entity.** Parallax and Ion profiles and spectrum summaries now
+  distinguish earlier identities from later emotional-entity revelations. The Morrison
+  guide includes *Blackstars* and the annual, with consistent publication dates.
+
+### Continue the editorial work
+
+- Extend the issue-level citation and concise-biography pass to older character and
+  event pages. Source links on selected profiles are not a claim that all legacy prose
+  has been independently reverified.
+- Add finer issue-by-issue crossover guidance and further classic Corps stories as
+  separately scoped additions, keeping the core route readable.
+- Continue image-credit verification and add suitable credited illustrations for the
+  scanning and healing guides. Missing artwork must not prevent useful lore coverage.
+- Keep current-era coverage dated and recheck publication status when extending it.
+
+Primary references are linked beside the relevant claims and collections on the site.
+This release implements the prioritized audit above; the older phase lists below are
+retained as project history, not a second pending implementation checklist.
 
 ---
 

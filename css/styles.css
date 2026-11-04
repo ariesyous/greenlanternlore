@@ -730,6 +730,47 @@ select:focus-visible {
   padding: 0 1.25rem;
 }
 
+/* Reading guidance and optional story outcomes. */
+.source-note, .spoiler-note {
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: var(--ink-dim);
+}
+
+.source-note a, .spoiler-note a { color: var(--green); }
+
+details.lore-spoilers, details.spoiler-details {
+  margin: 1.25rem 0;
+  padding: 1rem 1.2rem;
+  border: 2px solid var(--line);
+  border-left: 5px solid var(--yellow);
+  background: var(--bg-2);
+}
+
+details.lore-spoilers > summary, details.spoiler-details > summary {
+  cursor: pointer;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+details.lore-spoilers[open] > summary, details.spoiler-details[open] > summary {
+  margin-bottom: 1rem;
+}
+
+.reader-routes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  gap: 1rem;
+}
+
+.reader-routes .panel { margin: 0; }
+.source-list { padding-left: 1.3rem; line-height: 1.7; }
+.source-list li + li { margin-top: 0.65rem; }
+.source-list a { overflow-wrap: anywhere; }
+.timeline-item.is-read .tl-panel { border-left-color: var(--green); }
+.timeline-item.is-read h3::after { content: " ✓"; color: var(--green); }
+.timeline input[type="checkbox"] { accent-color: var(--green); width: 1.1rem; height: 1.1rem; vertical-align: middle; margin-right: 0.4rem; }
+
 .explainer h2 {
   font-size: clamp(1.4rem, 3.5vw, 2rem);
   font-weight: 900;

@@ -26,13 +26,14 @@
   if (!c) { fail(); return; }
 
   document.title = c.name + ' — Lantern Lore';
+  const preview = c.summary || c.tagline;
   // Per-character meta description for sharing/tab previews
   let md = document.querySelector('meta[name="description"]');
-  if (md && c.bio) md.setAttribute('content', c.bio.slice(0, 155));
+  if (md && preview) md.setAttribute('content', preview.slice(0, 155));
   let ogt = document.querySelector('meta[property="og:title"]');
   if (ogt) ogt.setAttribute('content', c.name + ' — Lantern Lore');
   let ogd = document.querySelector('meta[property="og:description"]');
-  if (ogd && c.bio) ogd.setAttribute('content', c.bio.slice(0, 155));
+  if (ogd && preview) ogd.setAttribute('content', preview.slice(0, 155));
 
   const esc = s => String(s)
     .replace(/&/g, '&amp;')
@@ -47,12 +48,16 @@
         '<p class="eyebrow">' + esc(c.corps) + '</p>' +
         '<h1>' + esc(c.name) + '</h1>' +
         '<p class="lede">' + esc(c.tagline) + '</p>' +
-        '<p>' + esc(c.bio) + '</p>' +
-        (c.signature ? '<p class="char-signature"><strong>Signature:</strong> ' + esc(c.signature) + '</p>' : '') +
+        (c.summary ? '<p>' + esc(c.summary) + '</p>' : '') +
+        (c.continuity ? '<p class="source-note"><strong>Continuity:</strong> ' + esc(c.continuity) + '</p>' : '') +
         '<dl class="char-facts">' +
-          '<div><dt>Corps</dt><dd><a href="' + esc(c.corpsPage) + '">' + esc(c.corps) + '</a></dd></div>' +
+          '<div><dt>' + esc(c.affiliationLabel || 'Affiliation') + '</dt><dd><a href="' + esc(c.corpsPage) + '">' + esc(c.corps) + '</a></dd></div>' +
           '<div><dt>First appearance</dt><dd>' + esc(c.firstAppearance) + '</dd></div>' +
         '</dl>' +
+        '<details class="lore-spoilers"><summary>Story history — ' + esc(c.historySpoilers || 'spoilers for the stories listed below') + '</summary>' +
+          '<p>' + esc(c.bio) + '</p>' +
+          (c.signature ? '<p class="char-signature"><strong>Signature:</strong> ' + esc(c.signature) + '</p>' : '') +
+        '</details>' +
         (c.keyStories && c.keyStories.length ?
           '<div class="char-stories"><h2>Key Stories</h2><ul>' +
           c.keyStories.map(s =>
@@ -67,6 +72,12 @@
           ).join('') +
           '</ul><p class="art-credit">Find these in reading order on the <a href="timeline.html#reading-order">timeline</a>.</p></div>'
         : '') +
+        (c.sourceLinks && c.sourceLinks.length ?
+          '<section class="char-stories"><h2>Sources &amp; further reading</h2><ul>' +
+          c.sourceLinks.map(s => '<li><a href="' + esc(s.url) + '">' + esc(s.title) + '</a></li>').join('') +
+          '</ul></section>'
+        : '') +
+        (c.reviewed ? '<p class="source-note">Profile reviewed ' + esc(c.reviewed) + '.</p>' : '') +
         '<p><a href="characters.html" style="color:var(--green);font-weight:800">← Back to the roster</a></p>' +
       '</div>' +
     '</article>';

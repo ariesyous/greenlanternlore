@@ -20,8 +20,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
-      - name: Check search behavior
-        run: node --test tests/search.test.cjs
+      - name: Check content links and reader interactions
+        run: node --test tests/*.test.cjs
 
   deploy:
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
