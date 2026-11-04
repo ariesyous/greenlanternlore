@@ -110,7 +110,19 @@ test('every profile supplies readable artwork credit and the matching catalogue 
   assert.equal(ganthetArt.status, 'verified_credit');
   assert.notEqual(ganthetArt.sha256, ganthetArt.previousArtwork.sha256, 'the mislabeled Highfather file must not return');
   assert.ok(imageSources(read('characters.html')).includes(ganthet.portrait), 'Ganthet must be restored on the roster');
-  assert.equal(characters.find(character => character.id === 'ash')?.portraitWithheld, true, 'the confirmed Parallax image must not appear as Ash');
+  const sercy = characters.find(character => character.id === 'sister-sercy');
+  assert.equal(sercy?.portraitWithheld, false, 'the verified Sister Sercy replacement should be available');
+  const sercyArt = manifest.assets.find(record => record.asset === sercy.portrait);
+  assert.match(sercyArt.work, /^Sister Sercy /);
+  assert.equal(sercyArt.status, 'verified_credit');
+  assert.notEqual(sercyArt.sha256, sercyArt.previousArtwork.sha256, 'the mislabeled Mindy Marvel file must not return');
+  const ash = characters.find(character => character.id === 'ash');
+  assert.equal(ash?.portraitWithheld, false, 'the verified Ash replacement should be available');
+  const ashArt = manifest.assets.find(record => record.asset === ash.portrait);
+  assert.match(ashArt.work, /^Ash /);
+  assert.equal(ashArt.status, 'verified_credit');
+  assert.notEqual(ashArt.sha256, ashArt.previousArtwork.sha256, 'the mislabeled Parallax file must not return');
+  assert.ok(imageSources(read('characters.html')).includes(ash.portrait), 'Ash must be restored on the roster');
 });
 
 test('profile rendering shows attribution and omits withheld artwork from profile and roster images', async () => {

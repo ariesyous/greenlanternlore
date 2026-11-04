@@ -149,9 +149,27 @@ are historical records and include completed work that still appears as planned.
   and identified Xudar's illustration as a Tomar-Re movie-prequel cover.
 - [x] Refreshed nearby captions, page/profile credits and the public catalogue.
   Extended portrait regression checks and visually checked Ganthet's profile/source link.
-- [ ] Trace the 95 remaining originals and contributor gaps; specific checked leads
-  are recorded per image. Find a sourced Ash replacement and resolve the remaining
-  suspected portrait mismatches before making further identity claims.
+- [x] Revisited the outstanding portrait replacements and attribution leads in the
+  next release below. Unresolved records still retain specific evidence gaps.
+
+### Ash restoration and further artwork research — 2026-11-04
+
+- [x] Restored Ash with Tony Harris's painted cover detail from Green Lantern Corps
+  Quarterly #7, checked against the complete cover and an individually labeled profile.
+- [x] Replaced the incorrect Sister Sercy portrait, identified as Gilbert Monsanto's
+  Mindy Marvel fan art, with the labeled Blue Lantern Corps profile detail from
+  Blackest Night #0. Credits: Doug Mahnke, Tom Nguyen and Nei Ruffino. Both portrait
+  replacements preserve the superseded image hashes and source evidence.
+- [x] Traced exact artwork for B'dg, Boodikka, Ch'p, Lyssa Drak and Krona. Kept Ch'p's
+  Injustice continuity and Lyssa's fan-art origin explicit, and identified the Krona
+  image as Krona possessing Simon Baz. Also matched the Life Entity, Earth and Nok
+  illustrations to Blackest Night #8, with Ivan Reis and Alex Sinclair credits.
+  Page-specific inker gaps remain stated.
+- [x] Refreshed the catalogue, page/profile credits and affected captions. Extended
+  regression checks to prevent the old Ash and Sister Sercy portraits returning.
+  Inventory: **91 credited, 2 source-matched and 86 unresolved** files.
+- [ ] Continue tracing the 86 unresolved originals and contributor gaps without
+  converting visual similarities, reposts or artist signatures alone into credits.
 
 ### Ongoing reference maintenance
 

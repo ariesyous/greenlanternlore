@@ -10,9 +10,9 @@
   "rightsNote": "Provenance and credit records do not grant a license or imply permission from the rights holder. No new AI artwork was added.",
   "counts": {
     "total": 179,
-    "verified_credit": 81,
-    "source_matched": 3,
-    "unresolved": 95
+    "verified_credit": 91,
+    "source_matched": 2,
+    "unresolved": 86
   },
   "assets": [
     {
@@ -132,38 +132,45 @@
       "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit."
     },
     {
-      "asset": "assets/characters/ash.jpg",
-      "sha256": "375e61869a04530b4172780d7f214906661ddd8122b85081e1af668652d74839",
+      "asset": "assets/characters/ash.png",
+      "sha256": "374d34307bdb1a0d07d0b8975c1bb0bb3799652545a618f55a0254c92cf93a9e",
       "category": "characters",
       "usedBy": [
         "character.html?id=ash",
         "characters.html"
       ],
-      "status": "source_matched",
-      "work": "Green Lantern (2011) #50 (2016), Parallax/Hal Jordan interior splash, cropped detail",
-      "credits": [],
-      "sources": [
-        "https://www.weirdsciencedccomics.com/2016/03/green-lantern-50-review-and-spoilers.html",
-        "https://www.dc.com/comics/green-lantern-2011/green-lantern-50",
-        "https://dcuguide.com/Green_Lantern_Vol._5_50"
+      "status": "verified_credit",
+      "work": "Ash — Green Lantern Corps Quarterly #7 (1993), painted cover detail",
+      "credits": [
+        {
+          "name": "Tony Harris",
+          "role": "cover painting"
+        }
       ],
-      "imageSource": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9-mfwuqdKWWAmUvRxiqCbo6ayd_UpoPeg00FfuUBPzb4kVWyPC5KnsMlsadlLvVxqwaXXCT0Awf6JQ9gNzI4KAvS0Iloy-v5B9Gj9oFT2AX1pGApqNHWsBheeilKM8TzSp52ujB7XmuU/s640/Green%2BLantern2.jpg",
-      "evidence": "Compared the full-size local file directly with the complete splash reproduced in the contemporary Green Lantern #50 review: identical grinning face, angular shoulder armor, cape, advancing knee, city silhouettes and airborne rubble. The full page restores dialogue about the combined Corps power. The review, DC solicitation and issue index identify the opposing figure as Parallax/Hal Jordan, not Ash.",
+      "sources": [
+        "https://dcuguide.com/Ash",
+        "https://dcuguide.com/Green_Lantern_Corps_Quarterly_7",
+        "https://my.comics.org/issue/54084/?display=list"
+      ],
+      "imageSource": "https://dcuguide.com/images/b/b1/Ash.png",
+      "evidence": "Downloaded the portrait from DCU Guide’s individually labeled Ash profile and compared it directly with the complete Green Lantern Corps Quarterly #7 cover. The blue face, pointed ear, goatee, green jacket emblem, glowing ring and doorway match. DCU Guide explicitly labels this image Ash and credits Tony Harris; Grand Comics Database independently identifies Ash as the cover subject and Harris as the cover painter, including colors. This is cover art, not the separately colored interior story.",
       "remainingGaps": [
-        "The issue credits multiple pencillers, inkers and colorists without assigning this particular page; specific artist roles remain unconfirmed.",
-        "The repository crop’s original download route and reprint edition are unknown."
+        "The reference host’s original scanning, cropping and color-adjustment process is not documented.",
+        "No reproduction license is documented; the record identifies the source and artist."
       ],
       "reviewed": "2026-11-04",
-      "notes": "Issue-level team, not a claim of page-specific credit: pencils Billy Tan and Vicente Cifuentes; inks Mark Irwin, John Livesay and Vicente Cifuentes; colors Alex Sinclair and Tony Aviña.",
-      "displayCaption": "Parallax/Hal Jordan, from Green Lantern #50 (2016). This image was incorrectly assigned to Ash.",
-      "captionContext": "The Parallax version of Hal Jordan associated with Convergence, not the alien Green Lantern Ash.",
-      "identityMismatch": {
-        "expected": "Ash",
-        "depicted": "Parallax / Hal Jordan",
-        "confidence": "confirmed"
-      },
-      "display": "withheld",
-      "displayReason": "The illustration depicts Parallax/Hal Jordan, not Ash."
+      "previousArtwork": {
+        "asset": "assets/characters/ash.jpg",
+        "sha256": "375e61869a04530b4172780d7f214906661ddd8122b85081e1af668652d74839",
+        "work": "Green Lantern (2011) #50 (2016), Parallax/Hal Jordan interior splash, cropped detail",
+        "sources": [
+          "https://www.weirdsciencedccomics.com/2016/03/green-lantern-50-review-and-spoilers.html",
+          "https://www.dc.com/comics/green-lantern-2011/green-lantern-50",
+          "https://dcuguide.com/Green_Lantern_Vol._5_50"
+        ],
+        "imageSource": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9-mfwuqdKWWAmUvRxiqCbo6ayd_UpoPeg00FfuUBPzb4kVWyPC5KnsMlsadlLvVxqwaXXCT0Awf6JQ9gNzI4KAvS0Iloy-v5B9Gj9oFT2AX1pGApqNHWsBheeilKM8TzSp52ujB7XmuU/s640/Green%2BLantern2.jpg",
+        "reasonReplaced": "The previous portrait was positively identified as Parallax/Hal Jordan, not Ash. The original binary remains in Git history before this replacement."
+      }
     },
     {
       "asset": "assets/characters/atrocitus.jpg",
@@ -206,20 +213,33 @@
         "character.html?id=bdg",
         "characters.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [
-        "https://www.tomshw.it/culturapop/le-lanterne-verdi-piu-improbabili-e-strane-di-sempre"
+      "status": "verified_credit",
+      "work": "Green Lantern (2011) #15 (released December 2012; February 2013 cover date), interior panel",
+      "credits": [
+        {
+          "name": "Doug Mahnke",
+          "role": "pencils"
+        },
+        {
+          "name": "Alex Sinclair",
+          "role": "colors"
+        }
       ],
-      "imageSource": null,
-      "evidence": "The local B’dg panel reads YOU’RE NOT HAL JORDAN and shows him against an orange explosion. An image-search result reproduces the same crop on Tom’s Hardware’s unusual Green Lanterns article. Simon Baz’s first meeting with B’dg in Green Lantern (2011) #15–16 is a specific comparison lead, not a verified panel source.",
+      "sources": [
+        "https://tessatechaitea.blogspot.com/2012/12/green-lantern-15.html",
+        "https://dcuguide.com/Green_Lantern_Vol._5_15",
+        "https://www.dcuniverseinfinite.com/comics/book/green-lantern-2011-15/9aafab7d-dca0-4507-9025-41b390f8bb1c",
+        "https://my.comics.org/issue/1039365/"
+      ],
+      "imageSource": "https://tessatechaitea.blogspot.com/2012/12/green-lantern-15.html",
+      "evidence": "Directly compared the local portrait with the final embedded panel in the contemporary December 20, 2012 review of Green Lantern #15. The squirrel pose, ring fist, orange explosion, black facial shading and YOU’RE NOT HAL JORDAN balloon match exactly. The DC Universe issue listing and DCU Guide/GCD issue indexes establish Doug Mahnke as penciller; the indexes identify Alex Sinclair as interior colorist. This establishes the issue and those roles without guessing which of its several inkers handled this panel.",
       "remainingGaps": [
-        "Locate the complete page matching the dialogue; issue and page-level art team are not established by the repost.",
-        "The exact edition or web page from which the repository crop was originally downloaded is unknown."
+        "The specific panel inker is not established: the issue credits Christian Alamy, Mark Irwin, Tom Nguyen, Keith Champagne and Doug Mahnke.",
+        "The repository’s original download page or edition remains unknown."
       ],
       "reviewed": "2026-11-04",
-      "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit."
+      "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit.",
+      "displayCaption": "B’dg in Green Lantern #15 (2012), pencils by Doug Mahnke and colors by Alex Sinclair; panel inker unconfirmed."
     },
     {
       "asset": "assets/characters/black-hand.jpg",
@@ -309,20 +329,32 @@
         "character.html?id=boodikka",
         "characters.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [
-        "https://www.dc.com/blog/2011/06/15/boodikka-the-alpha-lantern-from-bellatrix"
+      "status": "verified_credit",
+      "work": "Green Lantern Corps (2006) #63 (2011), Now and Forever! chapter one, story page 2, bottom two panels",
+      "credits": [
+        {
+          "name": "Joe Prado",
+          "role": "pencils and inks"
+        },
+        {
+          "name": "Hi-Fi",
+          "role": "colors"
+        }
       ],
-      "imageSource": null,
-      "evidence": "Two cropped panels, including the label BOODIKKA OF BELLATRIX. Compare the Alpha Lantern recruitment material in Green Lantern (2005) #26–28; this is a lead, not an established page match.",
+      "sources": [
+        "https://www.dcuniverseinfinite.com/comics/book/green-lantern-corps-2006-63/2ad12f9f-7bcb-4f0d-9f0b-d2d9cc22695f",
+        "https://www.dc.com/comics/green-lantern-corps-2006/green-lantern-corps-63",
+        "https://www.comics.org/issue/869463/",
+        "https://ww.mycomicshop.com/artitem?ItemID=61076288"
+      ],
+      "imageSource": "https://imgix-media.wbdndc.net/ingest/book/preview/2ad12f9f-7bcb-4f0d-9f0b-d2d9cc22695f/955300da-e73e-4da4-89c3-350c8bda3c5f/3.jpg",
+      "evidence": "The local two-panel image exactly matches the bottom two panels of story page 2 in the publisher’s public DC Universe preview. Matching details include the purple winged headpiece, approaching ring, transformed green armor and blue counselor narration. The preceding preview page explicitly prints ART BY JOE PRADO / COLORS BY HI-FI. GCD assigns Prado both pencils and inks on pages 1–5; the original-art dealer listing independently identifies story page 2 as Prado pencils and inks.",
       "remainingGaps": [
-        "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
-        "Repository file-addition history did not retain a source URL."
+        "The repository’s original download page or edition remains unknown."
       ],
       "reviewed": "2026-11-04",
-      "notes": "The DC Boodikka article was located, but its surfaced boodikka1.jpg illustration is a different pose. Do not treat that article’s first illustration as an exact local match."
+      "notes": "The DC Boodikka article was located, but its surfaced boodikka1.jpg illustration is a different pose. Do not treat that article’s first illustration as an exact local match.",
+      "displayCaption": "Boodikka’s recruitment flashback in Green Lantern Corps #63 (2011), art by Joe Prado and colors by Hi-Fi."
     },
     {
       "asset": "assets/characters/brother-hynn.jpg",
@@ -490,20 +522,36 @@
         "characters.html",
         "corps/green.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [
-        "https://www.heroscapers.com/community/showthread.php?t=56086"
+      "status": "verified_credit",
+      "work": "Injustice: Gods Among Us: Year Two (2014), digital chapter #10, collected in print issue #5, interior panel",
+      "credits": [
+        {
+          "name": "Bruno Redondo",
+          "role": "pencils"
+        },
+        {
+          "name": "Julien Hugonnard-Bert",
+          "role": "inks"
+        },
+        {
+          "name": "Rex Lokus",
+          "role": "colors"
+        }
       ],
-      "imageSource": null,
-      "evidence": "The local flying squirrel pose, pale moon and blue sky match an image-search result named Ch’p_injustice_comic.jpg, reposted from the Injustice wiki on the cited forum. This narrows the lead to Injustice comic imagery, but a complete issue page and its credited team remain unconfirmed.",
+      "sources": [
+        "https://comicnewbies.com/2014/05/29/how-a-squirrel-beat-superman-injustice-gods-among-us/",
+        "https://www.dc.com/blog/2014/05/30/this-just-happened-latest-casualty-in-injustice-gods-among-us-year-two",
+        "https://www.comics.org/issue/1208380/"
+      ],
+      "imageSource": "https://comicnewbies.com/wp-content/uploads/2014/05/how-a-squirrel-beat-superman-3.jpg",
+      "evidence": "Directly compared the local crop with the larger page reproduced in the May 29, 2014 Comicnewbies issue excerpt. Ch’p’s crossed arms, upright ears, split tail and blue-sky cloud shapes match exactly. The excerpt identifies digital chapter #10; DC’s contemporaneous article explicitly maps chapter #10 to print issue #5 and names Redondo, Hugonnard-Bert and Lokus. GCD’s print #5 story entry distinguishes their pencil, ink and color roles.",
       "remainingGaps": [
-        "Locate the original Injustice issue/digital chapter and complete matching panel before assigning an artist or an alternate-universe caption as fact.",
-        "The exact edition or web page from which the repository crop was originally downloaded is unknown."
+        "The repository’s original download page or edition remains unknown."
       ],
       "reviewed": "2026-11-04",
-      "notes": "Reference-image lead: https://vignette.wikia.nocookie.net/injusticegodsamongus/images/4/45/Ch%27p_injustice_comic.jpg/revision/latest?cb=20140527174600"
+      "notes": "Reference-image lead: https://vignette.wikia.nocookie.net/injusticegodsamongus/images/4/45/Ch%27p_injustice_comic.jpg/revision/latest?cb=20140527174600",
+      "captionContext": "Injustice continuity",
+      "displayCaption": "Ch’p in Injustice: Year Two, digital chapter #10 / print #5 (2014), pencils by Bruno Redondo, inks by Julien Hugonnard-Bert and colors by Rex Lokus."
     },
     {
       "asset": "assets/characters/despotellis.jpg",
@@ -1302,24 +1350,29 @@
         "corps/yellow.html",
         "moments/fear-organizes.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
+      "status": "verified_credit",
+      "work": "Lyssa Drak — fan-art digital painting (signed 2016)",
+      "credits": [
+        {
+          "name": "Arkenstellar",
+          "role": "digital illustration"
+        }
+      ],
       "sources": [
         "https://arkenstellar.artstation.com/projects/eeAl3"
       ],
-      "imageSource": null,
-      "evidence": "Digital painting signed ARKENSTELLAR 2016, with a floating open book and yellow chains. A creator-owned portfolio page titled Lyssa Drak was found at https://arkenstellar.artstation.com/projects/eeAl3 and identifies the Keeper of the Book of Parallax. Its artwork image could not be retrieved for exact visual comparison during this pass; the title and signature alone do not justify promotion.",
+      "imageSource": "https://cdnb.artstation.com/p/assets/images/images/004/769/725/large/sebastien-minatchy-lyssa-drak.jpg?1486126335",
+      "evidence": "The original creator-hosted portfolio was opened successfully in Chrome and its full illustration visually compared with the actual local file: identical face, raised claw-like hand, floating open book, yellow chains, costume highlights and ARKENSTELLAR 2016 signature. The portfolio explicitly titles it Lyssa Drak, describes the character as the Keeper of the Book of Parallax, and includes a separate step-by-step painting image. This is an exact artwork match, not a credit inferred from a repost or signature alone.",
       "remainingGaps": [
-        "Compare the actual image on the creator-owned Arkenstellar portfolio page with the local file before assigning a verified illustration credit.",
-        "The original repository download URL and reproduction permission are not documented."
+        "The original repository download route and reproduction permission are not documented."
       ],
       "reviewed": "2026-11-04",
       "legacySourceLead": {
         "source": "Former characters.html hidden portrait-source comment",
         "claim": "fan art by Arkenstellar (2016), via Pinterest",
         "verification": "Unverified historical download or attribution lead; does not override the evidence, status or credits in this record."
-      }
+      },
+      "captionContext": "Creator-owned fan art; not an illustration from a published DC comic."
     },
     {
       "asset": "assets/characters/medphyll.jpg",
@@ -1737,29 +1790,64 @@
     },
     {
       "asset": "assets/characters/sister-sercy.jpg",
-      "sha256": "759d6cf4bafe976c6e62d8391cbda4c81a5e7f0bb11b73e630580e127aaba7c7",
+      "sha256": "76d91ff96837d8bd63c51e8f29cc334688b8db7d7121619451a6d83a964605ce",
       "category": "characters",
       "usedBy": [
         "character.html?id=sister-sercy",
         "characters.html",
         "corps/blue.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Female Blue Lantern illustration signed MONSANTO 2009, with orange curls, a hood and a domino mask. The public gammaknight DeviantArt account identifies Gilbert Monsanto, but no matching original artwork post was located. Keep both authorship and the Sister Sercy identity unresolved; this may be an original or alternate-design character.",
+      "status": "verified_credit",
+      "work": "Sister Sercy — Blackest Night #0 (2009), Blue Lantern Corps profile detail",
+      "credits": [
+        {
+          "name": "Doug Mahnke",
+          "role": "profile pencils"
+        },
+        {
+          "name": "Tom Nguyen",
+          "role": "profile inks"
+        },
+        {
+          "name": "Nei Ruffino",
+          "role": "profile colors"
+        }
+      ],
+      "sources": [
+        "https://www.dc.com/blog/2017/08/22/all-will-be-well-meet-the-blue-lantern-corps",
+        "https://dcuguide.com/Blackest_Night_0",
+        "https://www.comics.org/issue/1444109/",
+        "https://dc.fandom.com/wiki/Sercy_(New_Earth)"
+      ],
+      "imageSource": "https://static.wikia.nocookie.net/marvel_dc/images/e/e6/Sercy_%28New_Earth%29.jpg/revision/latest?cb=20090716134439",
+      "evidence": "The existing character-reference crop was downloaded without image edits and compared directly with DC’s publisher-hosted Blue Lantern Corps illustration. The SISTER SERCY label, purple face, hood, hands, tapering costume and waterfall match exactly. DCU Guide and Grand Comics Database separately index the Blue Lantern Corps profile feature in Blackest Night #0 and identify Doug Mahnke, Tom Nguyen and Nei Ruffino in its pencil, ink and color roles.",
       "remainingGaps": [
-        "Locate the matching original post in Gilbert Monsanto’s creator gallery/blog and establish the depicted character, not merely the signature.",
-        "Candidate creator profile: https://www.deviantart.com/gammaknight ; 2009 blog archive checked without a match: https://gilbertmonsanto.blogspot.com/2009/ .",
-        "The original repository download URL and reproduction permission are not documented."
+        "The reference host’s original cropping and scanning process is not documented.",
+        "No reproduction license is documented; the record identifies the source and artists."
       ],
       "reviewed": "2026-11-04",
       "legacySourceLead": {
         "source": "Former characters.html hidden portrait-source comment",
         "claim": "fan art by Monsanto (2009), via Pinterest",
         "verification": "Unverified historical download or attribution lead; does not override the evidence, status or credits in this record."
+      },
+      "previousArtwork": {
+        "asset": "assets/characters/sister-sercy.jpg",
+        "sha256": "759d6cf4bafe976c6e62d8391cbda4c81a5e7f0bb11b73e630580e127aaba7c7",
+        "work": "mindy blue lantern final — Mindy Marvel fan-art illustration (2009)",
+        "credits": [
+          {
+            "name": "Gilbert Monsanto",
+            "role": "illustration"
+          }
+        ],
+        "sources": [
+          "https://www.deviantart.com/gammaknight/art/mindy-blue-lantern-final-119990991",
+          "https://www.deviantart.com/gammaknight"
+        ],
+        "imageSource": "https://www.deviantart.com/gammaknight/art/mindy-blue-lantern-final-119990991",
+        "evidence": "Opened the artist’s gallery in Chrome, found the exact image via the gallery’s blue search, and compared the full published artwork with the local file. Orange curls, hood, domino mask, leaping pose, blue glow, white background and MONSANTO 2009 signature all match. The original post is titled mindy blue lantern final, dated April 21, 2009, with the description mindy blue lantern marvel. The creator profile identifies gammaknight as Gilbert Monsanto. It depicts Mindy Marvel, not Sister Sercy.",
+        "reasonReplaced": "The original creator identifies the previous artwork as Mindy Marvel, not Sister Sercy. The superseded binary remains in Git history."
       }
     },
     {
@@ -3804,23 +3892,37 @@
         "entities/life-entity.html",
         "spectrum.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Cropped multi-panel Blackest Night finale image showing Nekron and returning characters; the same artwork appears in assets/worlds/earth.jpg. Blackest Night #8 is the issue lead; page-level corroboration and precise ink/color roles are pending. This image exposes a major event outcome.",
+      "status": "verified_credit",
+      "work": "Blackest Night #8 (2010), white-ring resurrection spread",
+      "credits": [
+        {
+          "name": "Ivan Reis",
+          "role": "pencils"
+        },
+        {
+          "name": "Alex Sinclair",
+          "role": "colors"
+        }
+      ],
+      "sources": [
+        "https://www.dc.com/comics/blackest-night-2009/blackest-night-8",
+        "https://dcuguide.com/Blackest_Night_8",
+        "https://www.zonanegativa.com/informe-zn-blackest-night-8/",
+        "https://crisisonearthprime.com/blackest-night/blackest-night-8/"
+      ],
+      "imageSource": "https://www.zonanegativa.com/imagenes/2010/04/3218.jpg",
+      "evidence": "Visually matched the local Nekron explosion at the left of this spread to the issue-specific review reproduction, including the pose, lettering, white rings and Let there be light balloon. The local right-hand resurrection sequence also matches the independently annotated Blackest Night #8 pages 22–23. DC credits Ivan Reis pencils; DCU Guide confirms Alex Sinclair colors. This is an interior spread rather than a cover or portrait of the Life Entity.",
       "remainingGaps": [
-        "Cropped multi-panel Blackest Night finale image showing Nekron and returning characters; the same artwork appears in assets/worlds/earth.jpg. Blackest Night #8 is the issue lead; page-level corroboration and precise ink/color roles are pending. This image exposes a major event outcome."
+        "The issue credits both Oclair Albert and Joe Prado for inks; the inker of this particular page is not established.",
+        "Original repository download URL is not preserved."
       ],
       "reviewed": "2026-11-04",
       "repositoryProvenance": {
         "introducedBy": "8a7c04458ae454c76dfde434b5f3694502cedd61 Add 7 emotional entity images",
         "sourceHistory": "Upload/optimization history reviewed; no original remote image URL or artist evidence was preserved for this legacy file."
       },
-      "captionContext": "Blackest Night finale artwork; exact page and art credits remain under review.",
-      "usageNote": "hide behind a closed Blackest Night spoiler disclosure: visibly reveals a major outcome",
-      "researchNotes": "Blackest Night #8 resurrection spread remains the visual/story lead. Publisher interior credits found, but the accessible review supplied only a cover rather than this exact montage. Kept unresolved."
+      "captionContext": "White rings and the Life Entity’s power in the finale of Blackest Night #8 (2010). Ivan Reis (pencils), Alex Sinclair (colors); page inker unresolved.",
+      "usageNote": "This is a climactic Blackest Night scene, not a portrait of the Life Entity or a view of Earth; preserve the issue and scene context."
     },
     {
       "asset": "assets/entities/ophidian.jpg",
@@ -4864,22 +4966,39 @@
         "villains/index.html",
         "villains/krona.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Interior final-page reveal names KRONA and advertises Green Lantern #27 next. The issue/volume must be established before attributing it; the existing Green Lantern (2005) #27 label is not supported by the pictured NEXT caption.",
+      "status": "verified_credit",
+      "work": "Green Lantern Corps (2025) #8, final story page (2025)",
+      "credits": [
+        {
+          "name": "Fernando Pasarin",
+          "role": "pencils"
+        },
+        {
+          "name": "Oclair Albert",
+          "role": "inks"
+        },
+        {
+          "name": "Arif Prianto",
+          "role": "colors"
+        }
+      ],
+      "sources": [
+        "https://www.dcuguide.com/Green_Lantern_Corps_Vol._4_8",
+        "https://www.comics.org/issue/2768897/?display=list",
+        "https://comicbookfanlover.blogspot.com/2025/11/green-lantern-corps-la-supremacia_27.html"
+      ],
+      "imageSource": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrSUu1AMomL_SkJVORg89ryH-lJF07-ZfRifjqjX5U66wXA7wDlWJ7kUEcy_jA3nI4RJoTOd4fGBC774hzKvuRCE1jNTdgTd2FwMYR2bV2aFLWFaQi7HrNTEZo1HpcbgZxDMhUbNrllFlJacr9kf-EddAg-wne4vZ-r58LXNVrfkADU4J-t0ltNw1gO3w/s3057/Green%20Lantern%20corps%20v4%20%23%208%20(4).jpg",
+      "evidence": "Visually compared the local file with the final-page reproduction in the issue-specific review: identical Simon Baz pose, gauntlet, KRONA reveal and NEXT Green Lantern #27 caption. DCU Guide and GCD distinguish the story credits (Pasarin pencils, Albert inks, Prianto colors) from V Ken Marion and Pasquale Ferrara on the cover. The scene depicts Krona possessing Simon Baz.",
       "remainingGaps": [
-        "Interior final-page reveal names KRONA and advertises Green Lantern #27 next. The issue/volume must be established before attributing it; the existing Green Lantern (2005) #27 label is not supported by the pictured NEXT caption."
+        "The repository did not preserve its original download URL."
       ],
       "reviewed": "2026-11-04",
       "repositoryProvenance": {
         "introducedBy": "62a6dbb630d0986305093259db39853bd15bdb82 Add files via upload",
         "sourceHistory": "Upload/optimization history reviewed; no original remote image URL or artist evidence was preserved for this legacy file."
       },
-      "captionContext": "Krona reveal artwork. Exact series issue and artist credits remain under review.",
-      "usageNote": "remove unsupported Green Lantern (2005) #27 citation"
+      "captionContext": "Krona possessing Simon Baz in Green Lantern Corps (2025) #8. Pencils by Fernando Pasarin, inks by Oclair Albert, colors by Arif Prianto.",
+      "usageNote": "Relabel the pictured figure as Krona possessing Simon Baz; the image is not a portrait of Krona in his original body."
     },
     {
       "asset": "assets/villains/mongul.jpg",
@@ -4999,23 +5118,37 @@
         "worlds/earth.html",
         "worlds/index.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Blackest Night finale montage duplicated in assets/entities/life-entity.jpg, not a neutral view of Earth. Blackest Night #8 is the lead and the legacy #7 caption is unsupported; exact page-level source remains pending. Contains major outcome spoilers.",
+      "status": "verified_credit",
+      "work": "Blackest Night #8 (2010), white-ring resurrection spread",
+      "credits": [
+        {
+          "name": "Ivan Reis",
+          "role": "pencils"
+        },
+        {
+          "name": "Alex Sinclair",
+          "role": "colors"
+        }
+      ],
+      "sources": [
+        "https://www.dc.com/comics/blackest-night-2009/blackest-night-8",
+        "https://dcuguide.com/Blackest_Night_8",
+        "https://www.zonanegativa.com/informe-zn-blackest-night-8/",
+        "https://crisisonearthprime.com/blackest-night/blackest-night-8/"
+      ],
+      "imageSource": "https://www.zonanegativa.com/imagenes/2010/04/3218.jpg",
+      "evidence": "Visually matched the local Nekron explosion at the left of this spread to the issue-specific review reproduction, including the pose, lettering, white rings and Let there be light balloon. The local right-hand resurrection sequence also matches the independently annotated Blackest Night #8 pages 22–23. DC credits Ivan Reis pencils; DCU Guide confirms Alex Sinclair colors. This is an interior spread rather than a cover or portrait of the Life Entity.",
       "remainingGaps": [
-        "Blackest Night finale montage duplicated in assets/entities/life-entity.jpg, not a neutral view of Earth. Blackest Night #8 is the lead and the legacy #7 caption is unsupported; exact page-level source remains pending. Contains major outcome spoilers."
+        "The issue credits both Oclair Albert and Joe Prado for inks; the inker of this particular page is not established.",
+        "Original repository download URL is not preserved."
       ],
       "reviewed": "2026-11-04",
       "repositoryProvenance": {
         "introducedBy": "1dcd11ffb27badb44c4ab6036abdf24189f78a59 Add Okaara, Ryut, Earth world art",
         "sourceHistory": "Upload/optimization history reviewed; no original remote image URL or artist evidence was preserved for this legacy file."
       },
-      "captionContext": "Blackest Night finale artwork associated with Earth; exact page and art credits remain under review.",
-      "usageNote": "hide behind a closed Blackest Night spoiler disclosure; remove unsupported #7 citation",
-      "researchNotes": "Same resurrection montage lead as the Life Entity image: Blackest Night #8. Exact complete page comparison remains outstanding; no issue artist assigned on story context alone."
+      "captionContext": "White rings and the Life Entity’s power in the finale of Blackest Night #8 (2010). Ivan Reis (pencils), Alex Sinclair (colors); page inker unresolved.",
+      "usageNote": "This is a climactic Blackest Night scene, not a portrait of the Life Entity or a view of Earth; preserve the issue and scene context."
     },
     {
       "asset": "assets/worlds/korugar.jpg",
@@ -5050,22 +5183,36 @@
         "worlds/index.html",
         "worlds/nok.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Three panels showing Black Hand in Indigo clothing and other Indigo Tribe members. Green Lantern (2011) Indigo Tribe arc was checked as a lead; exact issue/page and credits unresolved. This is a character scene rather than an establishing location illustration.",
+      "status": "verified_credit",
+      "work": "Blackest Night #8 (2010), Indigo Tribe epilogue panels",
+      "credits": [
+        {
+          "name": "Ivan Reis",
+          "role": "pencils"
+        },
+        {
+          "name": "Alex Sinclair",
+          "role": "colors"
+        }
+      ],
+      "sources": [
+        "https://www.dc.com/comics/blackest-night-2009/blackest-night-8",
+        "https://dcuguide.com/Blackest_Night_8",
+        "https://www.zonanegativa.com/informe-zn-blackest-night-8/"
+      ],
+      "imageSource": "https://www.zonanegativa.com/imagenes/2010/04/3222.jpg",
+      "evidence": "Exact visual match of all three local panels with the issue-specific review reproduction: Indigo Tribe procession, Black Hand saying Nok, and close-up of his eye and face. The review identifies the excerpt as the Blackest Night #8 epilogue. DC credits Ivan Reis as penciller; DCU Guide confirms Alex Sinclair colors. The issue has multiple inkers, whose individual page assignment is not established.",
       "remainingGaps": [
-        "Three panels showing Black Hand in Indigo clothing and other Indigo Tribe members. Green Lantern (2011) Indigo Tribe arc was checked as a lead; exact issue/page and credits unresolved. This is a character scene rather than an establishing location illustration."
+        "The issue credits both Oclair Albert and Joe Prado for inks; the inker of this particular page is not established.",
+        "Original repository download URL is not preserved."
       ],
       "reviewed": "2026-11-04",
       "repositoryProvenance": {
         "introducedBy": "e21c2cfb920f2cf0798d031f1ce0ca6f2bbb6524 Add Worlds section art (6 location images)",
         "sourceHistory": "Upload/optimization history reviewed; no original remote image URL or artist evidence was preserved for this legacy file."
       },
-      "captionContext": "Black Hand and members of the Indigo Tribe. Exact issue and art credits remain under review.",
-      "usageNote": "relabel: related character scene, not an establishing view of Nok"
+      "captionContext": "Black Hand among the Indigo Tribe in the epilogue to Blackest Night #8 (2010). Ivan Reis (pencils), Alex Sinclair (colors); page inker unresolved.",
+      "usageNote": "The artwork depicts Black Hand and the Indigo Tribe, rather than a landscape of Nok; preserve that context."
     },
     {
       "asset": "assets/worlds/oa.jpg",

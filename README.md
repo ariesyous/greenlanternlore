@@ -66,10 +66,12 @@ Artwork attribution lives in `data/art-credits.json`. Each record distinguishes 
 artist roles from unidentified crops, fan art, edition differences and missing download
 provenance. The public catalogue is on `sources.html`, with credits on illustrated pages
 and all character profiles. The November 4 follow-up brings the 179-file inventory to
-81 with supported named credits, three with identified publications but artist roles
-pending, and 95 unresolved. Ganthet now uses Phil Cho's correctly labeled Earth-27
+91 with supported named credits, two with identified publications but artist roles
+pending, and 86 unresolved. Ganthet now uses Phil Cho's correctly labeled Earth-27
 illustration, with its fan-project context stated. The old Highfather evidence remains
-in the manifest's replacement history. Ash's mislabeled Parallax portrait is withheld.
+in the manifest's replacement history. Ash now uses Tony Harris's cover painting from
+Green Lantern Corps Quarterly #7. Sister Sercy uses her labeled Blackest Night #0
+profile illustration; the superseded Mindy Marvel fan-art evidence remains recorded.
 
 After updating the manifest, regenerate the static catalogue and profile/page credits:
 

@@ -1130,7 +1130,7 @@
           "url": "stories/agent-orange.html"
         }
       ],
-      "artCredit": "Artist credit unconfirmed.",
+      "artCredit": "Sister Sercy — Blackest Night #0 (2009), Blue Lantern Corps profile detail. Doug Mahnke (profile pencils); Tom Nguyen (profile inks); Nei Ruffino (profile colors).",
       "artCreditHref": "sources.html#art-characters-sister-sercy-jpg",
       "portraitWithheld": false
     },
@@ -1582,7 +1582,7 @@
           "url": "https://www.dc.com/comics/sinestro-2014/sinestro-1"
         }
       ],
-      "artCredit": "Artist credit unconfirmed.",
+      "artCredit": "Lyssa Drak — fan-art digital painting (signed 2016). Arkenstellar (digital illustration).",
       "artCreditHref": "sources.html#art-characters-lyssa-drak-jpg",
       "portraitWithheld": false
     },
@@ -2192,7 +2192,7 @@
           "url": "stories/classic-corps.html"
         }
       ],
-      "artCredit": "Artist credit unconfirmed.",
+      "artCredit": "Injustice: Gods Among Us: Year Two (2014), digital chapter #10, collected in print issue #5, interior panel. Bruno Redondo (pencils); Julien Hugonnard-Bert (inks); Rex Lokus (colors).",
       "artCreditHref": "sources.html#art-characters-chp-jpg",
       "portraitWithheld": false
     },
@@ -2469,7 +2469,7 @@
           "url": "https://www.dc.com/graphic-novels/green-lantern-2005/green-lantern-revenge-of-the-green-lanterns"
         }
       ],
-      "artCredit": "Artist credit unconfirmed.",
+      "artCredit": "Green Lantern Corps (2006) #63 (2011), Now and Forever! chapter one, story page 2, bottom two panels. Joe Prado (pencils and inks); Hi-Fi (colors).",
       "artCreditHref": "sources.html#art-characters-boodikka-jpg",
       "portraitWithheld": false
     },
@@ -2567,7 +2567,7 @@
           "url": "stories/gl-vol4.html"
         }
       ],
-      "artCredit": "Artist credit unconfirmed.",
+      "artCredit": "Green Lantern (2011) #15 (released December 2012; February 2013 cover date), interior panel. Doug Mahnke (pencils); Alex Sinclair (colors).",
       "artCreditHref": "sources.html#art-characters-bdg-jpg",
       "portraitWithheld": false
     },
@@ -3207,7 +3207,7 @@
       "corps": "Green Lantern Corps",
       "corpsClass": "corps-green",
       "corpsPage": "corps/green.html",
-      "portrait": "assets/characters/ash.jpg",
+      "portrait": "assets/characters/ash.png",
       "tagline": "A Lantern whose stories turn toward horror.",
       "bio": "Ashel Sabian Formata begins as a farmer from Arata whose wife is killed by vampires. His subsequent Lantern career returns to horror when Scar sends him to search for the Anti-Monitor. He meets Saarek, and their discoveries lead toward the Black Lantern threat. The secondary chronology identifies Green Lantern #42 for this later chapter and notes that their deaths are not fully shown.",
       "firstAppearance": "Green Lantern Corps Quarterly #7 (Winter 1993), “Ashes to Ashes”",
@@ -3240,9 +3240,9 @@
           "url": "stories/agent-orange.html"
         }
       ],
-      "artCredit": "Image withheld: The illustration depicts Parallax/Hal Jordan, not Ash. Green Lantern (2011) #50 (2016), Parallax/Hal Jordan interior splash, cropped detail. Artist credit unconfirmed.",
-      "artCreditHref": "sources.html#art-characters-ash-jpg",
-      "portraitWithheld": true
+      "artCredit": "Ash — Green Lantern Corps Quarterly #7 (1993), painted cover detail. Tony Harris (cover painting).",
+      "artCreditHref": "sources.html#art-characters-ash-png",
+      "portraitWithheld": false
     },
     {
       "id": "saarek",
