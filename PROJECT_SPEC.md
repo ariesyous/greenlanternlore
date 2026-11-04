@@ -60,7 +60,7 @@ The site covers the **full emotional spectrum**, not just the Green Lanterns:
   No frameworks, no build step, no backend.
 - **Hosting:** GitHub Pages, deployed automatically by **GitHub Actions**
   on every push to `main`.
-- **URL:** `https://dev1magnascale.github.io/greenlanternlore/`
+- **URL:** `https://ariesyous.github.io/greenlanternlore/`
 
 ## 6. Proposed Repo Structure
 

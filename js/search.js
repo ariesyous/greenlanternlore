@@ -2,8 +2,10 @@
 (function () {
   "use strict";
 
-  var prefix = window.location.pathname.indexOf("/corps/") !== -1 ? "../" : "";
-  var indexUrl = prefix + "data/search-index.json";
+  // The script lives in js/ on every page, including nested lore articles.
+  // Resolve from it so both project Pages URLs and domain-root hosting work.
+  var siteRoot = new URL("../", document.currentScript.src);
+  var indexUrl = new URL("data/search-index.json", siteRoot).href;
 
   var form = document.querySelector(".site-search");
   if (!form) return;
@@ -37,7 +39,7 @@
         else if (u.indexOf('screen/') !== -1) type = 'Screen';
         else if (u.indexOf('eras/') !== -1) type = 'Era';
         else if (u === 'glossary.html' || u === 'powers.html' || u === 'constructs.html' || u === 'quotes.html' || u === 'creators.html' || u === 'quiz.html' || u === 'timeline.html' || u === 'spectrum.html' || u === 'characters.html' || u === 'index.html') type = 'Section';
-        return '<a class="search-hit" href="' + prefix + esc(e.u) + '">' +
+        return '<a class="search-hit" href="' + esc(new URL(e.u, siteRoot).href) + '">' +
           '<strong>' + esc(e.t) + '</strong><em class="search-type">' + type + '</em><span>' + esc(e.s) + '</span></a>';
       }).join("");
     }
@@ -78,7 +80,10 @@
     }
     else if (e.key === "Enter" && activeIdx >= 0) {
       var hits = box.querySelectorAll(".search-hit");
-      if (hits[activeIdx]) { window.location.href = hits[activeIdx].getAttribute("href"); }
+      if (hits[activeIdx]) {
+        e.preventDefault();
+        window.location.href = hits[activeIdx].getAttribute("href");
+      }
     }
   });
 

@@ -3,37 +3,51 @@
 A fan-made, fully static website exploring the **Lantern Corps of the DC Universe** —
 every color of the emotional spectrum, their oaths, members, homeworlds, and lore.
 
-🌐 **Live site:** https://dev1magnascale.github.io/greenlanternlore/
+🌐 **Live site:** https://ariesyous.github.io/greenlanternlore/
 
 ## What's inside
 
 - **Interactive emotional spectrum** — pick a color, dive into its Corps
-- **Corps profiles** — all nine Corps of the spectrum:
+- **Corps profiles** — nine classic Lantern groups:
   Red (Rage), Orange (Avarice), Yellow (Fear), Green (Will),
   Blue (Hope), Indigo (Compassion), Violet (Love), Black (Death), White (Life)
 - **Spectrum explainer** — how the lights work, the Entities, how colors interact
 - **Timeline** — a spoiler-light history of the Lantern mythos
-- **"Which Lantern Corps are you?" quiz** — 8 questions, 100% client-side
-- **Original artwork** — AI-generated, fan-site-safe illustrations for each Corps
-- **Comic reading-order timeline** — the Geoff Johns saga in order, with a "you are here" marker
+- **"Which Lantern Corps are you?" quiz** — 12 questions, 100% client-side
+- **Illustrated lore** — comic covers, character portraits, and adaptation artwork
+- **Comic reading-order timeline** — the Geoff Johns saga and guides to other eras
 
 ## Tech
 
 Pure static site — hand-written HTML, CSS, and vanilla JavaScript.
-No frameworks, no build step, no backend.
+No frameworks, no application build step, no backend.
 
 ## Deployment
 
 Hosted on **GitHub Pages** and deployed automatically by **GitHub Actions**
 on every push to `main` (see `.github/workflows/pages.yml`).
+Pull requests run the search checks without publishing. The deploy job packages
+only the public HTML, data, and assets; repository documents and tests stay out
+of the deployment.
+
+For a new fork, enable Actions and select **Settings → Pages → Source → GitHub
+Actions**. Update the absolute site URLs in HTML metadata, `sitemap.xml`, and
+`robots.txt`, plus the project paths in `404.html` if the repository is renamed.
+Then push to `main` or run **Deploy to GitHub Pages** from the Actions tab.
 
 ## Preview locally
 
-Just open `index.html` in a browser — or serve the folder:
+Serve the folder over HTTP so search and character profiles can load their JSON:
 
 ```bash
 python3 -m http.server 8000
 # → http://localhost:8000
+```
+
+Run the search regression checks with Node.js:
+
+```bash
+node --test tests/search.test.cjs
 ```
 
 ## Project spec

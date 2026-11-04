@@ -1,14 +1,93 @@
 # Lantern Lore — Roadmap
 
 **Vision:** The best Green Lantern site on the internet for fans worldwide — compelling to read,
-fun to browse, and a visual journey first. Text can ship as a placeholder; every section earns
-its visuals.
+fun to browse, and a visual journey with accurate, sourced writing. Publish useful content
+even when a suitable credited illustration is not yet available.
 
 **House rules**
 - Public audience: no personal markers, no in-jokes, no "you are here" badges.
 - Spoiler-light but comprehensive: document characters and lore fully; don't coyly dodge their stories.
 - Real comic/fan art, credited on-page, self-hosted in the repo. No hotlinking, no AI-generated art.
 - Small enhancements ship directly; big features get a spec first.
+
+## Content audit — 2026-11-04
+
+The site already has substantial coverage, four homepage entry paths, character profiles,
+essays, creator spotlights, and a reading checklist. The next editorial pass should improve
+accuracy, reading guidance, and depth before adding more pages. Earlier phase lists below
+are historical records and include completed work that still appears as planned.
+
+### Corrected in this audit
+
+- [x] **New 52 continuity:** corrected `eras/new52.html` and the era card in
+  `timeline.html`. New issue numbering did not reset Green Lantern's ongoing story.
+  [DC's explanation of the Green Lantern and Batman exceptions](https://www.dc.com/blog/2023/08/02/ask-the-question-why-wasn-t-batman-or-green-lantern-reset-for-the-new-52).
+- [x] **War Journal publication status:** corrected `eras/current.html` to identify
+  the complete twelve-issue series, removed the claim that both books remain monthly,
+  and replaced unsupported superlatives with a concrete premise and creator credits.
+  [DC identifies #12, released August 21, 2024, as the final issue](https://www.dc.com/comics/green-lantern-war-journal-2023/green-lantern-war-journal-12).
+- [x] **Core lore and character recommendations:** distinguished the seven emotions
+  from life and death on the homepage, corrected Atrocitus' debut citation, separated
+  Kyle's later White Lantern ascension from *Blackest Night*, and corrected reading
+  recommendations that predated Jessica Cruz and Simon Baz. See
+  [DC's Atrocitus profile](https://www.dc.com/characters/atrocitus) and
+  [Green Lanterns: Rebirth #1](https://www.dc.com/comics/dc-universe-rebirth-2016/green-lanterns-rebirth-1).
+- [x] **Discovery and documentation:** repaired search on nested pages, restored the
+  glossary's entity-guide link and broken character timeline anchors, and reconciled
+  the README's outdated art description. Reused existing illustrations where suitable;
+  removed broken image references from the scanning and healing pages until sourced
+  illustrations are available.
+- [x] **Profile completeness:** supplied missing fields for Galius Zed, Jessica Cruz,
+  and Simon Baz; corrected Rankorr and Miri Riam's pre-debut recommendations; and added
+  Jo Mullein's *Far Sector* collection with the correct 2019–2021 publication range.
+
+### Recommended next, in priority order
+
+1. **Make the reading order dependable.** In `timeline.html`, separate era overviews
+   from books to read: the sequence currently reaches Morrison, jumps back to the Johns
+   era, and repeats several runs. Give each actual reading step issue ranges, collection
+   details, prerequisites, essential/optional status, and a next step. Reconcile the two
+   Morrison collection descriptions and include *Blackstars*;
+   [DC's Season Two Vol. 1 listing](https://www.dc.com/graphic-novels/the-green-lantern-season-two-vol-1)
+   includes *Blackstars* #1–3 and *Season Two* #1–6.
+2. **Separate publication dates from fictional history.** The in-universe section in
+   `timeline.html` mixes relative eras with publication years, repeats Alan Scott's
+   origin, and jumps from modern events back to ancient history. Order events within
+   the chosen continuity and label publication dates separately. Explain retcons and
+   distinguish mainstream comics, alternate universes, and adaptations.
+3. **Build on the four existing homepage paths.** `index.html` already provides
+   discovery cards; give their destinations more useful reader choices: a single-book
+   introduction, Hal's origin, John Stewart, the spectrum saga, and classic stories.
+   Replace `faq.html`'s blanket description of *Emerald Twilight* and *Blackest Night*
+   as self-contained beginner choices with prerequisites and reading commitments.
+   A *Far Sector* route offers a contained twelve-issue option:
+   [DC's collection contents](https://www.dc.com/graphic-novels/far-sector) and
+   [DC's introduction for new readers](https://www.dc.com/blog/2025/04/04/jo-mullein-shows-us-true-heroics-and-strength-in-far-sector).
+4. **State spoiler boundaries.** Keep a premise-only introduction, then label story
+   history and aftermath by the arc they spoil. `moments/ring-quest.html` announces a
+   character's death in its introductory line, while `data/characters.json` combines
+   origins and major outcomes in single biographies. Readers following the
+   spoiler-light guide should know when a link reveals endings.
+5. **Replace general praise with specific lore and evidence.** Expand thin summaries
+   such as `stories/brightest-day.html` with the actual cast, relationship to Lantern
+   tie-ins, and consequences. Give powers pages named examples and issue references;
+   `powers/scanning.html` currently claims John uses scanning more than any other
+   Lantern without evidence. Separate editorial interpretation from reference facts.
+6. **Broaden coverage beyond the Johns backbone.** Add meaningful routes for Alan
+   Scott, pre-1994 stories, *Far Sector*, and the 2021–2022 Geoffrey Thorne run, which
+   connects John, Jo, and the Corps before the 2023 relaunch.
+   [DC's Green Lantern (2021) #12 listing](https://www.dc.com/comics/green-lantern-2021/green-lantern-2021-12).
+   Keep alternate-continuity coverage clearly labeled, including
+   [Absolute Green Lantern](https://www.dc.com/graphic-novels/absolute-green-lantern-2025/absolute-green-lantern-vol-2-sojourner).
+7. **Make sources and maintenance part of each article.** Improve `sources.html`
+   with issue-level support for major claims and direct publisher collection links;
+   a general publication-details link does not verify every plot assertion. Date-check
+   current coverage and reconcile stale roadmap entries. Prioritize characters by lore value;
+   use a neutral portrait placeholder instead of omitting someone solely for lack of art.
+8. **Separate identities from later entity revelations.** `entities/parallax.html`
+   should distinguish Hal's 1994 Parallax identity from the fear entity revealed in
+   *Green Lantern: Rebirth*. Review the Ion profile with the same distinction in mind.
+   [DC's Rebirth retrospective](https://www.dc.com/blog/2016/05/19/reading-through-green-lantern-rebirth).
 
 ---
 

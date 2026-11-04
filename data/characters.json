@@ -457,12 +457,8 @@
       "signature": "Chains and blades forged from pure rage.",
       "appearsIn": [
         {
-          "id": "read-rage",
-          "title": "Rage of the Red Lanterns"
-        },
-        {
-          "id": "read-blackest-night",
-          "title": "Blackest Night"
+          "id": "read-red-lanterns",
+          "title": "Red Lanterns (2011-2015)"
         }
       ]
     },
@@ -1085,18 +1081,8 @@
       "firstAppearance": "Green Lantern Corps #29 (2008)",
       "bio": "Miri Riam of the planet Lartnec was a young newlywed whose honeymoon was shattered when the ravenous Mongul destroyed her ship and killed her husband Kered. Adrift in space and drowning in grief, she was on the verge of taking her own life when a violet Star Sapphire ring found her \u2014 drawn to the enormity of the love in her heart \u2014 making her the first new recruit of the reformed Star Sapphire Corps. Trained on Zamaron under Queen Aga'po, she learned to turn her great love into great strength. She later proved herself pursuing the child-stealing Sinestro Corps member Kryb across the stars. Fierce, loving, and unbreakable, Miri shows that love, wielded with conviction, is one of the universe's mightiest forces.",
       "signature": "Love constructs tinged with grief \u2014 she lost everything to rage.",
-      "appearsIn": [
-        {
-          "id": "read-scw",
-          "title": "Sinestro Corps War"
-        }
-      ],
+      "appearsIn": [],
       "keyStories": [
-        {
-          "title": "Sinestro Corps War",
-          "issues": "Green Lantern vol. 4 #21\u201325 (2007)",
-          "url": "events/sinestro-corps-war.html"
-        },
         {
           "title": "Rage of the Red Lanterns",
           "issues": "Green Lantern #36\u201338 (2008\u201309)",
@@ -1171,7 +1157,7 @@
     {
       "id": "galius-zed",
       "name": "Galius Zed",
-      "corps": "green",
+      "corps": "Green Lantern Corps",
       "portrait": "assets/characters/galius-zed.jpg",
       "first": "Tales of the Green Lantern Corps #2 (1981)",
       "bio": "The Green Lantern with the giant head \u2014 literally. Galius Zed is a Noc'sagian, a race whose bodies are essentially one enormous cranium with arms and legs extending directly from it, built to survive their homeworld's crushing gravity. Quick-tempered, outspoken, and always first to volunteer for a fight, Zed served as a foil to Hal Jordan and even rebelled against the Guardians when he learned they'd withheld yellow-immune rings. Murdered by Fatality during her vendetta against the Corps, he later rose as a Black Lantern. His unforgettable design made him a fan favorite across comics, animation, and the 2011 film.",
@@ -1182,28 +1168,34 @@
           "id": "read-scw",
           "title": "Sinestro Corps War"
         }
-      ]
+      ],
+      "corpsClass": "corps-green",
+      "corpsPage": "corps/green.html",
+      "tagline": "The outspoken Lantern from Noc'sag."
     },
     {
       "id": "jessica-cruz",
       "name": "Jessica Cruz",
-      "corps": "green",
+      "corps": "Green Lantern Corps",
       "portrait": "assets/characters/jessica-cruz.jpg",
       "first": "Green Lantern #20 (2013) \u2014 cameo; full debut Justice League (vol. 2) #31 (2014)",
-      "bio": "The first female human Green Lantern \u2014 and one of the most human heroes in the Corps. Jessica Cruz, a Mexican-American from Portland, didn't seek out heroism: a cursed ring from another universe forced itself onto her, and she spent her early days fighting crippling anxiety as much as supervillains. What makes her extraordinary is that she won anyway \u2014 mastering her fear through sheer willpower until a true Green Lantern ring chose her on merit. Now a mainstay of both the Corps and the Justice League, she partners with Simon Baz as Earth's newest generation of Lanterns, proving that courage isn't the absence of fear but what you do with it.",
+      "bio": "One of Earth's Green Lanterns \u2014 and one of the most human heroes in the Corps. Jessica Cruz, a Mexican-American from Portland, didn't seek out heroism: a cursed ring from another universe forced itself onto her, and she spent her early days fighting crippling anxiety as much as supervillains. What makes her extraordinary is that she won anyway \u2014 mastering her fear through sheer willpower until a true Green Lantern ring chose her on merit. Now a mainstay of both the Corps and the Justice League, she partners with Simon Baz as Earth's newest generation of Lanterns, proving that courage isn't the absence of fear but what you do with it.",
       "firstAppearance": "Green Lantern #20 (2013) \u2014 cameo; first full appearance in Justice League (vol. 2) #31 (2014)",
       "sources": "Publication details via Wikipedia",
       "appearsIn": [
         {
-          "id": "read-wotgl",
-          "title": "War of the Green Lanterns"
+          "id": "read-green-lanterns",
+          "title": "Green Lanterns (2016)"
         }
-      ]
+      ],
+      "corpsClass": "corps-green",
+      "corpsPage": "corps/green.html",
+      "tagline": "A Green Lantern who finds courage while living with anxiety."
     },
     {
       "id": "simon-baz",
       "name": "Simon Baz",
-      "corps": "green",
+      "corps": "Green Lantern Corps",
       "portrait": "assets/characters/simon-baz.jpg",
       "first": "The New 52 Free Comic Book Day Special Edition #1 (2012) \u2014 cameo; proper debut Green Lantern #0 (2012)",
       "bio": "The first Muslim-American Green Lantern, and the Corps' most unlikely recruit. Simon Baz, a Lebanese-American mechanic from Dearborn, Michigan, was chosen by a ring in the chaos after Hal Jordan's apparent death \u2014 a working-class kid suddenly handed the universe's most powerful weapon. His early days were defined by distrust: of the authorities hunting him, and of the ring itself, which is why he famously carries a sidearm as backup. But Simon's stubborn decency won out, earning him a place in the Justice League and a partnership with Jessica Cruz. He represents a Green Lantern for the modern age \u2014 flawed, grounded, and utterly determined.",
@@ -1211,10 +1203,13 @@
       "sources": "Publication details via Wikipedia",
       "appearsIn": [
         {
-          "id": "read-wotgl",
-          "title": "War of the Green Lanterns"
+          "id": "read-green-lanterns",
+          "title": "Green Lanterns (2016)"
         }
-      ]
+      ],
+      "corpsClass": "corps-green",
+      "corpsPage": "corps/green.html",
+      "tagline": "Dearborn's Green Lantern."
     },
     {
       "id": "abin-sur",
@@ -1408,11 +1403,11 @@
       "firstAppearance": "Green Arrow (vol. 3) #24 / Green Lantern (vol. 3) #162 (June 2003)",
       "appearsIn": [
         {
-          "id": "sinestro-corps-war",
+          "id": "read-scw",
           "title": "Sinestro Corps War"
         },
         {
-          "id": "blackest-night",
+          "id": "read-blackest-night",
           "title": "Blackest Night"
         }
       ],
@@ -1431,11 +1426,11 @@
       "firstAppearance": "Green Lantern Corps: Recharge #1 (November 2005)",
       "appearsIn": [
         {
-          "id": "sinestro-corps-war",
+          "id": "read-scw",
           "title": "Sinestro Corps War"
         },
         {
-          "id": "blackest-night",
+          "id": "read-blackest-night",
           "title": "Blackest Night"
         }
       ],
@@ -1454,7 +1449,7 @@
       "firstAppearance": "Green Lantern: Sinestro Corps Special #1 (August 2007)",
       "appearsIn": [
         {
-          "id": "sinestro-corps-war",
+          "id": "read-scw",
           "title": "Sinestro Corps War"
         }
       ],
@@ -1469,11 +1464,18 @@
       "corpsPage": "corps/green.html",
       "portrait": "assets/characters/jo-mullein.jpg",
       "tagline": "The Far Sector Lantern \u2014 Hugo Award-winning modern hero.",
-      "bio": "Sojourner 'Jo' Mullein is a former Earth police officer recruited by the Guardians for a top-secret mission to the Far Sector \u2014 a region so distant its numbering is uncertain. She was given a prototype ring that never needs recharging, designed to keep her off the grid as the Guardians' ace in the hole. Her series Far Sector (2019-2020), by novelist N.K. Jemisin and artist Jamal Campbell, won the 2022 Hugo Award for Best Graphic Story \u2014 the first Green Lantern story to win comics' most prestigious literary prize. Jo returned to a broken Corps after the Central Battery's destruction, rallying the survivors with the same determination that made her a great cop.",
+      "bio": "Sojourner 'Jo' Mullein is a former Earth police officer recruited by the Guardians for a top-secret mission to the Far Sector \u2014 a region so distant its numbering is uncertain. She was given a prototype ring that never needs recharging, designed to keep her off the grid as the Guardians' ace in the hole. Her series Far Sector (2019\u20132021), by novelist N.K. Jemisin and artist Jamal Campbell, won the 2022 Hugo Award for Best Graphic Story \u2014 the first Green Lantern story to win comics' most prestigious literary prize. Jo returned to a broken Corps after the Central Battery's destruction, rallying the survivors with the same determination that made her a great cop.",
       "firstAppearance": "Far Sector #1 (January 2020)",
       "appearsIn": [],
       "signature": "A self-sustaining ring \u2014 the Corps' secret weapon, no battery required.",
-      "sources": "N.K. Jemisin (writer), Jamal Campbell (artist)"
+      "sources": "N.K. Jemisin (writer), Jamal Campbell (artist)",
+      "keyStories": [
+        {
+          "title": "Far Sector",
+          "issues": "#1\u201312 (2019\u20132021)",
+          "url": "https://www.dc.com/graphic-novels/far-sector"
+        }
+      ]
     },
     {
       "id": "jade",
@@ -1534,7 +1536,7 @@
       "firstAppearance": "Green Lantern Corps (vol. 2) #12 (July 2007)",
       "appearsIn": [
         {
-          "id": "sinestro-corps-war",
+          "id": "read-scw",
           "title": "Sinestro Corps War"
         }
       ],
@@ -1600,7 +1602,7 @@
       "firstAppearance": "Green Lantern Corps Quarterly #7 (January 1994)",
       "appearsIn": [
         {
-          "id": "blackest-night",
+          "id": "read-blackest-night",
           "title": "Blackest Night"
         }
       ],
@@ -1619,7 +1621,7 @@
       "firstAppearance": "Green Lantern Corps (vol. 2) #27 (October 2008)",
       "appearsIn": [
         {
-          "id": "blackest-night",
+          "id": "read-blackest-night",
           "title": "Blackest Night"
         }
       ],
