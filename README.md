@@ -65,9 +65,11 @@ work and completed release are recorded in [ROADMAP.md](ROADMAP.md).
 Artwork attribution lives in `data/art-credits.json`. Each record distinguishes confirmed
 artist roles from unidentified crops, fan art, edition differences and missing download
 provenance. The public catalogue is on `sources.html`, with credits on illustrated pages
-and all character profiles. The November 4 audit reviewed 179 files: 59 have supported
-named credits, one has an identified publication with artist roles pending, and 119 remain
-unresolved. The mislabeled Highfather image is withheld from Ganthet's profile and cards.
+and all character profiles. The November 4 follow-up brings the 179-file inventory to
+81 with supported named credits, three with identified publications but artist roles
+pending, and 95 unresolved. Ganthet now uses Phil Cho's correctly labeled Earth-27
+illustration, with its fan-project context stated. The old Highfather evidence remains
+in the manifest's replacement history. Ash's mislabeled Parallax portrait is withheld.
 
 After updating the manifest, regenerate the static catalogue and profile/page credits:
 

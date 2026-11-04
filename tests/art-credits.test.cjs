@@ -103,7 +103,14 @@ test('every profile supplies readable artwork credit and the matching catalogue 
     assert.ok(catalogueIds.includes(link.hash.slice(1)), `${character.id}: missing catalogue destination`);
     if (character.portraitWithheld !== undefined) assert.equal(typeof character.portraitWithheld, 'boolean', `${character.id}: portraitWithheld must be a boolean`);
   }
-  assert.equal(characters.find(character => character.id === 'ganthet')?.portraitWithheld, true, 'Ganthet artwork must remain withheld pending attribution');
+  const ganthet = characters.find(character => character.id === 'ganthet');
+  assert.equal(ganthet?.portraitWithheld, false, 'the verified Ganthet replacement should be available');
+  const ganthetArt = manifest.assets.find(record => record.asset === ganthet.portrait);
+  assert.match(ganthetArt.work, /^Ganthet /);
+  assert.equal(ganthetArt.status, 'verified_credit');
+  assert.notEqual(ganthetArt.sha256, ganthetArt.previousArtwork.sha256, 'the mislabeled Highfather file must not return');
+  assert.ok(imageSources(read('characters.html')).includes(ganthet.portrait), 'Ganthet must be restored on the roster');
+  assert.equal(characters.find(character => character.id === 'ash')?.portraitWithheld, true, 'the confirmed Parallax image must not appear as Ash');
 });
 
 test('profile rendering shows attribution and omits withheld artwork from profile and roster images', async () => {

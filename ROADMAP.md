@@ -129,9 +129,29 @@ are historical records and include completed work that still appears as planned.
   and archived file in the catalogue.
 - [x] Added a repeatable credit-sync command and checks for complete inventory, file
   hashes, supported status counts, catalogue links and withheld-portrait rendering.
-- [ ] Continue tracing the 119 unresolved assets and the remaining contributor gaps.
+- [ ] Continue tracing the unresolved assets and the remaining contributor gaps.
   Many legacy crops lack original URLs; specific checked leads are recorded rather
   than assigning artists from style, filenames or character-creator credits.
+
+### Artwork follow-up and portrait correction — 2026-11-04
+
+- [x] Added supported artist roles for 22 more files, including nine character portraits,
+  three Corps banners, construct examples, emotional entities and explanatory images.
+  The inventory now has **81 credited, 3 source-matched and 95 unresolved** files.
+  Earlier counts above describe previous releases.
+- [x] Restored Ganthet's profile and all ten static thumbnails using Phil Cho's
+  individually labeled Ganthet illustration from the Earth-27 project. The caption
+  identifies it as fan art; the superseded Highfather source and hash remain recorded.
+- [x] Matched Ash's old portrait to the Parallax/Hal Jordan splash in Green Lantern
+  (2011) #50. Withheld that incorrect portrait while preserving its source record.
+- [x] Distinguished Katma Tui's Phil Noto trading-card illustration from comic art,
+  limited the Yellow Corps composite credit to its verified Sinestro foreground,
+  and identified Xudar's illustration as a Tomar-Re movie-prequel cover.
+- [x] Refreshed nearby captions, page/profile credits and the public catalogue.
+  Extended portrait regression checks and visually checked Ganthet's profile/source link.
+- [ ] Trace the 95 remaining originals and contributor gaps; specific checked leads
+  are recorded per image. Find a sourced Ash replacement and resolve the remaining
+  suspected portrait mismatches before making further identity claims.
 
 ### Ongoing reference maintenance
 

@@ -3,16 +3,16 @@
   "reviewed": "2026-11-04",
   "scope": "All local raster/vector image files under assets; inline SVG icons are excluded. An inventory record is not a claim that its artwork credit is verified.",
   "statusDefinitions": {
-    "verified_credit": "The exact artwork is identified and the named artist role is corroborated by a publisher, original creator post, or cited independent issue catalogue. Other contributors, edition details and download provenance may remain unknown; see remainingGaps.",
+    "verified_credit": "The exact artwork is identified and the named artist role is corroborated by a publisher, original creator post, printed artwork credit, or cited independent issue catalogue. Other contributors, edition details and download provenance may remain unknown; see remainingGaps.",
     "source_matched": "The exact artwork has been matched to an identified publication or original source, but specific artist roles still need confirmation.",
     "unresolved": "The exact original artwork or artist role is not corroborated. Reposts, signatures, filenames and character-creator credits alone are insufficient."
   },
   "rightsNote": "Provenance and credit records do not grant a license or imply permission from the rights holder. No new AI artwork was added.",
   "counts": {
     "total": 179,
-    "verified_credit": 59,
-    "source_matched": 1,
-    "unresolved": 119
+    "verified_credit": 81,
+    "source_matched": 3,
+    "unresolved": 95
   },
   "assets": [
     {
@@ -24,17 +24,36 @@
         "characters.html",
         "moments/abin-sur-dies.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Comic panel: Abin Sur holds an oversized green battery in the foreground and introduces himself in a speech balloon. Compare the Secret Origin sequence before assigning its interior team.",
-      "remainingGaps": [
-        "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
-        "Repository file-addition history did not retain a source URL."
+      "status": "verified_credit",
+      "work": "Hal Jordan and the Green Lantern Corps #9 (2016), interior splash, cropped detail",
+      "credits": [
+        {
+          "name": "Rafa Sandoval",
+          "role": "interior pencils"
+        },
+        {
+          "name": "Jordi Tarragona",
+          "role": "interior inks"
+        },
+        {
+          "name": "Tomeu Morey",
+          "role": "interior colors"
+        }
       ],
-      "reviewed": "2026-11-04"
+      "sources": [
+        "https://www.dc.com/comics/hal-jordan-and-the-green-lantern-corps-2016/hal-jordan-and-the-green-lantern-corps-9",
+        "https://dcuguide.com/Hal_Jordan_and_the_Green_Lantern_Corps_9",
+        "https://dc.fandom.com/wiki/Category%3AHal_Jordan_and_the_Green_Lantern_Corps_Vol_1_9/Images",
+        "https://www.dc.com/blog/2016/12/13/reader-recaps-argo-city-returns-well-sort-of"
+      ],
+      "imageSource": "https://static.wikia.nocookie.net/marvel_dc/images/d/de/Abin_Sur_Prime_Earth_0001.jpg",
+      "evidence": "Compared the local crop with the complete Abin Sur splash: identical oversized battery, pose, face, ring glow and dialogue. The image catalogue associates the file with issue #9; DC identifies its art team and Emerald Space scene, and DCU Guide separates the pencils, inks and colors.",
+      "remainingGaps": [
+        "The exact edition or web page from which the repository crop was originally downloaded is unknown."
+      ],
+      "reviewed": "2026-11-04",
+      "displayCaption": "Abin Sur, Hal Jordan and the Green Lantern Corps #9; Rafa Sandoval, Jordi Tarragona and Tomeu Morey.",
+      "captionContext": "An Emerald Space scene, not an illustration of Abin Sur’s arrival on Earth."
     },
     {
       "asset": "assets/characters/amon-sur.jpg",
@@ -54,7 +73,8 @@
         "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
         "Repository file-addition history did not retain a source URL."
       ],
-      "reviewed": "2026-11-04"
+      "reviewed": "2026-11-04",
+      "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit."
     },
     {
       "asset": "assets/characters/arisia-rrab.jpg",
@@ -67,19 +87,22 @@
       "status": "unresolved",
       "work": null,
       "credits": [],
-      "sources": [],
+      "sources": [
+        "https://dc.fandom.com/wiki/Arisia_Rrab_(Prime_Earth)"
+      ],
       "imageSource": null,
-      "evidence": "Comic panel with Arisia standing and a green beam from her ring; the balloon reads ANSWER ME. Use that dialogue and the complete page to establish the issue.",
+      "evidence": "Inspected the local Arisia panel with the ANSWER ME balloon. An image-search result for the DC Database Prime Earth profile shows the same panel and gives the file Arisia_Rrab_Prime_Earth_0001.png. The exact source issue and its roles were not established.",
       "remainingGaps": [
-        "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
-        "Repository file-addition history did not retain a source URL."
+        "Trace the file history/category for Arisia_Rrab_Prime_Earth_0001.png to a complete issue page; profile identity and a repost are insufficient for an artist credit.",
+        "The exact edition or web page from which the repository crop was originally downloaded is unknown."
       ],
       "reviewed": "2026-11-04",
       "legacySourceLead": {
         "source": "Former characters.html hidden portrait-source comment",
         "claim": "DC Comics via ComicBasics",
         "verification": "Unverified historical download or attribution lead; does not override the evidence, status or credits in this record."
-      }
+      },
+      "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit."
     },
     {
       "asset": "assets/characters/arkillo.jpg",
@@ -105,7 +128,8 @@
         "source": "Former characters.html hidden portrait-source comment",
         "claim": "https://ovicio.com.br/lanternas-10-fatos-sobre-a-tropa-sinestro/",
         "verification": "Unverified historical download or attribution lead; does not override the evidence, status or credits in this record."
-      }
+      },
+      "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit."
     },
     {
       "asset": "assets/characters/ash.jpg",
@@ -115,17 +139,31 @@
         "character.html?id=ash",
         "characters.html"
       ],
-      "status": "unresolved",
-      "work": null,
+      "status": "source_matched",
+      "work": "Green Lantern (2011) #50 (2016), Parallax/Hal Jordan interior splash, cropped detail",
       "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Full-body leaping figure with long hair, dark glasses and angular shoulder armor. Match a published Ash profile or the full original page before naming an artist.",
-      "remainingGaps": [
-        "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
-        "Repository file-addition history did not retain a source URL."
+      "sources": [
+        "https://www.weirdsciencedccomics.com/2016/03/green-lantern-50-review-and-spoilers.html",
+        "https://www.dc.com/comics/green-lantern-2011/green-lantern-50",
+        "https://dcuguide.com/Green_Lantern_Vol._5_50"
       ],
-      "reviewed": "2026-11-04"
+      "imageSource": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9-mfwuqdKWWAmUvRxiqCbo6ayd_UpoPeg00FfuUBPzb4kVWyPC5KnsMlsadlLvVxqwaXXCT0Awf6JQ9gNzI4KAvS0Iloy-v5B9Gj9oFT2AX1pGApqNHWsBheeilKM8TzSp52ujB7XmuU/s640/Green%2BLantern2.jpg",
+      "evidence": "Compared the full-size local file directly with the complete splash reproduced in the contemporary Green Lantern #50 review: identical grinning face, angular shoulder armor, cape, advancing knee, city silhouettes and airborne rubble. The full page restores dialogue about the combined Corps power. The review, DC solicitation and issue index identify the opposing figure as Parallax/Hal Jordan, not Ash.",
+      "remainingGaps": [
+        "The issue credits multiple pencillers, inkers and colorists without assigning this particular page; specific artist roles remain unconfirmed.",
+        "The repository crop’s original download route and reprint edition are unknown."
+      ],
+      "reviewed": "2026-11-04",
+      "notes": "Issue-level team, not a claim of page-specific credit: pencils Billy Tan and Vicente Cifuentes; inks Mark Irwin, John Livesay and Vicente Cifuentes; colors Alex Sinclair and Tony Aviña.",
+      "displayCaption": "Parallax/Hal Jordan, from Green Lantern #50 (2016). This image was incorrectly assigned to Ash.",
+      "captionContext": "The Parallax version of Hal Jordan associated with Convergence, not the alien Green Lantern Ash.",
+      "identityMismatch": {
+        "expected": "Ash",
+        "depicted": "Parallax / Hal Jordan",
+        "confidence": "confirmed"
+      },
+      "display": "withheld",
+      "displayReason": "The illustration depicts Parallax/Hal Jordan, not Ash."
     },
     {
       "asset": "assets/characters/atrocitus.jpg",
@@ -157,7 +195,8 @@
         "source": "Former characters.html hidden portrait-source comment",
         "claim": "https://alphacoders.com/atrocitus-(dc-comics)-wallpapers",
         "verification": "Unverified historical download or attribution lead; does not override the evidence, status or credits in this record."
-      }
+      },
+      "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit."
     },
     {
       "asset": "assets/characters/bdg.jpg",
@@ -170,14 +209,17 @@
       "status": "unresolved",
       "work": null,
       "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Comic panel of the squirrel Lantern in flight with a dialogue balloon; use the complete balloon and nearby panels to distinguish an interior crop from a cover.",
-      "remainingGaps": [
-        "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
-        "Repository file-addition history did not retain a source URL."
+      "sources": [
+        "https://www.tomshw.it/culturapop/le-lanterne-verdi-piu-improbabili-e-strane-di-sempre"
       ],
-      "reviewed": "2026-11-04"
+      "imageSource": null,
+      "evidence": "The local B’dg panel reads YOU’RE NOT HAL JORDAN and shows him against an orange explosion. An image-search result reproduces the same crop on Tom’s Hardware’s unusual Green Lanterns article. Simon Baz’s first meeting with B’dg in Green Lantern (2011) #15–16 is a specific comparison lead, not a verified panel source.",
+      "remainingGaps": [
+        "Locate the complete page matching the dialogue; issue and page-level art team are not established by the repost.",
+        "The exact edition or web page from which the repository crop was originally downloaded is unknown."
+      ],
+      "reviewed": "2026-11-04",
+      "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit."
     },
     {
       "asset": "assets/characters/black-hand.jpg",
@@ -189,22 +231,39 @@
         "corps/black.html",
         "events/blackest-night.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Cropped graveyard illustration with Black Hand and a WILLIAM HAND tombstone. Match the specific Blackest Night-era illustration rather than the character debut.",
+      "status": "verified_credit",
+      "work": "Green Lantern (2011) #11 (2012), main cover, cropped detail",
+      "credits": [
+        {
+          "name": "Doug Mahnke",
+          "role": "cover pencils"
+        },
+        {
+          "name": "Christian Alamy",
+          "role": "cover inks"
+        },
+        {
+          "name": "Alex Sinclair",
+          "role": "cover colors"
+        }
+      ],
+      "sources": [
+        "https://dcuguide.com/Green_Lantern_Vol._5_11",
+        "https://www.akibastation.es/2017/04/comic-review-de-green-lantern-la-venganza-de-mano-negra.html",
+        "https://www.senscritique.com/bd/La_Vengeance_de_Black_Hand_Green_Lantern_tome_2/8380982"
+      ],
+      "imageSource": "https://media.senscritique.com/media/000004942817/source_big/La_Vengeance_de_Black_Hand_Green_Lantern_tome_2.jpg",
+      "evidence": "The complete cover reproduced on the French collection has the same grinning face, WILLIAM HAND gravestone, hand placement and graveyard as the local crop. The issue #11 cover reproduction and DCU Guide establish the original cover and its distinct pencils, inks and color credits.",
       "remainingGaps": [
-        "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
-        "Repository file-addition history did not retain a source URL."
+        "The exact edition or web page from which the repository crop was originally downloaded is unknown."
       ],
       "reviewed": "2026-11-04",
       "legacySourceLead": {
         "source": "Former characters.html hidden portrait-source comment",
         "claim": "ScreenRant CDN",
         "verification": "Unverified historical download or attribution lead; does not override the evidence, status or credits in this record."
-      }
+      },
+      "displayCaption": "Green Lantern #11 cover detail; Doug Mahnke, Christian Alamy and Alex Sinclair."
     },
     {
       "asset": "assets/characters/bleez.jpg",
@@ -253,14 +312,17 @@
       "status": "unresolved",
       "work": null,
       "credits": [],
-      "sources": [],
+      "sources": [
+        "https://www.dc.com/blog/2011/06/15/boodikka-the-alpha-lantern-from-bellatrix"
+      ],
       "imageSource": null,
       "evidence": "Two cropped panels, including the label BOODIKKA OF BELLATRIX. Compare the Alpha Lantern recruitment material in Green Lantern (2005) #26–28; this is a lead, not an established page match.",
       "remainingGaps": [
         "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
         "Repository file-addition history did not retain a source URL."
       ],
-      "reviewed": "2026-11-04"
+      "reviewed": "2026-11-04",
+      "notes": "The DC Boodikka article was located, but its surfaced boodikka1.jpg illustration is a different pose. Do not treat that article’s first illustration as an exact local match."
     },
     {
       "asset": "assets/characters/brother-hynn.jpg",
@@ -316,19 +378,25 @@
       "status": "unresolved",
       "work": null,
       "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Stylized white elephant Lantern floating with both fists raised and circular blue energy behind him. It does not match the commonly reproduced Blackest Night #0 Blue Corps profile pose.",
+      "sources": [
+        "https://www.comicartcommunity.com/gallery/details.php?image_id=33638",
+        "https://dcuguide.com/Green_Lantern_Vol._4_36"
+      ],
+      "imageSource": "https://www.giantbomb.com/a/uploads/scale_super/16/164924/2606713-2585042594-Warth.JPG",
+      "evidence": "The local floating Warth image matches the Giant Bomb reference and the Comic Art Community gallery thumbnail. The gallery specifically attributes drawing to Ivan Reis and colors to Nei Ruffino. Its image filename includes GL_36_spoiler_alert_by_Bakanekonei; the issue #36 index independently lists those artists, but the complete issue page or original artist post was not recovered.",
       "remainingGaps": [
-        "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
-        "Repository file-addition history did not retain a source URL."
+        "Locate the original artist post or complete issue #36 page to distinguish published colors from a separate color presentation.",
+        "Gallery attribution is retained as a concrete lead; no issue-specific inker is inferred from the series art team.",
+        "The exact edition or web page from which the repository crop was originally downloaded is unknown."
       ],
       "reviewed": "2026-11-04",
       "legacySourceLead": {
         "source": "Former characters.html hidden portrait-source comment",
         "claim": "https://www.giantbomb.com/a/uploads/scale_super/16/164924/2606713-2585042594-Warth.JPG",
         "verification": "Unverified historical download or attribution lead; does not override the evidence, status or credits in this record."
-      }
+      },
+      "notes": "Exact gallery/repost match with a strong attribution lead: Ivan Reis (drawing) and Nei Ruffino (colors), according to Comic Art Community. Its GL_36 filename and the issue index support further comparison but do not establish the original publication or colorist post.",
+      "displayCaption": "Brother Warth illustration; original publication and complete credit verification remain open."
     },
     {
       "asset": "assets/characters/bzzd.jpg",
@@ -348,7 +416,8 @@
         "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
         "Repository file-addition history did not retain a source URL."
       ],
-      "reviewed": "2026-11-04"
+      "reviewed": "2026-11-04",
+      "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit."
     },
     {
       "asset": "assets/characters/carol-ferris.jpg",
@@ -364,22 +433,32 @@
         "screen/green-lantern-2011.html",
         "stories/secret-origin.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Star Sapphire flies forward through a field of violet constructs and debris; square crop with a small signature near the bottom. Compare Star Sapphire cover art and creator galleries.",
+      "status": "verified_credit",
+      "work": "Green Lantern Corps #4 (2025), Jonboy Meyers variant cover, cropped detail",
+      "credits": [
+        {
+          "name": "Jonboy Meyers",
+          "role": "cover illustration"
+        }
+      ],
+      "sources": [
+        "https://jonboymeyers.com/products/green-lantern-corp-star-sapphire-variant-with-foil-coa-edition",
+        "https://www.mycomicshop.com/search?TID=62105989",
+        "https://www.comics.org/issue/2733664/?display=grid"
+      ],
+      "imageSource": "https://jonboymeyers.com/cdn/shop/files/JonboyGreenLanternStarSapphirelowres_1200x1200.jpg?v=1741504834",
+      "evidence": "Direct visual comparison with the artist-hosted original matches Carol’s face, spread hands, swept hair, jagged violet constructs and signature. Meyers sells the original variant with his artist signature; issue catalogues identify it as Green Lantern Corps #4.",
       "remainingGaps": [
-        "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
-        "Repository file-addition history did not retain a source URL."
+        "A separately credited colorist, if any, was not established; the supported role here is cover illustration.",
+        "The exact edition or web page from which the repository crop was originally downloaded is unknown."
       ],
       "reviewed": "2026-11-04",
       "legacySourceLead": {
         "source": "Former characters.html hidden portrait-source comment",
         "claim": "https://versedb.com/series/160342",
         "verification": "Unverified historical download or attribution lead; does not override the evidence, status or credits in this record."
-      }
+      },
+      "displayCaption": "Star Sapphire, Green Lantern Corps #4 variant detail, illustrated by Jonboy Meyers."
     },
     {
       "asset": "assets/characters/charlie-vicker.jpg",
@@ -399,7 +478,8 @@
         "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
         "Repository file-addition history did not retain a source URL."
       ],
-      "reviewed": "2026-11-04"
+      "reviewed": "2026-11-04",
+      "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit."
     },
     {
       "asset": "assets/characters/chp.jpg",
@@ -413,14 +493,17 @@
       "status": "unresolved",
       "work": null,
       "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Comic panel of Ch’p flying against blue sky and clouds with a pale moon behind him. Compare the complete page and distinguish Ch’p from B’dg before crediting.",
-      "remainingGaps": [
-        "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
-        "Repository file-addition history did not retain a source URL."
+      "sources": [
+        "https://www.heroscapers.com/community/showthread.php?t=56086"
       ],
-      "reviewed": "2026-11-04"
+      "imageSource": null,
+      "evidence": "The local flying squirrel pose, pale moon and blue sky match an image-search result named Ch’p_injustice_comic.jpg, reposted from the Injustice wiki on the cited forum. This narrows the lead to Injustice comic imagery, but a complete issue page and its credited team remain unconfirmed.",
+      "remainingGaps": [
+        "Locate the original Injustice issue/digital chapter and complete matching panel before assigning an artist or an alternate-universe caption as fact.",
+        "The exact edition or web page from which the repository crop was originally downloaded is unknown."
+      ],
+      "reviewed": "2026-11-04",
+      "notes": "Reference-image lead: https://vignette.wikia.nocookie.net/injusticegodsamongus/images/4/45/Ch%27p_injustice_comic.jpg/revision/latest?cb=20140527174600"
     },
     {
       "asset": "assets/characters/despotellis.jpg",
@@ -446,7 +529,8 @@
         "source": "Former characters.html hidden portrait-source comment",
         "claim": "DC Comics via ScreenRant",
         "verification": "Unverified historical download or attribution lead; does not override the evidence, status or credits in this record."
-      }
+      },
+      "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit."
     },
     {
       "asset": "assets/characters/dex-starr.jpg",
@@ -472,7 +556,8 @@
         "source": "Former characters.html hidden portrait-source comment",
         "claim": "Pinterest (pinimg)",
         "verification": "Unverified historical download or attribution lead; does not override the evidence, status or credits in this record."
-      }
+      },
+      "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit."
     },
     {
       "asset": "assets/characters/fatality.jpg",
@@ -498,7 +583,8 @@
         "source": "Former characters.html hidden portrait-source comment",
         "claim": "https://comicvine.gamespot.com/a/uploads/scale_medium/2/28028/790207-fatality.jpg",
         "verification": "Unverified historical download or attribution lead; does not override the evidence, status or credits in this record."
-      }
+      },
+      "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit."
     },
     {
       "asset": "assets/characters/galius-zed.jpg",
@@ -518,11 +604,12 @@
         "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
         "Repository file-addition history did not retain a source URL."
       ],
-      "reviewed": "2026-11-04"
+      "reviewed": "2026-11-04",
+      "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit."
     },
     {
       "asset": "assets/characters/ganthet.jpg",
-      "sha256": "ce09e78a89b351fdf1110261135d00a65a72aa53ee9fa2969bac0733c64c5053",
+      "sha256": "3020607406b8db94336e8d5360837edef9373ce95a369036c11d0feaaa701c5a",
       "category": "characters",
       "usedBy": [
         "character.html?id=ganthet",
@@ -538,7 +625,7 @@
         "moments/templar-guardians.html"
       ],
       "status": "verified_credit",
-      "work": "Highfather (Earth-27) commission (2023)",
+      "work": "Ganthet (Earth-27 fan project), commission (2018)",
       "credits": [
         {
           "name": "Phil Cho",
@@ -546,28 +633,30 @@
         }
       ],
       "sources": [
-        "https://www.philchoart.com/featured/2023/9/13/highfather-earth-27-commission"
+        "https://www.philchoart.com/featured/2018/10/22/guardians-of-the-universe-earth-27-commission"
       ],
-      "imageSource": "https://images.squarespace-cdn.com/content/v1/5133bc80e4b0c6fb04dcd6c4/1694608362321-LUULVQTDOUVN7TAGE857/highfather_e27_web.jpg",
-      "evidence": "Compared the local image with the creator-hosted reference: identical staff, gold chest circuitry, purple robes, face and signature. The creator identifies the character as Highfather and credits the artwork to Phil Cho.",
+      "imageSource": "https://images.squarespace-cdn.com/content/v1/5133bc80e4b0c6fb04dcd6c4/1540243971626-MZVZFSNQYJ86K7RIVSPL/guardian_ganthet_web.jpg?format=1500w",
+      "evidence": "Downloaded the Ganthet illustration directly from Phil Cho’s creator-hosted Guardians of the Universe post, dated October 22, 2018. The post individually labels this image Ganthet and identifies it as an Earth-27 commission for Roysovitch. The blue face, white ponytail, short goatee, clasped hands and purple robes match the labeled original.",
       "remainingGaps": [
-        "Wrong character for the Ganthet profile: display should be suppressed or replaced with an authenticated Ganthet illustration.",
-        "The original repository download and permission to reproduce this commission are not documented."
+        "No reproduction permission or license is documented; attribution identifies the artist and source."
       ],
       "reviewed": "2026-11-04",
-      "displayCaption": "Highfather (Earth-27), illustrated by Phil Cho. This image was incorrectly assigned to Ganthet.",
-      "identityMismatch": {
-        "expected": "Ganthet",
-        "depicted": "Highfather (Earth-27)",
-        "confidence": "confirmed"
+      "previousArtwork": {
+        "sha256": "ce09e78a89b351fdf1110261135d00a65a72aa53ee9fa2969bac0733c64c5053",
+        "work": "Highfather (Earth-27) commission (2023)",
+        "credits": [
+          {
+            "name": "Phil Cho",
+            "role": "illustration"
+          }
+        ],
+        "sources": [
+          "https://www.philchoart.com/featured/2023/9/13/highfather-earth-27-commission"
+        ],
+        "imageSource": "https://images.squarespace-cdn.com/content/v1/5133bc80e4b0c6fb04dcd6c4/1694608362321-LUULVQTDOUVN7TAGE857/highfather_e27_web.jpg",
+        "reasonReplaced": "The previous portrait was positively identified as Highfather, not Ganthet. Its binary remains in Git history before this replacement."
       },
-      "display": "withheld",
-      "displayReason": "The illustration depicts Highfather, not Ganthet.",
-      "legacySourceLead": {
-        "source": "Former characters.html hidden portrait-source comment",
-        "claim": "fan art by Phil Cho, via Pinterest",
-        "verification": "Unverified historical download or attribution lead; does not override the evidence, status or credits in this record."
-      }
+      "captionContext": "Fan-project interpretation of Ganthet, not a panel from DC’s main comic continuity. Replaces the previously mislabeled Highfather portrait; the previous image’s identifying evidence is preserved in the manifest."
     },
     {
       "asset": "assets/characters/glomulus.jpg",
@@ -593,7 +682,8 @@
         "source": "Former characters.html hidden portrait-source comment",
         "claim": "https://media.versedb.com/uploads/characters/glomulus-37638/",
         "verification": "Unverified historical download or attribution lead; does not override the evidence, status or credits in this record."
-      }
+      },
+      "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit."
     },
     {
       "asset": "assets/characters/gnort.jpg",
@@ -613,7 +703,8 @@
         "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
         "Repository file-addition history did not retain a source URL."
       ],
-      "reviewed": "2026-11-04"
+      "reviewed": "2026-11-04",
+      "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit."
     },
     {
       "asset": "assets/characters/graf-toren.jpg",
@@ -633,7 +724,8 @@
         "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
         "Repository file-addition history did not retain a source URL."
       ],
-      "reviewed": "2026-11-04"
+      "reviewed": "2026-11-04",
+      "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit."
     },
     {
       "asset": "assets/characters/green-man.jpg",
@@ -653,7 +745,8 @@
         "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
         "Repository file-addition history did not retain a source URL."
       ],
-      "reviewed": "2026-11-04"
+      "reviewed": "2026-11-04",
+      "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit."
     },
     {
       "asset": "assets/characters/guy-gardner.jpg",
@@ -686,7 +779,8 @@
         "source": "Former characters.html hidden portrait-source comment",
         "claim": "https://pipocamoderna.com.br/2021/04/ator-de-american-horror-story-vai-estrelar-serie-do-heroi-lanterna-verde/",
         "verification": "Unverified historical download or attribution lead; does not override the evidence, status or credits in this record."
-      }
+      },
+      "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit."
     },
     {
       "asset": "assets/characters/hal-jordan.jpg",
@@ -776,7 +870,8 @@
         "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
         "Repository file-addition history did not retain a source URL."
       ],
-      "reviewed": "2026-11-04"
+      "reviewed": "2026-11-04",
+      "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit."
     },
     {
       "asset": "assets/characters/indigo-1.jpg",
@@ -796,17 +891,18 @@
       "credits": [],
       "sources": [],
       "imageSource": null,
-      "evidence": "Masked short-haired male figure in a close-fitting indigo-and-white uniform with a large Indigo emblem at upper left. The local depiction needs an identity check against Indigo-1; no creator credit established.",
+      "evidence": "Full-size local inspection shows a blond, pale-skinned male figure with a blue mask, staff and close-fitting blue-and-white uniform; the Indigo emblem is at upper left. This differs from the usual Iroque depiction, but no authenticated original or editor post establishes what this image represents.",
       "remainingGaps": [
-        "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
-        "Repository file-addition history did not retain a source URL."
+        "Identity requires an exact authenticated source; possible fan recolor or alternate-character depiction remains a concern, not a confirmed mismatch.",
+        "Original illustration, editing history and role-specific credits remain unknown."
       ],
       "reviewed": "2026-11-04",
       "legacySourceLead": {
         "source": "Former characters.html hidden portrait-source comment",
         "claim": "https://comicvine.gamespot.com",
         "verification": "Unverified historical download or attribution lead; does not override the evidence, status or credits in this record."
-      }
+      },
+      "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit."
     },
     {
       "asset": "assets/characters/isamot-kol.jpg",
@@ -826,7 +922,8 @@
         "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
         "Repository file-addition history did not retain a source URL."
       ],
-      "reviewed": "2026-11-04"
+      "reviewed": "2026-11-04",
+      "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit."
     },
     {
       "asset": "assets/characters/jack-t-chance.jpg",
@@ -875,7 +972,8 @@
         "Possible edited Black Canary base image: compare the full Mike McKone illustration and locate the recolor/editor post before classifying identity or assigning credit. Pinterest is a lead only.",
         "No authenticated Jade-specific source or role-specific artwork credit has been established."
       ],
-      "reviewed": "2026-11-04"
+      "reviewed": "2026-11-04",
+      "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit."
     },
     {
       "asset": "assets/characters/jessica-cruz.jpg",
@@ -886,17 +984,32 @@
         "characters.html",
         "stories/green-lanterns.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Jessica with a forward ring fist, flowing dark hair and a background of green energy and circular symbols. Identify the particular cover or promotional illustration.",
-      "remainingGaps": [
-        "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
-        "Repository file-addition history did not retain a source URL."
+      "status": "verified_credit",
+      "work": "Green Lanterns #7 (2016), Emanuela Lupacchino variant cover, cropped detail",
+      "credits": [
+        {
+          "name": "Emanuela Lupacchino",
+          "role": "cover art"
+        },
+        {
+          "name": "Tomeu Morey",
+          "role": "cover colors"
+        }
       ],
-      "reviewed": "2026-11-04"
+      "sources": [
+        "https://www.dc.com/blog/2025/03/10/jessica-cruz-the-people-s-green-lantern",
+        "https://www.dc.com/comics/green-lanterns-2016/green-lanterns-7",
+        "https://dcuguide.com/Green_Lanterns_7",
+        "https://www.comics.org/issue/1693476/"
+      ],
+      "imageSource": "https://static.dc.com/2025-03/2025_03_10_JessicaCruz_BlogRoll_Mobile_4x3.jpg",
+      "evidence": "Compared the local image with DC’s published crop: the green umbrella construct, hands, face and airborne debris match. The umbrella art is the #7 Lupacchino variant; DC’s issue listing identifies the variant artist and DCU Guide credits Tomeu Morey’s signed colors. GCD notes that a collected edition miscredits the variant’s colorist.",
+      "remainingGaps": [
+        "The exact edition or web page from which the repository crop was originally downloaded is unknown."
+      ],
+      "reviewed": "2026-11-04",
+      "displayCaption": "Jessica Cruz, Green Lanterns #7 variant detail; Emanuela Lupacchino with colors by Tomeu Morey.",
+      "notes": "Do not substitute Green Lanterns #1 or its colorist: the #1 Lupacchino illustration was compared and is a different pose."
     },
     {
       "asset": "assets/characters/jo-mullein.jpg",
@@ -915,12 +1028,13 @@
         "https://www.dc.com/blog/2019/10/15/first-look-welcome-to-far-sector"
       ],
       "imageSource": null,
-      "evidence": "Jo in her Far Sector costume, angled upward with a fist to the left and jagged green rays on black. Compared and ruled out Far Sector #1 main, McKelvie and Martinbrough covers as exact matches.",
+      "evidence": "Full-size local inspection shows Jo with her right fist low at image left, her other arm across her chest and a diagonal torso against jagged green rays. Rechecked the full Far Sector #1 Martinbrough variant: both fists extend toward the viewer there, so it is a different drawing. The #1 McKelvie and main covers are also not exact matches.",
       "remainingGaps": [
-        "Direct comparison ruled out the Far Sector #1 McKelvie and Martinbrough variants. Continue with later Far Sector covers, promotional art and Green Lantern (2021) covers.",
-        "An exact publication and role-specific artist credit remain unconfirmed."
+        "Find the exact later Far Sector cover, promotional illustration or Green Lantern (2021) cover; none was established in this pass.",
+        "Do not assign Stephen Sadowski, Jamal Campbell, Jamie McKelvie or Shawn Martinbrough from character/series associations alone."
       ],
-      "reviewed": "2026-11-04"
+      "reviewed": "2026-11-04",
+      "notes": "Local artwork visually inspected during this pass. No exact original publication/creator match was established; existing lead remains open rather than being promoted to an artwork credit."
     },
     {
       "asset": "assets/characters/john-stewart.jpg",
@@ -940,22 +1054,31 @@
         "stories/rebirth.html",
         "stories/war-journal.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Painted side-profile portrait of John with a glowing green eye and diagonal emerald beams. A painterly style is not sufficient evidence for an Alex Ross credit; locate the actual cover/creator post.",
+      "status": "verified_credit",
+      "work": "Dark Nights: Death Metal #4 (2020), Stanley “Artgerm” Lau John Stewart variant cover, cropped detail",
+      "credits": [
+        {
+          "name": "Stanley “Artgerm” Lau",
+          "role": "cover art and colors"
+        }
+      ],
+      "sources": [
+        "https://aqua.gjovaag.com/w/images/a/ac/20200724_dc_connect_3.pdf",
+        "https://www.comics.org/issue/2156193/",
+        "https://legacycomics.com/product/dark-nights-death-metal-4-artgerm-green-lantern-john-stewart-variant-cover-d/"
+      ],
+      "imageSource": "https://legacycomics.com/wp-content/uploads/2020/08/dark-nights-death-metal-4-artgerm-john-stewart.jpg",
+      "evidence": "The complete variant cover matches the local side-profile face, green eye and diagonal emerald beams. DC Connect #3, page 26, names the John Stewart variant artist; GCD independently assigns the cover pencils, inks and colors to Lau.",
       "remainingGaps": [
-        "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
-        "Repository file-addition history did not retain a source URL."
+        "The exact edition or web page from which the repository crop was originally downloaded is unknown."
       ],
       "reviewed": "2026-11-04",
       "legacySourceLead": {
         "source": "Former characters.html hidden portrait-source comment",
         "claim": "ScreenRant CDN (Stanley \"Artgerm\" Lau)",
         "verification": "Unverified historical download or attribution lead; does not override the evidence, status or credits in this record."
-      }
+      },
+      "displayCaption": "John Stewart, Dark Nights: Death Metal #4 variant detail, by Stanley “Artgerm” Lau."
     },
     {
       "asset": "assets/characters/karu-sil.jpg",
@@ -992,15 +1115,24 @@
         "characters.html",
         "corps/green.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Full-body pink-skinned Lantern floating in space with small surrounding alien figures. Compare handbook/profile art rather than assuming her debut issue artist drew this image.",
+      "status": "verified_credit",
+      "work": "Katma Tui, Green Lantern of Korugar — Upper Deck Vs. System: DC Green Lantern Corps, card DGL-015 (2005)",
+      "credits": [
+        {
+          "name": "Phil Noto",
+          "role": "card illustration"
+        }
+      ],
+      "sources": [
+        "https://www.tcdb.com/ViewCard.cfm/sid/92139/cid/6511918/2005-Upper-Deck-Entertainment-DC-VS-System-Green-Lantern-Corps-DGL-015-Katma-Tui%3A-Green-Lantern-of-Korugar",
+        "https://www.ebay.com/itm/176223306102"
+      ],
+      "imageSource": "https://i.ebayimg.com/images/g/6b0AAOSwTNljWZTY/s-l500.webp",
+      "evidence": "The local full illustration matches the physical card scan: Katma’s pose, glowing ring, pink planet, star field, and surrounding small spacecraft all align. The scan visibly prints Illus. Phil Noto beneath the art, and the seller’s card data independently transcribes Phil Noto as illustrator. Trading Card Database establishes set, year, and card number. This is trading-card artwork, not a panel from Katma’s debut comic.",
       "remainingGaps": [
-        "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
-        "Repository file-addition history did not retain a source URL."
+        "The credited primary artifact is a scan of the printed card hosted by an independent seller; the original Upper Deck image page was not located.",
+        "The original source of the local uncropped/full-art version is unknown.",
+        "The original repository download URL and reproduction permission are not documented."
       ],
       "reviewed": "2026-11-04"
     },
@@ -1177,10 +1309,10 @@
         "https://arkenstellar.artstation.com/projects/eeAl3"
       ],
       "imageSource": null,
-      "evidence": "Digital painting signed ARKENSTELLAR 2016 at bottom left, with a floating open book and yellow chains. The visible handle is a research lead; locate the creator’s original post before awarding an artist credit.",
+      "evidence": "Digital painting signed ARKENSTELLAR 2016, with a floating open book and yellow chains. A creator-owned portfolio page titled Lyssa Drak was found at https://arkenstellar.artstation.com/projects/eeAl3 and identifies the Keeper of the Book of Parallax. Its artwork image could not be retrieved for exact visual comparison during this pass; the title and signature alone do not justify promotion.",
       "remainingGaps": [
-        "The local painting is signed ARKENSTELLAR 2016; the same creator has a Lyssa Drak portfolio entry. The portfolio image could not be fetched for direct comparison, so authorship is a strong lead rather than a verified exact-image credit.",
-        "Original download and reproduction permission remain undocumented."
+        "Compare the actual image on the creator-owned Arkenstellar portfolio page with the local file before assigning a verified illustration credit.",
+        "The original repository download URL and reproduction permission are not documented."
       ],
       "reviewed": "2026-11-04",
       "legacySourceLead": {
@@ -1248,10 +1380,10 @@
       "credits": [],
       "sources": [],
       "imageSource": null,
-      "evidence": "Wide comic image of the giant planet Lantern with small Lanterns around it. The local tomar-tu.jpg is a crop from the same composition; neither filename identifies the original page.",
+      "evidence": "Wide comic panel shows Mogo with a yellow-lit Corps symbol, surrounding Lanterns with yellow energy, and an Indigo-captioned line: MOGO. THEY GOT TO MOGO TOO. The local tomar-tu.jpg crops the same composition. This sharply narrows the lead to War of the Green Lanterns, particularly Green Lantern Corps (2006) #59–60; no exact full-page source was confirmed.",
       "remainingGaps": [
-        "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
-        "Repository file-addition history did not retain a source URL."
+        "Match the complete published page before assigning Tyler Kirkham or any interior team; the storyline lead is not a verified issue/page identification.",
+        "The original repository download URL and reproduction permission are not documented."
       ],
       "reviewed": "2026-11-04"
     },
@@ -1264,15 +1396,23 @@
         "characters.html",
         "corps/indigo.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Painted comic-cover crop of a human-looking man holding an Indigo staff, with other Green Lanterns behind him. This requires checking against John Stewart’s Indigo incarnation rather than assuming it depicts Munk.",
+      "status": "verified_credit",
+      "work": "Green Lantern Corps (2006) #43 (2010), José Ladrönn variant cover, cropped detail",
+      "credits": [
+        {
+          "name": "José Ladrönn",
+          "role": "variant cover art"
+        }
+      ],
+      "sources": [
+        "https://www.dcuniverseinfinite.com/comics/book/green-lantern-corps-2006-43/dd46f99d-9880-44ce-8483-6d1960858c89",
+        "https://dcuguide.com/Green_Lantern_Corps_Vol._2_43"
+      ],
+      "imageSource": "https://imgix-media.wbdndc.net/ingest/book/preview/dd46f99d-9880-44ce-8483-6d1960858c89/25588afc-20bf-4734-8edf-416ade46b7de/1.jpg",
+      "evidence": "Exact visual comparison with the publisher-hosted full cover: the staff, pose, orange ground, and surrounding Lanterns match. The full cover explicitly says MUNK!; this is Munk, not John Stewart. Independent issue catalogue DCU Guide explicitly credits variant cover B art to José Ladrönn. The earlier John Stewart/Green Lantern Corps #60 lead was disproved by direct comparison.",
       "remainingGaps": [
-        "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
-        "Repository file-addition history did not retain a source URL."
+        "The local file is a crop; its editing provenance and precise source edition are unknown.",
+        "The original repository download URL and reproduction permission are not documented."
       ],
       "reviewed": "2026-11-04",
       "legacySourceLead": {
@@ -1387,15 +1527,23 @@
         "character.html?id=saarek",
         "characters.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Full-body pointed-eared Lantern surrounded by green ghostly skulls. Match the complete profile/splash page before applying a penciller or inker credit.",
+      "status": "verified_credit",
+      "work": "Green Lantern Corps (2006) #28 (2008), cover artwork",
+      "credits": [
+        {
+          "name": "Rodolfo Migliari",
+          "role": "cover art"
+        }
+      ],
+      "sources": [
+        "https://www.dc.com/comics/green-lantern-corps-2006/green-lantern-corps-28",
+        "https://dcuguide.com/Green_Lantern_Corps_Vol._2_28"
+      ],
+      "imageSource": "https://static.dc.com/dc/files/default_images/glcorps_v2_28_5b15bc351dc6b4.14722569.jpg",
+      "evidence": "Compared the local Saarek portrait with DC’s full #28 cover: the upward-facing orange head, arms spread behind him, folded legs, and surrounding ghostly Lantern skulls match exactly. Independent issue catalogue DCU Guide names Rodolfo Migliari for cover art, distinct from the Luke Ross/Fabio Laguna/Nei Ruffino interior team.",
       "remainingGaps": [
-        "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
-        "Repository file-addition history did not retain a source URL."
+        "The local file’s crop/text-removal provenance and exact source edition are unknown.",
+        "The original repository download URL and reproduction permission are not documented."
       ],
       "reviewed": "2026-11-04"
     },
@@ -1556,15 +1704,29 @@
         "stories/hjglc.html",
         "stories/secret-origin.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Portrait of Sinestro with yellow flames and hovering fear symbols, signed TAN ’13 AFTER VAN SCIVER. This may be a homage or commission; the signature does not establish a published issue or complete coloring credit.",
+      "status": "verified_credit",
+      "work": "Green Lantern (2011) #52 (2016), New 52 homage variant cover artwork",
+      "credits": [
+        {
+          "name": "Billy Tan",
+          "role": "variant cover pencils and inks"
+        },
+        {
+          "name": "Alex Sinclair",
+          "role": "variant cover colors"
+        }
+      ],
+      "sources": [
+        "https://www.dc.com/blog/2016/02/12/the-new-52-hits-52",
+        "https://www.dc.com/comics/green-lantern-2011/green-lantern-52",
+        "https://www.comics.org/issue/1566907/",
+        "https://www.thebrightestday.net/green-lantern/preview-green-lantern-52"
+      ],
+      "imageSource": "https://www.thebrightestday.net/uploads/2/9/5/7/29570123/669825194.jpg",
+      "evidence": "The local textless Sinestro illustration exactly matches the published #52 variant reproduced in The Brightest Day preview: pose, yellow fire, floating fear symbols, and signatures. DC identifies Billy Tan as the variant artist; independent issue catalogue Grand Comics Database separates Billy Tan pencils/inks from Alex Sinclair colors. The signature reads TAN 16 AFTER IVAN, a homage to Ivan Reis, not the previously recorded TAN 13 AFTER VAN SCIVER.",
       "remainingGaps": [
-        "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
-        "Repository file-addition history did not retain a source URL."
+        "The local textless file is identified by its underlying cover artwork; a specific variant printing or textless release is not established.",
+        "The original repository download URL and reproduction permission are not documented."
       ],
       "reviewed": "2026-11-04",
       "legacySourceLead": {
@@ -1587,10 +1749,11 @@
       "credits": [],
       "sources": [],
       "imageSource": null,
-      "evidence": "Female Blue Lantern illustration signed MONSANTO 2009, with orange curls and a hood. Locate the original post to establish whether this is Sister Sercy, an original character or an alternate design.",
+      "evidence": "Female Blue Lantern illustration signed MONSANTO 2009, with orange curls, a hood and a domino mask. The public gammaknight DeviantArt account identifies Gilbert Monsanto, but no matching original artwork post was located. Keep both authorship and the Sister Sercy identity unresolved; this may be an original or alternate-design character.",
       "remainingGaps": [
-        "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
-        "Repository file-addition history did not retain a source URL."
+        "Locate the matching original post in Gilbert Monsanto’s creator gallery/blog and establish the depicted character, not merely the signature.",
+        "Candidate creator profile: https://www.deviantart.com/gammaknight ; 2009 blog archive checked without a match: https://gilbertmonsanto.blogspot.com/2009/ .",
+        "The original repository download URL and reproduction permission are not documented."
       ],
       "reviewed": "2026-11-04",
       "legacySourceLead": {
@@ -1730,10 +1893,10 @@
       "credits": [],
       "sources": [],
       "imageSource": null,
-      "evidence": "Portrait crop from the same planet-centered composition used by local mogo.jpg. The artwork needs a complete-page source before assigning its original penciller/inker.",
+      "evidence": "Portrait crop from the same War of the Green Lanterns composition used by local mogo.jpg: yellow-lit Lanterns around Mogo and an Indigo-captioned line. Green Lantern Corps (2006) #59–60 is a specific research lead, not a confirmed source.",
       "remainingGaps": [
-        "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
-        "Repository file-addition history did not retain a source URL."
+        "Match the complete published page and its precise credits; do not infer artist roles from the storyline.",
+        "The original repository download URL and reproduction permission are not documented."
       ],
       "reviewed": "2026-11-04"
     },
@@ -1750,10 +1913,11 @@
       "credits": [],
       "sources": [],
       "imageSource": null,
-      "evidence": "Blue-skinned alien in a green costume holding a staff among shattered masonry. The depicted character requires independent identification before using this as a Vath Sarn portrait.",
+      "evidence": "Full-size inspection shows a blue/gray reptilian or amphibian alien with a stubbled muzzle, holding a wooden staff amid rubble, wearing white gloves/boots and a blank white disc on the shoulder. Vath Sarn’s documented Rannian human-like appearance does not fit this portrait. The image has not been exactly matched to a named character or issue; Isamot Kol/other alien Lantern comparisons remain leads only.",
       "remainingGaps": [
-        "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
-        "Repository file-addition history did not retain a source URL."
+        "Resolve the character mismatch before presenting this as Vath Sarn. Vath Sarn reference: https://www.dcuguide.com/Vath_Sarn .",
+        "Find a complete-page or creator source to identify the depicted character and art team; no replacement has been selected.",
+        "The original repository download URL and reproduction permission are not documented."
       ],
       "reviewed": "2026-11-04"
     },
@@ -1817,10 +1981,10 @@
       "credits": [],
       "sources": [],
       "imageSource": null,
-      "evidence": "Bright digital caricature signed CUSSON with fists forward and a blue energy background. Locate the creator’s original post; do not substitute the character’s comic creators.",
+      "evidence": "Bright digital caricature signed CUSSON, with clenched fists forward and blue glow behind the red round head/body. No creator-owned exact match was located. The signature could be a handle or surname and must not be treated as a confirmed artist identity.",
       "remainingGaps": [
-        "Exact original publication or creator post and role-specific artist credits remain unconfirmed.",
-        "Repository file-addition history did not retain a source URL."
+        "Locate the exact original creator post, establishing both spelling/identity and illustration authorship.",
+        "The original repository download URL and reproduction permission are not documented."
       ],
       "reviewed": "2026-11-04",
       "legacySourceLead": {
@@ -1875,14 +2039,27 @@
         "powers.html",
         "powers/energy-projection.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Interior page of Sinestro fighting Arkillo with yellow weapons; dialogue refers to a ludicrous parody and betrayal. Sinestro (2014) early issues were checked as a lead; issue/page and contributors remain unconfirmed.",
+      "status": "verified_credit",
+      "work": "Sinestro #2 (2014), interior page",
+      "credits": [
+        {
+          "name": "Dale Eaglesham",
+          "role": "interior pencils"
+        },
+        {
+          "name": "Jason Wright",
+          "role": "interior colors"
+        }
+      ],
+      "sources": [
+        "https://www.dc.com/comics/sinestro-2014/sinestro-2",
+        "https://comicnewbies.com/2014/06/15/sinestro-vs-arkillo/",
+        "https://dcuguide.com/Sinestro_2"
+      ],
+      "imageSource": "https://comicnewbies.com/wp-content/uploads/2014/06/sinestro-vs-arkillo.jpg",
+      "evidence": "Exact full-page visual match to the issue-numbered excerpt: Sinestro and Arkillo, yellow fear constructs, panel layout and ludicrous parody dialogue match. DC lists Dale Eaglesham under Pencils for this issue. DCU Guide identifies Jason Wright as interior colorist (separately from its cover credits).",
       "remainingGaps": [
-        "Interior page of Sinestro fighting Arkillo with yellow weapons; dialogue refers to a ludicrous parody and betrayal. Sinestro (2014) early issues were checked as a lead; issue/page and contributors remain unconfirmed."
+        "The original local download host is unknown. No separate inker credit is listed in the cited issue index."
       ],
       "reviewed": "2026-11-04",
       "repositoryProvenance": {
@@ -1919,18 +2096,22 @@
       "usedBy": [
         "constructs.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
+      "status": "verified_credit",
+      "work": "Green Lantern (2005) #37 (2009), textless closing-page artwork",
+      "credits": [
+        {
+          "name": "Ivan Reis",
+          "role": "interior pencils"
+        }
+      ],
       "sources": [
         "https://www.dc.com/comics/green-lantern-2005/green-lantern-37",
-        "https://www.dc.com/comics/green-lantern-2005/green-lantern-38",
-        "https://www.dc.com/graphic-novels/green-lantern-2005/green-lantern-rage-of-the-red-lanterns"
+        "https://comicnewbies.com/2018/10/27/hal-jordan-becomes-a-red-lantern/"
       ],
-      "imageSource": null,
-      "evidence": "Textless illustration of red-ring Hal, a large Atrocitus face and captive Sinestro. Green Lantern (2005) #37 and #38 main covers were compared and rejected: neither is this image. A collection cover or interior splash remains possible. The publisher Rage of the Red Lanterns hardcover cover was also compared and rejected.",
+      "imageSource": "https://comicnewbies.com/wp-content/uploads/2018/10/hal-jordan-becomes-a-red-lantern-3.jpg",
+      "evidence": "Exact match to the closing-page excerpt identified as Green Lantern vol. 4 #37: red Hal in foreground, giant Atrocitus face and captive Sinestro at right. The local file omits speech balloons and the next-issue caption. DC credits Ivan Reis as penciller.",
       "remainingGaps": [
-        "Textless illustration of red-ring Hal, a large Atrocitus face and captive Sinestro. Green Lantern (2005) #37 and #38 main covers were compared and rejected: neither is this image. A collection cover or interior splash remains possible."
+        "The original local textless variant source is unknown. Issue inkers Oclair Albert and Julio Ferreira lack page assignments; individual page inker and colorist are not asserted."
       ],
       "reviewed": "2026-11-04",
       "repositoryProvenance": {
@@ -1938,7 +2119,8 @@
         "sourceHistory": "Upload/optimization history reviewed; no original remote image URL or artist evidence was preserved for this legacy file."
       },
       "captionContext": "Red-ring Hal Jordan with Atrocitus and Sinestro. Exact artwork source and artist credits remain under review.",
-      "usageNote": "do not claim this image demonstrates a formed rage construct"
+      "usageNote": "do not claim this image demonstrates a formed rage construct",
+      "recommendedCaption": "Hal Jordan as a Red Lantern in Green Lantern #37 (2009). Pencils: Ivan Reis. This transformation illustration provides context for rage-powered abilities; it is not a demonstration of a specific construct."
     },
     {
       "asset": "assets/constructs/stewart-construct.jpg",
@@ -1947,17 +2129,27 @@
       "usedBy": [
         "constructs.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [
-        "https://www.dc.com/comics/green-lantern-rebirth-2004/green-lantern-rebirth-6",
-        "https://www.dcuniverseinfinite.com/comics/book/green-lantern-rebirth-2010-6/9a9ac1e4-0c36-4bc3-9804-905d3c80a5a4"
+      "status": "verified_credit",
+      "work": "Green Lantern: Rebirth #6 (2005), cropped interior panel",
+      "credits": [
+        {
+          "name": "Ethan Van Sciver",
+          "role": "interior pencils"
+        },
+        {
+          "name": "Moose Baumann",
+          "role": "interior colors"
+        }
       ],
-      "imageSource": null,
-      "evidence": "Interior page describing John Stewart building constructs from the inside out, with a constructed rifle and blue Guardian. Green Lantern: Rebirth #6 is the strongest issue lead; exact source and individual page credits need corroboration.",
+      "sources": [
+        "https://www.dcuniverseinfinite.com/comics/book/green-lantern-rebirth-2010-6/9a9ac1e4-0c36-4bc3-9804-905d3c80a5a4",
+        "https://comicnewbies.com/2015/10/10/hal-jordans-description-of-each-green-lantern/",
+        "https://www.comics.org/issue/2023913/"
+      ],
+      "imageSource": "https://comicnewbies.com/wp-content/uploads/2015/10/hal-jordans-description-of-all-green-lanterns-2.jpg",
+      "evidence": "Exact match to the upper-left panel of the issue-numbered Rebirth #6 excerpt: John with the detailed rifle construct and Ganthet behind him. DC Universe Infinite names Ethan Van Sciver as penciller. The publisher URL labels its digital series 2010; the original issue is from 2005. Grand Comics Database identifies Moose Baumann as the interior colorist.",
       "remainingGaps": [
-        "Interior page describing John Stewart building constructs from the inside out, with a constructed rifle and blue Guardian. Green Lantern: Rebirth #6 is the strongest issue lead; exact source and individual page credits need corroboration."
+        "The publisher lists several issue inkers without page assignments; the inker of this crop is not assigned here. Original local download host unknown."
       ],
       "reviewed": "2026-11-04",
       "repositoryProvenance": {
@@ -2010,17 +2202,30 @@
         "spectrum.html",
         "timeline.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [
-        "https://www.comicbookwire.com/reading-order/dc/saint-walker/"
+      "status": "verified_credit",
+      "work": "Hal Jordan and the Green Lantern Corps #14 (2017), main cover crop",
+      "credits": [
+        {
+          "name": "Rafa Sandoval",
+          "role": "cover pencils"
+        },
+        {
+          "name": "Jordi Tarragona",
+          "role": "cover inks"
+        },
+        {
+          "name": "Tomeu Morey",
+          "role": "cover colors"
+        }
       ],
-      "imageSource": null,
-      "evidence": "Saint Walker in the foreground with Hal Jordan and White Lantern Kyle Rayner behind him. ComicBookWire reproduces this composition; Hal Jordan and the Green Lantern Corps #15 is an unconfirmed research lead, not a verified issue assignment.",
+      "sources": [
+        "https://www.dc.com/comics/hal-jordan-and-the-green-lantern-corps-2016/hal-jordan-and-the-green-lantern-corps-14",
+        "https://my.comics.org/issue/1673738/?display=grid"
+      ],
+      "imageSource": "https://static.dc.com/dc/files/default_images/hjatglc_14_5b2d236927d156.29728337.jpg",
+      "evidence": "Matched the local Saint Walker close-up, Hal Jordan at upper left and White Lantern Kyle Rayner at upper right to DC’s published #14 cover. Grand Comics Database separates the signed pencil, ink and color roles. The #15 interior lead was compared and rejected; this is the preceding issue’s main cover.",
       "remainingGaps": [
-        "Identify the original artwork and contributor roles.",
-        "The original download URL and any local cropping/retouching credit were not retained."
+        "The original repository download URL and cropping history were not preserved."
       ],
       "reviewed": "2026-11-04"
     },
@@ -2060,15 +2265,29 @@
         "quotes.html",
         "spectrum.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Indigo-1 in the foreground, with Hal Jordan, the Flash and other heroes behind her in front of a PLEASE STAND BY screen. Blackest Night #3 is a research lead; this is not the Green Lantern (2011) #7 cover. Exact page and artist roles remain unconfirmed.",
+      "status": "verified_credit",
+      "work": "Blackest Night #3 (2009), emotional-spectrum explanation spread, cropped detail",
+      "credits": [
+        {
+          "name": "Ivan Reis",
+          "role": "interior pencils"
+        },
+        {
+          "name": "Alex Sinclair",
+          "role": "interior colors"
+        }
+      ],
+      "sources": [
+        "https://www.dc.com/comics/blackest-night-2009/blackest-night-3",
+        "https://dcuguide.com/Blackest_Night_3",
+        "https://fireandwaterpodcast.com/podcast/fire-water-232-gallery/",
+        "https://crisisonearthprime.com/blackest-night/blackest-night-3/"
+      ],
+      "imageSource": "https://fwpodcasts.com/sm/images/fw232-05.jpg",
+      "evidence": "Exact visual match to the complete spread reproduced by an issue-specific Fire and Water Network review: Indigo-1’s face/staff, Hal and Flash before PLEASE STAND BY monitors, and surrounding spectrum vignettes align. Crisis on Earth-Prime identifies this as the story’s pp.15–16 explanation spread. DC and independent issue catalogue DCU Guide support Ivan Reis pencils and Alex Sinclair colors. The issue credits Oclair Albert and Joe Prado as inkers, but their specific page allocation is not established.",
       "remainingGaps": [
-        "Match this exact page and establish the contributors responsible for it.",
-        "Original download source was not preserved."
+        "Determine whether Oclair Albert, Joe Prado, or both inked this particular spread; both are credited for the issue, so neither is assigned solely to this crop.",
+        "The original repository download/cropping provenance and reproduction permission are unknown."
       ],
       "reviewed": "2026-11-04"
     },
@@ -2165,9 +2384,10 @@
       "credits": [],
       "sources": [],
       "imageSource": null,
-      "evidence": "Carol Ferris in a full Star Sapphire bodysuit with Kyle Rayner behind her. New Guardians #13–15 were considered as leads; neither the exact page nor artist has been confirmed.",
+      "evidence": "Carol Ferris in her full Star Sapphire bodysuit, Kyle Rayner behind her, and the balloon THAT WON’T WORK, SIR. Green Lantern: New Guardians #0 (2012) is now a stronger lead than #13–15: its cemetery scene has Carol and Kyle arriving to assist police, and the issue’s Kuder art/sparkle treatment matches. A review’s complete zombie-battle spread and the licensed first-four-story-page preview were compared, but neither contains this exact panel. Do not yet assign Aaron Kuder, Andrei Bressan, Greg Adams, or Nei Ruffino as confirmed contributors.",
       "remainingGaps": [
-        "Identify the original artwork and contributor roles.",
+        "Locate the complete page, especially the New Guardians #0 cemetery arrival, and match the exact balloon/pose.",
+        "New Guardians #0 has divided art assignments, so page identification is required before choosing Kuder versus Bressan or Greg Adams inks.",
         "The original download URL and any local cropping/retouching credit were not retained."
       ],
       "reviewed": "2026-11-04"
@@ -2215,15 +2435,28 @@
         "spectrum.html",
         "timeline.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Sinestro holding a yellow power battery with masonry and yellow portals behind him. The legacy wallpaper attribution does not identify the original issue or illustrator.",
+      "status": "verified_credit",
+      "work": "Composite using Sinestro foreground from Green Lantern: Sinestro Corps Special #1 (2007), story page 4",
+      "credits": [
+        {
+          "name": "Ethan Van Sciver",
+          "role": "foreground illustration"
+        },
+        {
+          "name": "Moose Baumann",
+          "role": "foreground colors"
+        }
+      ],
+      "sources": [
+        "https://api.pageplace.de/preview/DT0400.9783736780811_A42949481/preview-9783736780811_A42949481.pdf",
+        "https://dcuguide.com/Green_Lantern:_Sinestro_Corps_Special_1",
+        "https://waltscomicshop.com/products/absolute-green-lantern-the-sinestro-corps-war-hc-2025-edition-preo"
+      ],
+      "imageSource": "https://api.pageplace.de/preview/DT0400.9783736780811_A42949481/preview-9783736780811_A42949481.pdf",
+      "evidence": "Exact foreground match to the Sinestro/title splash in the publisher-distributed Panini licensed collection preview, PDF page 10 (fourth story page): face, yellow-lit suit, emblem, battery, and electrical details align. That page explicitly credits Ethan Van Sciver as artist and Moose Baumann for colors; DCU Guide confirms the issue roles. The foreground also appears on the Absolute collection. The local masonry/portal background differs from the published splash, so these credits are deliberately limited to the foreground; the composite is not represented as an untouched cover.",
       "remainingGaps": [
-        "Identify the original artwork and contributor roles.",
-        "The original download URL and any local cropping/retouching credit were not retained."
+        "Identify the masonry/portal background source and the person who assembled/retouched this composite.",
+        "The original repository download URL and reproduction permission are unknown."
       ],
       "reviewed": "2026-11-04"
     },
@@ -2785,7 +3018,8 @@
         "Confirm interior pencil/ink/color roles for the exact page; do not substitute the 2009 #43 Blackest Night origin cover team.",
         "The original download URL is not recorded in the upload-only Git history; reference URLs identify artwork, not a documented download chain."
       ],
-      "reviewed": "2026-11-04"
+      "reviewed": "2026-11-04",
+      "researchNotes": "Green Lantern (2011) #43 review was checked. Its reproduced Relic/Hal pages are different from this alien-funeral panel; no issue credit assigned from that lead."
     },
     {
       "asset": "assets/covers/moment-book-rewritten.jpg",
@@ -3222,7 +3456,8 @@
         "Verify line-art and color roles without assuming the creators of Alan Scott drew it.",
         "The original download URL is not recorded in the upload-only Git history; reference URLs identify artwork, not a documented download chain."
       ],
-      "reviewed": "2026-11-04"
+      "reviewed": "2026-11-04",
+      "researchNotes": "Exact crop also appears in an uncited Stack Exchange collage, but the original issue remains unidentified. Compared Rebirth #4 team splash, JSA #50 Alan reintroduction and Green Lantern #16 Rocket Red excerpt; these were different images. Do not assign their artists to this image."
     },
     {
       "asset": "assets/covers/moment-templar-guardians.jpg",
@@ -3464,14 +3699,23 @@
         "entities/adara.html",
         "spectrum.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Cropped interior art of a blue bird entity with WE LIVE and NO dialogue. Green Lantern (2005) #52 and Blackest Night #8 were checked as likely entity-release scenes; exact page not established.",
+      "status": "verified_credit",
+      "work": "Green Lantern (2005) #52 (2010), emotional-entity spread around White Lantern Sinestro",
+      "credits": [
+        {
+          "name": "Doug Mahnke",
+          "role": "interior pencils"
+        }
+      ],
+      "sources": [
+        "https://www.dc.com/comics/green-lantern-2005/green-lantern-52",
+        "https://www.comicbookrevolution.com/green-lantern-52-review/",
+        "https://www.pinterest.com/pin/326722147938779812/"
+      ],
+      "imageSource": "https://i.pinimg.com/originals/66/ad/f4/66adf45b9d08a189b1a3292d0516e155.jpg",
+      "evidence": "Exact crop visually matched to the complete spread: Adara upper right, Butcher lower left and Proselyte at right of Sinestro. The issue-specific review identifies this exact scene and its We live/No dialogue in Green Lantern #52; DC names Doug Mahnke under Pencils. The repost locates the visual, not the artist credit. The local file crops the complete composition.",
       "remainingGaps": [
-        "Cropped interior art of a blue bird entity with WE LIVE and NO dialogue. Green Lantern (2005) #52 and Blackest Night #8 were checked as likely entity-release scenes; exact page not established."
+        "Issue has multiple inkers and colorists without page assignments; those roles are not assigned to this spread here. Repost is not original download provenance."
       ],
       "reviewed": "2026-11-04",
       "repositoryProvenance": {
@@ -3487,14 +3731,23 @@
         "entities/butcher.html",
         "spectrum.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Cropped red bull entity with black energy dots and part of an orange figure at upper right. Entity-release scenes around Green Lantern (2005) #52/Blackest Night #8 remain leads, not verified issue citations.",
+      "status": "verified_credit",
+      "work": "Green Lantern (2005) #52 (2010), emotional-entity spread around White Lantern Sinestro",
+      "credits": [
+        {
+          "name": "Doug Mahnke",
+          "role": "interior pencils"
+        }
+      ],
+      "sources": [
+        "https://www.dc.com/comics/green-lantern-2005/green-lantern-52",
+        "https://www.comicbookrevolution.com/green-lantern-52-review/",
+        "https://www.pinterest.com/pin/326722147938779812/"
+      ],
+      "imageSource": "https://i.pinimg.com/originals/66/ad/f4/66adf45b9d08a189b1a3292d0516e155.jpg",
+      "evidence": "Exact crop visually matched to the complete spread: Adara upper right, Butcher lower left and Proselyte at right of Sinestro. The issue-specific review identifies this exact scene and its We live/No dialogue in Green Lantern #52; DC names Doug Mahnke under Pencils. The repost locates the visual, not the artist credit. The local file crops the complete composition.",
       "remainingGaps": [
-        "Cropped red bull entity with black energy dots and part of an orange figure at upper right. Entity-release scenes around Green Lantern (2005) #52/Blackest Night #8 remain leads, not verified issue citations."
+        "Issue has multiple inkers and colorists without page assignments; those roles are not assigned to this spread here. Repost is not original download provenance."
       ],
       "reviewed": "2026-11-04",
       "repositoryProvenance": {
@@ -3566,7 +3819,8 @@
         "sourceHistory": "Upload/optimization history reviewed; no original remote image URL or artist evidence was preserved for this legacy file."
       },
       "captionContext": "Blackest Night finale artwork; exact page and art credits remain under review.",
-      "usageNote": "hide behind a closed Blackest Night spoiler disclosure: visibly reveals a major outcome"
+      "usageNote": "hide behind a closed Blackest Night spoiler disclosure: visibly reveals a major outcome",
+      "researchNotes": "Blackest Night #8 resurrection spread remains the visual/story lead. Publisher interior credits found, but the accessible review supplied only a cover rather than this exact montage. Kept unresolved."
     },
     {
       "asset": "assets/entities/ophidian.jpg",
@@ -3663,14 +3917,23 @@
         "entities/proselyte.html",
         "spectrum.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Isolated indigo entity cutout against a black/checker-like background, with no surviving panel border or dialogue. Searches for the entity appearance did not establish the precise source page or cutout editor.",
+      "status": "verified_credit",
+      "work": "Green Lantern (2005) #52 (2010), emotional-entity spread around White Lantern Sinestro",
+      "credits": [
+        {
+          "name": "Doug Mahnke",
+          "role": "interior pencils"
+        }
+      ],
+      "sources": [
+        "https://www.dc.com/comics/green-lantern-2005/green-lantern-52",
+        "https://www.comicbookrevolution.com/green-lantern-52-review/",
+        "https://www.pinterest.com/pin/326722147938779812/"
+      ],
+      "imageSource": "https://i.pinimg.com/originals/66/ad/f4/66adf45b9d08a189b1a3292d0516e155.jpg",
+      "evidence": "Exact crop visually matched to the complete spread: Adara upper right, Butcher lower left and Proselyte at right of Sinestro. The issue-specific review identifies this exact scene and its We live/No dialogue in Green Lantern #52; DC names Doug Mahnke under Pencils. The repost locates the visual, not the artist credit. The local file removes the surrounding background.",
       "remainingGaps": [
-        "Isolated indigo entity cutout against a black/checker-like background, with no surviving panel border or dialogue. Searches for the entity appearance did not establish the precise source page or cutout editor."
+        "Issue has multiple inkers and colorists without page assignments; those roles are not assigned to this spread here. Repost is not original download provenance."
       ],
       "reviewed": "2026-11-04",
       "repositoryProvenance": {
@@ -3902,15 +4165,27 @@
       "usedBy": [
         "explained/sinestro-hero-or-villain.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Sinestro portrait with an indistinct 2010 signature and an AFTER IVAN notation. The signature and homage credit have not been independently resolved; a style resemblance is insufficient.",
+      "status": "verified_credit",
+      "work": "Green Lantern (2011) #52 (2016), New 52 homage variant cover crop",
+      "credits": [
+        {
+          "name": "Billy Tan",
+          "role": "cover pencils and inks"
+        },
+        {
+          "name": "Alex Sinclair",
+          "role": "cover colors"
+        }
+      ],
+      "sources": [
+        "https://www.comics.org/issue/1566907/",
+        "https://dcuguide.com/Green_Lantern_Vol._5_52",
+        "https://www.thebrightestday.net/green-lantern/preview-green-lantern-52"
+      ],
+      "imageSource": "https://www.thebrightestday.net/uploads/2/9/5/7/29570123/669825194.jpg",
+      "evidence": "Visually matched the local Sinestro bust, raised glowing fist, yellow energy and TAN 16 signature to the full published #52 variant. Grand Comics Database and DCU Guide identify Billy Tan’s cover pencils/inks and Alex Sinclair’s colors. The earlier 2010 date and Philip Tan lead were incorrect; this is the 2016 variant homaging Green Lantern (2011) #1.",
       "remainingGaps": [
-        "Identify the original artwork and contributor roles.",
-        "The original download URL and any local cropping/retouching credit were not retained."
+        "The original repository download URL and exact cropping step were not preserved."
       ],
       "reviewed": "2026-11-04"
     },
@@ -3945,9 +4220,10 @@
       "credits": [],
       "sources": [],
       "imageSource": null,
-      "evidence": "Painted Lyssa Drak holding an open book on a white background. A game/concept-art origin was considered, but no original source or illustrator has been established.",
+      "evidence": "Full-size inspection shows painted Lyssa Drak holding an open book, a yellow chain and a hood on a white background, with a vertical signature resembling MIGLIARI. Searches of Rodolfo Migliari references and possible game/concept art did not establish this exact painting’s creator post, commission or publication. The signature remains a lead, not a verified artist credit.",
       "remainingGaps": [
-        "Identify the original artwork and contributor roles.",
+        "Locate the original post, published artwork or commission record for this exact hooded Lyssa Drak painting.",
+        "Corroborate the signature and illustration role before naming an artist.",
         "The original download URL and any local cropping/retouching credit were not retained."
       ],
       "reviewed": "2026-11-04",
@@ -3973,7 +4249,8 @@
       "repositoryProvenance": {
         "introducedBy": "2bdcbd1e7869e5cdb6f78df00c48ab303a1f3371 Add files via upload",
         "sourceHistory": "Upload/optimization history reviewed; no original remote image URL or artist evidence was preserved for this legacy file."
-      }
+      },
+      "researchNotes": "Green Lantern (2021) #3 remains a strong story-context lead. Public previews reviewed show the John Stewart half rather than this Jo/Keli/Saion panel. The issue has both Tom Raney and Marco Santucci, so neither is assigned without a page match."
     },
     {
       "asset": "assets/interactions/interact-blue-green.jpg",
@@ -3982,17 +4259,27 @@
       "usedBy": [
         "spectrum.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [
-        "https://insidepulse.com/2011/07/20/review-war-of-the-green-lanterns-aftermath-1-by-tony-bedard/"
+      "status": "verified_credit",
+      "work": "War of the Green Lanterns: Aftermath #1 (2011), Saint Walker and Ganthet interior panel",
+      "credits": [
+        {
+          "name": "Miguel Ángel Sepúlveda",
+          "role": "interior pencils and inks"
+        },
+        {
+          "name": "Rain Beredo",
+          "role": "interior colors"
+        }
       ],
-      "imageSource": null,
-      "evidence": "Saint Walker reassures green-uniformed Ganthet on a balcony. War of the Green Lanterns: Aftermath #1 is a research lead with multiple art teams. This is not the Final Crisis: Rage of the Red Lanterns #1 page featuring Hal Jordan. Exact page and contributor assignment remain unconfirmed.",
+      "sources": [
+        "https://www.comics.org/issue/860774/",
+        "https://insidepulse.com/2011/07/20/review-war-of-the-green-lanterns-aftermath-1-by-tony-bedard/",
+        "https://comicnewbies.com/2018/12/26/blue-lantern-saint-walker-war-of-the-green-lanterns-aftermath-1/"
+      ],
+      "imageSource": "https://comicnewbies.com/wp-content/uploads/2018/12/Blue-Lantern-Saint-Walker-War-of-the-Green-Lanterns-Aftermath-1-e1545832504660.jpg",
+      "evidence": "Matched the local balcony scene, Saint Walker’s pose, Ganthet seen from behind and speech balloons to the issue-labeled full image. Grand Comics Database supplies the interior roles; Inside Pulse’s contemporary review assigns the entire Ganthet scene to Sepúlveda, distinguishing it from Kirkham/Batt’s later eight pages. Rain Beredo is the issue’s indexed interior colorist.",
       "remainingGaps": [
-        "Match this exact page and establish the contributors responsible for it.",
-        "Original download source was not preserved."
+        "The reference is a later panel repost, not a documented original repository download source."
       ],
       "reviewed": "2026-11-04"
     },
@@ -4153,7 +4440,8 @@
       "repositoryProvenance": {
         "introducedBy": "9b330f3d98f62bfee4eee26993ec7fd83b12da5a Add files via upload",
         "sourceHistory": "Upload/optimization history reviewed; no original remote image URL or artist evidence was preserved for this legacy file."
-      }
+      },
+      "researchNotes": "Compared official Green Lantern (2005) #2/#3/#4 covers and #1 opening splash; none match. The small signature and style are insufficient to identify an artist; no attribution promoted."
     },
     {
       "asset": "assets/powers/force-fields.jpg",
@@ -4163,14 +4451,26 @@
         "powers.html",
         "powers/force-fields.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Hal and Kilowog wield cracked green shields against rectangular red projectiles; Kilowog also carries a mace. Early Green Lantern (2005) Manhunter material was considered but no exact issue image established.",
+      "status": "verified_credit",
+      "work": "Green Lantern (2011) #25 (2013), textless main-cover artwork",
+      "credits": [
+        {
+          "name": "Billy Tan",
+          "role": "cover penciller and inker"
+        },
+        {
+          "name": "Alex Sinclair",
+          "role": "cover colorist"
+        }
+      ],
+      "sources": [
+        "https://www.dc.com/comics/green-lantern-2011/green-lantern-25",
+        "https://www.comics.org/issue/1156758/?display=grid"
+      ],
+      "imageSource": "https://static.dc.com/dc/files/default_images/glantern_v5_25_5b1587cb5531f7.73020765.jpg",
+      "evidence": "Exact visual match against the official DC cover: Hal and Kilowog with medieval-style green shields, mace and red rectangular projectiles. Local file omits trade dress. DC explicitly lists Billy Tan under Cover; interior contributors are not inferred to be cover contributors. Grand Comics Database separates the exact main-cover roles: Billy Tan pencils and inks; Alex Sinclair colors.",
       "remainingGaps": [
-        "Hal and Kilowog wield cracked green shields against rectangular red projectiles; Kilowog also carries a mace. Early Green Lantern (2005) Manhunter material was considered but no exact issue image established."
+        "Original local textless-file download host unknown."
       ],
       "reviewed": "2026-11-04",
       "repositoryProvenance": {
@@ -4261,7 +4561,8 @@
       "repositoryProvenance": {
         "introducedBy": "9b330f3d98f62bfee4eee26993ec7fd83b12da5a Add files via upload",
         "sourceHistory": "Upload/optimization history reviewed; no original remote image URL or artist evidence was preserved for this legacy file."
-      }
+      },
+      "researchNotes": "Dialogue and Liam Sharp-era context narrow the lead to The Green Lantern #2 (2018), where Hal heads back toward Earth after investigating Dhorian slavers. Accessible review illustrations showed other pages. Exact original panel still needs corroboration before credit."
     },
     {
       "asset": "assets/powers/translation.jpg",
@@ -4311,7 +4612,8 @@
       "repositoryProvenance": {
         "introducedBy": "6780879d303525657798ba13d783d3eadd52513e Add On-screen adaptations images",
         "sourceHistory": "Upload/optimization history reviewed; no original remote image URL or artist evidence was preserved for this legacy file."
-      }
+      },
+      "researchNotes": "Publisher film-page gallery was checked; the available promotional image differs from this Hal/Arisia frame. Film association is plausible but exact studio still/shot credit remains uncorroborated."
     },
     {
       "asset": "assets/screen/first-flight.jpg",
@@ -4336,7 +4638,8 @@
       "repositoryProvenance": {
         "introducedBy": "6780879d303525657798ba13d783d3eadd52513e Add On-screen adaptations images",
         "sourceHistory": "Upload/optimization history reviewed; no original remote image URL or artist evidence was preserved for this legacy file."
-      }
+      },
+      "researchNotes": "Publisher film page identifies the production and director, but does not reproduce this desert/ring still. A director credit must not be substituted for its unknown frame artists."
     },
     {
       "asset": "assets/screen/gl-film-2011.jpg",
@@ -4361,7 +4664,8 @@
       "repositoryProvenance": {
         "introducedBy": "6780879d303525657798ba13d783d3eadd52513e Add On-screen adaptations images",
         "sourceHistory": "Upload/optimization history reviewed; no original remote image URL or artist evidence was preserved for this legacy file."
-      }
+      },
+      "researchNotes": "Official DC film page was inaccessible during this pass. No exact studio poster source was recovered; the film identity alone does not establish an individual designer."
     },
     {
       "asset": "assets/screen/gl-tas.jpg",
@@ -4432,7 +4736,14 @@
         "sourceHistory": "Upload/optimization history reviewed; no original remote image URL or artist evidence was preserved for this legacy file."
       },
       "captionContext": "Lanterns concept-poster image; creator and official provenance unverified.",
-      "usageNote": "hide from official-poster presentation, or visibly label as an unverified concept image"
+      "usageNote": "hide from official-poster presentation, or visibly label as an unverified concept image",
+      "researchNotes": "Existing composite remains unverified; HBO branding alone does not prove official key art. Official replacement candidate: the February 27, 2025 production-start photograph of Aaron Pierre and Kyle Chandler announced in the WBD press release. The press download requires login. No replacement downloaded or made.",
+      "replacementRecommendation": {
+        "action": "consider replacing only after obtaining an official publicity image with its supplied credit; do not label existing composite official",
+        "source": "https://press.wbd.com/us/media-release/hbo-original-drama-series-lanterns-begins-production?language_content_entity=en",
+        "work": "Lanterns production-start first-look photograph (February 27, 2025)",
+        "remainingGap": "Press download requires login; photographer and asset-use terms should be retained from the official download."
+      }
     },
     {
       "asset": "assets/spectrum-chart.jpg",
@@ -4485,14 +4796,23 @@
         "villains/black-hand.html",
         "villains/index.html"
       ],
-      "status": "unresolved",
-      "work": null,
-      "credits": [],
-      "sources": [],
-      "imageSource": null,
-      "evidence": "Black Hand holds a skull and recites BY MY BLACK HAND THE DEAD SHALL RISE. Green Lantern (2005) #43 and Blackest Night #0 were searched as leads; exact page and contributor roles remain unresolved.",
+      "status": "verified_credit",
+      "work": "Blackest Night #0 (2009), closing story page, first panel",
+      "credits": [
+        {
+          "name": "Ivan Reis",
+          "role": "interior pencils"
+        }
+      ],
+      "sources": [
+        "https://www.dcuniverseinfinite.com/comics/book/blackest-night-2009-0/e89cbf7d-4698-4eb6-91cb-99409a861ca2",
+        "https://www.chrisisoninfiniteearths.com/2016/10/blackest-night-0-2009.html",
+        "https://crisisonearthprime.com/blackest-night/blackest-night-0/"
+      ],
+      "imageSource": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVST-G4yuZAf4CHMhgtI2QVvAe8qgU_RCl1BDqspIkT16h89BkaWxsnSY2-0irusadWq1fv1nNPaDhZDiJnhLXuFThYm0OgCK4PwCYoo1WglGFefcIMrP2BR5_oJv6sj1eV458MIkx0ik/s1600/IMG_5050.JPG",
+      "evidence": "Exact visual comparison against the photographed closing page in an issue-specific review: face, riveted costume, skull, energy wisps and oath lettering match. The local crop excludes the Scar panel beneath. Publisher credits Ivan Reis for pencils. Page-by-page annotations independently identify this as page 12 panel 1.",
       "remainingGaps": [
-        "Black Hand holds a skull and recites BY MY BLACK HAND THE DEAD SHALL RISE. Green Lantern (2005) #43 and Blackest Night #0 were searched as leads; exact page and contributor roles remain unresolved."
+        "Issue inkers Oclair Albert and Rob Hunter are not assigned to this particular page by the publisher. Colorist/page-level inker and original local download host remain unverified."
       ],
       "reviewed": "2026-11-04",
       "repositoryProvenance": {
@@ -4694,7 +5014,8 @@
         "sourceHistory": "Upload/optimization history reviewed; no original remote image URL or artist evidence was preserved for this legacy file."
       },
       "captionContext": "Blackest Night finale artwork associated with Earth; exact page and art credits remain under review.",
-      "usageNote": "hide behind a closed Blackest Night spoiler disclosure; remove unsupported #7 citation"
+      "usageNote": "hide behind a closed Blackest Night spoiler disclosure; remove unsupported #7 citation",
+      "researchNotes": "Same resurrection montage lead as the Life Entity image: Blackest Night #8. Exact complete page comparison remains outstanding; no issue artist assigned on story context alone."
     },
     {
       "asset": "assets/worlds/korugar.jpg",
@@ -4888,7 +5209,8 @@
       "repositoryProvenance": {
         "introducedBy": "c8c4d7c57dcef56bc1f38eea146a578ba24bb151 Add files via upload",
         "sourceHistory": "Upload/optimization history reviewed; no original remote image URL or artist evidence was preserved for this legacy file."
-      }
+      },
+      "researchNotes": "Dialogue identifies Abin Sur memorial on Ungara, but searches for the exact apology did not establish an issue. Rebirth-era and early Green Lantern (2005) leads remain unconfirmed."
     },
     {
       "asset": "assets/worlds/xudar.jpg",
@@ -4898,17 +5220,17 @@
         "worlds/index.html",
         "worlds/xudar.html"
       ],
-      "status": "unresolved",
-      "work": "Green Lantern Movie Prequel: Tomar-Re #1 (2011), cover",
+      "status": "source_matched",
+      "work": "Green Lantern Movie Prequel: Tomar-Re #1 (2011), movie-art cover",
       "credits": [],
       "sources": [
-        "https://www.dc.com/comics/green-lantern-movie-prequel-2011/green-lantern-movie-prequel-tomar-re-1",
-        "https://www.dcuniverseinfinite.com/comics/book/green-lantern-movie-prequel-tomar-re-2011-1/244ccb88-c8f5-4bd1-954d-5ac37ae76e3b"
+        "https://www.dcuniverseinfinite.com/comics/book/green-lantern-movie-prequel-tomar-re-2011-1/244ccb88-c8f5-4bd1-954d-5ac37ae76e3b",
+        "https://dcuguide.com/Green_Lantern_Movie_Prequel%3A_Tomar-Re_1"
       ],
-      "imageSource": null,
-      "evidence": "Green Lantern Movie Prequel: Tomar-Re #1 cover with readable trade dress and a rendered movie-character portrait. It is not an establishing image of Xudar; exact official cover source and key-art production attribution remain pending.",
+      "imageSource": "https://imgix-media.wbdndc.net/ingest/book/preview/244ccb88-c8f5-4bd1-954d-5ac37ae76e3b/1e2eafef-6d8a-4d53-bd2f-00bcaa379479/0.jpg",
+      "evidence": "Exact visual match against the official DC Universe Infinite preview cover: Tomar-Re pose, movie city background and all trade dress match. Cliff Richards is credited for interior pencils/inks, not for this movie-art cover, so that credit is not transferred.",
       "remainingGaps": [
-        "Exact official cover-image comparison and key-art artist/production attribution remain outstanding. Interior artist Cliff Richards is not assumed to be responsible for the movie-image cover."
+        "Individual movie-poster designer/illustrator and effects artists are not identified by the publisher listing. Original local download host unknown."
       ],
       "reviewed": "2026-11-04",
       "repositoryProvenance": {
@@ -4916,7 +5238,8 @@
         "sourceHistory": "Upload/optimization history reviewed; no original remote image URL or artist evidence was preserved for this legacy file."
       },
       "captionContext": "Tomar-Re on the cover of Green Lantern Movie Prequel: Tomar-Re #1 (2011). Cover-image production credits remain unverified.",
-      "usageNote": "relabel: movie character cover, not a view of Xudar"
+      "usageNote": "retain with adaptation-cover context; do not label the background as Xudar",
+      "recommendedCaption": "Tomar-Re on the movie-art cover of Green Lantern Movie Prequel: Tomar-Re #1 (2011). This illustrates the character associated with Xudar; it is not a verified view of the comics planet."
     },
     {
       "asset": "assets/worlds/ysmault.jpg",
