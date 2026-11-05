@@ -10,11 +10,11 @@ const entries = [
   { k: 'green lantern hal jordan', t: 'Hal Jordan', s: 'Sector 2814', u: 'characters/hal-jordan.html' }
 ];
 
-async function loadSearch(pageUrl, scriptUrl) {
+async function loadSearch(pageUrl, scriptUrl, indexEntries = entries, query = 'green') {
   const inputListeners = {};
   const formListeners = {};
   const input = {
-    value: 'green',
+    value: query,
     addEventListener: (name, handler) => { inputListeners[name] = handler; },
     blur() {}
   };
@@ -51,7 +51,7 @@ async function loadSearch(pageUrl, scriptUrl) {
     },
     fetch: async (url) => {
       requestedUrl = url;
-      return { json: async () => entries };
+      return { json: async () => indexEntries };
     },
     setTimeout,
     clearTimeout
@@ -93,3 +93,20 @@ test('submitting without a keyboard selection follows the first result', async (
   assert.equal(defaultPrevented, true);
   assert.equal(search.location.href, root + 'corps/green.html');
 });
+
+const publishedEntries = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/search-index.json'), 'utf8'));
+for (const [query, page, destination] of [
+  ['HBO Max', 'characters/hal-jordan.html', 'screen/lanterns-hbo.html'],
+  ['tv show', 'characters/hal-jordan.html', 'screen/lanterns-hbo.html'],
+  ['on-screen adaptations', 'index.html', 'timeline.html'],
+  ['in-universe history', 'index.html', 'timeline.html'],
+  ['a universe of light', 'index.html', 'index.html'],
+  ['nine-year run', 'index.html', 'explained/geoff-johns.html']
+]) {
+  test(`published search finds ${destination} for the editorial alias "${query}"`, async () => {
+    const root = 'https://ariesyous.github.io/greenlanternlore/';
+    const search = await loadSearch(root + page, root + 'js/search.js', publishedEntries, query);
+    assert.equal(search.box.hidden, false);
+    assert.ok(search.box.innerHTML.includes(`href="${root}${destination}"`), `missing result for ${query}`);
+  });
+}
