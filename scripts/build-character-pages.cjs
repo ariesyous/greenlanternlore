@@ -51,14 +51,15 @@ function buildSite({ check = false } = {}) {
     outputs.set(file, html);
   }
 
-  // Keep editorial search terms for other pages; character previews come from the roster.
+  // Keep editorial aliases separate from metadata so refreshes neither drop them
+  // nor accumulate outdated titles and descriptions in the generated keywords.
   const oldEntries = JSON.parse(read('data/search-index.json'));
   const pageEntries = oldEntries.filter(entry => !/^character\.html\?id=|^characters\//.test(entry.u)).map(entry => {
     if (!['index.html', 'timeline.html', 'explained/geoff-johns.html', 'screen/lanterns-hbo.html'].includes(entry.u)) return entry;
     const html = read(entry.u);
     const t = decode(html.match(/<title>([^<]+)<\/title>/)[1]).replace(/(?: — | \| )Lantern Lore$/, '');
     const s = decode(html.match(/<meta name="description" content="([^"]*)"/)[1]);
-    return { ...entry, t, s, k: `${t} ${s} ${entry.u}`.toLowerCase() };
+    return { ...entry, t, s, k: [t, s, entry.u, ...(entry.aliases || [])].join(' ').toLowerCase() };
   });
   const characterEntries = characters.map(c => ({
     t: c.name,

@@ -83,6 +83,10 @@ supported by a linked source from debut citations that still need checking. Add 
 `node scripts/build-character-pages.cjs`, then run the checks above. The prioritized editorial
 work and completed release are recorded in [ROADMAP.md](ROADMAP.md).
 
+For the homepage, reading guide, Johns essay, and Lanterns screen guide, keep extra
+search phrases in each index entry's `aliases` array. The generator combines those
+aliases with current page metadata; editing the generated `k` field will not persist.
+
 Artwork attribution lives in `data/art-credits.json`. Each record distinguishes confirmed
 artist roles from unidentified crops, fan art, edition differences and missing download
 provenance. The public catalogue is on `sources.html`, with credits on illustrated pages
